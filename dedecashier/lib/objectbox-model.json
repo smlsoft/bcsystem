@@ -1,0 +1,2891 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:9203333659350141279",
+      "lastPropertyId": "5:1721109058758845047",
+      "name": "BankObjectBoxStruct",
+      "properties": [
+        {
+          "id": "1:4980610799266543233",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8649775126085752664",
+          "name": "guidfixed",
+          "indexId": "1:2315388221047804690",
+          "type": 9,
+          "flags": 2080
+        },
+        {
+          "id": "3:4456344159916577901",
+          "name": "code",
+          "type": 9
+        },
+        {
+          "id": "4:997215098650343975",
+          "name": "logo",
+          "type": 9
+        },
+        {
+          "id": "5:1721109058758845047",
+          "name": "names",
+          "type": 30
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:919490869499289772",
+      "lastPropertyId": "29:7584399207148184826",
+      "name": "BillDetailObjectBoxStruct",
+      "properties": [
+        {
+          "id": "1:8450972135256311856",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:6497592115886615740",
+          "name": "doc_mode",
+          "type": 6
+        },
+        {
+          "id": "3:741258882134433677",
+          "name": "doc_number",
+          "indexId": "26:8473079388960125418",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "4:570733903438741486",
+          "name": "line_number",
+          "type": 6
+        },
+        {
+          "id": "5:8683332595197350956",
+          "name": "barcode",
+          "indexId": "27:4194257104365548179",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "6:3551380397463353540",
+          "name": "item_code",
+          "indexId": "28:3957603992487172957",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "7:881103124751066334",
+          "name": "item_name",
+          "indexId": "29:5081473177033291061",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "8:2252335069495879569",
+          "name": "unit_code",
+          "indexId": "30:7074747799809276239",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "9:898928400641977716",
+          "name": "unit_name",
+          "indexId": "31:4953707032233103613",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "10:823840870404908119",
+          "name": "sku",
+          "type": 9
+        },
+        {
+          "id": "11:1238656126840005082",
+          "name": "qty",
+          "type": 8
+        },
+        {
+          "id": "12:8627004336006948316",
+          "name": "price",
+          "type": 8
+        },
+        {
+          "id": "13:7883937665735732899",
+          "name": "discount_text",
+          "type": 9
+        },
+        {
+          "id": "14:3239667687619198182",
+          "name": "discount",
+          "type": 8
+        },
+        {
+          "id": "15:586848371539692667",
+          "name": "total_amount",
+          "type": 8
+        },
+        {
+          "id": "16:8970020021214909702",
+          "name": "is_except_vat",
+          "type": 1
+        },
+        {
+          "id": "17:5195927497341298461",
+          "name": "extra_json",
+          "type": 9
+        },
+        {
+          "id": "18:8758879636396386008",
+          "name": "vat_type",
+          "type": 6
+        },
+        {
+          "id": "19:2086750506765366858",
+          "name": "price_exclude_vat",
+          "type": 8
+        },
+        {
+          "id": "20:4820358336941393395",
+          "name": "food_type",
+          "type": 6
+        },
+        {
+          "id": "21:1726841685132058347",
+          "name": "refguid",
+          "type": 9
+        },
+        {
+          "id": "23:4198165237173966032",
+          "name": "guidpos",
+          "type": 9
+        },
+        {
+          "id": "24:8729768235698595143",
+          "name": "is_void",
+          "type": 1
+        },
+        {
+          "id": "25:3109787321056975351",
+          "name": "description",
+          "type": 9
+        },
+        {
+          "id": "26:5985740892810249257",
+          "name": "issumpoint",
+          "type": 1
+        },
+        {
+          "id": "27:3800630454734867619",
+          "name": "pattern_code",
+          "type": 9
+        },
+        {
+          "id": "28:5384859794021815594",
+          "name": "pattern_name",
+          "type": 9
+        },
+        {
+          "id": "29:7584399207148184826",
+          "name": "price_original",
+          "type": 8
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:2002232850278254184",
+      "lastPropertyId": "87:3196064480586724981",
+      "name": "BillObjectBoxStruct",
+      "properties": [
+        {
+          "id": "1:6851916364870404757",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:3903039693878438126",
+          "name": "doc_number",
+          "indexId": "2:1629848556261425317",
+          "type": 9,
+          "flags": 2080
+        },
+        {
+          "id": "3:3604823863403484396",
+          "name": "date_time",
+          "type": 10
+        },
+        {
+          "id": "4:7963984686040547304",
+          "name": "bill_tax_type",
+          "type": 6
+        },
+        {
+          "id": "5:1052021978244676780",
+          "name": "doc_mode",
+          "type": 6
+        },
+        {
+          "id": "6:4189018785222791591",
+          "name": "customer_code",
+          "type": 9
+        },
+        {
+          "id": "7:8037215875963612059",
+          "name": "customer_name",
+          "type": 9
+        },
+        {
+          "id": "8:2156848486667423526",
+          "name": "customer_telephone",
+          "type": 9
+        },
+        {
+          "id": "9:8360687839205811237",
+          "name": "total_qty",
+          "type": 8
+        },
+        {
+          "id": "10:6490412414016390667",
+          "name": "total_item_vat_amount",
+          "type": 8
+        },
+        {
+          "id": "11:1714270489644847325",
+          "name": "total_item_except_vat_amount",
+          "type": 8
+        },
+        {
+          "id": "12:7837672509691331542",
+          "name": "discount_formula",
+          "type": 9
+        },
+        {
+          "id": "13:184010758771635607",
+          "name": "total_discount",
+          "type": 8
+        },
+        {
+          "id": "14:2640453716061802756",
+          "name": "total_discount_vat_amount",
+          "type": 8
+        },
+        {
+          "id": "15:8575102168048760367",
+          "name": "total_discount_except_vat_amount",
+          "type": 8
+        },
+        {
+          "id": "16:6186678579045543988",
+          "name": "amount_before_calc_vat",
+          "type": 8
+        },
+        {
+          "id": "17:9190088398237736378",
+          "name": "amount_after_calc_vat",
+          "type": 8
+        },
+        {
+          "id": "18:5969098174120438705",
+          "name": "amount_except_vat",
+          "type": 8
+        },
+        {
+          "id": "19:6970420404180878641",
+          "name": "total_amount",
+          "type": 8
+        },
+        {
+          "id": "20:5868760983660840659",
+          "name": "total_vat_amount",
+          "type": 8
+        },
+        {
+          "id": "21:7030493882687004541",
+          "name": "vat_rate",
+          "type": 8
+        },
+        {
+          "id": "22:5607598707946772887",
+          "name": "sale_code",
+          "type": 9
+        },
+        {
+          "id": "23:3246921272327757690",
+          "name": "sale_name",
+          "type": 9
+        },
+        {
+          "id": "24:3723706468957651486",
+          "name": "is_sync",
+          "type": 1
+        },
+        {
+          "id": "25:267184880839839034",
+          "name": "is_cancel",
+          "type": 1
+        },
+        {
+          "id": "26:1124364268084151081",
+          "name": "cancel_date_time",
+          "type": 9
+        },
+        {
+          "id": "27:9171609691521817048",
+          "name": "cancel_description",
+          "type": 9
+        },
+        {
+          "id": "28:1007988587287195025",
+          "name": "cancel_user_code",
+          "type": 9
+        },
+        {
+          "id": "29:4272164468709342652",
+          "name": "cancel_user_name",
+          "type": 9
+        },
+        {
+          "id": "30:8781639609906586171",
+          "name": "cancel_reason",
+          "type": 9
+        },
+        {
+          "id": "31:2530578045103009258",
+          "name": "cashier_code",
+          "type": 9
+        },
+        {
+          "id": "32:1230650169981141332",
+          "name": "cashier_name",
+          "type": 9
+        },
+        {
+          "id": "33:7514452350128873556",
+          "name": "pay_cash_amount",
+          "type": 8
+        },
+        {
+          "id": "34:3948437050548103945",
+          "name": "pay_cash_change",
+          "type": 8
+        },
+        {
+          "id": "35:1194357406002186704",
+          "name": "sum_qr_code",
+          "type": 8
+        },
+        {
+          "id": "36:5201573940144836328",
+          "name": "sum_credit_card",
+          "type": 8
+        },
+        {
+          "id": "37:1966627709575127315",
+          "name": "sum_money_transfer",
+          "type": 8
+        },
+        {
+          "id": "38:4470880816029634865",
+          "name": "sum_cheque",
+          "type": 8
+        },
+        {
+          "id": "39:5099527394234817337",
+          "name": "sum_coupon",
+          "type": 8
+        },
+        {
+          "id": "40:2750867968087927573",
+          "name": "sum_credit",
+          "type": 8
+        },
+        {
+          "id": "41:723313623974658693",
+          "name": "full_vat_print",
+          "type": 1
+        },
+        {
+          "id": "42:2057719873883579757",
+          "name": "full_vat_doc_number",
+          "type": 9
+        },
+        {
+          "id": "43:7947021339192174912",
+          "name": "full_vat_name",
+          "type": 9
+        },
+        {
+          "id": "44:497010346668066582",
+          "name": "full_vat_address",
+          "type": 9
+        },
+        {
+          "id": "45:8615888035260327289",
+          "name": "full_vat_tax_id",
+          "type": 9
+        },
+        {
+          "id": "46:7877463002207623629",
+          "name": "full_vat_branch_number",
+          "type": 9
+        },
+        {
+          "id": "47:8083388363575428775",
+          "name": "print_copy_bill_date_time",
+          "type": 30
+        },
+        {
+          "id": "48:5432309668070386907",
+          "name": "table_number",
+          "type": 9
+        },
+        {
+          "id": "49:8334579550422934995",
+          "name": "man_count",
+          "type": 6
+        },
+        {
+          "id": "50:3098966713154452394",
+          "name": "woman_count",
+          "type": 6
+        },
+        {
+          "id": "51:5649818961710325154",
+          "name": "child_count",
+          "type": 6
+        },
+        {
+          "id": "52:3574152153015773035",
+          "name": "table_al_la_crate_mode",
+          "type": 1
+        },
+        {
+          "id": "53:486058742317925005",
+          "name": "buffet_code",
+          "type": 9
+        },
+        {
+          "id": "54:8817792061109752903",
+          "name": "table_open_date_time",
+          "type": 10
+        },
+        {
+          "id": "55:4265062024253070572",
+          "name": "table_close_date_time",
+          "type": 10
+        },
+        {
+          "id": "56:4192053141581281455",
+          "name": "pay_json",
+          "type": 9
+        },
+        {
+          "id": "57:6116840977858559873",
+          "name": "vat_type",
+          "type": 6
+        },
+        {
+          "id": "58:4445026374633735135",
+          "name": "is_vat_register",
+          "type": 1
+        },
+        {
+          "id": "59:5067821380953211584",
+          "name": "detail_discount_formula",
+          "type": 9
+        },
+        {
+          "id": "60:153777928125338843",
+          "name": "detail_total_amount",
+          "type": 8
+        },
+        {
+          "id": "61:2303758326066032165",
+          "name": "detail_total_discount",
+          "type": 8
+        },
+        {
+          "id": "62:5785138055068960913",
+          "name": "round_amount",
+          "type": 8
+        },
+        {
+          "id": "63:1403122017825533377",
+          "name": "total_amount_after_discount",
+          "type": 8
+        },
+        {
+          "id": "64:2831675592367768655",
+          "name": "detail_total_amount_before_discount",
+          "type": 8
+        },
+        {
+          "id": "65:1108319867004980910",
+          "name": "food_amount",
+          "type": 8
+        },
+        {
+          "id": "66:8603505755749089213",
+          "name": "beverage_amount",
+          "type": 8
+        },
+        {
+          "id": "67:7867260737058118498",
+          "name": "is_delivery",
+          "type": 1
+        },
+        {
+          "id": "68:4847782887897090507",
+          "name": "delivery_code",
+          "type": 9
+        },
+        {
+          "id": "69:2421749856280876687",
+          "name": "delivery_number",
+          "type": 9
+        },
+        {
+          "id": "70:1405394964824866865",
+          "name": "doc_guid",
+          "type": 9
+        },
+        {
+          "id": "71:8715414656808155235",
+          "name": "guidpos",
+          "type": 9
+        },
+        {
+          "id": "72:3615729828509187424",
+          "name": "total_discount_from_promotion",
+          "type": 8
+        },
+        {
+          "id": "73:9012890712254615510",
+          "name": "promotion_json",
+          "type": 9
+        },
+        {
+          "id": "74:6516608070746752403",
+          "name": "promotion_bottom_json",
+          "type": 9
+        },
+        {
+          "id": "75:2623702382025695157",
+          "name": "promotion_bonus_json",
+          "type": 9
+        },
+        {
+          "id": "76:2917494022852727932",
+          "name": "trancsaction_id",
+          "type": 9
+        },
+        {
+          "id": "77:8690290660477427632",
+          "name": "shift_doc_no",
+          "type": 9
+        },
+        {
+          "id": "78:3517410531925208557",
+          "name": "getpoint",
+          "type": 8
+        },
+        {
+          "id": "79:5148926656909271863",
+          "name": "usepoint",
+          "type": 8
+        },
+        {
+          "id": "80:3871955979641436274",
+          "name": "pointdiscountamount",
+          "type": 8
+        },
+        {
+          "id": "81:6141768606439629928",
+          "name": "paypointamount",
+          "type": 8
+        },
+        {
+          "id": "82:4585360632922657736",
+          "name": "point_balance_after",
+          "type": 8
+        },
+        {
+          "id": "83:5848355161148544703",
+          "name": "points_code",
+          "type": 9
+        },
+        {
+          "id": "84:567405193841147554",
+          "name": "couponcashamount",
+          "type": 8
+        },
+        {
+          "id": "85:1746006954190451906",
+          "name": "coupondiscountamount",
+          "type": 8
+        },
+        {
+          "id": "86:208246514468804805",
+          "name": "coupons_json",
+          "type": 9
+        },
+        {
+          "id": "87:3196064480586724981",
+          "name": "promotion_coupon_json",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "4:8928300109659125532",
+      "lastPropertyId": "7:8508200495989498983",
+      "name": "BuffetModeObjectBoxStruct",
+      "properties": [
+        {
+          "id": "1:5596287342217645817",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:476494254048017361",
+          "name": "guid_fixed",
+          "indexId": "3:5681809050505584348",
+          "type": 9,
+          "flags": 2080
+        },
+        {
+          "id": "3:1178308031493363557",
+          "name": "code",
+          "indexId": "4:8693317409210230642",
+          "type": 9,
+          "flags": 2080
+        },
+        {
+          "id": "4:4179055531168465491",
+          "name": "names",
+          "type": 30
+        },
+        {
+          "id": "5:4027151164932044958",
+          "name": "adult_price",
+          "type": 8
+        },
+        {
+          "id": "6:3458948131928745504",
+          "name": "child_price",
+          "type": 8
+        },
+        {
+          "id": "7:8508200495989498983",
+          "name": "max_minute",
+          "type": 6
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "5:7984747374367858677",
+      "lastPropertyId": "9:7136231860022758570",
+      "name": "EmployeeObjectBoxStruct",
+      "properties": [
+        {
+          "id": "1:5319834089057983474",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:60910769702081518",
+          "name": "guidfixed",
+          "indexId": "5:6280982745264467850",
+          "type": 9,
+          "flags": 2080
+        },
+        {
+          "id": "3:1079415503596970598",
+          "name": "code",
+          "indexId": "37:9089141718976232750",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "4:4680111808972645090",
+          "name": "email",
+          "type": 9
+        },
+        {
+          "id": "5:1681878968873282936",
+          "name": "is_enabled",
+          "type": 1
+        },
+        {
+          "id": "6:5280481487679473444",
+          "name": "is_use_pos",
+          "type": 1
+        },
+        {
+          "id": "7:9028585487372213966",
+          "name": "name",
+          "indexId": "38:2645854326626183117",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "8:8679814725891217257",
+          "name": "profile_picture",
+          "type": 9
+        },
+        {
+          "id": "9:7136231860022758570",
+          "name": "pin_code",
+          "indexId": "39:4259607490026255982",
+          "type": 9,
+          "flags": 2048
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "6:3553299560385009916",
+      "lastPropertyId": "13:8184438350954178138",
+      "name": "FormDesignObjectBoxStruct",
+      "properties": [
+        {
+          "id": "1:8304634265428125399",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1546456354082815204",
+          "name": "guid_fixed",
+          "indexId": "6:1352059532513992662",
+          "type": 9,
+          "flags": 2080
+        },
+        {
+          "id": "3:7666219105654583269",
+          "name": "code",
+          "indexId": "7:3078553082830567801",
+          "type": 9,
+          "flags": 2080
+        },
+        {
+          "id": "4:164491436675012500",
+          "name": "form_code",
+          "type": 9
+        },
+        {
+          "id": "5:5825770147841657386",
+          "name": "sum_by_type",
+          "type": 1
+        },
+        {
+          "id": "6:61501437750786794",
+          "name": "sum_by_barcode",
+          "type": 1
+        },
+        {
+          "id": "7:5105653924549168347",
+          "name": "print_logo",
+          "type": 1
+        },
+        {
+          "id": "8:572816906083871230",
+          "name": "print_prompt_pay",
+          "type": 1
+        },
+        {
+          "id": "9:593664802829122695",
+          "name": "names_json",
+          "type": 9
+        },
+        {
+          "id": "10:7758993579994776349",
+          "name": "detail_json",
+          "type": 9
+        },
+        {
+          "id": "11:7811543424780529198",
+          "name": "detail_extra_json",
+          "type": 9
+        },
+        {
+          "id": "12:6931962115792676615",
+          "name": "detail_total_json",
+          "type": 9
+        },
+        {
+          "id": "13:8184438350954178138",
+          "name": "detail_footer_json",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "7:806943249815491772",
+      "lastPropertyId": "6:8508628598250123200",
+      "name": "KitchenObjectBoxStruct",
+      "properties": [
+        {
+          "id": "1:579881842138630889",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:672417303459186071",
+          "name": "guidfixed",
+          "indexId": "8:7340486602878029778",
+          "type": 9,
+          "flags": 2080
+        },
+        {
+          "id": "3:3328693544618762781",
+          "name": "code",
+          "indexId": "40:7354800273069529754",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "4:5410691359474322975",
+          "name": "names",
+          "indexId": "41:904921177177331212",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "5:8081852213915023177",
+          "name": "products",
+          "type": 30
+        },
+        {
+          "id": "6:8508628598250123200",
+          "name": "zones",
+          "type": 30
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "8:6333625866673082550",
+      "lastPropertyId": "46:6948163567348789322",
+      "name": "OrderTempObjectBoxStruct",
+      "properties": [
+        {
+          "id": "1:6125547325833975397",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:7512416161244974527",
+          "name": "orderId",
+          "indexId": "42:5114517224966598169",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "3:1078460844040871187",
+          "name": "orderGuid",
+          "indexId": "43:7093331171214367763",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "4:7264221833838956152",
+          "name": "orderIdMain",
+          "indexId": "44:4274415592470744285",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "5:5905539870979739035",
+          "name": "machineId",
+          "type": 9
+        },
+        {
+          "id": "6:7210056852487180277",
+          "name": "orderDateTime",
+          "type": 10
+        },
+        {
+          "id": "7:1353112264114710467",
+          "name": "barcode",
+          "indexId": "46:3335856202477078599",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "8:5616352464496235264",
+          "name": "orderQty",
+          "type": 8
+        },
+        {
+          "id": "10:2370739661959438712",
+          "name": "cancelQty",
+          "type": 8
+        },
+        {
+          "id": "11:4144096966336343695",
+          "name": "price",
+          "type": 8
+        },
+        {
+          "id": "12:1333248489618947230",
+          "name": "amount",
+          "type": 8
+        },
+        {
+          "id": "13:4471867219123365673",
+          "name": "isOrder",
+          "type": 1
+        },
+        {
+          "id": "14:3510025656192492260",
+          "name": "isOrderSuccess",
+          "type": 1
+        },
+        {
+          "id": "15:2009744546697675052",
+          "name": "isOrderSendKdsSuccess",
+          "type": 1
+        },
+        {
+          "id": "16:8054889504077688611",
+          "name": "isOrderReadySendKds",
+          "type": 1
+        },
+        {
+          "id": "17:4773066399869683518",
+          "name": "isPaySuccess",
+          "type": 1
+        },
+        {
+          "id": "18:5694336176536413730",
+          "name": "optionSelected",
+          "type": 9
+        },
+        {
+          "id": "19:2127523323825718456",
+          "name": "remark",
+          "type": 9
+        },
+        {
+          "id": "20:5989603917439845387",
+          "name": "names",
+          "indexId": "47:3671265251498375856",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "21:8519911639695778387",
+          "name": "unitCode",
+          "indexId": "48:2787614659219247367",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "22:1469502662392877839",
+          "name": "unitName",
+          "indexId": "49:147223830437116104",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "23:4396439813426719738",
+          "name": "imageUri",
+          "type": 9
+        },
+        {
+          "id": "24:5093626134500559787",
+          "name": "takeAway",
+          "type": 1
+        },
+        {
+          "id": "25:2800881129562151769",
+          "name": "kdsSuccessTime",
+          "type": 10
+        },
+        {
+          "id": "26:3364632132078255257",
+          "name": "kdsSuccess",
+          "type": 1
+        },
+        {
+          "id": "27:4194164631135728017",
+          "name": "kdsId",
+          "type": 9
+        },
+        {
+          "id": "28:7223088749728807220",
+          "name": "deliveryNumber",
+          "type": 9
+        },
+        {
+          "id": "29:6295672008939375776",
+          "name": "deliveryCode",
+          "type": 9
+        },
+        {
+          "id": "30:6950397809758229516",
+          "name": "deliveryName",
+          "type": 9
+        },
+        {
+          "id": "31:7918617843751623929",
+          "name": "lastUpdateDateTime",
+          "type": 10
+        },
+        {
+          "id": "32:4116713583878210440",
+          "name": "servedTime",
+          "type": 10
+        },
+        {
+          "id": "33:4688598262721134523",
+          "name": "servedSuccess",
+          "type": 1
+        },
+        {
+          "id": "34:931590247769697918",
+          "name": "servedQty",
+          "type": 8
+        },
+        {
+          "id": "35:6827070109467531593",
+          "name": "orderType",
+          "type": 6
+        },
+        {
+          "id": "36:5212295960655272566",
+          "name": "orderEmployeeCode",
+          "type": 9
+        },
+        {
+          "id": "37:185041778429516823",
+          "name": "orderEmployeeDetail",
+          "type": 9
+        },
+        {
+          "id": "38:7824911388297300425",
+          "name": "remarkForCancel",
+          "type": 9
+        },
+        {
+          "id": "39:7630971147712981147",
+          "name": "qtyLastCancel",
+          "type": 8
+        },
+        {
+          "id": "40:620592500902566222",
+          "name": "servedHistory",
+          "type": 9
+        },
+        {
+          "id": "41:762137850375745255",
+          "name": "cancelHistory",
+          "type": 9
+        },
+        {
+          "id": "42:368992308478722084",
+          "name": "isOrderSendDedeTempSuccess",
+          "type": 1
+        },
+        {
+          "id": "43:6231544504292668366",
+          "name": "docNo",
+          "indexId": "45:6323492839770014749",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "44:641296337723061045",
+          "name": "orderHistory",
+          "type": 9
+        },
+        {
+          "id": "45:2825838682501598865",
+          "name": "guidPos",
+          "type": 9
+        },
+        {
+          "id": "46:6948163567348789322",
+          "name": "issumpoint",
+          "type": 1
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "9:4059459382343818421",
+      "lastPropertyId": "33:5675641473013459714",
+      "name": "PosLogObjectBoxStruct",
+      "properties": [
+        {
+          "id": "1:3915281529459223261",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:7659904658980713535",
+          "name": "guid_auto_fixed",
+          "indexId": "9:3086177136688795201",
+          "type": 9,
+          "flags": 2080
+        },
+        {
+          "id": "3:1543732115857029220",
+          "name": "doc_mode",
+          "indexId": "50:7450997399026313087",
+          "type": 6,
+          "flags": 8
+        },
+        {
+          "id": "4:4519135755680658304",
+          "name": "guid_ref",
+          "indexId": "51:4637971169429979934",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "5:1474838494880012736",
+          "name": "guid_code_ref",
+          "indexId": "52:2362647377201210809",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "6:3640075755929277280",
+          "name": "log_date_time",
+          "indexId": "53:6531840648895439462",
+          "type": 10,
+          "flags": 8
+        },
+        {
+          "id": "7:7681652419398922020",
+          "name": "hold_code",
+          "indexId": "10:4682807503257991441",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "8:6635185804711559353",
+          "name": "command_code",
+          "indexId": "54:3029368727095919514",
+          "type": 6,
+          "flags": 8
+        },
+        {
+          "id": "9:5045581295669014236",
+          "name": "is_void",
+          "indexId": "55:1621908201815300375",
+          "type": 6,
+          "flags": 8
+        },
+        {
+          "id": "10:5374523248566676383",
+          "name": "success",
+          "indexId": "56:8982240143441083261",
+          "type": 6,
+          "flags": 8
+        },
+        {
+          "id": "11:455119228277209512",
+          "name": "extra_code",
+          "type": 9
+        },
+        {
+          "id": "12:2379372217838355150",
+          "name": "remark",
+          "type": 9
+        },
+        {
+          "id": "13:441708200207197031",
+          "name": "discount_text",
+          "type": 9
+        },
+        {
+          "id": "14:3662893917193761734",
+          "name": "code",
+          "indexId": "57:6320325671024262876",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "15:7741443132139823304",
+          "name": "price",
+          "type": 8
+        },
+        {
+          "id": "16:7011958867288820558",
+          "name": "name",
+          "indexId": "58:6693811276729500692",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "17:5117623409304548065",
+          "name": "qty",
+          "type": 8
+        },
+        {
+          "id": "18:3109897696769213836",
+          "name": "qty_fixed",
+          "type": 8
+        },
+        {
+          "id": "19:2318703223419242883",
+          "name": "default_code",
+          "type": 9
+        },
+        {
+          "id": "20:2123894076789099254",
+          "name": "selected",
+          "type": 1
+        },
+        {
+          "id": "21:1421427407611244543",
+          "name": "unit_code",
+          "indexId": "59:8744660820637289364",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "22:1749388147145173424",
+          "name": "unit_name",
+          "indexId": "60:4943290543123049623",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "23:3093495542858248899",
+          "name": "barcode",
+          "indexId": "61:2526911929343588167",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "24:4228337687736853537",
+          "name": "price_exclude_vat",
+          "type": 8
+        },
+        {
+          "id": "25:1775939532518061362",
+          "name": "is_except_vat",
+          "type": 1
+        },
+        {
+          "id": "26:1267331950340073839",
+          "name": "price_exclude_vat_type",
+          "type": 1
+        },
+        {
+          "id": "27:3659115097091220717",
+          "name": "refbarcode",
+          "type": 9
+        },
+        {
+          "id": "28:9079752280978603642",
+          "name": "refunitcode",
+          "type": 9
+        },
+        {
+          "id": "31:4028313151809601487",
+          "name": "unit_stand",
+          "type": 8
+        },
+        {
+          "id": "32:6527629996822384262",
+          "name": "unit_divide",
+          "type": 8
+        },
+        {
+          "id": "33:5675641473013459714",
+          "name": "issumpoint",
+          "type": 1
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "10:3235783575334797238",
+      "lastPropertyId": "16:7214533309888596528",
+      "name": "PosTicketObjectBoxStruct",
+      "properties": [
+        {
+          "id": "1:2875347545433656594",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:3447226303795761596",
+          "name": "guidfixed",
+          "indexId": "11:7119031854413314311",
+          "type": 9,
+          "flags": 2080
+        },
+        {
+          "id": "3:5589565826266877648",
+          "name": "ticket_name",
+          "type": 9
+        },
+        {
+          "id": "4:2574552815481549324",
+          "name": "print_mode",
+          "type": 6
+        },
+        {
+          "id": "5:6945388538248516203",
+          "name": "printer_width",
+          "type": 6
+        },
+        {
+          "id": "6:4795735513804072197",
+          "name": "logo",
+          "type": 1
+        },
+        {
+          "id": "7:3232404071988857861",
+          "name": "shop_name",
+          "type": 1
+        },
+        {
+          "id": "8:8043312130535032611",
+          "name": "shop_address",
+          "type": 1
+        },
+        {
+          "id": "9:915664301064417209",
+          "name": "shop_tax_id",
+          "type": 1
+        },
+        {
+          "id": "10:1754794908139923821",
+          "name": "shop_tel",
+          "type": 1
+        },
+        {
+          "id": "11:6866063207114366810",
+          "name": "cashier_detail",
+          "type": 1
+        },
+        {
+          "id": "12:4476873870160512109",
+          "name": "customer_detail",
+          "type": 1
+        },
+        {
+          "id": "13:3335322269346880414",
+          "name": "customer_address",
+          "type": 1
+        },
+        {
+          "id": "14:9111161970126604786",
+          "name": "customer_tax_id",
+          "type": 1
+        },
+        {
+          "id": "15:8290524253874404977",
+          "name": "sale_detail",
+          "type": 1
+        },
+        {
+          "id": "16:7214533309888596528",
+          "name": "doc_no_qr_code",
+          "type": 1
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "11:8507442719058224002",
+      "lastPropertyId": "7:5819973732861436167",
+      "name": "PrinterObjectBoxStruct",
+      "properties": [
+        {
+          "id": "1:8660308858491039840",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:669546891777832155",
+          "name": "code",
+          "indexId": "12:1133540088883645846",
+          "type": 9,
+          "flags": 2080
+        },
+        {
+          "id": "3:6385539691827156366",
+          "name": "guid_fixed",
+          "type": 9
+        },
+        {
+          "id": "4:8879782641676192488",
+          "name": "name1",
+          "type": 9
+        },
+        {
+          "id": "5:4470904103934566097",
+          "name": "type",
+          "type": 6
+        },
+        {
+          "id": "6:4298434096978347508",
+          "name": "print_ip_address",
+          "type": 9
+        },
+        {
+          "id": "7:5819973732861436167",
+          "name": "printer_port",
+          "type": 6
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "12:7974614491746462900",
+      "lastPropertyId": "40:4935961449219756744",
+      "name": "ProductBarcodeObjectBoxStruct",
+      "properties": [
+        {
+          "id": "1:1054606752651841960",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:3955360475484583776",
+          "name": "barcode",
+          "indexId": "13:331577641792979133",
+          "type": 9,
+          "flags": 2080
+        },
+        {
+          "id": "3:8685955188537902096",
+          "name": "names",
+          "indexId": "62:7281847005711846913",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "4:7191357770071507461",
+          "name": "name_all",
+          "indexId": "63:1673161208709141060",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "5:2993794605534891759",
+          "name": "guid_fixed",
+          "type": 9
+        },
+        {
+          "id": "6:3677014411206403279",
+          "name": "item_guid",
+          "type": 9
+        },
+        {
+          "id": "7:6366210307402178408",
+          "name": "descriptions",
+          "type": 9
+        },
+        {
+          "id": "8:3778889373397882052",
+          "name": "item_code",
+          "indexId": "64:1237387156333073841",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "10:13996216332204852",
+          "name": "unit_code",
+          "indexId": "65:7856671998526004703",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "11:2113134144108785353",
+          "name": "unit_names",
+          "indexId": "66:3800821577857295882",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "12:7803893748228550420",
+          "name": "prices",
+          "type": 9
+        },
+        {
+          "id": "13:4333798254065653458",
+          "name": "new_line",
+          "type": 6
+        },
+        {
+          "id": "14:4359753353283791611",
+          "name": "product_count",
+          "type": 8
+        },
+        {
+          "id": "15:1115475011359271174",
+          "name": "options_json",
+          "type": 9
+        },
+        {
+          "id": "16:6509418604765912355",
+          "name": "images_url",
+          "type": 9
+        },
+        {
+          "id": "17:7248175695024576363",
+          "name": "image_or_color",
+          "type": 1
+        },
+        {
+          "id": "18:4902020168182299530",
+          "name": "color_select",
+          "type": 9
+        },
+        {
+          "id": "19:7935986141589492383",
+          "name": "color_select_hex",
+          "type": 9
+        },
+        {
+          "id": "20:6865990510561359861",
+          "name": "vat_type",
+          "type": 6
+        },
+        {
+          "id": "21:2933274393010363655",
+          "name": "isalacarte",
+          "type": 1
+        },
+        {
+          "id": "22:7618772782804466168",
+          "name": "is_except_vat",
+          "type": 1
+        },
+        {
+          "id": "23:7886175744859148410",
+          "name": "ordertypes",
+          "type": 9
+        },
+        {
+          "id": "24:2959720825884755897",
+          "name": "issplitunitprint",
+          "type": 1
+        },
+        {
+          "id": "25:4300306360653182879",
+          "name": "food_type",
+          "type": 6
+        },
+        {
+          "id": "28:8482059166644643363",
+          "name": "is_resterant_use_stock",
+          "type": 1
+        },
+        {
+          "id": "30:2171089293921057968",
+          "name": "sum_order_qty",
+          "type": 8
+        },
+        {
+          "id": "35:4776961872131744813",
+          "name": "unit_stand",
+          "type": 8
+        },
+        {
+          "id": "36:8118170988891892415",
+          "name": "unit_divide",
+          "type": 8
+        },
+        {
+          "id": "37:1383296089373230868",
+          "name": "ref_barcode_json",
+          "type": 9
+        },
+        {
+          "id": "38:3811016922155720198",
+          "name": "issumpoint",
+          "type": 1
+        },
+        {
+          "id": "40:4935961449219756744",
+          "name": "patterncode",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "13:5317955140023260612",
+      "lastPropertyId": "8:5149162532278065423",
+      "name": "ProductBarcodeStatusObjectBoxStruct",
+      "properties": [
+        {
+          "id": "1:3742929629218784413",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:4711480403567147377",
+          "name": "barcode",
+          "indexId": "14:5641168048658852151",
+          "type": 9,
+          "flags": 2080
+        },
+        {
+          "id": "3:1997097513274711728",
+          "name": "orderStatus",
+          "type": 6
+        },
+        {
+          "id": "4:3135887548586963232",
+          "name": "orderAutoStock",
+          "type": 1
+        },
+        {
+          "id": "5:5174725037717813101",
+          "name": "orderDisable",
+          "type": 1
+        },
+        {
+          "id": "6:3834497062444353327",
+          "name": "qtyStart",
+          "type": 8
+        },
+        {
+          "id": "7:8644168533080516706",
+          "name": "qtyBalance",
+          "type": 8
+        },
+        {
+          "id": "8:5149162532278065423",
+          "name": "qtyMin",
+          "type": 8
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "14:1618884050455509963",
+      "lastPropertyId": "11:6333053304181247507",
+      "name": "ProductCategoryObjectBoxStruct",
+      "properties": [
+        {
+          "id": "1:4143114559250102041",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8899402749636337275",
+          "name": "guid_fixed",
+          "indexId": "15:9080362484104894793",
+          "type": 9,
+          "flags": 2080
+        },
+        {
+          "id": "3:6762102808984274494",
+          "name": "parent_guid_fixed",
+          "indexId": "67:3181643734756501307",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "4:1462982112003314607",
+          "name": "names",
+          "indexId": "68:493740498110838952",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "5:153501244628255709",
+          "name": "image_url",
+          "type": 9
+        },
+        {
+          "id": "6:532029921099325232",
+          "name": "use_image_or_color",
+          "type": 1
+        },
+        {
+          "id": "7:601400219989815304",
+          "name": "colorselect",
+          "type": 9
+        },
+        {
+          "id": "8:6662856676173007773",
+          "name": "colorselecthex",
+          "type": 9
+        },
+        {
+          "id": "9:248076948786385583",
+          "name": "codelist",
+          "type": 9
+        },
+        {
+          "id": "10:4252684092760424834",
+          "name": "xorder",
+          "type": 6
+        },
+        {
+          "id": "11:6333053304181247507",
+          "name": "category_count",
+          "type": 6
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "15:8034800903762836112",
+      "lastPropertyId": "16:6873613522166689423",
+      "name": "ShiftObjectBoxStruct",
+      "properties": [
+        {
+          "id": "1:4211979165027455276",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:3812244338841292338",
+          "name": "guidfixed",
+          "indexId": "16:1483548090017999273",
+          "type": 9,
+          "flags": 2080
+        },
+        {
+          "id": "3:1374802288580210698",
+          "name": "doctype",
+          "type": 6
+        },
+        {
+          "id": "4:1222267296857143653",
+          "name": "docdate",
+          "type": 10
+        },
+        {
+          "id": "5:6534459472657095403",
+          "name": "usercode",
+          "indexId": "73:43934457461761526",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "6:8824500441794099164",
+          "name": "username",
+          "indexId": "74:5143174666970382323",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "7:5199057922401762756",
+          "name": "remark",
+          "type": 9
+        },
+        {
+          "id": "8:4857112406338836486",
+          "name": "amount",
+          "type": 8
+        },
+        {
+          "id": "9:7171431946001787923",
+          "name": "creditcard",
+          "type": 8
+        },
+        {
+          "id": "10:6955605365558147447",
+          "name": "promptpay",
+          "type": 8
+        },
+        {
+          "id": "11:7221386868457555325",
+          "name": "transfer",
+          "type": 8
+        },
+        {
+          "id": "12:2268083920105625668",
+          "name": "cheque",
+          "type": 8
+        },
+        {
+          "id": "13:1085322433324507752",
+          "name": "coupon",
+          "type": 8
+        },
+        {
+          "id": "14:7105525116175218257",
+          "name": "isSync",
+          "type": 1
+        },
+        {
+          "id": "15:5230865333383110594",
+          "name": "posid",
+          "type": 9
+        },
+        {
+          "id": "16:6873613522166689423",
+          "name": "docno",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "16:4807821696714073280",
+      "lastPropertyId": "8:7328804304282174748",
+      "name": "StaffClientObjectBoxStruct",
+      "properties": [
+        {
+          "id": "1:4245957834147710013",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "6:8478260599879512019",
+          "name": "client_guid",
+          "indexId": "21:4041591141309262489",
+          "type": 9,
+          "flags": 2080
+        },
+        {
+          "id": "7:2638472581730246920",
+          "name": "client_name",
+          "type": 9
+        },
+        {
+          "id": "8:7328804304282174748",
+          "name": "client_ip",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "17:2847836741387743479",
+      "lastPropertyId": "6:4149896725152884672",
+      "name": "TableObjectBoxStruct",
+      "properties": [
+        {
+          "id": "1:2837283356169720854",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1904952339974129899",
+          "name": "guidfixed",
+          "indexId": "18:5084970316311085110",
+          "type": 9,
+          "flags": 2080
+        },
+        {
+          "id": "3:5334779726322180782",
+          "name": "number",
+          "indexId": "75:1655599937967868184",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "4:589447436560863916",
+          "name": "numberMain",
+          "indexId": "76:7795213137994097369",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "5:4640692643790998963",
+          "name": "names",
+          "indexId": "77:7629662840308236675",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "6:4149896725152884672",
+          "name": "zone",
+          "indexId": "78:739656194768045485",
+          "type": 9,
+          "flags": 2048
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "18:8854848887415993232",
+      "lastPropertyId": "38:5551393650654273351",
+      "name": "TableProcessObjectBoxStruct",
+      "properties": [
+        {
+          "id": "1:4359147623567587360",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:4983989267426988417",
+          "name": "guidfixed",
+          "indexId": "19:170704277128498919",
+          "type": 9,
+          "flags": 2080
+        },
+        {
+          "id": "3:755659236888768899",
+          "name": "number",
+          "indexId": "79:5168005214580530476",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "4:1657434458064146195",
+          "name": "number_main",
+          "type": 9
+        },
+        {
+          "id": "5:6100997322936383103",
+          "name": "names",
+          "type": 9
+        },
+        {
+          "id": "6:2243817885938348833",
+          "name": "zone",
+          "type": 9
+        },
+        {
+          "id": "7:4418990182816758041",
+          "name": "table_status",
+          "type": 6
+        },
+        {
+          "id": "8:5014414903302062207",
+          "name": "order_count",
+          "type": 8
+        },
+        {
+          "id": "9:3135110769484524696",
+          "name": "amount",
+          "type": 8
+        },
+        {
+          "id": "10:4811367508266024613",
+          "name": "order_success",
+          "type": 1
+        },
+        {
+          "id": "11:5557896020247023518",
+          "name": "table_open_datetime",
+          "type": 10
+        },
+        {
+          "id": "12:1697914699967315121",
+          "name": "qr_code",
+          "type": 9
+        },
+        {
+          "id": "13:2989988827893329850",
+          "name": "man_count",
+          "type": 6
+        },
+        {
+          "id": "14:768789214960759583",
+          "name": "woman_count",
+          "type": 6
+        },
+        {
+          "id": "15:6165973421048116049",
+          "name": "child_count",
+          "type": 6
+        },
+        {
+          "id": "16:1587695160028476867",
+          "name": "table_al_la_crate_mode",
+          "type": 1
+        },
+        {
+          "id": "17:2367861539051487168",
+          "name": "buffet_code",
+          "type": 9
+        },
+        {
+          "id": "18:2870334892062132928",
+          "name": "customer_code_or_telephone",
+          "type": 9
+        },
+        {
+          "id": "19:5929087654264115337",
+          "name": "customer_name",
+          "type": 9
+        },
+        {
+          "id": "20:7272765033211086158",
+          "name": "customer_address",
+          "type": 9
+        },
+        {
+          "id": "21:682836311554723446",
+          "name": "delivery_code",
+          "type": 9
+        },
+        {
+          "id": "22:1202901575354150796",
+          "name": "delivery_ticket_number",
+          "type": 9
+        },
+        {
+          "id": "23:6739307344226174487",
+          "name": "delivery_number",
+          "type": 9
+        },
+        {
+          "id": "24:4230390780447776889",
+          "name": "remark",
+          "type": 9
+        },
+        {
+          "id": "25:3921799693719215610",
+          "name": "open_by_staff_code",
+          "type": 9
+        },
+        {
+          "id": "26:4586318054778802505",
+          "name": "make_food_immediately",
+          "type": 1
+        },
+        {
+          "id": "27:3294926747751423777",
+          "name": "is_delivery",
+          "type": 1
+        },
+        {
+          "id": "28:5888314223181371687",
+          "name": "delivery_cook_success",
+          "type": 1
+        },
+        {
+          "id": "29:3389539534222369106",
+          "name": "delivery_cook_success_datetime",
+          "type": 10
+        },
+        {
+          "id": "30:3410199941176374422",
+          "name": "delivery_send_success",
+          "type": 1
+        },
+        {
+          "id": "31:4029768017864598562",
+          "name": "delivery_send_success_datetime",
+          "type": 10
+        },
+        {
+          "id": "32:368054644096377967",
+          "name": "delivery_status",
+          "type": 6
+        },
+        {
+          "id": "33:6531425314728574280",
+          "name": "table_child_count",
+          "type": 6
+        },
+        {
+          "id": "34:74077549318854842",
+          "name": "detail_discount_formula",
+          "type": 9
+        },
+        {
+          "id": "35:4036216641064722458",
+          "name": "customer_nationality_code",
+          "type": 9
+        },
+        {
+          "id": "36:8121989078933015742",
+          "name": "order_cancel_count",
+          "type": 8
+        },
+        {
+          "id": "37:5348929286928456426",
+          "name": "order_served_count",
+          "type": 8
+        },
+        {
+          "id": "38:5551393650654273351",
+          "name": "isUpdate",
+          "type": 1
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "19:7142168736194500712",
+      "lastPropertyId": "12:1199969504146411562",
+      "name": "WalletObjectBoxStruct",
+      "properties": [
+        {
+          "id": "1:2700893326664273118",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:7338708487100328078",
+          "name": "code",
+          "indexId": "20:8003012458317488526",
+          "type": 9,
+          "flags": 2080
+        },
+        {
+          "id": "3:9114095171956796856",
+          "name": "guid_fixed",
+          "type": 9
+        },
+        {
+          "id": "4:524606145515704775",
+          "name": "bookbankcode",
+          "type": 9
+        },
+        {
+          "id": "5:3339384756086250102",
+          "name": "bookbankname",
+          "type": 9
+        },
+        {
+          "id": "6:791918014862336415",
+          "name": "countrycode",
+          "type": 9
+        },
+        {
+          "id": "7:8836011520192662653",
+          "name": "feerate",
+          "type": 8
+        },
+        {
+          "id": "8:4567528131418955328",
+          "name": "names",
+          "type": 9
+        },
+        {
+          "id": "9:2590834944434542161",
+          "name": "paymentcode",
+          "type": 9
+        },
+        {
+          "id": "10:2206726889917971534",
+          "name": "paymentlogo",
+          "type": 9
+        },
+        {
+          "id": "11:7961193263533425936",
+          "name": "paymenttype",
+          "type": 6
+        },
+        {
+          "id": "12:1199969504146411562",
+          "name": "wallettype",
+          "type": 6
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "20:6820072590822524354",
+      "lastPropertyId": "47:171501662066050577",
+      "name": "OrderTempSyncObjectBoxStruct",
+      "properties": [
+        {
+          "id": "1:3946745576307895664",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8012601482767542002",
+          "name": "orderId",
+          "type": 9
+        },
+        {
+          "id": "3:4218468158990587767",
+          "name": "orderGuid",
+          "type": 9
+        },
+        {
+          "id": "4:4347208949498393044",
+          "name": "orderIdMain",
+          "type": 9
+        },
+        {
+          "id": "5:4960117799333839771",
+          "name": "machineId",
+          "type": 9
+        },
+        {
+          "id": "6:9155064754803308868",
+          "name": "orderDateTime",
+          "type": 10
+        },
+        {
+          "id": "7:4595281861364836497",
+          "name": "barcode",
+          "type": 9
+        },
+        {
+          "id": "8:912950450902693603",
+          "name": "orderQty",
+          "type": 8
+        },
+        {
+          "id": "10:1552770376402509100",
+          "name": "cancelQty",
+          "type": 8
+        },
+        {
+          "id": "11:6585878136793823562",
+          "name": "cancelHistory",
+          "type": 9
+        },
+        {
+          "id": "12:1669770995634356564",
+          "name": "qtyLastCancel",
+          "type": 8
+        },
+        {
+          "id": "13:6281731028668841287",
+          "name": "price",
+          "type": 8
+        },
+        {
+          "id": "14:5282634687986834561",
+          "name": "amount",
+          "type": 8
+        },
+        {
+          "id": "15:6867586479596639743",
+          "name": "isOrder",
+          "type": 1
+        },
+        {
+          "id": "16:3301364827231031685",
+          "name": "isOrderSuccess",
+          "type": 1
+        },
+        {
+          "id": "17:5119290640609248818",
+          "name": "isOrderSendKdsSuccess",
+          "type": 1
+        },
+        {
+          "id": "18:1520477788893451162",
+          "name": "isOrderReadySendKds",
+          "type": 1
+        },
+        {
+          "id": "19:504937395720883990",
+          "name": "isPaySuccess",
+          "type": 1
+        },
+        {
+          "id": "20:4769516065002455076",
+          "name": "optionSelected",
+          "type": 9
+        },
+        {
+          "id": "21:1172720545572365040",
+          "name": "remark",
+          "type": 9
+        },
+        {
+          "id": "22:4722833240962379475",
+          "name": "remarkForCancel",
+          "type": 9
+        },
+        {
+          "id": "23:4401003232559610921",
+          "name": "names",
+          "type": 9
+        },
+        {
+          "id": "24:6865269517344835277",
+          "name": "unitCode",
+          "type": 9
+        },
+        {
+          "id": "25:2187948239166763601",
+          "name": "unitName",
+          "type": 9
+        },
+        {
+          "id": "26:6954024197291644045",
+          "name": "imageUri",
+          "type": 9
+        },
+        {
+          "id": "27:4376469495836962012",
+          "name": "takeAway",
+          "type": 1
+        },
+        {
+          "id": "28:6191385643529134071",
+          "name": "kdsSuccessTime",
+          "type": 10
+        },
+        {
+          "id": "29:7648459065736320790",
+          "name": "kdsSuccess",
+          "type": 1
+        },
+        {
+          "id": "30:5034222860618137318",
+          "name": "kdsId",
+          "type": 9
+        },
+        {
+          "id": "31:4444714701572081226",
+          "name": "servedTime",
+          "type": 10
+        },
+        {
+          "id": "32:1547212919797033729",
+          "name": "servedSuccess",
+          "type": 1
+        },
+        {
+          "id": "33:7280215310361503179",
+          "name": "servedQty",
+          "type": 8
+        },
+        {
+          "id": "34:7795919189173106011",
+          "name": "servedHistory",
+          "type": 9
+        },
+        {
+          "id": "35:4272183961957878291",
+          "name": "deliveryNumber",
+          "type": 9
+        },
+        {
+          "id": "36:1613210446624214631",
+          "name": "deliveryCode",
+          "type": 9
+        },
+        {
+          "id": "37:4019098414662271819",
+          "name": "deliveryName",
+          "type": 9
+        },
+        {
+          "id": "38:6711964794625361286",
+          "name": "lastUpdateDateTime",
+          "type": 10
+        },
+        {
+          "id": "39:7356486213161853291",
+          "name": "orderType",
+          "type": 6
+        },
+        {
+          "id": "40:3642244184831688401",
+          "name": "orderEmployeeCode",
+          "type": 9
+        },
+        {
+          "id": "41:4903171804431796431",
+          "name": "orderEmployeeDetail",
+          "type": 9
+        },
+        {
+          "id": "42:8135895334413605867",
+          "name": "isOrderSendDedeTempSuccess",
+          "type": 1
+        },
+        {
+          "id": "43:4408864966972443154",
+          "name": "docNo",
+          "type": 9
+        },
+        {
+          "id": "44:4252739442450311169",
+          "name": "orderHistory",
+          "type": 9
+        },
+        {
+          "id": "46:5913738577093822760",
+          "name": "orderEmtry",
+          "type": 1
+        },
+        {
+          "id": "47:171501662066050577",
+          "name": "guidPos",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "21:2454962601450133816",
+      "lastPropertyId": "15:2909666108555725190",
+      "name": "PromotionObjectBoxStruct",
+      "properties": [
+        {
+          "id": "1:3516508725966530991",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:5084251621860979364",
+          "name": "guidfixed",
+          "indexId": "23:204665627142314746",
+          "type": 9,
+          "flags": 2080
+        },
+        {
+          "id": "3:8713205974292577053",
+          "name": "type",
+          "type": 6
+        },
+        {
+          "id": "4:4227900986216411708",
+          "name": "index",
+          "type": 6
+        },
+        {
+          "id": "5:3306021945646804743",
+          "name": "promotion_code",
+          "indexId": "69:7972456332175800765",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "6:7578973022489475612",
+          "name": "date_begin",
+          "indexId": "70:7236374637189328942",
+          "type": 10,
+          "flags": 8
+        },
+        {
+          "id": "7:7542746976251936846",
+          "name": "date_end",
+          "indexId": "71:3706472518362124037",
+          "type": 10,
+          "flags": 8
+        },
+        {
+          "id": "8:6465164081634214935",
+          "name": "promotion_name",
+          "indexId": "72:5231686759450818599",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "9:2807916891933823315",
+          "name": "customer_only",
+          "type": 6
+        },
+        {
+          "id": "10:9182719279523655716",
+          "name": "discount_text",
+          "type": 9
+        },
+        {
+          "id": "11:1403553437088080570",
+          "name": "limit_qty",
+          "type": 8
+        },
+        {
+          "id": "12:2561121182909690968",
+          "name": "promotion_qty",
+          "type": 8
+        },
+        {
+          "id": "13:7793126144207886960",
+          "name": "limit_amount",
+          "type": 8
+        },
+        {
+          "id": "15:2909666108555725190",
+          "name": "promotion_item_code_include_list_json",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "22:1237294838959770941",
+      "lastPropertyId": "12:5505004254021940521",
+      "name": "CustomerObjectBoxStruct",
+      "properties": [
+        {
+          "id": "1:9022223673428191929",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1189880544831234260",
+          "name": "guidfixed",
+          "type": 9
+        },
+        {
+          "id": "3:6502543213444450119",
+          "name": "code",
+          "indexId": "24:5084218013194032159",
+          "type": 9,
+          "flags": 2080
+        },
+        {
+          "id": "4:5366977443365618090",
+          "name": "name",
+          "indexId": "36:4849784411861142377",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "5:604959964659213109",
+          "name": "tel",
+          "indexId": "25:5140324326213532693",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "6:8769297904999823666",
+          "name": "email",
+          "type": 9
+        },
+        {
+          "id": "7:1046733330123026520",
+          "name": "address",
+          "type": 9
+        },
+        {
+          "id": "8:1970193282508100770",
+          "name": "pointbalance",
+          "type": 8
+        },
+        {
+          "id": "9:2861048420046121521",
+          "name": "last_updated",
+          "type": 10
+        },
+        {
+          "id": "10:7221846707242361916",
+          "name": "pointscode",
+          "type": 9
+        },
+        {
+          "id": "11:4537734850334368101",
+          "name": "pricelevel",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "23:610596100655883790",
+      "lastPropertyId": "8:3809989796891121571",
+      "name": "CouponItemObjectBoxStruct",
+      "properties": [
+        {
+          "id": "1:83533278821257951",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:4512738756830847014",
+          "name": "couponamount",
+          "type": 8
+        },
+        {
+          "id": "3:2671436088128961265",
+          "name": "coupondescription",
+          "type": 9
+        },
+        {
+          "id": "4:5156091849503246909",
+          "name": "couponno",
+          "indexId": "32:5283309836001781566",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "5:5575486796040869332",
+          "name": "coupontype",
+          "indexId": "33:8145677898351856983",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "6:696747637584513924",
+          "name": "reservationid",
+          "type": 9
+        },
+        {
+          "id": "7:1454819939290621381",
+          "name": "transactionid",
+          "indexId": "34:1364916974329192884",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "8:3809989796891121571",
+          "name": "couponid",
+          "indexId": "35:8161289590645718400",
+          "type": 9,
+          "flags": 2048
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "24:7957960429072638923",
+      "lastPropertyId": "15:5295697756320545863",
+      "name": "PrintQueueObjectBoxStruct",
+      "properties": [
+        {
+          "id": "1:7635277426436178560",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:548250429292418743",
+          "name": "fileName",
+          "indexId": "80:3992738223676694612",
+          "type": 9,
+          "flags": 2080
+        },
+        {
+          "id": "3:6162139040885158324",
+          "name": "printerName",
+          "indexId": "81:4900014732761408759",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "4:6859060683543048742",
+          "name": "printerType",
+          "type": 9
+        },
+        {
+          "id": "5:3210183512911851232",
+          "name": "filePath",
+          "type": 9
+        },
+        {
+          "id": "6:3654992092365793472",
+          "name": "docNumber",
+          "type": 9
+        },
+        {
+          "id": "7:1984978895666142533",
+          "name": "status",
+          "indexId": "82:6948433967600551613",
+          "type": 6,
+          "flags": 8
+        },
+        {
+          "id": "8:6858353530041410345",
+          "name": "createdAt",
+          "type": 10
+        },
+        {
+          "id": "9:7337004552644698640",
+          "name": "printedAt",
+          "type": 10
+        },
+        {
+          "id": "10:2827215165771489594",
+          "name": "retryCount",
+          "type": 6
+        },
+        {
+          "id": "11:7755478428670883459",
+          "name": "errorMessage",
+          "type": 9
+        },
+        {
+          "id": "12:8899979827266040064",
+          "name": "jobType",
+          "type": 9
+        },
+        {
+          "id": "13:3148610667565099026",
+          "name": "priority",
+          "type": 6
+        },
+        {
+          "id": "14:1477833184423741932",
+          "name": "metadata",
+          "type": 9
+        },
+        {
+          "id": "15:5295697756320545863",
+          "name": "lastAttemptAt",
+          "type": 10
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "25:4447337378217728137",
+      "lastPropertyId": "11:2691443179777639290",
+      "name": "UploadQueueObjectBoxStruct",
+      "properties": [
+        {
+          "id": "1:4327981332308416971",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:7217640567458909396",
+          "name": "fileName",
+          "indexId": "83:2165041037413552640",
+          "type": 9,
+          "flags": 2080
+        },
+        {
+          "id": "3:8782918249215543590",
+          "name": "filePath",
+          "type": 9
+        },
+        {
+          "id": "4:8458364656788717740",
+          "name": "docNumber",
+          "indexId": "84:1120032085958550637",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "5:7658113634384149372",
+          "name": "status",
+          "indexId": "85:5736176008717497279",
+          "type": 6,
+          "flags": 8
+        },
+        {
+          "id": "6:7658789429539029376",
+          "name": "createdAt",
+          "type": 10
+        },
+        {
+          "id": "7:5024929870210557632",
+          "name": "uploadedAt",
+          "type": 10
+        },
+        {
+          "id": "8:2388708806833680117",
+          "name": "retryCount",
+          "type": 6
+        },
+        {
+          "id": "9:1244571873842837473",
+          "name": "errorMessage",
+          "type": 9
+        },
+        {
+          "id": "10:6345180998288118968",
+          "name": "fileSize",
+          "type": 6
+        },
+        {
+          "id": "11:2691443179777639290",
+          "name": "metadata",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "26:3862271020029447400",
+      "lastPropertyId": "5:3436099141012461313",
+      "name": "TierStockStruct",
+      "properties": [
+        {
+          "id": "1:3441422676327387611",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:4332895711635039954",
+          "name": "tier_level",
+          "indexId": "86:8897877280455338127",
+          "type": 6,
+          "flags": 40
+        },
+        {
+          "id": "3:257766286027042487",
+          "name": "promotion_code",
+          "indexId": "87:2435361365149477074",
+          "type": 9,
+          "flags": 2048
+        },
+        {
+          "id": "4:3160302246348027237",
+          "name": "remaining_stock",
+          "type": 6
+        },
+        {
+          "id": "5:3436099141012461313",
+          "name": "updated_at",
+          "type": 10
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "26:3862271020029447400",
+  "lastIndexId": "87:2435361365149477074",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [
+    9029091973930267439,
+    4014902230998104801
+  ],
+  "retiredPropertyUids": [
+    8813105653554504575,
+    2846849902967141853,
+    4760351851945331650,
+    7333629991949119187,
+    3587294410549165188,
+    2636458267876841188,
+    592331801851036762,
+    1723270442195789949,
+    3484443406614528689,
+    9123200982089697481,
+    4220195972034927692,
+    4973085278096439363,
+    5609189579800212377,
+    8259849794609341415,
+    2213463823385124630,
+    6090299334796079313,
+    526423617362544541,
+    5505004254021940521,
+    1274921643392976231,
+    2001002036230991381
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}

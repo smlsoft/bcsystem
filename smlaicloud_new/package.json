@@ -1,0 +1,7 @@
+{
+  "name": "smlaicloud",
+  "version": "1.0.0",
+  "description": "SMLAICloud Web App",
+  "main": "index.js",
+  "private": true
+}

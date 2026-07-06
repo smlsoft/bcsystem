@@ -1,0 +1,9215 @@
+[
+  
+  {
+    "code": "payment_summary",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สรุปการชำระเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ສະຫຼຸບການເຮັດທຸລະກຳ"
+      },
+      {
+        "code": "en",
+        "text": "Payment Summary"
+      },
+      {
+        "code": "zh-cn",
+        "text": "支付摘要"
+      }
+    ]
+  },
+  {
+    "code": "print_error",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เกิดข้อผิดพลาดในการพิมพ์"
+      },
+      {
+        "code": "lo",
+        "text": "ການພິມຜິດພາດ"
+      },
+      {
+        "code": "en",
+        "text": "Print error"
+      },
+      {
+        "code": "zh-cn",
+        "text": "打印错误"
+      }
+    ]
+  },
+  {
+    "code": "printing_payment_report",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กำลังพิมพ์รายงานการชำระเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ກຳລັງພິມລາຍງານການເຮັດທຸລະກຳ"
+      },
+      {
+        "code": "en",
+        "text": "Printing payment report"
+      },
+      {
+        "code": "zh-cn",
+        "text": "正在打印支付报告"
+      }
+    ]
+  },
+  {
+    "code": "payment_transactions_summary",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สรุปการทำธุรกรรมการชำระเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ສະຫຼຸບການເຮັດທຸລະກຳ"
+      },
+      {
+        "code": "en",
+        "text": "Payment Transactions Summary"
+      },
+      {
+        "code": "zh-cn",
+        "text": "支付交易摘要"
+      }
+    ]
+  },
+  {
+    "code": "no_payment_reports_found_in_period",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่พบรายงานการชำระเงินในช่วงเวลานี้"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ມີລາຍງານການຊໍາລະເງິນໃນໄລຍະນີ້"
+      },
+      {
+        "code": "en",
+        "text": "No payment reports found in this period"
+      },
+      {
+        "code": "zh-cn",
+        "text": "在此期间未找到支付报告"
+      }
+    ]
+  },
+  {
+    "code": "no_payment_reports",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่มีรายงานการชำระเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ມີລາຍງານການຊໍາລະເງິນ"
+      },
+      {
+        "code": "en",
+        "text": "No payment reports"
+      },
+      {
+        "code": "zh-cn",
+        "text": "没有支付报告"
+      }
+    ]
+  },
+  {
+    "code": "payment_reports",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รายงานการชำระเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ລາຍງານການຊໍາລະເງິນ"
+      },
+      {
+        "code": "en",
+        "text": "Payment Reports"
+      },
+      {
+        "code": "zh-cn",
+        "text": "支付报告"
+      }
+    ]
+  },
+  {
+    "code": "or",
+    "langs": [
+      {
+        "code": "th",
+        "text": "th"
+      },
+      {
+        "code": "lo",
+        "text": "lao_manual"
+      },
+      {
+        "code": "en",
+        "text": "en_manual"
+      },
+      {
+        "code": "zh-cn",
+        "text": "ch_manual"
+      }
+    ]
+  },
+  {
+    "code": "print_test",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ทดสอบการพิมพ์"
+      },
+      {
+        "code": "lo",
+        "text": "ທົດສອບການພິມ"
+      },
+      {
+        "code": "en",
+        "text": "Print Test"
+      },
+      {
+        "code": "zh-cn",
+        "text": "打印测试"
+      }
+    ]
+  },
+  {
+    "code": "pos_sml_qr_list",
+    "langs": [
+      {
+        "code": "th",
+        "text": "SML QrCode"
+      },
+      {
+        "code": "lo",
+        "text": "ປະຫວັດ SML Qrcode"
+      },
+      {
+        "code": "en",
+        "text": "SML QrCode History"
+      },
+      {
+        "code": "zh-cn",
+        "text": "SML二维码历史"
+      }
+    ]
+  },
+  {
+    "code": "add_change_money",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เพิ่มเงินทอน"
+      },
+      {
+        "code": "lo",
+        "text": "ເພີ່ມການປ່ຽນແປງ"
+      },
+      {
+        "code": "en",
+        "text": "Add change"
+      },
+      {
+        "code": "zh-cn",
+        "text": "增加找零"
+      }
+    ]
+  },
+  {
+    "code": "after_discount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "หลังหักส่วนลด"
+      },
+      {
+        "code": "lo",
+        "text": "ຫຼັງຈາກຫັກສ່ວນຫຼຸດ"
+      },
+      {
+        "code": "en",
+        "text": "After discount"
+      },
+      {
+        "code": "zh-cn",
+        "text": "扣除折扣后"
+      }
+    ]
+  },
+  {
+    "code": "amount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "จำนวนเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ຈໍາ​ນວນ"
+      },
+      {
+        "code": "en",
+        "text": "Amount"
+      },
+      {
+        "code": "zh-cn",
+        "text": "金额"
+      }
+    ]
+  },
+  {
+    "code": "amount_of_money",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รวมทั้งสิ้น"
+      },
+      {
+        "code": "lo",
+        "text": "ທັງຫມົດ"
+      },
+      {
+        "code": "en",
+        "text": "Total amount"
+      },
+      {
+        "code": "zh-cn",
+        "text": "总金额"
+      }
+    ]
+  },
+  {
+    "code": "authorization_code",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลขอนุมัติ"
+      },
+      {
+        "code": "lo",
+        "text": "ການອະນຸມັດ"
+      },
+      {
+        "code": "en",
+        "text": "Authorization code"
+      },
+      {
+        "code": "zh-cn",
+        "text": "授权码"
+      }
+    ]
+  },
+  {
+    "code": "back",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กลับ"
+      },
+      {
+        "code": "lo",
+        "text": "ກັບ​ຄືນ"
+      },
+      {
+        "code": "en",
+        "text": "Back"
+      },
+      {
+        "code": "zh-cn",
+        "text": "返回"
+      }
+    ]
+  },
+  {
+    "code": "bank",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ธนาคาร"
+      },
+      {
+        "code": "lo",
+        "text": "ທະນາຄານ"
+      },
+      {
+        "code": "en",
+        "text": "Bank"
+      },
+      {
+        "code": "zh-cn",
+        "text": "银行"
+      }
+    ]
+  },
+  {
+    "code": "bank_name",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ชื่อธนาคาร"
+      },
+      {
+        "code": "lo",
+        "text": "ຊື່ທະນາຄານ"
+      },
+      {
+        "code": "en",
+        "text": "Bank name"
+      },
+      {
+        "code": "zh-cn",
+        "text": "银行名称"
+      }
+    ]
+  },
+  {
+    "code": "bill_total_amount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยอดรวมบิล"
+      },
+      {
+        "code": "lo",
+        "text": "ບັນຊີ"
+      },
+      {
+        "code": "en",
+        "text": "Bill total"
+      },
+      {
+        "code": "zh-cn",
+        "text": "账单总额"
+      }
+    ]
+  },
+  {
+    "code": "blank",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ว่าง"
+      },
+      {
+        "code": "lo",
+        "text": "ອິດສະລະ"
+      },
+      {
+        "code": "en",
+        "text": "Empty"
+      },
+      {
+        "code": "zh-cn",
+        "text": "空白"
+      }
+    ]
+  },
+  {
+    "code": "cancel",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยกเลิก"
+      },
+      {
+        "code": "lo",
+        "text": "ຍົກເລີກ"
+      },
+      {
+        "code": "en",
+        "text": "Cancel"
+      },
+      {
+        "code": "zh-cn",
+        "text": "取消"
+      }
+    ]
+  },
+ 
+  {
+    "code": "promotion_discount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ได้รับส่วนลดโปรโมชั่นแล้ว"
+      },
+      {
+        "code": "lo",
+        "text": "ໄດ້ຮັບສ່ວນຫຼຸດໂປຣໂມຊັ່ນແລ້ວ"
+      },
+      {
+        "code": "en",
+        "text": "Promotion discount applied"
+      },
+      {
+        "code": "zh-cn",
+        "text": "促销折扣"
+      }
+    ]
+  },
+  
+  {
+    "code": "cancel_bill",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยกเลิกบิล"
+      },
+      {
+        "code": "lo",
+        "text": "ຍົກເລີກໃບບິນ"
+      },
+      {
+        "code": "en",
+        "text": "Cancel bill"
+      },
+      {
+        "code": "zh-cn",
+        "text": "取消账单"
+      }
+    ]
+  },
+  {
+    "code": "cancel_bill_detail",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รายละเอียดบิลยกเลิก"
+      },
+      {
+        "code": "lo",
+        "text": "ລາຍລະອຽດຂອງໃບບິນ"
+      },
+      {
+        "code": "en",
+        "text": "Cancelled bill details"
+      },
+      {
+        "code": "zh-cn",
+        "text": "取消账单详情"
+      }
+    ]
+  },
+  {
+    "code": "cancel_description",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รายละเอียดยกเลิก"
+      },
+      {
+        "code": "lo",
+        "text": "ຍົກເລີກລາຍລະອຽດ"
+      },
+      {
+        "code": "en",
+        "text": "Cancellation details"
+      },
+      {
+        "code": "zh-cn",
+        "text": "取消详情"
+      }
+    ]
+  },
+  {
+    "code": "cancel_invoice",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยกเลิกบิล"
+      },
+      {
+        "code": "lo",
+        "text": "ຍົກເລີກໃບບິນ"
+      },
+      {
+        "code": "en",
+        "text": "Cancel invoice"
+      },
+      {
+        "code": "zh-cn",
+        "text": "取消发票"
+      }
+    ]
+  },
+  {
+    "code": "card_number",
+    "langs": [
+      {
+        "code": "th",
+        "text": "หมายเลขบัตรเครดิต"
+      },
+      {
+        "code": "lo",
+        "text": "ເລກບັດເຄດິດ"
+      },
+      {
+        "code": "en",
+        "text": "Credit card number"
+      },
+      {
+        "code": "zh-cn",
+        "text": "信用卡号"
+      }
+    ]
+  },
+  {
+    "code": "cash",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เงินสด"
+      },
+      {
+        "code": "lo",
+        "text": "ເງິນສົດ"
+      },
+      {
+        "code": "en",
+        "text": "Cash"
+      },
+      {
+        "code": "zh-cn",
+        "text": "现金"
+      }
+    ]
+  },
+  {
+    "code": "cashier",
+    "langs": [
+      {
+        "code": "th",
+        "text": "Cashier"
+      },
+      {
+        "code": "lo",
+        "text": "ເຄື່ອງເກັບເງິນສົດ"
+      },
+      {
+        "code": "en",
+        "text": "Cashier"
+      },
+      {
+        "code": "zh-cn",
+        "text": "收银员"
+      }
+    ]
+  },
+  {
+    "code": "change_password",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เปลี่ยนรหัสผ่าน"
+      },
+      {
+        "code": "lo",
+        "text": "ປ່ຽນລະຫັດຜ່ານ"
+      },
+      {
+        "code": "en",
+        "text": "Change password"
+      },
+      {
+        "code": "zh-cn",
+        "text": "更改密码"
+      }
+    ]
+  },
+  {
+    "code": "cheque",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เช็ค"
+      },
+      {
+        "code": "lo",
+        "text": "ກວດກາ"
+      },
+      {
+        "code": "en",
+        "text": "Cheque"
+      },
+      {
+        "code": "zh-cn",
+        "text": "支票"
+      }
+    ]
+  },
+  {
+    "code": "cheque_number",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลขที่เช็ค"
+      },
+      {
+        "code": "lo",
+        "text": "ຫມາຍເລກເຊັກ"
+      },
+      {
+        "code": "en",
+        "text": "Cheque number"
+      },
+      {
+        "code": "zh-cn",
+        "text": "支票号码"
+      }
+    ]
+  },
+  {
+    "code": "cheque_save",
+    "langs": [
+      {
+        "code": "th",
+        "text": "บันทึกเช็ค"
+      },
+      {
+        "code": "lo",
+        "text": "ກວດກາ"
+      },
+      {
+        "code": "en",
+        "text": "Save cheque"
+      },
+      {
+        "code": "zh-cn",
+        "text": "保存支票"
+      }
+    ]
+  },
+  {
+    "code": "chq_branch_number",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลขที่สาขา"
+      },
+      {
+        "code": "lo",
+        "text": "ເລກສາຂາ"
+      },
+      {
+        "code": "en",
+        "text": "Branch number"
+      },
+      {
+        "code": "zh-cn",
+        "text": "分行号码"
+      }
+    ]
+  },
+  {
+    "code": "clear",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เคลียร์"
+      },
+      {
+        "code": "lo",
+        "text": "ລົບຂໍ້ມູນ"
+      },
+      {
+        "code": "en",
+        "text": "Clear"
+      },
+      {
+        "code": "zh-cn",
+        "text": "清除"
+      }
+    ]
+  },
+  {
+    "code": "close",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ปิด"
+      },
+      {
+        "code": "lo",
+        "text": "ປິດ"
+      },
+      {
+        "code": "en",
+        "text": "Close"
+      },
+      {
+        "code": "zh-cn",
+        "text": "关闭"
+      }
+    ]
+  },
+  {
+    "code": "printer_is_not_ready",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เครื่องพิมพ์ไม่พร้อมใช้งาน"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ພ້ອມໃຊ້ງານ"
+      },
+      {
+        "code": "en",
+        "text": "Printer is not ready"
+      },
+      {
+        "code": "zh-cn",
+        "text": "打印机未准备好"
+      }
+    ]
+  },
+  {
+    "code": "close_shift",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ปิดกะ/ส่งเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ປິດ / ສົ່ງເງິນ"
+      },
+      {
+        "code": "en",
+        "text": "Close shift/Submit money"
+      },
+      {
+        "code": "zh-cn",
+        "text": "关闭班次/提交金钱"
+      }
+    ]
+  },
+  {
+    "code": "close_the_shift",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ปิดกะ"
+      },
+      {
+        "code": "lo",
+        "text": "ປິດ"
+      },
+      {
+        "code": "en",
+        "text": "Close shift"
+      },
+      {
+        "code": "zh-cn",
+        "text": "关闭班次"
+      }
+    ]
+  },
+  {
+    "code": "close_the_shift_and_submit_the_money",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ปิดกะ/ส่งเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ປິດ / ສົ່ງເງິນ"
+      },
+      {
+        "code": "en",
+        "text": "Close shift/Submit money"
+      },
+      {
+        "code": "zh-cn",
+        "text": "关闭班次/提交金钱"
+      }
+    ]
+  },
+  {
+    "code": "confirm",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยืนยัน"
+      },
+      {
+        "code": "lo",
+        "text": "ຢືນຢັນ"
+      },
+      {
+        "code": "en",
+        "text": "Confirm"
+      },
+      {
+        "code": "zh-cn",
+        "text": "确认"
+      }
+    ]
+  },
+  {
+    "code": "connect_staff_client",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เชื่อมต่อเครื่องพนักงาน"
+      },
+      {
+        "code": "lo",
+        "text": "ເຊື່ອມຕໍ່ພະນັກງານ"
+      },
+      {
+        "code": "en",
+        "text": "Connect staff device"
+      },
+      {
+        "code": "zh-cn",
+        "text": "连接员工设备"
+      }
+    ]
+  },
+  {
+    "code": "set_gps_location",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กำหนดพิกัด GPS"
+      },
+      {
+        "code": "lo",
+        "text": "ກຳນົດພິກັດ GPS"
+      },
+      {
+        "code": "en",
+        "text": "Set GPS Location"
+      },
+      {
+        "code": "zh-cn",
+        "text": "设置GPS位置"
+      }
+    ]
+  },
+  {
+    "code": "take_shop_photo",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ถ่ายรูปหน้าร้าน"
+      },
+      {
+        "code": "lo",
+        "text": "ຖ່າຍຮູບໜ້າຮ້ານ"
+      },
+      {
+        "code": "en",
+        "text": "Take Shop Photo"
+      },
+      {
+        "code": "zh-cn",
+        "text": "拍摄店铺照片"
+      }
+    ]
+  },
+  {
+    "code": "take_product_photo",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ถ่ายรูปสินค้า"
+      },
+      {
+        "code": "lo",
+        "text": "ຖ່າຍຮູບສິນຄ້າ"
+      },
+      {
+        "code": "en",
+        "text": "Take Product Photo"
+      },
+      {
+        "code": "zh-cn",
+        "text": "拍摄产品照片"
+      }
+    ]
+  },
+  {
+    "code": "copy",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สำเนา"
+      },
+      {
+        "code": "lo",
+        "text": "ສໍາເນົາ"
+      },
+      {
+        "code": "en",
+        "text": "Copy"
+      },
+      {
+        "code": "zh-cn",
+        "text": "复制"
+      }
+    ]
+  },
+  {
+    "code": "coupon",
+    "langs": [
+      {
+        "code": "th",
+        "text": "คูปอง"
+      },
+      {
+        "code": "lo",
+        "text": "ຄູປອງ"
+      },
+      {
+        "code": "en",
+        "text": "Coupon"
+      },
+      {
+        "code": "zh-cn",
+        "text": "优惠券"
+      }
+    ]
+  },
+  {
+    "code": "coupon_description",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รายละเอียดคูปอง"
+      },
+      {
+        "code": "lo",
+        "text": "ລາຍລະອຽດຂອງຄູປອງ"
+      },
+      {
+        "code": "en",
+        "text": "Coupon details"
+      },
+      {
+        "code": "zh-cn",
+        "text": "优惠券详情"
+      }
+    ]
+  },
+  {
+    "code": "coupon_number",
+    "langs": [
+      {
+        "code": "th",
+        "text": "หมายเลขคูปอง"
+      },
+      {
+        "code": "lo",
+        "text": "ເລກຄູປອງ"
+      },
+      {
+        "code": "en",
+        "text": "Coupon number"
+      },
+      {
+        "code": "zh-cn",
+        "text": "优惠券号码"
+      }
+    ]
+  },  {
+    "code": "coupon_save",
+    "langs": [
+      {
+        "code": "th",
+        "text": "บันทึกคูปอง"
+      },
+      {
+        "code": "lo",
+        "text": "ປະຢັດຄູປອງ"
+      },
+      {
+        "code": "en",
+        "text": "Save coupon"
+      },
+      {
+        "code": "zh-cn",
+        "text": "保存优惠券"
+      }
+    ]
+  },
+  {
+    "code": "search_coupon",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ค้นหาคูปอง"
+      },
+      {
+        "code": "lo",
+        "text": "ຄົ້ນຫາຄູປອງ"
+      },
+      {
+        "code": "en",
+        "text": "Search Coupon"
+      },
+      {
+        "code": "zh-cn",
+        "text": "搜索优惠券"
+      }
+    ]
+  },
+  {
+    "code": "coupon_code",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รหัสคูปอง"
+      },
+      {
+        "code": "lo",
+        "text": "ລະຫັດຄູປອງ"
+      },
+      {
+        "code": "en",
+        "text": "Coupon Code"
+      },
+      {
+        "code": "zh-cn",
+        "text": "优惠券代码"
+      }
+    ]
+  },
+  {
+    "code": "phone_number",
+    "langs": [
+      {
+        "code": "th",
+        "text": "หมายเลขโทรศัพท์"
+      },
+      {
+        "code": "lo",
+        "text": "ເບີໂທລະສັບ"
+      },
+      {
+        "code": "en",
+        "text": "Phone Number"
+      },
+      {
+        "code": "zh-cn",
+        "text": "电话号码"
+      }
+    ]
+  },
+  {
+    "code": "enter_coupon_code",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กรอกรหัสคูปอง"
+      },
+      {
+        "code": "lo",
+        "text": "ໃສ່ລະຫັດຄູປອງ"
+      },
+      {
+        "code": "en",
+        "text": "Enter Coupon Code"
+      },
+      {
+        "code": "zh-cn",
+        "text": "输入优惠券代码"
+      }
+    ]
+  },
+  {
+    "code": "enter_phone_number",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กรอกหมายเลขโทรศัพท์"
+      },
+      {
+        "code": "lo",
+        "text": "ໃສ່ເບີໂທລະສັບ"
+      },
+      {
+        "code": "en",
+        "text": "Enter Phone Number"
+      },
+      {
+        "code": "zh-cn",
+        "text": "输入电话号码"
+      }
+    ]
+  },
+  {
+    "code": "search",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ค้นหา"
+      },
+      {
+        "code": "lo",
+        "text": "ຄົ້ນຫາ"
+      },
+      {
+        "code": "en",
+        "text": "Search"
+      },
+      {
+        "code": "zh-cn",
+        "text": "搜索"
+      }
+    ]
+  },
+  {
+    "code": "please_enter_search_value",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กรุณากรอกข้อมูลที่ต้องการค้นหา"
+      },
+      {
+        "code": "lo",
+        "text": "ກະລຸນາໃສ່ຂໍ້ມູນທີ່ຕ້ອງການຄົ້ນຫາ"
+      },
+      {
+        "code": "en",
+        "text": "Please enter search value"
+      },
+      {
+        "code": "zh-cn",
+        "text": "请输入搜索值"
+      }
+    ]
+  },
+  {
+    "code": "coupon_not_available",
+    "langs": [
+      {
+        "code": "th",
+        "text": "คูปองไม่สามารถใช้งานได้"
+      },
+      {
+        "code": "lo",
+        "text": "ຄູປອງບໍ່ສາມາດໃຊ້ງານໄດ້"
+      },
+      {
+        "code": "en",
+        "text": "Coupon not available"
+      },
+      {
+        "code": "zh-cn",
+        "text": "优惠券不可用"
+      }
+    ]
+  },
+  {
+    "code": "selected_coupon",
+    "langs": [
+      {
+        "code": "th",
+        "text": "คูปองที่เลือก"
+      },
+      {
+        "code": "lo",
+        "text": "ຄູປອງທີ່ເລືອກ"
+      },
+      {
+        "code": "en",
+        "text": "Selected Coupon"
+      },
+      {
+        "code": "zh-cn",
+        "text": "已选择的优惠券"
+      }
+    ]
+  },
+  {
+    "code": "remaining_value",
+    "langs": [
+      {
+        "code": "th",
+        "text": "มูลค่าคงเหลือ"
+      },
+      {
+        "code": "lo",
+        "text": "ມູນຄ່າຄົງເຫຼືອ"
+      },
+      {
+        "code": "en",
+        "text": "Remaining Value"
+      },
+      {
+        "code": "zh-cn",
+        "text": "剩余价值"
+      }
+    ]
+  },
+  {
+    "code": "amount_to_use",
+    "langs": [
+      {
+        "code": "th",
+        "text": "จำนวนที่จะใช้"
+      },
+      {
+        "code": "lo",
+        "text": "ຈຳນວນທີ່ຈະໃຊ້"
+      },
+      {
+        "code": "en",
+        "text": "Amount to Use"
+      },
+      {
+        "code": "zh-cn",
+        "text": "使用金额"
+      }
+    ]
+  },
+  {
+    "code": "reserve_coupon",
+    "langs": [
+      {
+        "code": "th",
+        "text": "จองคูปอง"
+      },
+      {
+        "code": "lo",
+        "text": "ຈອງຄູປອງ"
+      },
+      {
+        "code": "en",
+        "text": "Reserve Coupon"
+      },
+      {
+        "code": "zh-cn",
+        "text": "预订优惠券"
+      }
+    ]
+  },
+  {
+    "code": "use_coupon",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ใช้คูปอง"
+      },
+      {
+        "code": "lo",
+        "text": "ໃຊ້ຄູປອງ"
+      },
+      {
+        "code": "en",
+        "text": "Use Coupon"
+      },
+      {
+        "code": "zh-cn",
+        "text": "使用优惠券"
+      }
+    ]
+  },
+  {
+    "code": "cancel_reservation",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยกเลิกการจอง"
+      },
+      {
+        "code": "lo",
+        "text": "ຍົກເລີກການຈອງ"
+      },
+      {
+        "code": "en",
+        "text": "Cancel Reservation"
+      },
+      {
+        "code": "zh-cn",
+        "text": "取消预订"
+      }
+    ]
+  },
+  {
+    "code": "new_reservation",
+    "langs": [
+      {
+        "code": "th",
+        "text": "จองใหม่"
+      },
+      {
+        "code": "lo",
+        "text": "ຈອງໃໝ່"
+      },
+      {
+        "code": "en",
+        "text": "New Reservation"
+      },
+      {
+        "code": "zh-cn",
+        "text": "新预订"
+      }
+    ]
+  },
+  {
+    "code": "reservation_status",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สถานะการจอง"
+      },
+      {
+        "code": "lo",
+        "text": "ສະຖານະການຈອງ"
+      },
+      {
+        "code": "en",
+        "text": "Reservation Status"
+      },
+      {
+        "code": "zh-cn",
+        "text": "预订状态"
+      }
+    ]
+  },
+  {
+    "code": "reservation_id",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รหัสการจอง"
+      },
+      {
+        "code": "lo",
+        "text": "ລະຫັດການຈອງ"
+      },
+      {
+        "code": "en",
+        "text": "Reservation ID"
+      },
+      {
+        "code": "zh-cn",
+        "text": "预订ID"
+      }
+    ]
+  },
+  {
+    "code": "time_remaining",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เวลาคงเหลือ"
+      },
+      {
+        "code": "lo",
+        "text": "ເວລາຄົງເຫຼືອ"
+      },
+      {
+        "code": "en",
+        "text": "Time Remaining"
+      },
+      {
+        "code": "zh-cn",
+        "text": "剩余时间"
+      }
+    ]
+  },
+  {
+    "code": "reservation_expiring_soon",
+    "langs": [
+      {
+        "code": "th",
+        "text": "การจองจะหมดอายุเร็วๆ นี้"
+      },
+      {
+        "code": "lo",
+        "text": "ການຈອງຈະໝົດອາຍຸເຮັວໆນີ້"
+      },
+      {
+        "code": "en",
+        "text": "Reservation expiring soon"
+      },
+      {
+        "code": "zh-cn",
+        "text": "预订即将到期"
+      }
+    ]
+  },
+  {
+    "code": "reservation_expired",
+    "langs": [
+      {
+        "code": "th",
+        "text": "การจองหมดอายุแล้ว"
+      },
+      {
+        "code": "lo",
+        "text": "ການຈອງໝົດອາຍຸແລ້ວ"
+      },
+      {
+        "code": "en",
+        "text": "Reservation expired"
+      },
+      {
+        "code": "zh-cn",
+        "text": "预订已过期"
+      }
+    ]
+  },
+  {
+    "code": "coupon_reservation_expired",
+    "langs": [
+      {
+        "code": "th",
+        "text": "การจองคูปองหมดอายุแล้ว"
+      },
+      {
+        "code": "lo",
+        "text": "ການຈອງຄູປອງໝົດອາຍຸແລ້ວ"
+      },
+      {
+        "code": "en",
+        "text": "Coupon reservation expired"
+      },
+      {
+        "code": "zh-cn",
+        "text": "优惠券预订已过期"
+      }
+    ]
+  },
+  {
+    "code": "reservation_cancelled",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยกเลิกการจองแล้ว"
+      },
+      {
+        "code": "lo",
+        "text": "ຍົກເລີກການຈອງແລ້ວ"
+      },
+      {
+        "code": "en",
+        "text": "Reservation cancelled"
+      },
+      {
+        "code": "zh-cn",
+        "text": "预订已取消"
+      }
+    ]
+  },
+  {
+    "code": "coupon_used_successfully",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ใช้คูปองเรียบร้อยแล้ว"
+      },
+      {
+        "code": "lo",
+        "text": "ໃຊ້ຄູປອງຮຽບຮ້ອຍແລ້ວ"
+      },
+      {
+        "code": "en",
+        "text": "Coupon used successfully"
+      },
+      {
+        "code": "zh-cn",
+        "text": "优惠券使用成功"
+      }
+    ]
+  },
+  {
+    "code": "failed_to_use_coupon",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่สามารถใช้คูปองได้"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ສາມາດໃຊ້ຄູປອງໄດ້"
+      },
+      {
+        "code": "en",
+        "text": "Failed to use coupon"
+      },
+      {
+        "code": "zh-cn",
+        "text": "使用优惠券失败"
+      }
+    ]
+  },
+  {
+    "code": "coupon_expired",
+    "langs": [
+      {
+        "code": "th",
+        "text": "คูปองหมดอายุแล้ว"
+      },
+      {
+        "code": "lo",
+        "text": "ຄູປອງໝົດອາຍຸແລ້ວ"
+      },
+      {
+        "code": "en",
+        "text": "Coupon expired"
+      },
+      {
+        "code": "zh-cn",
+        "text": "优惠券已过期"
+      }
+    ]
+  },
+  {
+    "code": "coupon_insufficient_balance",
+    "langs": [
+      {
+        "code": "th",
+        "text": "คูปองมีมูลค่าไม่เพียงพอ"
+      },
+      {
+        "code": "lo",
+        "text": "ຄູປອງມີມູນຄ່າບໍ່ພຽງພໍ"
+      },
+      {
+        "code": "en",
+        "text": "Coupon insufficient balance"
+      },
+      {
+        "code": "zh-cn",
+        "text": "优惠券余额不足"
+      }
+    ]
+  },
+  {
+    "code": "coupon_already_used",
+    "langs": [
+      {
+        "code": "th",
+        "text": "คูปองถูกใช้งานไปแล้ว"
+      },
+      {
+        "code": "lo",
+        "text": "ຄູປອງຖືກໃຊ້ງານໄປແລ້ວ"
+      },
+      {
+        "code": "en",
+        "text": "Coupon already used"
+      },
+      {
+        "code": "zh-cn",
+        "text": "优惠券已使用"
+      }
+    ]
+  },
+  {
+    "code": "coupon_not_found",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่พบคูปอง"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ພບຄູປອງ"
+      },
+      {
+        "code": "en",
+        "text": "Coupon not found"
+      },
+      {
+        "code": "zh-cn",
+        "text": "未找到优惠券"
+      }
+    ]
+  },  {
+    "code": "network_error",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เกิดข้อผิดพลาดเครือข่าย"
+      },
+      {
+        "code": "lo",
+        "text": "ເກີດຂໍ້ຜິດພາດເຄືອຂ່າຍ"
+      },
+      {
+        "code": "en",
+        "text": "Network error"
+      },
+      {
+        "code": "zh-cn",
+        "text": "网络错误"
+      }
+    ]
+  },
+  {
+    "code": "coupon_type",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ประเภทคูปอง"
+      },
+      {
+        "code": "lo",
+        "text": "ປະເພດຄູປອງ"
+      },
+      {
+        "code": "en",
+        "text": "Coupon Type"
+      },
+      {
+        "code": "zh-cn",
+        "text": "优惠券类型"
+      }
+    ]
+  },
+  {
+    "code": "value_discount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ส่วนลดตามมูลค่า"
+      },
+      {
+        "code": "lo",
+        "text": "ສ່ວນລົດຕາມມູນຄ່າ"
+      },
+      {
+        "code": "en",
+        "text": "Value Discount"
+      },
+      {
+        "code": "zh-cn",
+        "text": "价值折扣"
+      }
+    ]
+  },
+  {
+    "code": "percent_discount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ส่วนลดตามเปอร์เซ็นต์"
+      },
+      {
+        "code": "lo",
+        "text": "ສ່ວນລົດຕາມເປີເຊັນ"
+      },
+      {
+        "code": "en",
+        "text": "Percent Discount"
+      },
+      {
+        "code": "zh-cn",
+        "text": "百分比折扣"
+      }
+    ]
+  },  {
+    "code": "cash_coupon",
+    "langs": [
+      {
+        "code": "th",
+        "text": "คูปองแทนเงินสด"
+      },
+      {
+        "code": "lo",
+        "text": "ຄູປອງແທນເງິນສົດ"
+      },
+      {
+        "code": "en",
+        "text": "Cash Coupon"
+      },
+      {
+        "code": "zh-cn",
+        "text": "现金券"
+      }
+    ]
+  },
+  {
+    "code": "available_coupons",
+    "langs": [
+      {
+        "code": "th",
+        "text": "คูปองที่พร้อมใช้งาน"
+      },
+      {
+        "code": "lo",
+        "text": "ຄູປອງທີ່ພ້ອມໃຊ້ງານ"
+      },
+      {
+        "code": "en",
+        "text": "Available Coupons"
+      },
+      {
+        "code": "zh-cn",
+        "text": "可用优惠券"
+      }
+    ]
+  },
+  {
+    "code": "select",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลือก"
+      },
+      {
+        "code": "lo",
+        "text": "ເລືອກ"
+      },
+      {
+        "code": "en",
+        "text": "Select"
+      },
+      {
+        "code": "zh-cn",
+        "text": "选择"
+      }
+    ]
+  },
+  {
+    "code": "selected",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลือกแล้ว"
+      },
+      {
+        "code": "lo",
+        "text": "ເລືອກແລ້ວ"
+      },
+      {
+        "code": "en",
+        "text": "Selected"
+      },
+      {
+        "code": "zh-cn",
+        "text": "已选择"
+      }
+    ]
+  },  {
+    "code": "expiry_date",
+    "langs": [
+      {
+        "code": "th",
+        "text": "วันหมดอายุ"
+      },
+      {
+        "code": "lo",
+        "text": "ວັນໝົດອາຍຸ"
+      },
+      {
+        "code": "en",
+        "text": "Expiry Date"
+      },
+      {
+        "code": "zh-cn",
+        "text": "到期日期"
+      }
+    ]
+  },
+  {
+    "code": "please_select_coupons",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กรุณาเลือกคูปอง"
+      },
+      {
+        "code": "lo",
+        "text": "ກະລຸນາເລືອກຄູປອງ"
+      },
+      {
+        "code": "en",
+        "text": "Please select coupons"
+      },
+      {
+        "code": "zh-cn",
+        "text": "请选择优惠券"
+      }
+    ]
+  },
+  {
+    "code": "calculation_complete",
+    "langs": [
+      {
+        "code": "th",
+        "text": "คำนวณเสร็จสิ้น"
+      },
+      {
+        "code": "lo",
+        "text": "ການຄິດໄລ່ສຳເລັດ"
+      },
+      {
+        "code": "en",
+        "text": "Calculation Complete"
+      },
+      {
+        "code": "zh-cn",
+        "text": "计算完成"
+      }
+    ]
+  },
+  {
+    "code": "total_discount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ส่วนลดรวม"
+      },
+      {
+        "code": "lo",
+        "text": "ສ່ວນລົດລວມ"
+      },
+      {
+        "code": "en",
+        "text": "Total Discount"
+      },
+      {
+        "code": "zh-cn",
+        "text": "总折扣"
+      }
+    ]
+  },
+  {
+    "code": "credit",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เงินเชื่อ"
+      },
+      {
+        "code": "lo",
+        "text": "ເງິນ"
+      },
+      {
+        "code": "en",
+        "text": "Credit"
+      },
+      {
+        "code": "zh-cn",
+        "text": "信用"
+      }
+    ]
+  },
+  {
+    "code": "credit_card",
+    "langs": [
+      {
+        "code": "th",
+        "text": "บัตรเครดิต"
+      },
+      {
+        "code": "lo",
+        "text": "ບັດ​ເຄຣ​ດິດ"
+      },
+      {
+        "code": "en",
+        "text": "Credit card"
+      },
+      {
+        "code": "zh-cn",
+        "text": "信用卡"
+      }
+    ]
+  },
+  {
+    "code": "credit_card_save",
+    "langs": [
+      {
+        "code": "th",
+        "text": "บันทึกบัตรเครดิต"
+      },
+      {
+        "code": "lo",
+        "text": "ການບັນທຶກບັດເຄດິດ"
+      },
+      {
+        "code": "en",
+        "text": "Save credit card"
+      },
+      {
+        "code": "zh-cn",
+        "text": "保存信用卡"
+      }
+    ]
+  },
+  {
+    "code": "customer",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ลูกค้า"
+      },
+      {
+        "code": "lo",
+        "text": "ລູກຄ້າ"
+      },
+      {
+        "code": "en",
+        "text": "Customer"
+      },
+      {
+        "code": "zh-cn",
+        "text": "顾客"
+      }
+    ]
+  },
+  {
+    "code": "customer_address",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ที่อยู่ลูกค้า"
+      },
+      {
+        "code": "lo",
+        "text": "ທີ່ຢູ່ຂອງລູກຄ້າ"
+      },
+      {
+        "code": "en",
+        "text": "Customer address"
+      },
+      {
+        "code": "zh-cn",
+        "text": "顾客地址"
+      }
+    ]
+  },
+  
+    {
+    "code": "customer_telephone",
+    "langs": [
+      {
+        "code": "th",
+        "text": "หมายเลขโทรศัพท์ลูกค้า"
+      },
+      {
+        "code": "lo",
+        "text": "ເບີ​ໂທລະ​ສັບລູກຄ້າ"
+      },
+      {
+        "code": "en",
+        "text": "Customer telephone"
+      },
+      {
+        "code": "zh-cn",
+        "text": "顾客电话"
+      }
+    ]
+  },
+  {
+    "code": "customer_branch_number",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สาขา"
+      },
+      {
+        "code": "lo",
+        "text": "ສາຂາ"
+      },
+      {
+        "code": "en",
+        "text": "Branch"
+      },
+      {
+        "code": "zh-cn",
+        "text": "分店"
+      }
+    ]
+  },
+  {
+    "code": "customer_code",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รหัสลูกค้า"
+      },
+      {
+        "code": "lo",
+        "text": "ລະຫັດລູກຄ້າ"
+      },
+      {
+        "code": "en",
+        "text": "Customer code"
+      },
+      {
+        "code": "zh-cn",
+        "text": "顾客代码"
+      }
+    ]
+  },
+  {
+    "code": "customer_name",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ชื่อลูกค้า"
+      },
+      {
+        "code": "lo",
+        "text": "ຊື່ລູກຄ້າ"
+      },
+      {
+        "code": "en",
+        "text": "Customer name"
+      },
+      {
+        "code": "zh-cn",
+        "text": "顾客姓名"
+      }
+    ]
+  },
+  {
+    "code": "customer_phone",
+    "langs": [
+      {
+        "code": "th",
+        "text": "หมายเลขโทรศัพท์"
+      },
+      {
+        "code": "lo",
+        "text": "ເບີ​ໂທລະ​ສັບ"
+      },
+      {
+        "code": "en",
+        "text": "Phone number"
+      },
+      {
+        "code": "zh-cn",
+        "text": "电话号码"
+      }
+    ]
+  },
+  {
+    "code": "customer_tax_id",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลขที่ผู้เสียภาษี"
+      },
+      {
+        "code": "lo",
+        "text": "ຈໍານວນຜູ້ເສຍພາສີ"
+      },
+      {
+        "code": "en",
+        "text": "Tax ID number"
+      },
+      {
+        "code": "zh-cn",
+        "text": "税号"
+      }
+    ]
+  },
+  {
+    "code": "dashboard",
+    "langs": [
+      {
+        "code": "th",
+        "text": "แผงควบคุม"
+      },
+      {
+        "code": "lo",
+        "text": "ກະດານຄວບຄຸມ"
+      },
+      {
+        "code": "en",
+        "text": "Dashboard"
+      },
+      {
+        "code": "zh-cn",
+        "text": "控制面板"
+      }
+    ]
+  },
+  {
+    "code": "delete",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ลบ"
+      },
+      {
+        "code": "lo",
+        "text": "ລົບ"
+      },
+      {
+        "code": "en",
+        "text": "Delete"
+      },
+      {
+        "code": "zh-cn",
+        "text": "删除"
+      }
+    ]
+  },
+  {
+    "code": "delete_confirm",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยืนยันลบ"
+      },
+      {
+        "code": "lo",
+        "text": "ຢືນຢັນ"
+      },
+      {
+        "code": "en",
+        "text": "Confirm delete"
+      },
+      {
+        "code": "zh-cn",
+        "text": "确认删除"
+      }
+    ]
+  },
+  {
+    "code": "description",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รายละเอียด"
+      },
+      {
+        "code": "lo",
+        "text": "ລາຍລະອຽດ"
+      },
+      {
+        "code": "en",
+        "text": "Details"
+      },
+      {
+        "code": "zh-cn",
+        "text": "详情"
+      }
+    ]
+  },
+  {
+    "code": "discount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ส่วนลด"
+      },
+      {
+        "code": "lo",
+        "text": "ສ່ວນຫຼຸດ"
+      },
+      {
+        "code": "en",
+        "text": "Discount"
+      },
+      {
+        "code": "zh-cn",
+        "text": "折扣"
+      }
+    ]
+  },
+  {
+    "code": "discount_cancel",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยกเลิกส่วนลด"
+      },
+      {
+        "code": "lo",
+        "text": "ຍົກເລີກການ"
+      },
+      {
+        "code": "en",
+        "text": "Cancel discount"
+      },
+      {
+        "code": "zh-cn",
+        "text": "取消折扣"
+      }
+    ]
+  },
+  {
+    "code": "discount_formula_example",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สูตรส่วนลด เช่น 5%,10,3%,20 = ลด 5% แล้วลดอีก 10 บาท แล้วลดอีก 3% แล้วลดอีก 20 บาท"
+      },
+      {
+        "code": "lo",
+        "text": "ສ່ວນຫຼຸດເຊັ່ນ 5%, 10,3%, 20 = ຫຼຸດຜ່ອນອີກ 10% ແລະຫຼັງຈາກນັ້ນຫຼຸດອີກ 3% ແລະຫຼັງຈາກນັ້ນກໍ່ຫຼຸດອີກ 20 ບາດ"
+      },
+      {
+        "code": "en",
+        "text": "Discount formula e.g. 5%,10,3%,20 = 5% discount, then 10 dollars off, then 3% discount, then 20 dollars off"
+      },
+      {
+        "code": "zh-cn",
+        "text": "折扣公式例如 5%,10,3%,20 = 先减5%，再减10元，再减3%，最后再减20元"
+      }
+    ]
+  },
+  {
+    "code": "discount_plus",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เพิ่มส่วนลด"
+      },
+      {
+        "code": "lo",
+        "text": "ເພີ່ມສ່ວນຫຼຸດ"
+      },
+      {
+        "code": "en",
+        "text": "Add discount"
+      },
+      {
+        "code": "zh-cn",
+        "text": "添加折扣"
+      }
+    ]
+  },
+  {
+    "code": "doc_date",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เอกสารวันที่"
+      },
+      {
+        "code": "lo",
+        "text": "ເອກະສານ"
+      },
+      {
+        "code": "en",
+        "text": "Document date"
+      },
+      {
+        "code": "zh-cn",
+        "text": "文件日期"
+      }
+    ]
+  },
+    {
+    "code": "date",
+    "langs": [
+      {
+        "code": "th",
+        "text": "วันที่"
+      },
+      {
+        "code": "lo",
+        "text": "ວັນທີ"
+      },
+      {
+        "code": "en",
+        "text": "Date"
+      },
+      {
+        "code": "zh-cn",
+        "text": "日期"
+      }
+    ]
+  },
+  {
+  "code": "search_customer",
+  "langs": [
+    {
+      "code": "th",
+      "text": "ค้นหาลูกค้า"
+    },
+    {
+      "code": "lo", 
+      "text": "ຊອກຫາລູກຄ້າ"
+    },
+    {
+      "code": "en",
+      "text": "Search Customer"
+    },
+    {
+      "code": "zh-cn",
+      "text": "搜索客户"
+    }
+  ]
+},
+{
+  "code": "search_by_name_code_phone",
+  "langs": [
+    {
+      "code": "th",
+      "text": "ค้นหาด้วยชื่อ, รหัส หรือเบอร์โทร"
+    },
+    {
+      "code": "lo",
+      "text": "ຊອກຫາດ້ວຍຊື່, ລະຫັດ ຫຼື ເບີໂທ"
+    },
+    {
+      "code": "en", 
+      "text": "Search by name, code or phone"
+    },
+    {
+      "code": "zh-cn",
+      "text": "按姓名、代码或电话搜索"
+    }
+  ]
+},
+{
+  "code": "enter_search_terms",
+  "langs": [
+    {
+      "code": "th",
+      "text": "กรอกคำค้นหา"
+    },
+    {
+      "code": "lo",
+      "text": "ໃສ່ຄຳຊອກຫາ"
+    },
+    {
+      "code": "en",
+      "text": "Enter search terms"
+    },
+    {
+      "code": "zh-cn", 
+      "text": "输入搜索词"
+    }
+  ]
+},
+{
+  "code": "no_customers_found",
+  "langs": [
+    {
+      "code": "th",
+      "text": "ไม่พบลูกค้า"
+    },
+    {
+      "code": "lo",
+      "text": "ບໍ່ພົບລູກຄ້າ"
+    },
+    {
+      "code": "en",
+      "text": "No customers found"
+    },
+    {
+      "code": "zh-cn",
+      "text": "未找到客户"
+    }
+  ]
+},
+  {
+    "code": "doc_number",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เอกสารเลขที่"
+      },
+      {
+        "code": "lo",
+        "text": "ເອກະສານ"
+      },
+      {
+        "code": "en",
+        "text": "Document number"
+      },
+      {
+        "code": "zh-cn",
+        "text": "文件号码"
+      }
+    ]
+  },
+  {
+    "code": "doc_return",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เอกสารรับคืนเลขที่"
+      },
+      {
+        "code": "lo",
+        "text": "ໄດ້ຮັບເອກະສານ"
+      },
+      {
+        "code": "en",
+        "text": "Document return number"
+      },
+      {
+        "code": "zh-cn",
+        "text": "文件返回号码"
+      }
+    ]
+  },
+  {
+    "code": "doc_sale",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ขายสินค้า"
+      },
+      {
+        "code": "lo",
+        "text": "ຂາຍສິນຄ້າ"
+      },
+      {
+        "code": "en",
+        "text": "Sell products"
+      },
+      {
+        "code": "zh-cn",
+        "text": "销售产品"
+      }
+    ]
+  },
+  {
+    "code": "doc_time",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เวลา"
+      },
+      {
+        "code": "lo",
+        "text": "ເວລາ"
+      },
+      {
+        "code": "en",
+        "text": "Time"
+      },
+      {
+        "code": "zh-cn",
+        "text": "\t时间"
+      }
+    ]
+  },
+  {
+    "code": "due_date",
+    "langs": [
+      {
+        "code": "th",
+        "text": "วันครบกำหนด"
+      },
+      {
+        "code": "lo",
+        "text": "ວັນທີປ້ອງກັນ"
+      },
+      {
+        "code": "en",
+        "text": "Due date"
+      },
+      {
+        "code": "zh-cn",
+        "text": "到期日"
+      }
+    ]
+  },
+  {
+    "code": "emp_code",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รหัสพนักงาน"
+      },
+      {
+        "code": "lo",
+        "text": "ລະຫັດພະນັກງານ"
+      },
+      {
+        "code": "en",
+        "text": "Employee code"
+      },
+      {
+        "code": "zh-cn",
+        "text": "员工代码"
+      }
+    ]
+  },
+  {
+    "code": "employee_code",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รหัสพนักงาน"
+      },
+      {
+        "code": "lo",
+        "text": "ລະຫັດພະນັກງານ"
+      },
+      {
+        "code": "en",
+        "text": "Employee code"
+      },
+      {
+        "code": "zh-cn",
+        "text": "员工代码"
+      }
+    ]
+  },
+  {
+    "code": "employee_name",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ชื่อพนักงาน"
+      },
+      {
+        "code": "lo",
+        "text": "ຊື່ພະນັກງານ"
+      },
+      {
+        "code": "en",
+        "text": "Employee name"
+      },
+      {
+        "code": "zh-cn",
+        "text": "员工姓名"
+      }
+    ]
+  },
+  {
+    "code": "error_connect_printer",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เครื่องพิมพ์ผิดพลาด"
+      },
+      {
+        "code": "lo",
+        "text": "ເຄື່ອງພິມທີ່ບໍ່ຖືກຕ້ອງ"
+      },
+      {
+        "code": "en",
+        "text": "Printer error"
+      },
+      {
+        "code": "zh-cn",
+        "text": "打印机错误"
+      }
+    ]
+  },
+  {
+    "code": "fail",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ผิดพลาด"
+      },
+      {
+        "code": "lo",
+        "text": "ຜິດພາດ"
+      },
+      {
+        "code": "en",
+        "text": "Fail"
+      },
+      {
+        "code": "zh-cn",
+        "text": "失败"
+      }
+    ]
+  },
+  {
+    "code": "company_address",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ที่อยู่บริษัท"
+      },
+      {
+        "code": "lo",
+        "text": "ທີ່ຢູ່ບໍລິສັດ"
+      },
+      {
+        "code": "en",
+        "text": "Company address"
+      },
+      {
+        "code": "zh-cn",
+        "text": "公司地址"
+      }
+    ]
+  },
+  {
+    "code": "company_branch_number",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สาขาบริษัท"
+      },
+      {
+        "code": "lo",
+        "text": "ສາຂາບໍລິສັດ"
+      },
+      {
+        "code": "en",
+        "text": "Company branch"
+      },
+      {
+        "code": "zh-cn",
+        "text": "公司分支"
+      }
+    ]
+  },  {
+    "code": "company_tax_id",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลขที่ผู้เสียภาษีบริษัท"
+      },
+      {
+        "code": "lo",
+        "text": "ຈໍານວນຜູ້ເສຍພາສີບໍລິສັດ"
+      },
+      {
+        "code": "en",
+        "text": "Company tax ID"
+      },
+      {
+        "code": "zh-cn",
+        "text": "公司税号"
+      }
+    ]
+  },
+  {
+    "code": "company_name",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ชื่อบริษัท"
+      },
+      {
+        "code": "lo",
+        "text": "ຊື່ບໍລິສັດ"
+      },
+      {
+        "code": "en",
+        "text": "Company name"
+      },
+      {
+        "code": "zh-cn",
+        "text": "公司名称"
+      }
+    ]
+  },
+  {
+    "code": "branch_name",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ชื่อสาขา"
+      },
+      {
+        "code": "lo",
+        "text": "ຊື່ສາຂາ"
+      },
+      {
+        "code": "en",
+        "text": "Branch name"
+      },
+      {
+        "code": "zh-cn",
+        "text": "分支名称"
+      }
+    ]
+  },
+  {
+    "code": "branch_code",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รหัสสาขา"
+      },
+      {
+        "code": "lo",
+        "text": "ລະຫັດສາຂາ"
+      },
+      {
+        "code": "en",
+        "text": "Branch code"
+      },
+      {
+        "code": "zh-cn",
+        "text": "分支代码"
+      }
+    ]
+  },
+  {
+    "code": "no_company_name",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่มีชื่อบริษัท"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ມີຊື່ບໍລິສັດ"
+      },
+      {
+        "code": "en",
+        "text": "No company name"
+      },
+      {
+        "code": "zh-cn",
+        "text": "无公司名称"
+      }
+    ]
+  },
+  {
+    "code": "no_branch_name",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่มีชื่อสาขา"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ມີຊື່ສາຂາ"
+      },
+      {
+        "code": "en",
+        "text": "No branch name"
+      },
+      {
+        "code": "zh-cn",
+        "text": "无分支名称"
+      }
+    ]
+  },
+  {
+    "code": "no_branch_code",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่มีรหัสสาขา"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ມີລະຫັດສາຂາ"
+      },
+      {
+        "code": "en",
+        "text": "No branch code"
+      },
+      {
+        "code": "zh-cn",
+        "text": "无分支代码"
+      }
+    ]
+  },
+  {
+    "code": "find_employee",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ค้นหาพนักงาน"
+      },
+      {
+        "code": "lo",
+        "text": "ພະນັກງານຄົ້ນຫາ"
+      },
+      {
+        "code": "en",
+        "text": "Find employee"
+      },
+      {
+        "code": "zh-cn",
+        "text": "查找员工"
+      }
+    ]
+  },
+  {
+    "code": "full_bill_vat",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ใบกำกับแบบเต็ม"
+      },
+      {
+        "code": "lo",
+        "text": "ການຊີ້ນໍາຢ່າງເຕັມທີ່"
+      },
+      {
+        "code": "en",
+        "text": "Full bill VAT"
+      },
+      {
+        "code": "zh-cn",
+        "text": "完整的发票增值税"
+      }
+    ]
+  },
+  {
+    "code": "hold_bill",
+    "langs": [
+      {
+        "code": "th",
+        "text": "พักบิล"
+      },
+      {
+        "code": "lo",
+        "text": "ບັນຊີ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "is",
+    "langs": [
+      {
+        "code": "th",
+        "text": "คือ"
+      },
+      {
+        "code": "lo",
+        "text": "ແມ່ນ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "item_grid_description",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รายละเอียดสินค้า"
+      },
+      {
+        "code": "lo",
+        "text": "ລາຍລະອຽດຂອງຜະລິດຕະພັນ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "item_grid_total",
+    "langs": [
+      {
+        "code": "th",
+        "text": "จำนวน"
+      },
+      {
+        "code": "lo",
+        "text": "ປະລິມານ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "item_name",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ชื่อสินค้า"
+      },
+      {
+        "code": "lo",
+        "text": "ຊື່​ຜະ​ລິດ​ຕະ​ພັນ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "item_not_found",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่พบสินค้า"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ມີສິນຄ້າ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "line",
+    "langs": [
+      {
+        "code": "th",
+        "text": "บรรทัด"
+      },
+      {
+        "code": "lo",
+        "text": "ເສັ້ນ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "list",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รายการ"
+      },
+      {
+        "code": "lo",
+        "text": "ລາຍຊື່"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  
+  {
+    "code": "barcodechecker",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ตรวจสอบบาร์โค้ด"
+      },
+      {
+        "code": "lo",
+        "text": "ການຕວດສອບບາດໂຄດ"
+      },
+      {
+        "code": "en",
+        "text": "Barcode Checker"
+      },
+      {
+        "code": "zh-cn",
+        "text": "条形码检查器"
+      }
+    ]
+  },
+  {
+    "code": "pricechecker",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เพิ่มราคาสินค้า"
+      },
+      {
+        "code": "lo",
+        "text": "ເພີ່ມລາຄາສິນຄ້າ"
+      },
+      {
+        "code": "en",
+        "text": "Price Checker"
+      },
+      {
+        "code": "zh-cn",
+        "text": "价格检查器"
+      }
+    ]
+  },
+  {
+    "code": "category",
+    "langs": [
+      {
+        "code": "th",
+        "text": "หมวดสินค้า"
+      },
+      {
+        "code": "lo",
+        "text": "ປະເພດສິນຄ້າ"
+      },
+      {
+        "code": "en",
+        "text": "Category"
+      },
+      {
+        "code": "zh-cn",
+        "text": "商品类别"
+      }
+    ]
+  },
+  {
+    "code": "find_item",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ค้นหาสินค้า"
+      },
+      {
+        "code": "lo",
+        "text": "ຊອກຫາສິນຄ້າ"
+      },
+      {
+        "code": "en",
+        "text": "Find item"
+      },
+      {
+        "code": "zh-cn",
+        "text": "查找商品"
+      }
+    ]
+  },
+  {
+    "code": "login",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เข้าสู่ระบบ"
+      },
+      {
+        "code": "lo",
+        "text": "ເຂົ້າ​ສູ່​ລະ​ບົບ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "log_out",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ชื่อธนาคาร"
+      },
+      {
+        "code": "lo",
+        "text": "ຊື່ທະນາຄານ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "log_out",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ออกจากระบบ"
+      },
+      {
+        "code": "lo",
+        "text": "ອອກຈາກລະບົບ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "logout",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ออกจากระบบ"
+      },
+      {
+        "code": "lo",
+        "text": "ອອກຈາກລະບົບ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  
+  {
+    "code": "remove_coupon",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ลบคูปอง"
+      },
+      {
+        "code": "lo",
+        "text": "ລົບຄູປອນ"
+      },
+      {
+        "code": "en",
+        "text": "Remove coupon"
+      },
+      {
+        "code": "zh-cn",
+        "text": "删除优惠券"
+      }
+    ]
+  },
+  
+  {
+    "code": "remove_coupon_title",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ลบคูปอง"
+      },
+      {
+        "code": "lo",
+        "text": "ລົບຄູປອນ"
+      },
+      {
+        "code": "en",
+        "text": "Remove coupon"
+      },
+      {
+        "code": "zh-cn",
+        "text": "删除优惠券"
+      }
+    ]
+  },
+  
+  {
+    "code": "remove_coupon_description",
+    "langs": [
+      {
+        "code": "th",
+        "text": "คุณต้องการลบคูปองนี้หรือไม่?"
+      },
+      {
+        "code": "lo",
+        "text": "ທ່ານຕ້ອງການລົບຄູປອນນີ້ບໍ?"
+      },
+      {
+        "code": "en",
+        "text": "Do you want to remove this coupon?"
+      },
+      {
+        "code": "zh-cn",
+        "text": "您确定要删除此优惠券吗？"
+      }
+    ]
+  },
+  {
+    "code": "remove_coupon_success",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ลบคูปองเรียบร้อยแล้ว"
+      },
+      {
+        "code": "lo",
+        "text": "ລົບຄູປອນແລ້ວ"
+      },
+      {
+        "code": "en",
+        "text": "Coupon removed successfully"
+      },
+      {
+        "code": "zh-cn",
+        "text": "优惠券已成功删除"
+      }
+    ]
+  },
+  {
+    "code": "remove_coupon_error",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เกิดข้อผิดพลาดในการลบคูปอง"
+      },
+      {
+        "code": "lo",
+        "text": "ການລົບຄູປອນມີຂໍ້ຜິດພາດ"
+      },
+      {
+        "code": "en",
+        "text": "Error removing coupon"
+      },
+      {
+        "code": "zh-cn",
+        "text": "删除优惠券时出错"
+      }
+    ]
+  },
+  {
+    "code": "remove_coupon_confirm",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยืนยันการลบคูปอง"
+      },
+      {
+        "code": "lo",
+        "text": "ຢືນຢັນການລົບຄູປອນ"
+      },
+      {
+        "code": "en",
+        "text": "Confirm remove coupon"
+      },
+      {
+        "code": "zh-cn",
+        "text": "确认删除优惠券"
+      }
+    ]
+  },
+  {
+    "code": "remaining_usage",
+    "langs": [
+      {
+        "code": "th",
+        "text": "คงเหลือ"
+      },
+      {
+        "code": "lo",
+        "text": "ຄົງເຫລືອ"
+      },
+      {
+        "code": "en",
+        "text": "Remain"
+      },
+      {
+        "code": "zh-cn",
+        "text": "剩余"
+      }
+    ]
+    
+  },
+  
+  {
+    "code": "value",
+    "langs": [
+      {
+        "code": "th",
+        "text": "มูลค่า"
+      },
+      {
+        "code": "lo",
+        "text": "ມູນຄ່າ"
+      },
+      {
+        "code": "en",
+        "text": "Value"
+      },
+      {
+        "code": "zh-cn",
+        "text": "价值"
+      }
+    ]
+    
+  },
+
+  {
+    "code": "main_screen",
+    "langs": [
+      {
+        "code": "th",
+        "text": "หน้าจอหลัก"
+      },
+      {
+        "code": "lo",
+        "text": "ຫນ້າຈໍຫຼັກ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "max",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สูงสุด"
+      },
+      {
+        "code": "lo",
+        "text": "ສູງສຸດ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "minus",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ลดลง"
+      },
+      {
+        "code": "lo",
+        "text": "ລົດລົງ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },  {
+    "code": "money_amount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รวมเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ເງິນ"
+      },
+      {
+        "code": "en",
+        "text": "Amount"
+      },
+      {
+        "code": "zh-cn",
+        "text": "金额"
+      }
+    ]
+  },  {
+    "code": "money_change",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เงินทอน"
+      },
+      {
+        "code": "lo",
+        "text": "ແປງ"
+      },
+      {
+        "code": "en",
+        "text": "Change"
+      },
+      {
+        "code": "zh-cn",
+        "text": "找零"
+      }
+    ]
+  },
+  {
+    "code": "money_symbol",
+    "langs": [
+      {
+        "code": "th",
+        "text": "บาท"
+      },
+      {
+        "code": "lo",
+        "text": "ບາດແຜ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "money_transfer",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เงินโอน"
+      },
+      {
+        "code": "lo",
+        "text": "ໂອນເງິນ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "new_password",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รหัสผ่านใหม่"
+      },
+      {
+        "code": "lo",
+        "text": "ລະຫັດລັບໃຫມ່"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "new_password_confirm",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยืนยันรหัสผ่านใหม่"
+      },
+      {
+        "code": "lo",
+        "text": "ຢືນຢັນລະຫັດລັບໃຫມ່"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "new_password_not_match",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รหัสผ่านไม่ตรงกัน"
+      },
+      {
+        "code": "lo",
+        "text": "ລະຫັດຜ່ານບໍ່ກົງກັນ."
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "not_ready",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่พร้อม"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ພ້ອມ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "ok",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ตกลง"
+      },
+      {
+        "code": "lo",
+        "text": "ຕົກລົງ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "old_password",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รหัสผ่านเดิม"
+      },
+      {
+        "code": "lo",
+        "text": "ລະຫັດຜ່ານເດີມ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "old_password_not_match",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รหัสผ่านไม่ตรงกัน"
+      },
+      {
+        "code": "lo",
+        "text": "ລະຫັດຜ່ານບໍ່ກົງກັນ."
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "one",
+    "langs": [
+      {
+        "code": "th",
+        "text": "หนึ่ง"
+      },
+      {
+        "code": "lo",
+        "text": "ຫນຶ່ງ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "open_cash_drawer",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เปิดลิ้นชัก"
+      },
+      {
+        "code": "lo",
+        "text": "ເປີດຕູ້ລິ້ນຊັກ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "open_period",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เปิดกะ"
+      },
+      {
+        "code": "lo",
+        "text": "ເປີດ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "open_shift",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เปิดกะ"
+      },
+      {
+        "code": "lo",
+        "text": "ເປີດ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "open_the_cash_register_and_change",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เปิดกะ/รับเงินทอน"
+      },
+      {
+        "code": "lo",
+        "text": "ເປີດ / ໄດ້ຮັບການປ່ຽນແປງ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "or",
+    "langs": [
+      {
+        "code": "th",
+        "text": "หรือ"
+      },
+      {
+        "code": "lo",
+        "text": "ຫຼື"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "password",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รหัสผ่าน"
+      },
+      {
+        "code": "lo",
+        "text": "ລະຫັດຜ່ານ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+
+  {
+    "code": "clear_bill",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ล้างข้อมูล ใช่หรือไม่"
+      },
+      {
+        "code": "lo",
+        "text": "ລໍາບາດຂໍໍ່ສະແດງ"
+      },
+      {
+        "code": "en",
+        "text": "Clear data, is it?"
+      },
+      {
+        "code": "zh-cn",
+        "text": "清除数据，是否？"
+      }
+    ]
+  },
+  {
+    "code": "teble_is_selected",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ลบข้อมูลในโต๊ะ ใช่หรือไม่"
+      },
+      {
+        "code": "lo",
+        "text": "ລົບຂໍໍ່ສະແດງ"
+      },
+      {
+        "code": "en",
+        "text": "Delete data in the table, is it?"
+      },
+      {
+        "code": "zh-cn",
+        "text": "删除数据在表格中，是吗？"
+      }
+    ]
+  },
+  {
+    "code": "pay",
+    "langs": [
+      {
+        "code": "th",
+        "text": "จ่ายชำระเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ຈ່າຍ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "enter_points_code",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กรอกรหัสแต้มสะสม"
+      },
+      {
+        "code": "lo",
+        "text": "ປ້ອນລະຫັດຈຸດ"
+      },
+      {
+        "code": "en",
+        "text": "Enter points code"
+      },
+      {
+        "code": "zh-cn",
+        "text": "输入积分代码"
+      }
+    ]
+  },
+  {
+    "code": "pay_channel",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ช่องทางการจ่ายชำระเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ຊ່ອງທາງການຈ່າຍເງິນ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "payment_channel",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ช่องทางการจ่ายชำระเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ຊ່ອງທາງການຈ່າຍເງິນ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "pay_qr_code_full_amount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยอดชำระด้วย Qr Code"
+      },
+      {
+        "code": "lo",
+        "text": "ການຊໍາລະເງິນກັບ QR Code"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "piece",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ชิ้น"
+      },
+      {
+        "code": "lo",
+        "text": "ລາຍການ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "please_select_bank",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลือกธนาคาร"
+      },
+      {
+        "code": "lo",
+        "text": "ເລືອກທະນາຄານ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "plus",
+    "langs": [
+      {
+        "code": "th",
+        "text": "บวกเพิ่ม"
+      },
+      {
+        "code": "lo",
+        "text": "ບວກ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "pos_bill_vat",
+    "langs": [
+      {
+        "code": "th",
+        "text": "พิมพ์ใบกำกับภาษี"
+      },
+      {
+        "code": "lo",
+        "text": "ໃບເກັບເງິນ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  
+    {
+    "code": "continue_offline",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ดำเนินการต่อแบบออฟไลน์"
+      },
+      {
+        "code": "lo",
+        "text": "ດຳເນີນການຕໍ່ໄປແບບອອບໄລນ"
+      },
+      {
+        "code": "en",
+        "text": "Continue offline"
+      },
+      {
+        "code": "zh-cn",
+        "text": "继续离线"
+      }
+    ]
+  },
+      {
+    "code": "sync_timeout",
+    "langs": [
+      {
+        "code": "th",
+        "text": "การซิงค์ข้อมูลหมดเวลา"
+      },
+      {
+        "code": "lo",
+        "text": "ການຊິງຄ໌ໂທມເທາມ"
+      },
+      {
+        "code": "en",
+        "text": "Sync timeout"
+      },
+      {
+        "code": "zh-cn",
+        "text": "同步超时"
+      }
+    ]
+  },
+      {
+    "code": "network_lost",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เครือข่ายขัดข้อง"
+      },
+      {
+        "code": "lo",
+        "text": "ສິນຄ້າບໍ່ສາມາດສົ່ງ"
+      },
+      {
+        "code": "en",
+        "text": "Network lost"
+      },
+      {
+        "code": "zh-cn",
+        "text": "网络丢失"
+      }
+    ]
+  },
+  
+  
+  {
+    "code": "pos_bill_vat_detail",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รายละเอียดภาษี"
+      },
+      {
+        "code": "lo",
+        "text": "ລາຍລະອຽດພາສີ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "pos_hold_bill",
+    "langs": [
+      {
+        "code": "th",
+        "text": "พักบิล"
+      },
+      {
+        "code": "lo",
+        "text": "ບັນຊີ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "pos_hold_table",
+    "langs": [
+      {
+        "code": "th",
+        "text": "โต๊ะ"
+      },
+      {
+        "code": "lo",
+        "text": "ໂຕະ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "pos_register",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ลงทะเบียนเครื่อง POS"
+      },
+      {
+        "code": "lo",
+        "text": "ລົງທະບຽນ POS"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "pos_return_screen",
+    "langs": [
+      {
+        "code": "th",
+        "text": "หน้าจอรับคืน"
+      },
+      {
+        "code": "lo",
+        "text": "ຫນ້າຈໍຄືນ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "pos_list_bill",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รูปภาพบิลขาย"
+      },
+      {
+        "code": "lo",
+        "text": "ຫນ້າຈໍຄືນ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "bill_list",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รายการบิลขาย"
+      },
+      {
+        "code": "lo",
+        "text": "ຫນ້າຈໍຄືນ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "pos_screen",
+    "langs": [
+      {
+        "code": "th",
+        "text": "หน้าจอขาย"
+      },
+      {
+        "code": "lo",
+        "text": "ຫນ້າຈໍການຂາຍ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "pos_screen_return",
+    "langs": [
+      {
+        "code": "th",
+        "text": "หน้าจอรับคืน"
+      },
+      {
+        "code": "lo",
+        "text": "ຫນ້າຈໍຄືນ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "pos_screen_sale",
+    "langs": [
+      {
+        "code": "th",
+        "text": "หน้าจอขาย"
+      },
+      {
+        "code": "lo",
+        "text": "ຫນ້າຈໍການຂາຍ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "pos_terminal",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เครื่อง Terminal"
+      },
+      {
+        "code": "lo",
+        "text": "ທີ່ມີຢູ່ຫຼາຢ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "price",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ราคา"
+      },
+      {
+        "code": "lo",
+        "text": "ລາຄາ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "price_update",
+    "langs": [
+      {
+        "code": "th",
+        "text": "แก้ไขราคา"
+      },
+      {
+        "code": "lo",
+        "text": "ແກ້ລາຄາ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "printer",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เครื่องพิมพ์"
+      },
+      {
+        "code": "lo",
+        "text": "ເຄື່ອງພິມ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "printer_config",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ตั้งค่าเครื่องพิมพ์"
+      },
+      {
+        "code": "lo",
+        "text": "ຕັ້ງຄ່າເຄື່ອງພິມ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "printer_connect_test",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ทดสอบการเชื่อมต่อเครื่องพิมพ์"
+      },
+      {
+        "code": "lo",
+        "text": "ທົດສອບການເຊື່ອມຕໍ່ເຄື່ອງພິມ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "printer_connect_test_and_save",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ทดสอบการเชื่อมต่อเครื่องพิมพ์"
+      },
+      {
+        "code": "lo",
+        "text": "ທົດສອບການເຊື່ອມຕໍ່ເຄື່ອງພິມ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "printer_connect_test_success",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เชื่อมต่อเครื่องพิมพ์สำเร็จ"
+      },
+      {
+        "code": "lo",
+        "text": "ສໍາເລັດການເຊື່ອມຕໍ່ເຄື່ອງພິມສໍາເລັດ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "printer_ip_address",
+    "langs": [
+      {
+        "code": "th",
+        "text": "IP เครื่องพิมพ์"
+      },
+      {
+        "code": "lo",
+        "text": "ເຄື່ອງພິມ IP"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "printer_ip_port",
+    "langs": [
+      {
+        "code": "th",
+        "text": "Port เครื่องพิมพ์"
+      },
+      {
+        "code": "lo",
+        "text": "Portter Portter"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "printer_mac_address",
+    "langs": [
+      {
+        "code": "th",
+        "text": "Mac Address"
+      },
+      {
+        "code": "lo",
+        "text": "ທີ່ຢູ່ MAC"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "printer_paper_size",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ขนาดกระดาษเครื่องพิมพ์"
+      },
+      {
+        "code": "lo",
+        "text": "ຂະຫນາດເຈ້ຍເຄື່ອງພິມ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "printer_print_bill_auto",
+    "langs": [
+      {
+        "code": "th",
+        "text": "พิมพ์อัตโนมัติ"
+      },
+      {
+        "code": "lo",
+        "text": "ການພິມອັດຕະໂນມັດ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "printer_remove",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยกเลือกเครื่องพิมพ์"
+      },
+      {
+        "code": "lo",
+        "text": "ຍົກຍ້ອງເຄື່ອງພິມ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "printer_selected",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลือกเครื่องพิมพ์"
+      },
+      {
+        "code": "lo",
+        "text": "ເລືອກເຄື່ອງພິມ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "printer_usb_device",
+    "langs": [
+      {
+        "code": "th",
+        "text": "USB"
+      },
+      {
+        "code": "lo",
+        "text": "USB"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "printer_usb_product_id",
+    "langs": [
+      {
+        "code": "th",
+        "text": "USB Product ID"
+      },
+      {
+        "code": "lo",
+        "text": "ID ຂອງ USB"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "printer_usb_vendor_id",
+    "langs": [
+      {
+        "code": "th",
+        "text": "USB Vendor ID"
+      },
+      {
+        "code": "lo",
+        "text": "ID ຂອງຜູ້ຂາຍ USB"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "print_tax_invoice_full_format",
+    "langs": [
+      {
+        "code": "th",
+        "text": "พิมพ์ใบกำกับภาษี (แบบเต็ม)"
+      },
+      {
+        "code": "lo",
+        "text": "ໃບເກັບເງິນພາສີພິມ (ເຕັມ)"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "product_amount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "จำนวนเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ຈໍາ​ນວນ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "product_description",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รายละเอียด"
+      },
+      {
+        "code": "lo",
+        "text": "ລາຍລະອຽດ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "product_qty",
+    "langs": [
+      {
+        "code": "th",
+        "text": "จำนวน"
+      },
+      {
+        "code": "lo",
+        "text": "ປະລິມານ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "qr_code",
+    "langs": [
+      {
+        "code": "th",
+        "text": "QR Code"
+      },
+      {
+        "code": "lo",
+        "text": "ລະຫັດ QR"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "qr_code_split",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กรณีชำระด้วย qr code มากกว่า 1 รายการ (แบ่งจ่าย)"
+      },
+      {
+        "code": "lo",
+        "text": "ໃນກໍລະນີທີ່ຈ່າຍດ້ວຍລະຫັດຫຼາຍກ່ວາ 1 QR (ແບ່ງອອກ)"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "qty",
+    "langs": [
+      {
+        "code": "th",
+        "text": "จำนวน"
+      },
+      {
+        "code": "lo",
+        "text": "ປະລິມານ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "qty_update",
+    "langs": [
+      {
+        "code": "th",
+        "text": "แก้ไขจำนวน"
+      },
+      {
+        "code": "lo",
+        "text": "ແກ້ໄຂເບີ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "ready",
+    "langs": [
+      {
+        "code": "th",
+        "text": "พร้อม"
+      },
+      {
+        "code": "lo",
+        "text": "ກຽມພ້ອມ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "remark",
+    "langs": [
+      {
+        "code": "th",
+        "text": "หมายเหตุ"
+      },
+      {
+        "code": "lo",
+        "text": "ຫມາຍ​ເຫດ​"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "replenish_change",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เติมเงินทอน"
+      },
+      {
+        "code": "lo",
+        "text": "ສຸດຍອດ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "reprint_bill",
+    "langs": [
+      {
+        "code": "th",
+        "text": "พิมพ์บิลใหม่"
+      },
+      {
+        "code": "lo",
+        "text": "ໃບບິນ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "reprint_bill_detail",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รายละเอียด"
+      },
+      {
+        "code": "lo",
+        "text": "ລາຍລະອຽດ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "re_print_invoice",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ปิดกะ/ส่งเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ປິດ / ສົ່ງເງິນ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "re_print_invoice",
+    "langs": [
+      {
+        "code": "th",
+        "text": "พิมพ์บิลใหม่"
+      },
+      {
+        "code": "lo",
+        "text": "ໃບບິນ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "reprint_last_bill",
+    "langs": [
+      {
+        "code": "th",
+        "text": "พิมพ์บิลใหม่ล่าสุด"
+      },
+      {
+        "code": "lo",
+        "text": "ໃບບິນລ້າສຸດ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "start_date",
+    "langs": [
+      {
+        "code": "th",
+        "text": "วันที่เริ่มต้น"
+      },
+      {
+        "code": "lo",
+        "text": "ວັນທີເລີ່ມຕົ້ນ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "end_date",
+    "langs": [
+      {
+        "code": "th",
+        "text": "วันที่สิ้นสุด"
+      },
+      {
+        "code": "lo",
+        "text": "ວັນທີສິ້ນສຸດ"
+      },
+      {
+        "code": "en",
+        "text": "End date"
+      },
+      {
+        "code": "zh-cn",
+        "text": "结束日期"
+      }
+    ]
+  },
+  {
+    "code": "start_time",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เวลาเริ่มต้น"
+      },
+      {
+        "code": "lo",
+        "text": "ເວລາເລີ່ມຕົ້ນ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "end_time",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เวลาสิ้นสุด"
+      },
+      {
+        "code": "lo",
+        "text": "ເວລາສິ້ນສຸດ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "apply_filters",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ประมวลผล"
+      },
+      {
+        "code": "lo",
+        "text": "ປະມວນ​ຜົນ"
+      },
+      {
+        "code": "en",
+        "text": "Apply Filters"
+      },
+      {
+        "code": "zh-cn",
+        "text": "应用过滤器"
+      }
+    ]
+  },
+  {
+    "code": "clear",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ล้างข้อมูล"
+      },
+      {
+        "code": "lo",
+        "text": "ປະມວນ​ຜົນ"
+      },
+      {
+        "code": "en",
+        "text": "Clear"
+      },
+      {
+        "code": "zh-cn",
+        "text": "清除"
+      }
+    ]
+  },
+  {
+    "code": "select_date",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลือกวันที่"
+      },
+      {
+        "code": "lo",
+        "text": "ເລືອກວັນທີ"
+      },
+      {
+        "code": "en",
+        "text": "Select Date"
+      },
+      {
+        "code": "zh-cn",
+        "text": "选择日期"
+      }
+    ]
+  },
+
+  {
+    "code": "select_shift",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลือกกะ"
+      },
+      {
+        "code": "lo",
+        "text": "ເລືອກການ​ປ່ອນ​ງານ"
+      },
+      {
+        "code": "en",
+        "text": "Select Shift"
+      },
+      {
+        "code": "zh-cn",
+        "text": "选择班次"
+      }
+    ]
+  },
+  {
+    "code": "all_shifts",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กะทั้งหมด"
+      },
+      {
+        "code": "lo",
+        "text": "ທັງ​ໝົດ"
+      },
+      {
+        "code": "en",
+        "text": "All Shifts"
+      },
+      {
+        "code": "zh-cn",
+        "text": "全部班次"
+      }
+    ]
+  },
+  {
+    "code": "payment_methods",
+    "langs": [
+      {
+        "code": "th",
+        "text": "วิธีการชำระเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ວິທີ​ການ​ຊໍາ​ລະ​ເງິນ"
+      },
+      {
+        "code": "en",
+        "text": "Payment Methods"
+      },
+      {
+        "code": "zh-cn",
+        "text": "支付方式"
+      }
+    ]
+  },
+    {
+    "code": "drawer_calculation",
+    "langs": [
+      {
+        "code": "th",
+        "text": "คำนวณเงินในลิ้นชักเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ການ​ຄຳນວນ​ເງິນ​ໃນ​ລິ້ນ​ຊັກ"
+      },
+      {
+        "code": "en",
+        "text": "Drawer Calculation"
+      },
+      {
+        "code": "zh-cn",
+        "text": "计算抽屉中的现金"
+      }
+    ]
+  },
+      {
+    "code": "opening_amount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "จำนวนเงินเปิดลิ้นชัก"
+      },
+      {
+        "code": "lo",
+        "text": "ຈໍາ​ນວນ​ເງິນ​ເປີດ​ລິ້ນ​ຊັກ"
+      },
+      {
+        "code": "en",
+        "text": "Opening Amount"
+      },
+      {
+        "code": "zh-cn",
+        "text": "Opening Amount"
+      }
+    ]
+  },
+  {
+    "code": "added_money",
+    "langs": [
+      {
+        "code": "th",
+        "text": "จำนวนเงินที่เพิ่ม"
+      },
+      {
+        "code": "lo",
+        "text": "ຈໍາ​ນວນ​ເງິນ​ເພີ່ມ"
+      },
+      {
+        "code": "en",
+        "text": "Added Money"
+      },
+      {
+        "code": "zh-cn",
+        "text": "Added Money"
+      }
+    ]
+  },
+    {
+    "code": "withdrawn_money",
+    "langs": [
+      {
+        "code": "th",
+        "text": "จำนวนเงินที่ถอน"
+      },
+      {
+        "code": "lo",
+        "text": "ຈໍາ​ນວນ​ເງິນ​ເພີ່ມ"
+      },
+      {
+        "code": "en",
+        "text": "Withdrawn Money"
+      },
+      {
+        "code": "zh-cn",
+        "text": "Withdrawn Money"
+      }
+    ]
+  },
+      {
+    "code": "cash_sales",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยอดขายเงินสด"
+      },
+      {
+        "code": "lo",
+        "text": "ຍອດ​ຂາຍ​ເງິນ​ສົດ"
+      },
+      {
+        "code": "en",
+        "text": "Cash Sales"
+      },
+      {
+        "code": "zh-cn",
+        "text": "Cash Sales"
+      }
+    ]
+  },
+        {
+    "code": "change_given",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เงินทอน"
+      },
+      {
+        "code": "lo",
+        "text": "ທອນເງິນ"
+      },
+      {
+        "code": "en",
+        "text": "Change Given"
+      },
+      {
+        "code": "zh-cn",
+        "text": "Change Given"
+      }
+    ]
+  },
+  
+  {
+    "code": "retry",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ลองอีกครั้ง"
+      },
+      {
+        "code": "lo",
+        "text": "ລອງໃໝ່"
+      },
+      {
+        "code": "en",
+        "text": "Retry"
+      },
+      {
+        "code": "zh-cn",
+        "text": "重试"
+      }
+    ]
+  },  {
+    "code": "expected_drawer",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยอดเงินในลิ้นชักที่คาดหวัง"
+      },
+      {
+        "code": "lo",
+        "text": "ຍອດ​ເງິນ​ໃນ​ລິ້ນ​ຊັກ​ທີ່​ຄາດ​ຫວັງ"
+      },
+      {
+        "code": "en",
+        "text": "Expected Drawer Amount"
+      },
+      {
+        "code": "zh-cn",
+        "text": "Expected Drawer Amount"
+      }
+    ]
+  },
+  {
+    "code": "closing_shift_amount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยอดเงินปิดกะ"
+      },
+      {
+        "code": "lo",
+        "text": "ຍອດ​ເງິນ​ປິດ​ກະ"
+      },
+      {
+        "code": "en",
+        "text": "Closing Shift Amount"
+      },
+      {
+        "code": "zh-cn",
+        "text": "Closing Shift Amount"
+      }
+    ]
+  },
+  {
+    "code": "difference",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ส่วนต่าง"
+      },
+      {
+        "code": "lo",
+        "text": "ສ່ວນ​ຕ່າງ"
+      },
+      {
+        "code": "en",
+        "text": "Difference"
+      },
+      {
+        "code": "zh-cn",
+        "text": "Difference"
+      }
+    ]
+  },
+  
+  {
+    "code": "total_sales",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยอดขายรวม"
+      },
+      {
+        "code": "lo",
+        "text": "ຍອດ​ຂາຍ​ລວມ"
+      },
+      {
+        "code": "en",
+        "text": "Total Sales"
+      },
+      {
+        "code": "zh-cn",
+        "text": "总销售额"
+      }
+    ]
+  },
+  {
+    "code": "total_transactions",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ธุรกรรมรวม"
+      },
+      {
+        "code": "lo",
+        "text": "ທຸລະກຳ​ລວມ"
+      },
+      {
+        "code": "en",
+        "text": "Total Transactions"
+      },
+      {
+        "code": "zh-cn",
+        "text": "总交易额"
+      }
+    ]
+  },
+  {
+    "code": "walk_in",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ลูกค้าทั่วไป"
+      },
+      {
+        "code": "lo",
+        "text": "ລູກຄ້າທົ່ວໄປ"
+      },
+      {
+        "code": "en",
+        "text": "Walk-in"
+      },
+      {
+        "code": "zh-cn",
+        "text": "步入式客户"
+      }
+    ]
+  },
+
+  {
+    "code": "restart",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เริ่มใหม่"
+      },
+      {
+        "code": "lo",
+        "text": "ເລີ່ມ​ຕົ້ນ​ການ​ອີກ​ເທື່ອ​ຫນຶ່ງ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "return_product",
+    "langs": [
+      {
+        "code": "th",
+        "text": "นำเงินออก"
+      },
+      {
+        "code": "lo",
+        "text": "ເອົາເງິນ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "return_product",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รับคืน"
+      },
+      {
+        "code": "lo",
+        "text": "ກັບຄືນ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "sale",
+    "langs": [
+      {
+        "code": "th",
+        "text": "พนักงานขาย"
+      },
+      {
+        "code": "lo",
+        "text": "ຜູ້ຂາຍ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "save",
+    "langs": [
+      {
+        "code": "th",
+        "text": "บันทึก"
+      },
+      {
+        "code": "lo",
+        "text": "ບັນທຶກ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "select",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลือก"
+      },
+      {
+        "code": "lo",
+        "text": "ເລືອກ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "select_card_type",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลือกประเภทบัตร"
+      },
+      {
+        "code": "lo",
+        "text": "ເລືອກປະເພດບັດ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "select_employee",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลือกพนักงาน"
+      },
+      {
+        "code": "lo",
+        "text": "ເລືອກພະນັກງານ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "select_language",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลือกภาษาหน้าจอ"
+      },
+      {
+        "code": "lo",
+        "text": "ເລືອກພາສາຫນ້າຈໍ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "slip_design",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ออกแบบใบเสร็จ"
+      },
+      {
+        "code": "lo",
+        "text": "ການອອກແບບໃບຮັບ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "submit_sales",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เพิ่มเงินทอน"
+      },
+      {
+        "code": "lo",
+        "text": "ເພີ່ມການປ່ຽນແປງ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "submit_sales",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยืนยันการขาย"
+      },
+      {
+        "code": "lo",
+        "text": "ຢືນຢັນການຂາຍ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "success",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สำเร็จ"
+      },
+      {
+        "code": "lo",
+        "text": "ປະສົບ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "sync_data",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รับคืน"
+      },
+      {
+        "code": "lo",
+        "text": "ກັບຄືນ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "sync_data",
+    "langs": [
+      {
+        "code": "th",
+        "text": "Sync Data"
+      },
+      {
+        "code": "lo",
+        "text": "ການຊິ້ງຂໍ້ມູນ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "table_open",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เปิดโต๊ะ"
+      },
+      {
+        "code": "lo",
+        "text": "ເປີດຕາຕະລາງ"
+      },
+      {
+        "code": "en",
+        "text": "Open table"
+      },
+      {
+        "code": "zh-cn",
+        "text": "开桌"
+      },
+      {
+        "code": "ja",
+        "text": "テーブルを開く"
+      },
+      {
+        "code": "ko",
+        "text": "테이블 열기"
+      }
+    ]
+  },
+  {
+    "code": "table_open_time",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เวลาเปิดโต๊ะ"
+      },
+      {
+        "code": "lo",
+        "text": "ເວລາເປີດຕາຕະລາງ"
+      },
+      {
+        "code": "en",
+        "text": "Table open time"
+      },
+      {
+        "code": "zh-cn",
+        "text": "开桌时间"
+      },
+      {
+        "code": "ja",
+        "text": "テーブルの開く時間"
+      },
+      {
+        "code": "ko",
+        "text": "테이블 여는 시간"
+      }
+    ]
+  },
+  {
+    "code": "adult_count",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ผู้ใหญ่"
+      },
+      {
+        "code": "lo",
+        "text": "ຜູ້ໃຫຍ່"
+      },
+      {
+        "code": "en",
+        "text": "Adult count"
+      },
+      {
+        "code": "zh-cn",
+        "text": "成人数"
+      },
+      {
+        "code": "ja",
+        "text": "大人の人数"
+      },
+      {
+        "code": "ko",
+        "text": "성인 수"
+      }
+    ]
+  },
+  {
+    "code": "child_count",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เด็ก"
+      },
+      {
+        "code": "lo",
+        "text": "ເດັກ"
+      },
+      {
+        "code": "en",
+        "text": "Child"
+      },
+      {
+        "code": "zh-cn",
+        "text": "孩子"
+      },
+      {
+        "code": "ja",
+        "text": "子供"
+      },
+      {
+        "code": "ko",
+        "text": "아이"
+      }
+    ]
+  },
+  {
+    "code": "alacarte",
+    "langs": [
+      {
+        "code": "th",
+        "text": "อาหารเป็นจานเดี่ยว"
+      },
+      {
+        "code": "lo",
+        "text": "ອາຫານເປັນຈານເດີ່ວ"
+      },
+      {
+        "code": "en",
+        "text": "À la carte"
+      },
+      {
+        "code": "zh-cn",
+        "text": "单点菜"
+      },
+      {
+        "code": "ja",
+        "text": "アラカルト"
+      },
+      {
+        "code": "ko",
+        "text": "알라카르트"
+      }
+    ]
+  },
+  {
+    "code": "condition",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เงื่อนไข"
+      },
+      {
+        "code": "lo",
+        "text": "ເງື່ອນໄຂ"
+      },
+      {
+        "code": "en",
+        "text": "Condition"
+      },
+      {
+        "code": "zh-cn",
+        "text": "条件"
+      },
+      {
+        "code": "ja",
+        "text": "条件"
+      },
+      {
+        "code": "ko",
+        "text": "조건"
+      }
+    ]
+  },
+  {
+    "code": "person",
+    "langs": [
+      {
+        "code": "th",
+        "text": "คน"
+      },
+      {
+        "code": "lo",
+        "text": "ຄົນ"
+      },
+      {
+        "code": "en",
+        "text": "Person"
+      },
+      {
+        "code": "zh-cn",
+        "text": "人"
+      },
+      {
+        "code": "ja",
+        "text": "人"
+      },
+      {
+        "code": "ko",
+        "text": "사람"
+      }
+    ]
+  },
+  {
+    "code": "take_out_money",
+    "langs": [
+      {
+        "code": "th",
+        "text": "นำเงินออก"
+      },
+      {
+        "code": "lo",
+        "text": "ເອົາເງິນ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "time_remaining_to_complete_the_transaction",
+    "langs": [
+      {
+        "code": "th",
+        "text": "นับถอยหลัง"
+      },
+      {
+        "code": "lo",
+        "text": "ນັບຖອຍຫລັງ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "total",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รวม"
+      },
+      {
+        "code": "lo",
+        "text": "ຮ່ວມກັນ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "total_amount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยอดรวม"
+      },
+      {
+        "code": "lo",
+        "text": "ທັງຫມົດ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },  {
+    "code": "total_amount_product_service",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยอดรวมสินค้าบริการ"
+      },
+      {
+        "code": "lo",
+        "text": "ການເກັບບໍລິການ"
+      },
+      {
+        "code": "en",
+        "text": "Total Product & Service"
+      },
+      {
+        "code": "zh-cn",
+        "text": "产品服务总额"
+      }
+    ]
+  },
+  {
+    "code": "total_pay_amount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยอดรวมชำระเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ຈໍານວນການຈ່າຍເງິນ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "total_pay_amount_cash",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยอดชำระเงินสด"
+      },
+      {
+        "code": "lo",
+        "text": "ການຊໍາລະເງິນສົດ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },  {
+    "code": "total_pay_amount_diff",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ผลต่างการชำระเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ຜົນໄດ້ຮັບການຈ່າຍເງິນທີ່ແຕກຕ່າງກັນ"
+      },
+      {
+        "code": "en",
+        "text": "Payment Difference"
+      },
+      {
+        "code": "zh-cn",
+        "text": "付款差额"
+      }
+    ]
+  },
+  {
+    "code": "total_pay_amount_discount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "มูลค่าส่วนลด"
+      },
+      {
+        "code": "lo",
+        "text": "ຄ່າຫຼຸດລາຄາ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "total_pay_bill",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยอดชำระเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ການຊໍານານ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },  {
+    "code": "total_payment_amount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รับเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ຮັບເງິນ"
+      },
+      {
+        "code": "en",
+        "text": "Received Amount"
+      },
+      {
+        "code": "zh-cn",
+        "text": "收款金额"
+      }
+    ]
+  },
+  {
+    "code": "total_payment_amount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยอดชำระเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ການຊໍານານ"
+      },
+      {
+        "code": "en",
+        "text": "Payment Amount"
+      },
+      {
+        "code": "zh-cn",
+        "text": "付款金额"
+      }
+    ]
+  },
+  {
+    "code": "unit_name",
+    "langs": [
+      {
+        "code": "th",
+        "text": "หน่วยนับ"
+      },
+      {
+        "code": "lo",
+        "text": "ນັບ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "wallet_amount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยอดขำระเงิน Wallet"
+      },
+      {
+        "code": "lo",
+        "text": "ກະເປົາເງິນ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "withdraw_money",
+    "langs": [
+      {
+        "code": "th",
+        "text": "นำเงินออก"
+      },
+      {
+        "code": "lo",
+        "text": "ເອົາເງິນ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "user_code",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รหัสผู้ใช้"
+      },
+      {
+        "code": "lo",
+        "text": "ລະຫັດຜູ້ໃຊ້"
+      },
+      {
+        "code": "en",
+        "text": "user code"
+      },
+      {
+        "code": "zh-cn",
+        "text": "用户代码"
+      }
+    ]
+  },
+  {
+    "code": "user_password",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รหัสผ่าน"
+      },
+      {
+        "code": "lo",
+        "text": "ລະຫັດຜ່ານ"
+      },
+      {
+        "code": "en",
+        "text": "password"
+      },
+      {
+        "code": "zh-cn",
+        "text": "密码"
+      }
+    ]
+  },
+  {
+    "code": "sign_in",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เข้าสู่ระบบ"
+      },
+      {
+        "code": "lo",
+        "text": "ເຂົ້າ​ສູ່​ລະ​ບົບ"
+      },
+      {
+        "code": "en",
+        "text": "Sign in"
+      },
+      {
+        "code": "zh-cn",
+        "text": "登录"
+      }
+    ]
+  },
+  {
+    "code": "total_pay_amount_wallet",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยอดรวม Qr Code"
+      },
+      {
+        "code": "lo",
+        "text": "ລະຫັດ QR ທັງຫມົດ"
+      },
+      {
+        "code": "en",
+        "text": "Total Qr Code"
+      },
+      {
+        "code": "zh-cn",
+        "text": "总二维码"
+      }
+    ]
+  },
+  {
+    "code": "qr_description",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รายละเอียด"
+      },
+      {
+        "code": "lo",
+        "text": "ລາຍລະອຽດ"
+      },
+      {
+        "code": "en",
+        "text": "Description"
+      },
+      {
+        "code": "zh-cn",
+        "text": "描述"
+      }
+    ]
+  },
+  {
+    "code": "qr_amount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "จำนวนเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ຈໍາ​ນວນ"
+      },
+      {
+        "code": "en",
+        "text": "Amount"
+      },
+      {
+        "code": "zh-cn",
+        "text": "金额"
+      }
+    ]
+  },
+  {
+    "code": "total_pay_amount_card",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยอดรวมบัตรเครดิต"
+      },
+      {
+        "code": "lo",
+        "text": "ຈໍານວນບັດເຄດິດ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "total_pay_amount_cheque",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยอดรวมเช็ค"
+      },
+      {
+        "code": "lo",
+        "text": "ຈໍານວນເງິນ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "bank_branch_number",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลขที่สาขา"
+      },
+      {
+        "code": "lo",
+        "text": "ເລກສາຂາ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "total_pay_amount_coupon",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยอดรวมคูปองเงินสด"
+      },
+      {
+        "code": "lo",
+        "text": "ຜູ້ກະທໍາ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "coupon_amount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "มูลค่าคูปอง"
+      },
+      {
+        "code": "lo",
+        "text": "ມູນຄ່າຕ້ານ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "or",
+    "langs": [
+      {
+        "code": "th",
+        "text": "หรือ"
+      },
+      {
+        "code": "lo",
+        "text": "ຫຼື"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "printer_connect",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เชื่อมเครื่องพิมพ์"
+      },
+      {
+        "code": "lo",
+        "text": "ເຄື່ອງພິມ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "printer_select_form",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลือกฟอร์ม"
+      },
+      {
+        "code": "lo",
+        "text": "ເລືອກແບບຟອມ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "printer_remove",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยกเลิกการเชื่อม"
+      },
+      {
+        "code": "lo",
+        "text": "ຍົກເລີກການເຊື່ອມໂລຫະ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "total_pay_amount_transfer",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยอดชำระด้วยการโอน"
+      },
+      {
+        "code": "lo",
+        "text": "ການຊໍາລະເງິນໂດຍການໂອນເງິນ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "unit_pc",
+    "langs": [
+      {
+        "code": "th",
+        "text": "จำนวน"
+      },
+      {
+        "code": "lo",
+        "text": "ປະລິມານ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "user_name_or_password_incorrect",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รหัส หรือรหัสผ่าน ไม่ตรง"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ລະຫັດຫຼືລະຫັດຜ່ານ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "pre_tax_value",
+    "langs": [
+      {
+        "code": "th",
+        "text": "มูลค่าก่อนภาษี"
+      },
+      {
+        "code": "lo",
+        "text": "ມູນຄ່າກ່ອນອາກອນ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "value_added_tax",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ภาษีมูลค่าเพิ่ม"
+      },
+      {
+        "code": "lo",
+        "text": "ອັດສີດ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "total_food_cost",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยอดรวมค่าอาหาร"
+      },
+      {
+        "code": "lo",
+        "text": "ປະລິມານຂອງອາຫານ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "total_drink_snack_cost",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยอดรวมค่าเครื่องดื่ม/ขนม"
+      },
+      {
+        "code": "lo",
+        "text": "ປະລິມານຂອງເຄື່ອງດື່ມ / ອາຫານຫວ່າງ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "select_pos_machine_ip",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลือก ip เครื่อง pos"
+      },
+      {
+        "code": "lo",
+        "text": "ເລືອກ IP POS"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "sale_summary",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สรุปยอดขาย"
+      },
+      {
+        "code": "lo",
+        "text": "ສະຫຼຸບຂໍ້ມູນການຂາຍ"
+      },
+      {
+        "code": "en",
+        "text": "Sale Summary"
+      },
+      {
+        "code": "zh-cn",
+        "text": "销售汇总"
+      }
+    ]
+  },
+
+  {
+    "code": "register_new_machine",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ลงทะเบียนเครื่องใหม่"
+      },
+      {
+        "code": "lo",
+        "text": "ລົງທະບຽນອຸປະກອນໃຫມ່"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "register_new_machine_for_other_databases",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ต้องการลงทะเบียนเครื่องใหม่ เพื่อใช้กับฐานข้อมูลอื่นๆ"
+      },
+      {
+        "code": "lo",
+        "text": "ຕ້ອງການລົງທະບຽນອຸປະກອນໃຫມ່ ທີ່ຈະໄດ້ຮັບການນໍາໃຊ້ກັບຖານຂໍ້ມູນອື່ນໆ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "data_synchronization",
+    "langs": [
+      {
+        "code": "th",
+        "text": "data synchronization"
+      },
+      {
+        "code": "lo",
+        "text": "ການຊິ້ງຂໍ້ມູນ Synchronization"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "please_select_customer_code_first",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กรุณาเลือกรหัสลูกค้าก่อน"
+      },
+      {
+        "code": "lo",
+        "text": "ກະລຸນາເລືອກລະຫັດລູກຄ້າກ່ອນ."
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "register_new_machine_for_other_databases",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ต้องการลงทะเบียนเครื่องใหม่ เพื่อใช้กับฐานข้อมูลอื่นๆ"
+      },
+      {
+        "code": "lo",
+        "text": "ຕ້ອງການລົງທະບຽນອຸປະກອນໃຫມ່ ທີ່ຈະໄດ້ຮັບການນໍາໃຊ້ກັບຖານຂໍ້ມູນອື່ນໆ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "not_required",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่ต้องการ"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ຕ້ອງການ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "required",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ต้องการ"
+      },
+      {
+        "code": "lo",
+        "text": "ຕ້ອງການ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "data synchronization",
+    "langs": [
+      {
+        "code": "th",
+        "text": "แลกเปลี่ยนข้อมูลระหว่างเครื่องกับ Cloud"
+      },
+      {
+        "code": "lo",
+        "text": "ການແລກປ່ຽນຂໍ້ມູນລະຫວ່າງເຄື່ອງຈັກແລະເມຄ."
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "please_select_customer_code_first",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กรุณาเลือกรหัสลูกค้าก่อน"
+      },
+      {
+        "code": "lo",
+        "text": "ກະລຸນາເລືອກລະຫັດລູກຄ້າກ່ອນ."
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "choose_one_option",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลือกได้หนึ่งอย่าง"
+      },
+      {
+        "code": "lo",
+        "text": "ສາມາດເລືອກສິ່ງຫນຶ່ງໄດ້"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "product_has_tax",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สินค้ามีภาษี"
+      },
+      {
+        "code": "lo",
+        "text": "ຜະລິດຕະພັນສ່ວຍສາອາກອນ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "product_tax_exempt",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สินค้ายกเว้นภาษี"
+      },
+      {
+        "code": "lo",
+        "text": "ຜະລິດຕະພັນຍົກເວັ້ນພາສີ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "value_after_tax",
+    "langs": [
+      {
+        "code": "th",
+        "text": "มูลค่าสินค้าหลังคิดภาษี"
+      },
+      {
+        "code": "lo",
+        "text": "ມູນຄ່າຜະລິດຕະພັນຫຼັງຈາກເສຍພາສີ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "value_tax_exempt",
+    "langs": [
+      {
+        "code": "th",
+        "text": "มูลค่าสินค้ายกเว้นภาษี"
+      },
+      {
+        "code": "lo",
+        "text": "ການຍົກເວັ້ນພາສີ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "average",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เฉลี่ย"
+      },
+      {
+        "code": "lo",
+        "text": "ສະເລ່ຍ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "discount_product",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ส่วนลด"
+      },
+      {
+        "code": "lo",
+        "text": "ສ່ວນຫຼຸດຂອງຜະລິດຕະພັນ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "discount_product_vat",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ส่วนลดสินค้ามีภาษี"
+      },
+      {
+        "code": "lo",
+        "text": "ສ່ວນຫຼຸດຂອງພາສີ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "discount_prtoduct_no_vat",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ส่วนลดสินค้ายกเว้นภาษี"
+      },
+      {
+        "code": "lo",
+        "text": "ການຍົກເວັ້ນພາສີ"
+      },
+      {
+        "code": "en",
+        "text": ""
+      },
+      {
+        "code": "zh-cn",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "edc_qrcode",
+    "langs": [
+      {
+        "code": "th",
+        "text": "QRPay EDC"
+      },
+      {
+        "code": "en",
+        "text": "QRPay by EDC"
+      }
+    ]
+  },
+  {
+    "code": "pay_by_creditcard",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ชำระผ่านEDC"
+      },
+      {
+        "code": "en",
+        "text": "Pay by EDC"
+      }
+    ]
+  },
+  {
+    "code": "please_close_shift",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กรุณาปิดกะ"
+      },
+      {
+        "code": "en",
+        "text": "Please close shift"
+      }
+    ]
+  },
+  {
+    "code": "no_data_available",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่มีข้อมูล"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ມີຂໍ້ມູນ"
+      },
+      {
+        "code": "en",
+        "text": "No data available"
+      },
+      {
+        "code": "zh-cn",
+        "text": "无数据"
+      }
+    ]
+  },
+  {
+    "code": "no_sales_data_found",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่พบข้อมูลการขาย"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ພົບຂໍ້ມູນການຂາຍ"
+      },
+      {
+        "code": "en",
+        "text": "No sales data found"
+      },
+      {
+        "code": "zh-cn",
+        "text": "未找到销售数据"
+      }
+    ]
+  },
+  {
+    "code": "bill_detail",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รายละเอียด"
+      },
+      {
+        "code": "lo",
+        "text": "ລາຍລະອຽດ"
+      },
+      {
+        "code": "en",
+        "text": "Bill Detail"
+      },
+      {
+        "code": "zh-cn",
+        "text": "账单详情"
+      }
+    ]
+  },
+  {
+    "code": "sales_report",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รายงานการขาย"
+      },
+      {
+        "code": "lo",
+        "text": "ລາຍງານການຂາຍ"
+      },
+      {
+        "code": "en",
+        "text": "Sales Report"
+      },
+      {
+        "code": "zh-cn",
+        "text": "销售报告"
+      }
+    ]
+  },
+  {
+    "code": "shift_reports",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รายงานกะ"
+      },
+      {
+        "code": "lo",
+        "text": "ລາຍງານກະ"
+      },
+      {
+        "code": "en",
+        "text": "Shift Reports"
+      },
+      {
+        "code": "zh-cn",
+        "text": "班次报告"
+      }
+    ]
+  },
+  {
+    "code": "additional_options",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ตัวเลือกเสริม"
+      },
+      {
+        "code": "lo",
+        "text": "ທາງເລືອກເພີ່ມເຕີມ"
+      },
+      {
+        "code": "en",
+        "text": "Additional options"
+      },
+      {
+        "code": "zh-cn",
+        "text": "附加选项"
+      }
+    ]
+  },
+  {
+    "code": "load_reports",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ประมวลผล"
+      },
+      {
+        "code": "lo",
+        "text": "ການປ່ອນຂໍ້ມູນ"
+      },
+      {
+        "code": "en",
+        "text": "Load Report"
+      },
+      {
+        "code": "zh-cn",
+        "text": "Load Report"
+      }
+    ]
+  },
+      {
+    "code": "no_shift_reports",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่พบรายงาน"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ພົບລາຍງານ"
+      },
+      {
+        "code": "en",
+        "text": "No report found"
+      },
+      {
+        "code": "zh-cn",
+        "text": "未找到班次报告"
+      }
+    ]
+  },
+    {
+    "code": "no_shift_reports_found",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่พบรายงานกะ"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ພົບລາຍງານກະ"
+      },
+      {
+        "code": "en",
+        "text": "No shift report found"
+      },
+      {
+        "code": "zh-cn",
+        "text": "未找到班次报告"
+      }
+    ]
+  },
+  {
+    "code": "total_including_options",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รวมทั้งหมด (รวมตัวเลือกเสริม)"
+      },
+      {
+        "code": "lo",
+        "text": "ລວມທັງໝົດ (ລວມທາງເລືອກເພີ່ມເຕີມ)"
+      },
+      {
+        "code": "en",
+        "text": "Total including options"
+      },
+      {
+        "code": "zh-cn",
+        "text": "总计(含附加选项)"
+      }
+    ]
+  },
+  {
+    "code": "shift_open",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เปิดกะ"
+      },
+      {
+        "code": "lo",
+        "text": "ເປີດ"
+      },
+      {
+        "code": "en",
+        "text": "Open"
+      },
+      {
+        "code": "zh-cn",
+        "text": "开放"
+      }
+    ]
+  },
+  {
+    "code": "please_open_shift",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กรุณาเปิดกะ"
+      },
+      {
+        "code": "en",
+        "text": "Please open shift"
+      }
+    ]
+  },
+  {
+    "code": "additional_options",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ตัวเลือกเสริม"
+      },
+      {
+        "code": "lo",
+        "text": "ທາງເລືອກເພີ່ມເຕີມ"
+      },
+      {
+        "code": "en",
+        "text": "Additional Options"
+      },
+      {
+        "code": "zh-cn",
+        "text": "附加选项"
+      }
+    ]
+  },
+  {
+    "code": "total_including_options",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รวมทั้งหมด (รวมตัวเลือกเสริม)"
+      },
+      {
+        "code": "lo",
+        "text": "ລວມທັງໝົດ (ລວມທາງເລືອກເພີ່ມເຕີມ)"
+      },
+      {
+        "code": "en",
+        "text": "Total (Including Options)"
+      },      {
+        "code": "zh-cn",
+        "text": "总计（包含附加选项）"
+      }
+    ]
+  },
+  {
+    "code": "money_transfer_list",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รายการถอนเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ລາຍການສົ່ງເງິນ"
+      },
+      {
+        "code": "en",
+        "text": "Money Transfer List"
+      },
+      {
+        "code": "zh-cn",
+        "text": "汇款清单"
+      }
+    ]
+  },
+  {
+    "code": "no_money_transfer_records",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่มีรายการถอนเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ມີລາຍການສົ່ງເງິນ"
+      },
+      {
+        "code": "en",
+        "text": "No money transfer records"
+      },
+      {
+        "code": "zh-cn",
+        "text": "无汇款记录"
+      }
+    ]
+  },
+  
+  {
+    "code": "coupon_discount_amount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ส่วนลดคูปอง"
+      },
+      {
+        "code": "lo",
+        "text": "ສ່ວນຫຼຸດຄູໂປນ"
+      },
+      {
+        "code": "en",
+        "text": "Coupon Discount Amount"
+      },
+      {
+        "code": "zh-cn",
+        "text": "优惠券折扣金额"
+      }
+    ]
+  },
+  {
+    "code": "selected_coupons",
+    "langs": [
+      {
+        "code": "th",
+        "text": "คูปองที่เลือก"
+      },
+      {
+        "code": "lo",
+        "text": "ຄູໂປນທີ່ເລືອກ"
+      },
+      {
+        "code": "en",
+        "text": "Selected Coupons"
+      },
+      {
+        "code": "zh-cn",
+        "text": "已选优惠券"
+      }
+    ]
+  },
+  {
+    "code": "clear_all",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ล้างทั้งหมด"
+      },
+      {
+        "code": "lo",
+        "text": "ລ້າງທັງໝົດ"
+      },
+      {
+        "code": "en",
+        "text": "Clear All"
+      },
+      {
+        "code": "zh-cn",
+        "text": "清除全部"
+      }
+    ]
+  },
+
+  {
+    "code": "calculation_result",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ผลการคำนวณ"
+      },
+      {
+        "code": "lo",
+        "text": "ຜົນການຄຳນວນ"
+      },
+      {
+        "code": "en",
+        "text": "Calculation Result"
+      },
+      {
+        "code": "zh-cn",
+        "text": "计算结果"
+      }
+    ]
+  },
+
+{
+    "code": "cash_voucher",
+    "langs": [
+      {
+        "code": "th",
+        "text": "คูปองเงินสด"
+      },
+      {
+        "code": "lo",
+        "text": "ຄູໂປນເງິນສົດ"
+      },
+      {
+        "code": "en",
+        "text": "Cash Voucher"
+      },
+      {
+        "code": "zh-cn",
+        "text": "现金券"
+      }
+    ]
+},
+  {
+    "code": "order_amount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยอดรวม"
+      },
+      {
+        "code": "lo",
+        "text": "ຈຳນວນລວມ"
+      },
+      {
+        "code": "en",
+        "text": "Order Amount"
+      },
+      {
+        "code": "zh-cn",
+        "text": "订单金额"
+      }
+    ]
+  },
+
+  {
+    "code": "no_money_transfer_found_in_period",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่พบรายการถอนเงินในช่วงเวลาที่เลือก"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ພົບລາຍການສົ່ງເງິນໃນຊ່ວງເວລາທີ່ເລືອກ"
+      },
+      {
+        "code": "en",
+        "text": "No money transfer records found in selected period"
+      },
+      {
+        "code": "zh-cn",
+        "text": "在所选时间段内未找到汇款记录"
+      }
+    ]
+  },
+  {
+    "code": "money_transfer_summary",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สรุปรายการถอนเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ສະຫຼຸບລາຍການສົ່ງເງິນ"
+      },
+      {
+        "code": "en",
+        "text": "Money Transfer Summary"
+      },
+      {
+        "code": "zh-cn",
+        "text": "汇款摘要"
+      }
+    ]
+  },
+  {
+    "code": "total_records",
+    "langs": [
+      {
+        "code": "th",
+        "text": "จำนวนรายการ"
+      },
+      {
+        "code": "lo",
+        "text": "ຈຳນວນລາຍການ"
+      },
+      {
+        "code": "en",
+        "text": "Total Records"
+      },
+      {
+        "code": "zh-cn",
+        "text": "记录总数"
+      }    ]
+  },
+  {
+    "code": "print",
+    "langs": [
+      {
+        "code": "th",
+        "text": "พิมพ์"
+      },
+      {
+        "code": "lo",
+        "text": "ພິມ"
+      },
+      {
+        "code": "en",
+        "text": "Print"
+      },
+      {
+        "code": "zh-cn",
+        "text": "打印"
+      }
+    ]
+  },
+  {
+    "code": "user",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ผู้ใช้"
+      },
+      {
+        "code": "lo",
+        "text": "ຜູ້ໃຊ້"
+      },
+      {
+        "code": "en",
+        "text": "User"
+      },
+      {
+        "code": "zh-cn",
+        "text": "用户"
+      }
+    ]
+  },
+  {
+    "code": "date",
+    "langs": [
+      {
+        "code": "th",
+        "text": "วันที่"
+      },
+      {
+        "code": "lo",
+        "text": "ວັນທີ"
+      },
+      {
+        "code": "en",
+        "text": "Date"
+      },
+      {
+        "code": "zh-cn",
+        "text": "日期"
+      }
+    ]
+  },
+  {
+    "code": "remark",
+    "langs": [
+      {
+        "code": "th",
+        "text": "หมายเหตุ"
+      },
+      {
+        "code": "lo",
+        "text": "ໝາຍເຫດ"
+      },
+      {
+        "code": "en",
+        "text": "Remark"
+      },
+      {
+        "code": "zh-cn",
+        "text": "备注"
+      }
+    ]
+  },
+  {
+    "code": "retry",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ลองใหม่"
+      },
+      {
+        "code": "lo",
+        "text": "ລອງໃໝ່"
+      },
+      {
+        "code": "en",
+        "text": "Retry"
+      },
+      {
+        "code": "zh-cn",
+        "text": "重试"
+      }
+    ]
+  },
+  {
+    "code": "no_money_transfer_to_print",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่มีรายการถอนเงินที่จะพิมพ์"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ມີລາຍການສົ່ງເງິນທີ່ຈະພິມ"
+      },
+      {
+        "code": "en",
+        "text": "No money transfer records to print"
+      },
+      {
+        "code": "zh-cn",
+        "text": "没有要打印的汇款记录"
+      }
+    ]
+  },
+  {
+    "code": "printing_money_transfer_report",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กำลังพิมพ์รายการถอนเงิน..."
+      },
+      {
+        "code": "lo",
+        "text": "ກຳລັງພິມລາຍການສົ່ງເງິນ..."
+      },
+      {
+        "code": "en",
+        "text": "Printing money transfer report..."
+      },
+      {
+        "code": "zh-cn",
+        "text": "正在打印汇款报告..."
+      }
+    ]
+  },
+  {
+    "code": "print_error",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เกิดข้อผิดพลาดในการพิมพ์"
+      },
+      {
+        "code": "lo",
+        "text": "ເກີດຂໍ້ຜິດພາດໃນການພິມ"
+      },
+      {
+        "code": "en",
+        "text": "Print error occurred"
+      },      {
+        "code": "zh-cn",
+        "text": "打印时发生错误"
+      }
+    ]
+  },
+  {
+    "code": "from_date",
+    "langs": [
+      {
+        "code": "th",
+        "text": "จากวันที่"
+      },
+      {
+        "code": "lo",
+        "text": "ຈາກວັນທີ"
+      },
+      {
+        "code": "en",
+        "text": "From date"
+      },
+      {
+        "code": "zh-cn",
+        "text": "从日期"
+      }
+    ]
+  },
+  {
+    "code": "to_date",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ถึงวันที่"
+      },
+      {
+        "code": "lo",
+        "text": "ຫາວັນທີ"
+      },
+      {
+        "code": "en",
+        "text": "To date"
+      },
+      {
+        "code": "zh-cn",
+        "text": "到日期"
+      }
+    ]
+  },
+  {
+    "code": "printed_on",
+    "langs": [
+      {
+        "code": "th",
+        "text": "พิมพ์เมื่อ"
+      },
+      {
+        "code": "lo",
+        "text": "ພິມເມື່ອ"
+      },
+      {
+        "code": "en",
+        "text": "Printed on"
+      },
+      {
+        "code": "zh-cn",
+        "text": "打印于"
+      }
+    ]
+  },
+  {
+    "code": "datetime_label",
+    "langs": [
+      {
+        "code": "th",
+        "text": "วันเวลา"
+      },
+      {
+        "code": "lo",
+        "text": "ວັນເວລາ"
+      },
+      {
+        "code": "en",
+        "text": "Date Time"
+      },
+      {
+        "code": "zh-cn",
+        "text": "日期时间"
+      }
+    ]
+  },
+  {
+    "code": "employee",
+    "langs": [
+      {
+        "code": "th",
+        "text": "พนักงาน"
+      },
+      {
+        "code": "lo",
+        "text": "ພະນັກງານ"
+      },
+      {
+        "code": "en",
+        "text": "Employee"
+      },
+      {
+        "code": "zh-cn",
+        "text": "员工"
+      }
+    ]
+  },
+  {
+    "code": "amount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "จำนวนเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ຈໍານວນເງິນ"
+      },
+      {
+        "code": "en",
+        "text": "Amount"
+      },
+      {
+        "code": "zh-cn",
+        "text": "金额"
+      }
+    ]
+  },
+  {
+    "code": "total_money_transfer",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รวมยอดถอนเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ລວມຍອດສົ່ງເງິນ"
+      },
+      {
+        "code": "en",
+        "text": "Total Money Transfer"
+      },
+      {
+        "code": "zh-cn",
+        "text": "总汇款金额"
+      }    ]
+  },
+  {
+    "code": "open_shift_receive_change",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เปิดกะ/รับเงินทอน"
+      },
+      {
+        "code": "lo",
+        "text": "ເປີດກະ/ຮັບເງິນທອນ"
+      },
+      {
+        "code": "en",
+        "text": "Open Shift/Receive Change"
+      },
+      {
+        "code": "zh-cn",
+        "text": "开班/收找零"
+      }
+    ]
+  },
+  {
+    "code": "close_shift_send_money",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ปิดกะ/ส่งเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ປິດກະ/ສົ່ງເງິນ"
+      },
+      {
+        "code": "en",
+        "text": "Close Shift/Send Money"
+      },
+      {
+        "code": "zh-cn",
+        "text": "关班/送钱"
+      }
+    ]
+  },
+  {
+    "code": "add_change_money",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รับเงินทอนเพิ่ม"
+      },
+      {
+        "code": "lo",
+        "text": "ຮັບເງິນທອນເພີ່ມ"
+      },
+      {
+        "code": "en",
+        "text": "Add Change Money"
+      },
+      {
+        "code": "zh-cn",
+        "text": "添加找零"
+      }
+    ]
+  },  {
+    "code": "withdraw_money",
+    "langs": [
+      {
+        "code": "th",
+        "text": "นำเงินออก"
+      },
+      {
+        "code": "lo",
+        "text": "ເອົາເງິນອອກ"
+      },
+      {
+        "code": "en",
+        "text": "Withdraw Money"
+      },
+      {
+        "code": "zh-cn",
+        "text": "取钱"
+      }
+    ]
+  },
+  {
+    "code": "printing_shift_report",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กำลังพิมพ์รายงานกะ..."
+      },
+      {
+        "code": "lo", 
+        "text": "ກຳລັງພິມລາຍງານກະ..."
+      },
+      {
+        "code": "en",
+        "text": "Printing shift report..."
+      },
+      {
+        "code": "zh-cn",
+        "text": "正在打印班次报告..."
+      }
+    ]
+  },
+  {
+    "code": "shift_report_print",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รายงานกะการทำงาน"
+      },
+      {
+        "code": "lo",
+        "text": "ລາຍງານກະການເຮັດວຽກ"
+      },
+      {
+        "code": "en",
+        "text": "Shift Work Report"
+      },
+      {
+        "code": "zh-cn",
+        "text": "班次工作报告"      }
+    ]
+  },  {
+    "code": "point_balance",
+    "langs": [
+      {
+        "code": "th",
+        "text": "คะแนนสะสม"
+      },
+      {
+        "code": "lo",
+        "text": "ແຕ້ມສະສົມ"
+      },
+      {
+        "code": "en",
+        "text": "Point Balance"
+      },
+      {
+        "code": "zh-cn",
+        "text": "积分余额"
+      }
+    ]
+  },  {
+    "code": "use_points",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ใช้คะแนน"
+      },
+      {
+        "code": "lo",
+        "text": "ໃຊ້ແຕ້ມ"
+      },
+      {
+        "code": "en",
+        "text": "Use Points"
+      },
+      {
+        "code": "zh-cn",
+        "text": "使用积分"
+      }
+    ]
+  },
+  {
+    "code": "error",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ข้อผิดพลาด"
+      },
+      {
+        "code": "lo",
+        "text": "ຂໍ້ຜິດພາດ"
+      },
+      {
+        "code": "en",
+        "text": "Error"
+      },
+      {
+        "code": "zh-cn",
+        "text": "错误"
+      }
+    ]
+  },
+  {
+    "code": "information",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ข้อมูล"
+      },
+      {
+        "code": "lo",
+        "text": "ຂໍ້ມູນ"
+      },
+      {
+        "code": "en",
+        "text": "Information"
+      },
+      {
+        "code": "zh-cn",
+        "text": "信息"
+      }
+    ]
+  },
+  {
+    "code": "no_customer_selected",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่ได้เลือกลูกค้า"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ໄດ້ເລືອກລູກຄ້າ"
+      },
+      {
+        "code": "en",
+        "text": "No customer selected"
+      },
+      {
+        "code": "zh-cn",
+        "text": "未选择客户"
+      }
+    ]
+  },
+  {
+    "code": "customer_not_found",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่พบลูกค้า"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ພົບລູກຄ້າ"
+      },
+      {
+        "code": "en",
+        "text": "Customer not found"
+      },
+      {
+        "code": "zh-cn",
+        "text": "找不到客户"
+      }
+    ]
+  },
+  {
+    "code": "maximum_usable",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ใช้ได้สูงสุด"
+      },
+      {
+        "code": "lo",
+        "text": "ໃຊ້ໄດ້ສູງສຸດ"
+      },
+      {
+        "code": "en",
+        "text": "Maximum usable"
+      },
+      {
+        "code": "zh-cn",
+        "text": "最多可用"
+      }
+    ]
+  },
+  {
+    "code": "table",
+    "langs": [
+      {
+        "code": "th",
+        "text": "โต๊ะ"
+      },
+      {
+        "code": "lo",
+        "text": "ຕາຕະລາງ"
+      },
+      {
+        "code": "en",
+        "text": "Table"
+      },
+      {
+        "code": "zh-cn",
+        "text": "桌子"
+      }
+    ]
+  },
+  {
+    "code": "qr_payment",
+    "langs": [
+      {
+        "code": "th",
+        "text": "การชำระเงินด้วย QR"
+      },
+      {
+        "code": "lo",
+        "text": "ການຊຳລະເງິນໂດຍ QR"
+      },
+      {
+        "code": "en",
+        "text": "QR Payment"
+      },
+      {
+        "code": "zh-cn",
+        "text": "QR 支付"
+      }
+    ]
+  },
+  
+      {
+    "code": "no_transactions_found_in_period",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่พบรายการในช่วงเวลาที่เลือก"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ພົບລາຍການໃນຊ່ວງເວລາທີ່ເລືອກ"
+      },
+      {
+        "code": "en",
+        "text": "No transactions found in the selected period"
+      },
+      {
+        "code": "zh-cn",
+        "text": "未在所选期间找到交易"
+      }
+    ]
+  },
+    {
+    "code": "discount_last_bill",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ส่วนลดท้ายบิล"
+      },
+      {
+        "code": "lo",
+        "text": "ສ່ວນຫຼຸດທ້າຍບິນ"
+      },
+      {
+        "code": "en",
+        "text": "Discount"
+      },
+      {
+        "code": "zh-cn",
+        "text": "折扣"
+      }
+    ]
+  },
+  {
+    "code": "user_not_found",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่พบผู้ใช้"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ພົບຜູ້ໃຊ້"
+      },
+      {
+        "code": "en",
+        "text": "User not found"
+      },
+      {
+        "code": "zh-cn",
+        "text": "用户未找到"
+      }
+    ]
+  },
+    {
+    "code": "user_has_no_permission",
+    "langs": [
+      {
+        "code": "th",
+        "text": "พนักงานนี้ไม่มีสิทธิ์เข้าใช้ระบบ POS"
+      },
+      {
+        "code": "lo",
+        "text": "ຜູ້ໃຊ້ບໍ່ມີສິດທິ"
+      },
+      {
+        "code": "en",
+        "text": "User has no permission"
+      },
+      {
+        "code": "zh-cn",
+        "text": "用户无权限"
+      }
+    ]
+  },
+  {
+    "code": "sync_customer",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ดึงข้อมูลลูกค้า"
+      },
+      {
+        "code": "lo",
+        "text": "ຊິງຂໍ້ມູນລູກຄ້າ"
+      },
+      {
+        "code": "en",
+        "text": "Sync Customer Data"
+      },
+      {
+        "code": "zh-cn",
+        "text": "同步客户数据"
+      }
+    ]
+  },
+    {
+    "code": "sync_master",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ดึงข้อมูลหลัก"
+      },
+      {
+        "code": "lo",
+        "text": "ຊິງຂໍ້ມູນຫຼັກ"
+      },
+      {
+        "code": "en",
+        "text": "Sync Master Data"
+      },
+      {
+        "code": "zh-cn",
+        "text": "同步主数据"
+      }
+    ]
+  },
+
+  {
+    "code": "syncing_data",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กำลังดึงข้อมูล..."
+      },
+      {
+        "code": "lo",
+        "text": "ກຳລັງຊິງຂໍ້ມູນ..."
+      },
+      {
+        "code": "en",
+        "text": "Syncing data..."
+      },
+      {
+        "code": "zh-cn",
+        "text": "正在同步数据..."
+      }
+    ]
+  },
+  {
+    "code": "sync_data_completed",
+    "langs": [
+      {
+        "code": "th",
+        "text": "การดึงข้อมูลเสร็จสิ้น"
+      },
+      {
+        "code": "lo",
+        "text": "ການຊິງຂໍ້ມູນເສັຽສິນ"
+      },
+      {
+        "code": "en",
+        "text": "Sync complete"
+      },
+      {
+        "code": "zh-cn",
+        "text": "同步完成"
+      }
+    ]
+  },
+  {
+    "code": "sync_data_error",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เกิดข้อผิดพลาดในการดึงข้อมูล"
+      },
+      {
+        "code": "lo",
+        "text": "ເກີດຂໍ້ຜິດພາດໃນການຊິງຂໍ້ມູນ"
+      },
+      {
+        "code": "en",
+        "text": "Sync error occurred"
+      },
+      {
+        "code": "zh-cn",
+        "text": "同步时发生错误"
+      }
+    ]
+  },
+  {
+    "code": "sync_success",
+    "langs": [
+      {
+        "code": "th",
+        "text": "การดึงข้อมูลสำเร็จ"
+      },
+      {
+        "code": "lo",
+        "text": "ຊິງຂໍ້ມູນສຳເລັດ"
+      },
+      {
+        "code": "en",
+        "text": "Sync successful"
+      },
+      {
+        "code": "zh-cn",
+        "text": "同步成功"
+      }
+    ]
+  },
+
+  {
+    "code": "no_internet_connection",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่มีการเชื่อมต่ออินเทอร์เน็ต"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ມີການເຊື່ອມຕໍ່ເຂດໃນ"
+      },
+      {
+        "code": "en",
+        "text": "No internet connection"
+      },
+      {
+        "code": "zh-cn",
+        "text": "无网络连接"
+      }
+    ]
+  },
+  {
+    "code": "synced",
+    "langs": [
+      {
+        "code": "th",
+        "text": "การดึงข้อมูลเสร็จสิ้น"
+      },
+      {
+        "code": "lo",
+        "text": "ການຊິງຂໍ້ມູນເສັຽສິນ"
+      },
+      {
+        "code": "en",
+        "text": "Sync completed"
+      },
+      {
+        "code": "zh-cn",
+        "text": "Sync completed"
+      }
+    ]
+  },
+  
+  {
+    "code": "sync_bill",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ส่งข้อมูลบิล"
+      },
+      {
+        "code": "lo",
+        "text": "ຊິງຂໍ້ມູນບິນ"
+      },
+      {
+        "code": "en",
+        "text": "Sync Bill Data"
+      },
+      {
+        "code": "zh-cn",
+        "text": "同步账单数据"
+      }
+    ]
+  },
+  {
+    "code": "not_synced",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยังไม่ได้ดึงข้อมูล"
+      },
+      {
+        "code": "lo",
+        "text": "ຍັງບໍ່ໄດ້ຊິງຂໍ້ມູນ"
+      },
+      {
+        "code": "en",
+        "text": "Not synced yet"
+      },
+      {
+        "code": "zh-cn",
+        "text": "尚未同步"
+      }
+    ]
+  },
+  {
+    "code": "please_check_your_internet_connection",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กรุณาตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณ"
+      },
+      {
+        "code": "lo",
+        "text": "ກະລຸນາກວດເຊັກການເຊື່ອມຕໍ່ເຂດໃນ"
+      },
+      {
+        "code": "en",
+        "text": "Please check your internet connection"
+      },
+      {
+        "code": "zh-cn",
+        "text": "请检查您的网络连接"
+      }
+    ]
+  },
+  {
+    "code": "sync_failed",
+    "langs": [
+      {
+        "code": "th",
+        "text": "การดึงข้อมูลล้มเหลว"
+      },
+      {
+        "code": "lo",
+        "text": "ການຊິງຂໍ້ມູນລົ້ມເຫລວ"
+      },
+      {
+        "code": "en",
+        "text": "Sync failed"
+      },
+      {
+        "code": "zh-cn",
+        "text": "同步失败"
+      }
+    ]
+  },
+
+  {
+    "code": "please_wait",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กรุณารอสักครู่..."
+      },
+      {
+        "code": "lo",
+        "text": "ກະລຸນາລໍຖ້າສັບພາບ..."
+      },
+      {
+        "code": "en",
+        "text": "Please wait..."
+      },
+      {
+        "code": "zh-cn",
+        "text": "请稍候..."
+      }
+    ]
+  },
+  {
+    "code": "points_to_use",
+    "langs": [
+      {
+        "code": "th",
+        "text": "จำนวนคะแนนที่ใช้"
+      },
+      {
+        "code": "lo",
+        "text": "ຈໍານວນແຕ້ມທີ່ໃຊ້"
+      },
+      {
+        "code": "en",
+        "text": "Points to use"
+      },      {
+        "code": "zh-cn",
+        "text": "使用积分数量"
+      }
+    ]
+  },
+  {
+    "code": "customer_info",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ข้อมูลลูกค้า"
+      },
+      {
+        "code": "lo",
+        "text": "ຂໍ້ມູນລູກຄ້າ"
+      },
+      {
+        "code": "en",
+        "text": "Customer Information"
+      },
+      {
+        "code": "zh-cn",
+        "text": "客户信息"
+      }
+    ]
+  },
+  {
+    "code": "earned_points",
+    "langs": [
+      {
+        "code": "th",
+        "text": "แต้มที่จะได้รับ"
+      },
+      {
+        "code": "lo",
+        "text": "ແຕ້ມທີ່ຈະໄດ້ຮັບ"
+      },
+      {
+        "code": "en",
+        "text": "Earned Points"
+      },
+      {
+        "code": "zh-cn",
+        "text": "获得积分"
+      }
+    ]
+  },
+  {
+    "code": "used_points",
+    "langs": [
+      {
+        "code": "th",
+        "text": "แต้มที่ใช้"
+      },
+      {
+        "code": "lo",
+        "text": "ແຕ້ມທີ່ໃຊ້"
+      },
+      {
+        "code": "en",
+        "text": "Used Points"
+      },
+      {
+        "code": "zh-cn",
+        "text": "使用积分"
+      }
+    ]
+  },
+  {
+    "code": "max_usable_points",
+    "langs": [
+      {
+        "code": "th",
+        "text": "แต้มที่สามารถใช้ได้สูงสุด"
+      },
+      {
+        "code": "lo",
+        "text": "ແຕ້ມສູງສຸດທີ່ສາມາດໃຊ້ໄດ້"
+      },
+      {
+        "code": "en",
+        "text": "Maximum Usable Points"
+      },
+      {
+        "code": "zh-cn",
+        "text": "最大可用积分"
+      }
+    ]
+  },
+  {
+    "code": "points_to_use",
+    "langs": [
+      {
+        "code": "th",
+        "text": "แต้มที่ต้องการใช้"
+      },
+      {
+        "code": "lo",
+        "text": "ແຕ້ມທີ່ຕ້ອງການໃຊ້"
+      },
+      {
+        "code": "en",
+        "text": "Points to Use"
+      },
+      {
+        "code": "zh-cn",
+        "text": "要使用的积分"
+      }
+    ]
+  },
+  {
+    "code": "point_payment",
+    "langs": [
+      {
+        "code": "th",
+        "text": "การชำระเงินด้วยแต้ม"
+      },
+      {
+        "code": "lo",
+        "text": "ການຊຳລະເງິນໂດຍແຕ້ມ"
+      },
+      {
+        "code": "en",
+        "text": "Point Payment"
+      },
+      {
+        "code": "zh-cn",
+        "text": "积分支付"
+      }
+    ]
+  },
+  {
+    "code": "sync_customer",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ดึงข้อมูลลูกค้า"
+      },
+      {
+        "code": "lo",
+        "text": "ຊິງຂໍ້ມູນລູກຄ້າ"
+      },
+      {
+        "code": "en",
+        "text": "Sync Customer Data"
+      },
+      {
+        "code": "zh-cn",
+        "text": "同步客户数据"
+      }
+    ]
+  },
+  {
+    "code": "points",
+    "langs": [
+      {
+        "code": "th",
+        "text": "แต้ม"
+      },
+      {
+        "code": "lo",
+        "text": "ແຕ້ມ"
+      },
+      {
+        "code": "en",
+        "text": "Points"
+      },
+      {
+        "code": "zh-cn",
+        "text": "积分"
+      }
+    ]
+  },
+  {
+    "code": "please_enter_points",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กรุณาใส่จำนวนแต้ม"
+      },
+      {
+        "code": "lo",
+        "text": "ກະລຸນາໃສ່ຈໍານວນແຕ້ມ"
+      },
+      {
+        "code": "en",
+        "text": "Please enter points"
+      },
+      {
+        "code": "zh-cn",
+        "text": "请输入积分"
+      }
+    ]
+  },
+  {
+    "code": "points_must_be_greater_than_zero",
+    "langs": [
+      {
+        "code": "th",
+        "text": "แต้มต้องมากกว่าศูนย์"
+      },
+      {
+        "code": "lo",
+        "text": "ແຕ້ມຕ້ອງຫຼາຍກວ່າສູນ"
+      },
+      {
+        "code": "en",
+        "text": "Points must be greater than zero"
+      },
+      {
+        "code": "zh-cn",
+        "text": "积分必须大于零"
+      }
+    ]
+  },
+  {
+    "code": "points_exceed_maximum",
+    "langs": [
+      {
+        "code": "th",
+        "text": "แต้มเกินจำนวนสูงสุดที่สามารถใช้ได้"
+      },
+      {
+        "code": "lo",
+        "text": "ແຕ້ມເກີນຈໍານວນສູງສຸດທີ່ສາມາດໃຊ້ໄດ້"
+      },
+      {
+        "code": "en",
+        "text": "Points exceed maximum usable amount"
+      },
+      {
+        "code": "zh-cn",
+        "text": "积分超过最大可用数量"
+      }
+    ]
+  },
+
+  {
+    "code": "delete_confirm_warning",
+    "langs": [
+      {
+        "code": "th",
+        "text": "คุณแน่ใจหรือไม่ว่าต้องการลบข้อมูลนี้?"
+      },
+      {
+        "code": "lo",
+        "text": "ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການລຶບຂໍ້ມູນນີ້?"
+      },
+      {
+        "code": "en",
+        "text": "Are you sure you want to delete this data?"
+      },
+      {
+        "code": "zh-cn",
+        "text": "您确定要删除此数据吗？"
+      }
+    ]
+  },
+  {
+    "code": "point_discount_amount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "จำนวนเงินส่วนลดจากแต้ม"
+      },
+      {
+        "code": "lo",
+        "text": "ຈໍານວນເງິນສ່ວນລົດຈາກແຕ້ມ"
+      },
+      {
+        "code": "en",
+        "text": "Point Discount Amount"
+      },
+      {
+        "code": "zh-cn",
+        "text": "积分折扣金额"
+      }
+    ]
+  },
+  {
+    "code": "points_used_successfully",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ใช้แต้มสำเร็จ"
+      },
+      {
+        "code": "lo",
+        "text": "ໃຊ້ແຕ້ມສໍາເລັດ"
+      },
+      {
+        "code": "en",
+        "text": "Points used successfully"
+      },
+      {
+        "code": "zh-cn",
+        "text": "积分使用成功"
+      }
+    ]
+  },
+  
+  {
+    "code": "point_balance_after",
+    "langs": [
+      {
+        "code": "th",
+        "text": "แต้มคงเหลือของคุณคือ"
+      },
+      {
+        "code": "lo",
+        "text": "ຄົງເຫລືອແຕ້ມຫຼັງຈາກໃຊ້"
+      },
+      {
+        "code": "en",
+        "text": "Your point balance"
+      },
+      {
+        "code": "zh-cn",
+        "text": "Your point balance"
+      }
+    ]
+  },
+  {
+    "code": "points_code",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รหัสสะสมแต้ม"
+      },
+      {
+        "code": "lo",
+        "text": "ລະຫັດແຕ້ມ"
+      },
+      {
+        "code": "en",
+        "text": "Points Code"
+      },
+      {
+        "code": "zh-cn",
+        "text": "Points Code"
+      }
+    ]
+  },
+  {
+    "code": "point_payment",
+    "langs": [
+      {
+        "code": "th",
+        "text": "การชำระเงินด้วยแต้ม"
+      },
+      {
+        "code": "lo",
+        "text": "ການຊໍາລະເງິນໂດຍແຕ້ມ"
+      },
+      {
+        "code": "en",
+        "text": "Point Payment"
+      },
+      {
+        "code": "zh-cn",
+        "text": "Point Payment"
+      }
+    ]
+  },
+  {
+    "code": "failed_to_use_points",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่สามารถใช้แต้มได้"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ສາມາດໃຊ້ແຕ້ມໄດ້"
+      },
+      {
+        "code": "en",
+        "text": "Failed to use points"
+      },
+      {
+        "code": "zh-cn",
+        "text": "无法使用积分"
+      }
+    ]
+  },
+  {
+    "code": "no_customer_selected",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่มีลูกค้าที่เลือก"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ມີລູກຄ້າທີ່ເລືອກ"
+      },
+      {
+        "code": "en",
+        "text": "No customer selected"
+      },
+      {
+        "code": "zh-cn",
+        "text": "未选择客户"
+      }
+    ]
+  },
+  {
+    "code": "customer_not_found",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่พบลูกค้า"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ພົບລູກຄ້າ"
+      },
+      {
+        "code": "en",
+        "text": "Customer not found"
+      },
+      {
+        "code": "zh-cn",
+        "text": "未找到客户"
+      }
+    ]
+  }
+]

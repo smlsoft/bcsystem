@@ -1,0 +1,5 @@
+#include "Debug.xcconfig"
+
+FLUTTER_FLAVOR=marinepos
+PRODUCT_BUNDLE_IDENTIFIER=com.smlsoft.marinepos
+DISPLAY_NAME=Marine POS

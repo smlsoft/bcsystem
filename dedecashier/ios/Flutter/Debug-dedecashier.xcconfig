@@ -1,0 +1,5 @@
+#include "Debug.xcconfig"
+
+FLUTTER_FLAVOR=dedecashier
+PRODUCT_BUNDLE_IDENTIFIER=com.smlsoft.dedecashier
+DISPLAY_NAME=BC Cashier

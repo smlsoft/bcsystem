@@ -1,0 +1,123 @@
+name: dedekiosk
+description: "dedekiosk project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 2.3.7+63
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  lugentpayment:
+    path: packages/lugentpay
+  promptpay:
+    path: packages/promptpay
+  gbprimepay:
+    path: packages/gbprimepay
+  xenditpay:
+    path: packages/xenditpay
+  kapi:
+    path: packages/smlkapi
+  tigerboard:
+    path: packages/tigerboard
+ 
+  cupertino_icons: ^1.0.6
+  badges: ^3.1.2
+  flutter_bloc: ^9.1.1
+  intl: ^0.18.1
+  uuid: ^4.5.3
+  visibility_detector: ^0.4.0+2
+  scrollable_positioned_list: ^0.3.8
+  cached_network_image: ^3.3.1
+  animate_gradient: ^0.0.2+1
+  video_player: ^2.8.3
+  loading_animation_widget: ^1.2.1
+  auto_size_text: ^3.0.0
+  permission_handler: ^12.0.1
+  shared_preferences: ^2.2.2
+  qr_flutter: ^4.1.0
+  flutter_html: ^3.0.0-beta.2
+  dartz: ^0.10.1
+  freezed_annotation: ^3.1.0
+  dio: ^5.4.1
+  io: ^1.0.4
+  logger: ^2.2.0
+  equatable: ^2.0.5
+  get_it: ^9.2.1
+  awesome_ripple_animation: ^2.0.0
+  wakelock_plus: ^1.1.4
+  screen_brightness: ^2.1.7
+  path_provider: ^2.1.2
+  objectbox: ^5.2.0
+  objectbox_flutter_libs: ^5.2.0
+  flutter_animate: ^4.5.0
+  keyboard_dismisser: ^3.0.0
+  flutter_animated_button: ^2.0.3
+  http: ^1.2.1
+  get: ^4.6.6
+  flutter_barcode_listener: ^0.1.4
+  msix: ^3.16.7
+  device_info_plus: ^12.3.0
+  flutter_thermal_printer: ^2.0.1
+  json_annotation: ^4.9.0
+  # firebase_core: ^4.4.0
+  # firebase_auth: ^6.1.4
+  google_sign_in: ^7.2.0
+  sign_in_with_apple: ^7.0.1
+  infinite_scroll_pagination: ^5.0.0
+  flex_color_picker: ^3.5.1
+  showcaseview: ^5.0.1
+  image_picker: ^1.0.7
+  package_info_plus: ^9.0.0
+  # print_bluetooth_thermal: ^1.1.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^6.8.0
+  freezed: ^3.2.3
+  build_runner: ^2.4.8
+  flutter_lints: ^6.0.0
+  objectbox_generator: ^5.2.0
+  flutter_launcher_icons: ^0.14.4
+
+objectbox:
+  output_dir: objectbox
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/flags/
+    - assets/audios/
+    - assets/fonts/
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/dedelogo.png"
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/dedelogo.png"
+  min_sdk_android: 21
+  # Adaptive Icon สำหรับ Android 8+ (API 26+)
+  # foreground ต้องมี padding เพื่อให้ logo อยู่ใน safe zone (~66% ตรงกลาง)
+  # เพื่อป้องกันการถูก crop จาก launcher masks (วงกลม, squircle ฯลฯ)
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/dedelogo_foreground.png"
+  flavor_configs:
+    bckiosk:
+      android: true
+      ios: true
+      image_path: "assets/bckiosk.png"
+      android_path: "android/app/src/bckiosk/res"
+      min_sdk_android: 21
+      adaptive_icon_background: "#FFFFFF"
+      adaptive_icon_foreground: "assets/bckiosk_foreground.png"
+      ios_content_json: "ios/Runner/Assets-Bckiosk.xcassets/AppIcon.appiconset/Contents.json"

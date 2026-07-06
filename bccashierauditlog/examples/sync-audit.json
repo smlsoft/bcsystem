@@ -1,0 +1,25 @@
+{
+  "shopId": "demo-shop",
+  "sourceApp": "cashier",
+  "deviceId": "cashier-main",
+  "deviceName": "Cashier Main",
+  "logs": [
+    {
+      "eventType": "TABLE_OPENED",
+      "timestamp": 1779951361000,
+      "tableId": 32,
+      "command": "staff.open_table",
+      "traceId": "demo-trace-001",
+      "userId": "001",
+      "requestBody": {
+        "tableNumber": "32"
+      },
+      "responseBody": {
+        "status": "success"
+      },
+      "details": {
+        "source": "example"
+      }
+    }
+  ]
+}

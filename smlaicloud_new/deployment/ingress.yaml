@@ -1,0 +1,25 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    cert-manager.io/cluster-issuer: vfmerchant-uat-dedepos-com-cluster-issuer
+    nginx.ingress.kubernetes.io/proxy-body-size: 2m
+  name: vfapi-prd
+  namespace: dedepos-prd
+spec:
+  tls:
+    - hosts:
+        - vfmerchant.uat.dedepos.com
+      secretName: vfmerchant-uat-dedepos-com-tls-secert
+  rules:
+    - host: vfmerchant.uat.dedepos.com
+      http:
+       paths:
+       - path: /
+         pathType: Prefix
+         backend:
+           service:
+             name: vfmerchant-uat
+             port:
+               number: 80

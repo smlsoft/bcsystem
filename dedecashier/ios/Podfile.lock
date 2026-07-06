@@ -1,0 +1,140 @@
+PODS:
+  - camera_avfoundation (0.0.1):
+    - Flutter
+  - charset_converter (0.0.1):
+    - Flutter
+  - connectivity_plus (0.0.1):
+    - Flutter
+  - device_info_plus (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_icmp_ping (0.0.1):
+    - Flutter
+  - flutter_soloud (0.0.1):
+    - Flutter
+  - flutter_thermal_printer (0.0.1):
+    - Flutter
+  - MTBBarcodeScanner (5.0.11)
+  - network_info_plus (0.0.1):
+    - Flutter
+  - ObjectBox (5.0.0)
+  - objectbox_flutter_libs (0.0.1):
+    - Flutter
+    - ObjectBox (= 5.0.0)
+  - package_info_plus (0.4.5):
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - permission_handler_apple (9.3.0):
+    - Flutter
+  - qr_code_scanner_plus (0.2.6):
+    - Flutter
+    - MTBBarcodeScanner
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - sqflite_darwin (0.0.4):
+    - Flutter
+    - FlutterMacOS
+  - universal_ble (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - video_player_avfoundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - wakelock_plus (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - camera_avfoundation (from `.symlinks/plugins/camera_avfoundation/ios`)
+  - charset_converter (from `.symlinks/plugins/charset_converter/ios`)
+  - connectivity_plus (from `.symlinks/plugins/connectivity_plus/ios`)
+  - device_info_plus (from `.symlinks/plugins/device_info_plus/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_icmp_ping (from `.symlinks/plugins/flutter_icmp_ping/ios`)
+  - flutter_soloud (from `.symlinks/plugins/flutter_soloud/ios`)
+  - flutter_thermal_printer (from `.symlinks/plugins/flutter_thermal_printer/ios`)
+  - network_info_plus (from `.symlinks/plugins/network_info_plus/ios`)
+  - objectbox_flutter_libs (from `.symlinks/plugins/objectbox_flutter_libs/ios`)
+  - package_info_plus (from `.symlinks/plugins/package_info_plus/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - permission_handler_apple (from `.symlinks/plugins/permission_handler_apple/ios`)
+  - qr_code_scanner_plus (from `.symlinks/plugins/qr_code_scanner_plus/ios`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
+  - sqflite_darwin (from `.symlinks/plugins/sqflite_darwin/darwin`)
+  - universal_ble (from `.symlinks/plugins/universal_ble/darwin`)
+  - video_player_avfoundation (from `.symlinks/plugins/video_player_avfoundation/darwin`)
+  - wakelock_plus (from `.symlinks/plugins/wakelock_plus/ios`)
+
+SPEC REPOS:
+  trunk:
+    - MTBBarcodeScanner
+    - ObjectBox
+
+EXTERNAL SOURCES:
+  camera_avfoundation:
+    :path: ".symlinks/plugins/camera_avfoundation/ios"
+  charset_converter:
+    :path: ".symlinks/plugins/charset_converter/ios"
+  connectivity_plus:
+    :path: ".symlinks/plugins/connectivity_plus/ios"
+  device_info_plus:
+    :path: ".symlinks/plugins/device_info_plus/ios"
+  Flutter:
+    :path: Flutter
+  flutter_icmp_ping:
+    :path: ".symlinks/plugins/flutter_icmp_ping/ios"
+  flutter_soloud:
+    :path: ".symlinks/plugins/flutter_soloud/ios"
+  flutter_thermal_printer:
+    :path: ".symlinks/plugins/flutter_thermal_printer/ios"
+  network_info_plus:
+    :path: ".symlinks/plugins/network_info_plus/ios"
+  objectbox_flutter_libs:
+    :path: ".symlinks/plugins/objectbox_flutter_libs/ios"
+  package_info_plus:
+    :path: ".symlinks/plugins/package_info_plus/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  permission_handler_apple:
+    :path: ".symlinks/plugins/permission_handler_apple/ios"
+  qr_code_scanner_plus:
+    :path: ".symlinks/plugins/qr_code_scanner_plus/ios"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
+  sqflite_darwin:
+    :path: ".symlinks/plugins/sqflite_darwin/darwin"
+  universal_ble:
+    :path: ".symlinks/plugins/universal_ble/darwin"
+  video_player_avfoundation:
+    :path: ".symlinks/plugins/video_player_avfoundation/darwin"
+  wakelock_plus:
+    :path: ".symlinks/plugins/wakelock_plus/ios"
+
+SPEC CHECKSUMS:
+  camera_avfoundation: 5675ca25298b6f81fa0a325188e7df62cc217741
+  charset_converter: 82bc1d2e3c70dcb51bf769e9772e3ae5b2571695
+  connectivity_plus: cb623214f4e1f6ef8fe7403d580fdad517d2f7dd
+  device_info_plus: 21fcca2080fbcd348be798aa36c3e5ed849eefbe
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  flutter_icmp_ping: 47c1df3440c18ddd39fc457e607bb3b42d4a339f
+  flutter_soloud: 82912d2a91398e5254cd1c252ecf5ce1ebf5809b
+  flutter_thermal_printer: 56e0926d5ac26e5f407cdf760013313dee05a318
+  MTBBarcodeScanner: f453b33c4b7dfe545d8c6484ed744d55671788cb
+  network_info_plus: cf61925ab5205dce05a4f0895989afdb6aade5fc
+  ObjectBox: a60820ec1c903702350585d8cc99c1268c99e688
+  objectbox_flutter_libs: 9bfa6489919e9191d33d54dc25cec67ca416c13d
+  package_info_plus: af8e2ca6888548050f16fa2f1938db7b5a5df499
+  path_provider_foundation: 080d55be775b7414fd5a5ef3ac137b97b097e564
+  permission_handler_apple: 4ed2196e43d0651e8ff7ca3483a069d469701f2d
+  qr_code_scanner_plus: 7e087021bc69873140e0754750eb87d867bed755
+  shared_preferences_foundation: 9e1978ff2562383bd5676f64ec4e9aa8fa06a6f7
+  sqflite_darwin: 20b2a3a3b70e43edae938624ce550a3cbf66a3d0
+  universal_ble: ff19787898040d721109c6324472e5dd4bc86adc
+  video_player_avfoundation: 2cef49524dd1f16c5300b9cd6efd9611ce03639b
+  wakelock_plus: e29112ab3ef0b318e58cfa5c32326458be66b556
+
+PODFILE CHECKSUM: 113aff9a52befc5db04f087b8cfbb4e4c522c0c6
+
+COCOAPODS: 1.16.2

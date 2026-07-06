@@ -1,0 +1,73 @@
+name: dedeorder
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  device_info_plus: ^10.1.2
+  shared_preferences: ^2.3.2
+  uuid: ^4.5.1
+  http: ^1.2.2
+  json_annotation: ^4.9.0
+  build_runner: ^2.4.12
+  intl: ^0.19.0
+  badges: ^3.1.2
+  slider_captcha: ^1.0.0
+  flutter_bloc: ^8.1.6
+  animated_icon: ^0.0.9
+  cached_network_image: ^3.4.1
+  auto_size_text: ^3.0.0
+  loading_animation_widget: ^1.2.1
+  permission_handler: ^11.3.1
+  qr_flutter: ^4.1.0
+  visibility_detector: ^0.4.0+2
+  camera: ^0.11.0+2
+  vibration: ^2.0.0
+  flutter_esc_pos_network: ^1.0.2
+  flutter_esc_pos_utils: 0.1.8
+  flutter_tts: 4.0.2
+  qr_code_scanner: 
+    git:
+      url: https://github.com/dola99/qr_code_scanner
+      ref: update
+  msix: ^3.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  crclib: ^3.0.0
+  either_option: ^2.0.0
+  flutter_lints: ^5.0.0
+  json_serializable: ^6.8.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/flags/
+    - assets/images/
+    - assets/fonts/
+    - assets/moneys/
+
+  fonts:
+    - family: nato
+      fonts:
+        - asset: assets/fonts/nato/NotoSansThai.ttf
+
+msix_config:
+  display_name: DEDEORDER
+  publisher_display_name: SMLSoft
+  publisher: smlsoft
+  identity_name: com.smlsoft.dedeorder
+  # language: en-us
+  # capabilities: internetClient, location, microphone, webcam
+desktop:
+  windows:
+    enabled: true
+    enable-uwp-desktop: true

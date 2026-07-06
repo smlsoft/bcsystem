@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell -Command:*)",
+      "Bash(flutter pub get:*)",
+      "Bash(flutter analyze:*)",
+      "Bash(findstr:*)",
+      "Bash(flutter pub outdated:*)",
+      "Bash(find:*)",
+      "Bash(flutter pub run build_runner build:*)",
+      "Bash(flutter pub run:*)",
+      "Bash(dir d:flutterproject2025dedekioskandroidappsrcbckioskres /s /b)",
+      "Bash(dir:*)",
+      "Bash(xcopy:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

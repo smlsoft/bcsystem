@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Counter Example</title>
+    <script type="text/javascript">
+        var url = window.location.href;
+        //url = url.replace("4041", "4040");
+        url = url.replace(/\/$/, "");
+        document.addEventListener('DOMContentLoaded', function () {
+            var counterElement = document.getElementById('counter');
+            var count = 0;
+
+            function updateCounter() {
+                try {
+                    count++;
+                    counterElement.innerHTML = count + " " + url;
+                    var data = {
+                        "code": "staff.order_temp_get_data_checker",
+                        "json": "{}"
+                    };
+                    // ajax load data json and display
+                    getFromServer(url, JSON.stringify(data));
+                } catch (error) {
+                    console.log(error);
+                }
+            }
+
+            // Update the counter every 1000 milliseconds (1 second)
+            setInterval(updateCounter, 1000);
+        });
+    </script>
+</head>
+
+<body>
+    <div id="counter">0</div>
+</body>
+
+</html>
+<script type="text/javascript">
+    function guid() {
+        function s4() {
+            return Math.floor((1 + Math.random()) * 0x10000)
+                    .toString(16)
+                    .substring(1);
+        }
+
+        return s4() + s4() + '-' + s4() + '-' + s4() +
+                '-' + s4() + '-' + s4() + s4() + s4();
+    }
+
+    async function getFromServer(xurl, json) {
+        return new Promise((resolve, reject) => {
+            const xhr = new XMLHttpRequest();
+
+            const base64String = btoa(unescape(encodeURIComponent(json)));
+            const url = xurl + "?json=" + base64String;
+
+            xhr.open("GET", url, true);
+            // debug
+            console.log(url);
+            xhr.setRequestHeader("Content-Type", "application/json");
+            xhr.setRequestHeader("Cache-Control", "no-cache");
+            xhr.setRequestHeader("Accept", "text/event-stream");
+
+            xhr.onload = () => {
+                if (xhr.status === 200) {
+                    resolve(xhr.responseText);
+                } else {
+                    reject('Failed to load data');
+                }
+            };
+
+            xhr.onerror = () => reject('Network error');
+
+            xhr.send();
+        });
+    }
+</script>

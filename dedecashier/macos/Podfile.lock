@@ -1,0 +1,118 @@
+PODS:
+  - connectivity_plus (0.0.1):
+    - FlutterMacOS
+  - desktop_window (0.0.1):
+    - FlutterMacOS
+  - device_info_plus (0.0.1):
+    - FlutterMacOS
+  - flutter_soloud (0.0.1):
+    - FlutterMacOS
+  - flutter_thermal_printer (0.0.1):
+    - FlutterMacOS
+  - FlutterMacOS (1.0.0)
+  - network_info_plus (0.0.1):
+    - FlutterMacOS
+  - ObjectBox (5.0.0)
+  - objectbox_flutter_libs (0.0.1):
+    - FlutterMacOS
+    - ObjectBox (= 5.0.0)
+  - package_info_plus (0.0.1):
+    - FlutterMacOS
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - screen_retriever_macos (0.0.1):
+    - FlutterMacOS
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - sqflite_darwin (0.0.4):
+    - Flutter
+    - FlutterMacOS
+  - universal_ble (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - video_player_avfoundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - window_manager (0.5.0):
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - connectivity_plus (from `Flutter/ephemeral/.symlinks/plugins/connectivity_plus/macos`)
+  - desktop_window (from `Flutter/ephemeral/.symlinks/plugins/desktop_window/macos`)
+  - device_info_plus (from `Flutter/ephemeral/.symlinks/plugins/device_info_plus/macos`)
+  - flutter_soloud (from `Flutter/ephemeral/.symlinks/plugins/flutter_soloud/macos`)
+  - flutter_thermal_printer (from `Flutter/ephemeral/.symlinks/plugins/flutter_thermal_printer/macos`)
+  - FlutterMacOS (from `Flutter/ephemeral`)
+  - network_info_plus (from `Flutter/ephemeral/.symlinks/plugins/network_info_plus/macos`)
+  - objectbox_flutter_libs (from `Flutter/ephemeral/.symlinks/plugins/objectbox_flutter_libs/macos`)
+  - package_info_plus (from `Flutter/ephemeral/.symlinks/plugins/package_info_plus/macos`)
+  - path_provider_foundation (from `Flutter/ephemeral/.symlinks/plugins/path_provider_foundation/darwin`)
+  - screen_retriever_macos (from `Flutter/ephemeral/.symlinks/plugins/screen_retriever_macos/macos`)
+  - shared_preferences_foundation (from `Flutter/ephemeral/.symlinks/plugins/shared_preferences_foundation/darwin`)
+  - sqflite_darwin (from `Flutter/ephemeral/.symlinks/plugins/sqflite_darwin/darwin`)
+  - universal_ble (from `Flutter/ephemeral/.symlinks/plugins/universal_ble/darwin`)
+  - video_player_avfoundation (from `Flutter/ephemeral/.symlinks/plugins/video_player_avfoundation/darwin`)
+  - window_manager (from `Flutter/ephemeral/.symlinks/plugins/window_manager/macos`)
+
+SPEC REPOS:
+  trunk:
+    - ObjectBox
+
+EXTERNAL SOURCES:
+  connectivity_plus:
+    :path: Flutter/ephemeral/.symlinks/plugins/connectivity_plus/macos
+  desktop_window:
+    :path: Flutter/ephemeral/.symlinks/plugins/desktop_window/macos
+  device_info_plus:
+    :path: Flutter/ephemeral/.symlinks/plugins/device_info_plus/macos
+  flutter_soloud:
+    :path: Flutter/ephemeral/.symlinks/plugins/flutter_soloud/macos
+  flutter_thermal_printer:
+    :path: Flutter/ephemeral/.symlinks/plugins/flutter_thermal_printer/macos
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+  network_info_plus:
+    :path: Flutter/ephemeral/.symlinks/plugins/network_info_plus/macos
+  objectbox_flutter_libs:
+    :path: Flutter/ephemeral/.symlinks/plugins/objectbox_flutter_libs/macos
+  package_info_plus:
+    :path: Flutter/ephemeral/.symlinks/plugins/package_info_plus/macos
+  path_provider_foundation:
+    :path: Flutter/ephemeral/.symlinks/plugins/path_provider_foundation/darwin
+  screen_retriever_macos:
+    :path: Flutter/ephemeral/.symlinks/plugins/screen_retriever_macos/macos
+  shared_preferences_foundation:
+    :path: Flutter/ephemeral/.symlinks/plugins/shared_preferences_foundation/darwin
+  sqflite_darwin:
+    :path: Flutter/ephemeral/.symlinks/plugins/sqflite_darwin/darwin
+  universal_ble:
+    :path: Flutter/ephemeral/.symlinks/plugins/universal_ble/darwin
+  video_player_avfoundation:
+    :path: Flutter/ephemeral/.symlinks/plugins/video_player_avfoundation/darwin
+  window_manager:
+    :path: Flutter/ephemeral/.symlinks/plugins/window_manager/macos
+
+SPEC CHECKSUMS:
+  connectivity_plus: 4adf20a405e25b42b9c9f87feff8f4b6fde18a4e
+  desktop_window: de6acd6053564bdccd9f4b9473d25bf4f2ad9bdf
+  device_info_plus: 4fb280989f669696856f8b129e4a5e3cd6c48f76
+  flutter_soloud: cb69d77c6ca89760429201880cf416b72d4d0c6a
+  flutter_thermal_printer: 061fa77dc72a7702d7a36a577ddb2dc53b7abab6
+  FlutterMacOS: d0db08ddef1a9af05a5ec4b724367152bb0500b1
+  network_info_plus: 21d1cd6a015ccb2fdff06a1fbfa88d54b4e92f61
+  ObjectBox: a60820ec1c903702350585d8cc99c1268c99e688
+  objectbox_flutter_libs: 013bbc27a57c5120e1408c0b33386c78cd0b5847
+  package_info_plus: f0052d280d17aa382b932f399edf32507174e870
+  path_provider_foundation: 080d55be775b7414fd5a5ef3ac137b97b097e564
+  screen_retriever_macos: 452e51764a9e1cdb74b3c541238795849f21557f
+  shared_preferences_foundation: 9e1978ff2562383bd5676f64ec4e9aa8fa06a6f7
+  sqflite_darwin: 20b2a3a3b70e43edae938624ce550a3cbf66a3d0
+  universal_ble: ff19787898040d721109c6324472e5dd4bc86adc
+  video_player_avfoundation: 2cef49524dd1f16c5300b9cd6efd9611ce03639b
+  window_manager: b729e31d38fb04905235df9ea896128991cad99e
+
+PODFILE CHECKSUM: 9ebaf0ce3d369aaa26a9ea0e159195ed94724cf3
+
+COCOAPODS: 1.16.2

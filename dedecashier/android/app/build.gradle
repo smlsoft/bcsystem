@@ -1,0 +1,123 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+def keystoreProperties = new Properties()
+def keystorePropertiesFile = rootProject.file('key.properties')
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+}
+
+android {
+    namespace = "com.smlsoft.dedecashier"
+    compileSdk = 36 // flutter.compileSdkVersion
+    ndkVersion = flutter.ndkVersion
+
+    flavorDimensions "flavor-type"
+
+     productFlavors {
+        dev {
+            dimension "flavor-type"
+            applicationId "com.smlsoft.dedecashier.dev"
+        }
+
+        dedecashier {
+            dimension "flavor-type"
+            applicationId "com.smlsoft.dedecashier"
+        }
+
+        smlaipos {
+            dimension "flavor-type"
+            applicationId "com.smlsoft.smlaipos"
+        }
+
+        marinepos {
+            dimension "flavor-type"
+            applicationId "com.smlsoft.marinepos"
+        }
+
+        bcpos {
+            dimension "flavor-type"
+            applicationId "com.smlsoft.bcpos"
+        }
+
+        smlsuperpos {
+            dimension "flavor-type"
+            applicationId "com.smlsoft.smlsuperpos"
+        }
+
+        smlmobilesales {
+            dimension "flavor-type"
+            applicationId "com.smlsoft.smlmobilesales"
+        }
+
+        vfpos {
+            dimension "flavor-type"
+            applicationId "org.villagefundth.vfpos"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+        applicationId = "com.smlsoft.dedecashier"
+        // You can update the following values to match your application needs.
+        // For more information, see: https://flutter.dev/to/review-gradle-config.
+        minSdkVersion = flutter.minSdkVersion
+        targetSdk = flutter.targetSdkVersion
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
+    }
+
+   signingConfigs {
+           release {
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
+            storePassword keystoreProperties['storePassword']
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            shrinkResources true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'  // ใช้ proguard-android.txt
+            debuggable false
+       
+        }
+        debug {
+            minifyEnabled false  // ปิดใน debug เพื่อ test
+            debuggable true
+          
+        }
+    }
+    lint {
+        disable 'InvalidPackage'
+    }
+}
+
+flutter {
+    source = "../.."
+}
+
+dependencies {
+    implementation 'com.github.mik3y:usb-serial-for-android:3.8.0'
+    // Play Core libraries split (compatible with SDK 34+)
+    implementation 'com.google.android.play:app-update:2.1.0'
+    implementation 'com.google.android.play:review:2.0.2'
+    implementation 'com.google.code.gson:gson:2.10.1'
+}
+

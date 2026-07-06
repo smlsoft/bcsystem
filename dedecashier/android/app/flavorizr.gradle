@@ -1,0 +1,46 @@
+android {
+    flavorDimensions += "flavor-type"
+
+    productFlavors {
+        dev {
+            dimension "flavor-type"
+            applicationId "com.smlsoft.dedecashier"
+            resValue "string", "app_name", "DEDE POS DEV"
+        }
+        smlaipos {
+            dimension "flavor-type"
+            applicationId "com.smlsoft.smlaipos"
+            resValue "string", "app_name", "SML AI POS"
+        }
+        marinepos {
+            dimension "flavor-type"
+            applicationId "com.smlsoft.marinepos"
+            resValue "string", "app_name", "Marine POS"
+        }
+        bcpos {
+            dimension "flavor-type"
+            applicationId "com.smlsoft.bcpos"
+            resValue "string", "app_name", "BC POS"
+        }
+        dedecashier {
+            dimension "flavor-type"
+            applicationId "com.smlsoft.dedecashier"
+            resValue "string", "app_name", "BC Cashier"
+        }
+        smlsuperpos {
+            dimension "flavor-type"
+            applicationId "com.smlsoft.smlsuperpos"
+            resValue "string", "app_name", "SML Super POS"
+        }
+        smlmobilesales {
+            dimension "flavor-type"
+            applicationId "com.smlsoft.smlmobilesales"
+            resValue "string", "app_name", "SML Mobile Sales"
+        }
+        vfpos {
+            dimension "flavor-type"
+            applicationId "org.villagefundth.vfpos"
+            resValue "string", "app_name", "Village Fund POS"
+        }
+    }
+}

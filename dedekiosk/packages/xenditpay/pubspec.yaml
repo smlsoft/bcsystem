@@ -1,0 +1,19 @@
+name: xenditpay
+description: Dart package which manages the xenditpay payment domain.
+publish_to: none
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  json_annotation: ^4.6.0
+  decimal: ^2.2.0
+  dio: ^5.1.1
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # Your other dev_dependencies here
+  build_runner: ^2.2.0
+  json_serializable: ^6.3.1

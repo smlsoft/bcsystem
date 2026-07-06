@@ -1,0 +1,3 @@
+// Release configuration for BC Kiosk flavor
+#include "Release.xcconfig"
+#include "Bckiosk.xcconfig"

@@ -1,0 +1,40 @@
+import 'package:flutter/material.dart';
+import 'package:smlaicloud/global.dart' as global;
+
+class RoundPayMenu extends StatelessWidget {
+  final String label;
+
+  final Function()? onPressed;
+
+  final int actived;
+  final String img;
+  const RoundPayMenu({
+    Key? key,
+    required this.label,
+    this.onPressed,
+    required this.actived,
+    this.img = "setting.svg",
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      width: double.infinity,
+      child: TextButton(
+        onPressed: onPressed,
+        style: TextButton.styleFrom(
+          backgroundColor: Colors.white,
+        ),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.start,
+          children: <Widget>[
+            Text(
+              label,
+              style: const TextStyle(color: Colors.white, fontSize: 15),
+            )
+          ],
+        ),
+      ),
+    );
+  }
+}

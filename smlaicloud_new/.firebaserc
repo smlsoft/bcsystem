@@ -1,0 +1,30 @@
+{
+  "projects": {
+    "default": "dedepos"
+  },
+  "targets": {
+    "dedepos": {
+      "hosting": {
+        "smlai-cloud": [
+          "smlai-cloud"
+        ],
+        "dev": [
+          "smlai-cloud-dev-2"
+        ],
+        "uat": [
+          "smlai-cloud-uat"
+        ],
+        "dohome-dev": [
+          "marine-merchant-dev"
+        ],
+        "dohome-uat": [
+          "marine-merchant-uat"
+        ],
+        "dohome-prod": [
+          "marine-merchant-prod"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

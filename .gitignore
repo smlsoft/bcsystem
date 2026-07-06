@@ -1,0 +1,29 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# secrets / env (global safety net)
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.jks
+*.keystore
+# firebase local configs
+google-services.json
+GoogleService-Info.plist
+# deps / build / caches
+node_modules/
+build/
+.dart_tool/
+.cxx/
+.gradle/
+*.bak
+*.log
+# local git backup of old history (never commit it)
+/_BCsystem_old_git_backup/

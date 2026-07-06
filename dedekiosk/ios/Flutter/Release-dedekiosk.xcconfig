@@ -1,0 +1,3 @@
+// Release configuration for DedeKiosk flavor
+#include "Release.xcconfig"
+#include "Dedekiosk.xcconfig"

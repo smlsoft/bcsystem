@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <title>Monitor</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+    ajax load data json and display , url current<br/>
+    <div id="data">0</div>
+    <script type="text/javascript">
+         document.addEventListener('DOMContentLoaded', function() {
+            var counterElement = document.getElementById('data');
+            var count = 0;
+            function updateCounter() {
+                count++;
+                counterElement.innerHTML = count;
+            }
+            setInterval(updateCounter, 1000);
+        /*var url = window.location.href;
+        // data json parameter
+        var data = {
+            "code": "staff.order_temp_get_data_checker",
+            "json": "{}"
+        };
+        // ajax load data json and display
+        startFetchingData(url,JSON.stringify(data));*/
+    </script>
+</body>
+
+</html>
+<script>
+    async function getFromServer(xurl, json) {
+        return new Promise((resolve, reject) => {
+            const xhr = new XMLHttpRequest();
+
+            const base64String = btoa(unescape(encodeURIComponent(json)));
+            const url = xurl + "?json=" + base64String;
+
+            xhr.open("GET", url, true);
+            xhr.setRequestHeader("Content-Type", "application/json");
+            xhr.setRequestHeader("Cache-Control", "no-cache");
+            xhr.setRequestHeader("Accept", "text/event-stream");
+
+            xhr.onload = () => {
+                if (xhr.status === 200) {
+                    resolve(xhr.responseText);
+                } else {
+                    reject('Failed to load data');
+                }
+            };
+
+            xhr.onerror = () => reject('Network error');
+
+            xhr.send();
+        });
+    }
+
+    function startFetchingData(xurl,json) {
+        var count = 0;
+        setInterval(async () => {
+            try {
+                count++;
+                // to div data
+                document.getElementById("data").innerHTML = count;
+                //const data = await getFromServer(xurl,json);
+                console.log('Data fetched:', data);
+                // You can process the data here
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+        }, 1000); // 1000 milliseconds = 1 second
+    }
+</script>

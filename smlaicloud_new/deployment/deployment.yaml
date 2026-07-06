@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vfmerchant-uat
+  namespace: dedepos-prd
+  labels:
+    app: vfmerchant-uat
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: vfmerchant-uat
+  template:
+    metadata:
+      labels:
+        app: vfmerchant-uat
+    spec:
+      imagePullSecrets:
+        - name: dockerconfigjson-github-com
+      containers:
+      - name: vfmerchant-uat
+        image: ghcr.io/smlsoft/vfmerchant:sha-3b53fc8
+        resources:
+            requests:
+              memory: "256Mi"
+              cpu: "200m"
+            limits:
+              memory: "256Mi"
+              cpu: "200m" 
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
+          name: web-port
+          protocol: TCP
+        livenessProbe:
+          httpGet:
+            path: /health/liveness
+            port: 80
+            scheme: HTTP
+          initialDelaySeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /health/liveness
+            port: 80
+            scheme: HTTP
+          initialDelaySeconds: 10

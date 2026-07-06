@@ -1,0 +1,204 @@
+name: smlaicloud
+description: A new Flutter project.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.0.13+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  auto_size_text: ^3.0.0
+  awesome_ripple_animation: ^2.0.0
+  barcode_widget: ^2.0.4
+  buddhist_datetime_dateformat_sns: ^1.0.7
+  cached_network_image: ^3.4.1
+  cupertino_icons: ^1.0.8
+  data_table_2: ^2.5.15
+  decimal: ^3.0.2
+  decorated_icon: ^1.2.1
+  device_info_plus: ^11.1.0
+  dio: ^5.7.0
+  dropdown_search: ^5.0.3
+  email_validator: ^3.0.0
+  equatable: ^2.0.5
+  excel: ^4.0.6
+  file_picker: ^8.1.3
+  firebase_auth: ^5.3.1
+  firebase_core: ^3.6.0
+  flash: ^3.1.1
+  flex_color_picker: ^3.6.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  flutter_cache_manager: ^3.4.1
+  flutter_colorpicker: ^1.1.0
+  flutter_compass: ^0.8.0
+  flutter_draggable_gridview: ^0.0.12
+  flutter_dropzone: ^4.0.3
+  flutter_html: ^3.0.0-beta.2
+  flutter_html_iframe: ^3.0.0-beta.2
+  flutter_joystick: ^0.2.1
+  flutter_launcher_icons: ^0.14.1
+  flutter_localization: ^0.2.2
+  flutter_localizations:
+    sdk: flutter
+  flutter_macos_webview: ^0.0.6
+  flutter_map: ^7.0.2
+  flutter_map_location_marker: ^9.1.1
+  flutter_native_timezone: ^2.0.0
+  flutter_rounded_date_picker: ^3.0.4
+  flutter_signin_button: ^2.0.0
+  flutter_spinkit: ^5.2.1
+  flutter_staggered_grid_view: ^0.7.0
+  flutter_svg: ^2.0.11
+  flutter_web_plugins:
+    sdk: flutter
+  font_awesome_flutter: ^9.2.0
+  geocoding: ^3.0.0
+  geolocator: ^13.0.1
+  get_it: ^8.0.2
+  google_maps_flutter: ^2.9.0
+  google_maps_flutter_platform_interface: ^2.9.5
+  google_maps_flutter_web: ^0.5.10
+  google_sign_in: ^6.2.1
+  google_sign_in_all_platforms: ^0.0.4
+  graphview: ^1.2.0
+  group_radio_button: ^1.3.0
+  gsheets: ^0.5.0
+  http: ^1.2.2
+  icon_decoration: ^2.1.0
+  image_crop: ^0.4.1
+  image_picker: ^1.1.2
+  image_picker_web: ^4.0.0
+  invert_colors: ^0.0.4
+  json_annotation: ^4.9.0
+  json_serializable: ^6.8.0
+  json_view: ^0.4.2
+  latlong2: ^0.9.1
+  loader_overlay: ^4.0.3
+  loading_animation_widget: ^1.3.0
+  location: ^6.0.2
+  material_tag_editor: ^0.1.2
+  network_to_file_image: ^7.0.0
+  objectbox: ^4.0.3
+  path_provider: ^2.1.5
+  pdf: ^3.11.1
+  percent_indicator: ^4.2.3
+  printing: ^5.13.4
+  qr_flutter: ^4.1.0
+  shared_preferences: ^2.5.3
+  split_view: ^3.2.1
+  translator: ^1.0.0
+  url_launcher: ^6.3.1
+  uuid: ^4.5.1
+  video_player: ^2.9.2
+  video_player_web: ^2.3.3
+  web_socket_channel: ^3.0.2
+  webview_flutter: ^4.10.0
+  syncfusion_flutter_pdfviewer: ^29.1.33
+  archive: ^3.6.1
+  syncfusion_flutter_charts: ^29.1.33
+  google_sign_in_platform_interface: ^2.5.0
+  intl: ^0.18.0
+
+dependency_overrides:
+  intl: ^0.17.0
+  http: ^1.1.0
+
+flutter_icons:
+  #  image_path: "assets/images/icon-128x128.png"
+  image_path_android: "assets/images/icon-710x599-android.png"
+  image_path_ios: "assets/images/icon-1024x1024.png"
+  android: true # can specify file name here e.g. "ic_launcher"
+  ios: true # can specify file name here e.g. "My-Launcher-Icon"
+  adaptive_icon_background: "assets/images/christmas-background.png" # only available for Android 8.0 devices and above
+  adaptive_icon_foreground: "assets/images/icon-foreground-432x432.png" # only available for Android 8.0 devices and above
+  min_sdk_android: 19 # android min sdk min:16, default 21
+  remove_alpha_ios: true
+  web:
+    generate: true
+    image_path: "assets/images/icon-1024x1024.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/images/icon-1024x1024.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/images/icon-1024x1024.png"
+
+dev_dependencies:
+  build_runner: any
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: any
+  flutter_flavorizr: ^2.1.5
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Sarabun
+      fonts:
+        - asset: assets/fonts/THSarabunNew Bold.ttf
+          weight: 700
+        - asset: assets/fonts/THSarabunNew Italic.ttf
+          style: italic
+        - asset: assets/fonts/THSarabunNew.ttf
+        - asset: assets/fonts/THSarabunNew BoldItalic.ttf
+          weight: 700
+          style: italic
+          
+
+
+          
+
+  assets:
+    - assets/
+    - assets/img/
+    - assets/icons/
+    - assets/images/
+    - assets/flags/
+    - assets/file_import/import_balance_final.xlsx
+    - assets/file_import/import_product_final.xlsx
+    - assets/file_import/import_unit.xlsx
+# Flavors
+flavorizr:
+  app:
+    android:
+      flavorDimensions: "flavor-type"
+    
+  flavors:
+    smlaidev:
+      app:
+        name: "SMLAI Dev"
+      android:
+        applicationId: "com.example.smlaicloud.dev"
+
+    smlaiuat:
+      app:
+        name: "SMLAI UAT"
+      android:
+        applicationId: "com.example.smlaicloud.uat"
+        
+    smlaiprod:
+      app:
+        name: "SMLAI"
+      android:
+        applicationId: "com.example.smlaicloud"
+
+        
+    dohomedev:
+      app:
+        name: "Dohome Dev"
+      android:
+        applicationId: "com.example.dohome.dev"
+
+      
+    dohomeprod:
+      app:
+        name: "Dohome"
+      android:
+        applicationId: "com.example.dohome"
+

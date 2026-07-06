@@ -1,0 +1,7938 @@
+[
+  {
+    "code": "confirm_change",
+    "langs": [
+      { "code": "th", "text": "ยืนยันการเปลี่ยนแปลง" },
+      { "code": "lo", "text": "ຢືນຢັນການປ່ຽນແປງ" },
+      { "code": "en", "text": "Confirm Change" },
+      { "code": "cn", "text": "确认更改" },
+      { "code": "jp", "text": "変更を確認" },
+      { "code": "kr", "text": "변경 확인" }
+    ]
+  },
+  {
+    "code": "confirm_stock_change_message",
+    "langs": [
+      { "code": "th", "text": "คุณกำลังจะตั้งค่าสต็อกเป็นจำนวนที่ระบุ:" },
+      { "code": "lo", "text": "ທ່ານກຳລັງຈະຕັ້ງຄ່າສະຕ໋ອກເປັນຈຳນວນທີ່ລະບຸ:" },
+      { "code": "en", "text": "You are about to set the stock to an absolute value:" },
+      { "code": "cn", "text": "您将把库存设置为指定数量：" },
+      { "code": "jp", "text": "在庫を指定した数量に設定しようとしています：" },
+      { "code": "kr", "text": "재고를 지정된 수량으로 설정하려고 합니다:" }
+    ]
+  },
+  {
+    "code": "new_stock",
+    "langs": [
+      { "code": "th", "text": "สต็อกใหม่" },
+      { "code": "lo", "text": "ສະຕ໋ອກໃໝ່" },
+      { "code": "en", "text": "New Stock" },
+      { "code": "cn", "text": "新库存" },
+      { "code": "jp", "text": "新しい在庫" },
+      { "code": "kr", "text": "새 재고" }
+    ]
+  },
+  {
+    "code": "this_action_cannot_be_undone",
+    "langs": [
+      { "code": "th", "text": "การกระทำนี้ไม่สามารถยกเลิกได้" },
+      { "code": "lo", "text": "ການກະທຳນີ້ບໍ່ສາມາດຍົກເລີກໄດ້" },
+      { "code": "en", "text": "This action cannot be undone." },
+      { "code": "cn", "text": "此操作无法撤消。" },
+      { "code": "jp", "text": "この操作は元に戻せません。" },
+      { "code": "kr", "text": "이 작업은 취소할 수 없습니다." }
+    ]
+  },
+  {
+    "code": "connection_error",
+    "langs": [
+      { "code": "th", "text": "การเชื่อมต่อขัดข้อง" },
+      { "code": "lo", "text": "ການເຊື່ອມຕໍ່ຂັດຂ້ອງ" },
+      { "code": "en", "text": "Connection Error" },
+      { "code": "cn", "text": "连接错误" },
+      { "code": "jp", "text": "接続エラー" },
+      { "code": "kr", "text": "연결 오류" }
+    ]
+  },
+  {
+    "code": "connection_error_message",
+    "langs": [
+      { "code": "th", "text": "ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์ได้ กรุณาตรวจสอบการเชื่อมต่ออินเทอร์เน็ต" },
+      { "code": "lo", "text": "ບໍ່ສາມາດເຊື່ອມຕໍ່ກັບເຊີບເວີໄດ້ ກະລຸນາກວດສອບການເຊື່ອມຕໍ່ອິນເຕີເນັດ" },
+      { "code": "en", "text": "Unable to connect to server. Please check your internet connection." },
+      { "code": "cn", "text": "无法连接到服务器。请检查您的网络连接。" },
+      { "code": "jp", "text": "サーバーに接続できません。インターネット接続を確認してください。" },
+      { "code": "kr", "text": "서버에 연결할 수 없습니다. 인터넷 연결을 확인해 주세요." }
+    ]
+  },
+  {
+    "code": "please_try_again",
+    "langs": [
+      { "code": "th", "text": "กรุณาลองใหม่อีกครั้ง" },
+      { "code": "lo", "text": "ກະລຸນາລອງໃໝ່ອີກຄັ້ງ" },
+      { "code": "en", "text": "Please try again." },
+      { "code": "cn", "text": "请再试一次。" },
+      { "code": "jp", "text": "もう一度お試しください。" },
+      { "code": "kr", "text": "다시 시도해 주세요." }
+    ]
+  },
+   {
+    "code": "save_data",
+    "langs": [
+      { "code": "th", "text": "บันทึก" },
+      { "code": "lo", "text": "ບັນທຶກ" },
+      { "code": "en", "text": "Save" },
+      { "code": "cn", "text": "保存" },
+      { "code": "jp", "text": "保存" },
+      { "code": "kr", "text": "저장" }
+    ]
+  },
+  {
+    "code": "transaction_saved_offline",
+    "langs": [
+      { "code": "th", "text": "บันทึกรายการแบบออฟไลน์ จะซิงค์เมื่อเชื่อมต่ออินเทอร์เน็ต" },
+      { "code": "lo", "text": "ບັນທຶກລາຍການແບບອອບໄລນ໌ ຈະຊິ້ງເມື່ອເຊື່ອມຕໍ່ອິນເຕີເນັດ" },
+      { "code": "en", "text": "Transaction saved offline. Will sync when connected." },
+      { "code": "cn", "text": "交易已离线保存。连接后将同步。" },
+      { "code": "jp", "text": "オフラインで保存されました。接続時に同期されます。" },
+      { "code": "kr", "text": "오프라인으로 저장되었습니다. 연결 시 동기화됩니다." }
+    ]
+  },
+  {
+    "code": "transaction_save_failed",
+    "langs": [
+      { "code": "th", "text": "ไม่สามารถบันทึกรายการได้ กรุณาลองใหม่" },
+      { "code": "lo", "text": "ບໍ່ສາມາດບັນທຶກລາຍການໄດ້ ກະລຸນາລອງໃໝ່" },
+      { "code": "en", "text": "Failed to save transaction. Please try again." },
+      { "code": "cn", "text": "无法保存交易。请重试。" },
+      { "code": "jp", "text": "取引を保存できませんでした。もう一度お試しください。" },
+      { "code": "kr", "text": "거래를 저장할 수 없습니다. 다시 시도해 주세요." }
+    ]
+  },
+  {
+    "code": "pending_sync",
+    "langs": [
+      { "code": "th", "text": "รอซิงค์" },
+      { "code": "lo", "text": "ລໍຖ້າຊິ້ງ" },
+      { "code": "en", "text": "Pending sync" },
+      { "code": "cn", "text": "待同步" },
+      { "code": "jp", "text": "同期待ち" },
+      { "code": "kr", "text": "동기화 대기 중" }
+    ]
+  },
+  {
+    "code": "privacy_policy",
+    "langs": [
+      { "code": "th", "text": "นโยบายความเป็นส่วนตัว" },
+      { "code": "lo", "text": "ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ" },
+      { "code": "en", "text": "Privacy Policy" },
+      { "code": "cn", "text": "隐私政策" },
+      { "code": "jp", "text": "プライバシーポリシー" },
+      { "code": "kr", "text": "개인정보 처리방침" }
+    ]
+  },
+  {
+    "code": "registration_success",
+    "langs": [
+      { "code": "th", "text": "ลงทะเบียนสำเร็จ" },
+      { "code": "lo", "text": "ລົງທະບຽນສຳເລັດ" },
+      { "code": "en", "text": "Registration Successful" },
+      { "code": "cn", "text": "注册成功" },
+      { "code": "jp", "text": "登録成功" },
+      { "code": "kr", "text": "등록 성공" }
+    ]
+  },
+  {
+    "code": "where_to_go_next",
+    "langs": [
+      { "code": "th", "text": "ต้องการไปหน้าไหน?" },
+      { "code": "lo", "text": "ຕ້ອງການໄປໜ້າໃດ?" },
+      { "code": "en", "text": "Where would you like to go?" },
+      { "code": "cn", "text": "您想去哪里?" },
+      { "code": "jp", "text": "どこに行きますか?" },
+      { "code": "kr", "text": "어디로 가시겠습니까?" }
+    ]
+  },
+  {
+    "code": "settings",
+    "langs": [
+      { "code": "th", "text": "ตั้งค่า" },
+      { "code": "lo", "text": "ຕັ້ງຄ່າ" },
+      { "code": "en", "text": "Settings" },
+      { "code": "cn", "text": "设置" },
+      { "code": "jp", "text": "設定" },
+      { "code": "kr", "text": "설정" }
+    ]
+  },
+  {
+    "code": "main_page",
+    "langs": [
+      { "code": "th", "text": "หน้าหลัก" },
+      { "code": "lo", "text": "ໜ້າຫຼັກ" },
+      { "code": "en", "text": "Main Page" },
+      { "code": "cn", "text": "首页" },
+      { "code": "jp", "text": "メインページ" },
+      { "code": "kr", "text": "메인 페이지" }
+    ]
+  },
+  {
+    "code": "how_to_use",
+    "langs": [
+      { "code": "th", "text": "วิธีการใช้งาน ?" },
+      { "code": "lo", "text": "ວິທີໃຊ້?" },
+      { "code": "en", "text": "How to use?" },
+      { "code": "cn", "text": "如何使用?" },
+      { "code": "jp", "text": "使い方?" },
+      { "code": "kr", "text": "사용 방법?" }
+    ]
+  },
+  {
+    "code": "showcase_category_desc",
+    "langs": [
+      { "code": "th", "text": "เลือกหมวดหมู่สินค้าที่ต้องการ" },
+      { "code": "lo", "text": "ເລືອກໝວດໝູ່ສິນຄ້າທີ່ຕ້ອງການ" },
+      { "code": "en", "text": "Select the product category you want" },
+      { "code": "cn", "text": "选择您想要的产品类别" },
+      { "code": "jp", "text": "欲しい商品カテゴリを選択" },
+      { "code": "kr", "text": "원하는 상품 카테고리 선택" }
+    ]
+  },
+  {
+    "code": "showcase_product_desc",
+    "langs": [
+      { "code": "th", "text": "แตะสินค้าเพื่อเพิ่มลงตะกร้า" },
+      { "code": "lo", "text": "ແຕະສິນຄ້າເພື່ອເພີ່ມໃສ່ກະຕ່າ" },
+      { "code": "en", "text": "Tap product to add to cart" },
+      { "code": "cn", "text": "点击商品添加到购物车" },
+      { "code": "jp", "text": "商品をタップしてカートに追加" },
+      { "code": "kr", "text": "상품을 탭하여 장바구니에 추가" }
+    ]
+  },
+  {
+    "code": "showcase_search_desc",
+    "langs": [
+      { "code": "th", "text": "ค้นหาสินค้าที่ต้องการ" },
+      { "code": "lo", "text": "ຄົ້ນຫາສິນຄ້າທີ່ຕ້ອງການ" },
+      { "code": "en", "text": "Search for products" },
+      { "code": "cn", "text": "搜索产品" },
+      { "code": "jp", "text": "商品を検索" },
+      { "code": "kr", "text": "상품 검색" }
+    ]
+  },
+  {
+    "code": "showcase_cart_desc",
+    "langs": [
+      { "code": "th", "text": "ดูรายการสั่งซื้อและชำระเงิน" },
+      { "code": "lo", "text": "ເບິ່ງລາຍການສັ່ງຊື້ ແລະ ຊຳລະເງິນ" },
+      { "code": "en", "text": "View order and checkout" },
+      { "code": "cn", "text": "查看订单并结账" },
+      { "code": "jp", "text": "注文を確認して支払い" },
+      { "code": "kr", "text": "주문 확인 및 결제" }
+    ]
+  },
+  {
+    "code": "showcase_member_desc",
+    "langs": [
+      { "code": "th", "text": "เพิ่มสมาชิกเพื่อรับสิทธิพิเศษ" },
+      { "code": "lo", "text": "ເພີ່ມສະມາຊິກເພື່ອຮັບສິດທິພິເສດ" },
+      { "code": "en", "text": "Add member to get special privileges" },
+      { "code": "cn", "text": "添加会员享受特权" },
+      { "code": "jp", "text": "特典を受けるためにメンバー登録" },
+      { "code": "kr", "text": "특별 혜택을 위해 회원 추가" }
+    ]
+  },
+  {
+    "code": "loading_products",
+    "langs": [
+      { "code": "th", "text": "กำลังโหลดสินค้า..." },
+      { "code": "lo", "text": "ກຳລັງໂຫລດສິນຄ້າ..." },
+      { "code": "en", "text": "Loading products..." },
+      { "code": "cn", "text": "加载产品中..." },
+      { "code": "jp", "text": "商品を読み込んでいます..." },
+      { "code": "kr", "text": "상품 로딩 중..." }
+    ]
+  },
+  {
+    "code": "language",
+    "langs": [
+      { "code": "th", "text": "ภาษา" },
+      { "code": "lo", "text": "ພາສາ" },
+      { "code": "en", "text": "Language" },
+      { "code": "cn", "text": "语言" },
+      { "code": "jp", "text": "言語" },
+      { "code": "kr", "text": "언어" }
+    ]
+  },
+  {
+    "code": "add_friend_collect_points",
+    "langs": [
+      { "code": "th", "text": "เพิ่มสมาชิก สะสมแต้ม" },
+      { "code": "lo", "text": "ເພີ່ມສະມາຊິກ ສະສົມຄະແນນ" },
+      { "code": "en", "text": "Add Member, Collect Points" },
+      { "code": "cn", "text": "添加会员 积分" },
+      { "code": "jp", "text": "会員追加 ポイント貯める" },
+      { "code": "kr", "text": "회원 추가, 포인트 적립" }
+    ]
+  },
+  {
+    "code": " please_enter_4_digits",
+    "langs": [
+      { "code": "th", "text": "กรุณาป้อนตัวเลข 4 หลัก" },
+      { "code": "lo", "text": "ກະລຸນາໃສ່ເລກ 4 ຕົວ" },
+      { "code": "en", "text": "Please enter 4 digits" },
+      { "code": "cn", "text": "请输入4位数字" },
+      { "code": "jp", "text": "4桁の数字を入力してください" },
+      { "code": "kr", "text": "4자리 숫자를 입력하세요" }
+    ]
+  },
+
+  {
+    "code": "data_not_loaded",
+    "langs": [
+      { "code": "th", "text": "ไม่สามารถโหลดข้อมูลสินค้าได้ กรุณาลองใหม่อีกครั้ง" },
+      { "code": "lo", "text": "ບໍ່ສາມາດໂຫລດຂໍ້ມູນສິນຄ້າໄດ້ ກະລຸນາລອງໃໝ່ອີກຄັ້ງ" },
+      { "code": "en", "text": "Unable to load product data. Please try again." },
+      { "code": "cn", "text": "无法加载产品数据，请重试" },
+      { "code": "jp", "text": "商品データを読み込めませんでした。もう一度お試しください" },
+      { "code": "kr", "text": "상품 데이터를 로드할 수 없습니다. 다시 시도해 주세요" }
+    ]
+  },
+  {
+    "code": "add_member",
+    "langs": [
+      { "code": "th", "text": "เพิ่มสมาชิก" },
+      { "code": "lo", "text": "ເພີ່ມສະມາຊິກ" },
+      { "code": "en", "text": "Add Member" },
+      { "code": "cn", "text": "添加会员" },
+      { "code": "jp", "text": "メンバー追加" },
+      { "code": "kr", "text": "회원 추가" }
+    ]
+  },
+  {
+    "code": "enter_pin_code",
+    "langs": [
+      { "code": "th", "text": "กรุณากรอกรหัส PIN 4 หลัก" },
+      { "code": "lo", "text": "ກະລຸນາປ້ອນລະຫັດ PIN 4 ຕົວເລກ" },
+      { "code": "en", "text": "Please enter 4-digit PIN code" },
+      { "code": "cn", "text": "请输入4位PIN码" },
+      { "code": "jp", "text": "4桁のPINコードを入力してください" },
+      { "code": "kr", "text": "4자리 PIN 코드를 입력하세요" }
+    ]
+  },
+  {
+    "code": "enter_member_pin",
+    "langs": [
+      { "code": "th", "text": "กรอก PIN สมาชิก" },
+      { "code": "lo", "text": "ປ້ອນ PIN ສະມາຊິກ" },
+      { "code": "en", "text": "Enter Member PIN" },
+      { "code": "cn", "text": "输入会员PIN" },
+      { "code": "jp", "text": "会員PINを入力" },
+      { "code": "kr", "text": "회원 PIN 입력" }
+    ]
+  },
+  {
+    "code": "enter_pin",
+    "langs": [
+      { "code": "th", "text": "กรอก PIN" },
+      { "code": "lo", "text": "ປ້ອນ PIN" },
+      { "code": "en", "text": "Enter PIN" },
+      { "code": "cn", "text": "输入PIN" },
+      { "code": "jp", "text": "PIN入力" },
+      { "code": "kr", "text": "PIN 입력" }
+    ]
+  },
+  {
+    "code": "scan_for_member",
+    "langs": [
+      { "code": "th", "text": "สแกนเพื่อเป็นสมาชิก" },
+      { "code": "lo", "text": "ສະແກນເພື່ອເປັນສະມາຊິກ" },
+      { "code": "en", "text": "Scan to become member" },
+      { "code": "cn", "text": "扫描成为会员" },
+      { "code": "jp", "text": "メンバーになるためにスキャン" },
+      { "code": "kr", "text": "회원이 되기 위해 스캔" }
+    ]
+  },
+  {
+    "code": "qr_expired",
+    "langs": [
+      { "code": "th", "text": "QR หมดอายุแล้ว" },
+      { "code": "lo", "text": "QR ໝົດອາຍຸແລ້ວ" },
+      { "code": "en", "text": "QR code expired" },
+      { "code": "cn", "text": "二维码已过期" },
+      { "code": "jp", "text": "QRコードの有効期限切れ" },
+      { "code": "kr", "text": "QR 코드 만료됨" }
+    ]
+  },
+  {
+    "code": "scan_qr_instruction",
+    "langs": [
+      { "code": "th", "text": "สแกน QR ด้วยแอป LINE เพื่อรับสิทธิ์สมาชิก" },
+      { "code": "lo", "text": "ສະແກນ QR ດ້ວຍແອັບ LINE ເພື່ອຮັບສິດທິສະມາຊິກ" },
+      { "code": "en", "text": "Scan QR with LINE app to get member benefits" },
+      { "code": "cn", "text": "使用LINE应用扫描二维码获取会员权益" },
+      { "code": "jp", "text": "LINEアプリでQRをスキャンして会員特典を獲得" },
+      { "code": "kr", "text": "LINE 앱으로 QR을 스캔하여 회원 혜택 받기" }
+    ]
+  },
+  {
+    "code": "become_member",
+    "langs": [
+      { "code": "th", "text": "เป็นสมาชิก" },
+      { "code": "lo", "text": "ເປັນສະມາຊິກ" },
+      { "code": "en", "text": "Become Member" },
+      { "code": "cn", "text": "成为会员" },
+      { "code": "jp", "text": "会員になる" },
+      { "code": "kr", "text": "회원 되기" }
+    ]
+  },
+  {
+    "code": "points",
+    "langs": [
+      { "code": "th", "text": "แต้ม" },
+      { "code": "lo", "text": "ແຕ້ມ" },
+      { "code": "en", "text": "points" },
+      { "code": "cn", "text": "积分" },
+      { "code": "jp", "text": "ポイント" },
+      { "code": "kr", "text": "포인트" }
+    ]
+  },
+  {
+    "code": "point_balance",
+    "langs": [
+      { "code": "th", "text": "แต้มคงเหลือ" },
+      { "code": "lo", "text": "ແຕ້ມຍັງເຫຼືອ" },
+      { "code": "en", "text": "Point Balance" },
+      { "code": "cn", "text": "积分余额" },
+      { "code": "jp", "text": "ポイント残高" },
+      { "code": "kr", "text": "포인트 잔액" }
+    ]
+  },
+  {
+    "code": "use_points",
+    "langs": [
+      { "code": "th", "text": "ใช้แต้ม" },
+      { "code": "lo", "text": "ໃຊ້ແຕ້ມ" },
+      { "code": "en", "text": "Use Points" },
+      { "code": "cn", "text": "使用积分" },
+      { "code": "jp", "text": "ポイントを使う" },
+      { "code": "kr", "text": "포인트 사용" }
+    ]
+  },
+  {
+    "code": "enter_points_to_use",
+    "langs": [
+      { "code": "th", "text": "ระบุจำนวนแต้มที่ต้องการใช้" },
+      { "code": "lo", "text": "ລະບຸຈຳນວນແຕ້ມທີ່ຕ້ອງການໃຊ້" },
+      { "code": "en", "text": "Enter points to use" },
+      { "code": "cn", "text": "输入要使用的积分" },
+      { "code": "jp", "text": "使用するポイントを入力" },
+      { "code": "kr", "text": "사용할 포인트 입력" }
+    ]
+  },
+  {
+    "code": "points_discount",
+    "langs": [
+      { "code": "th", "text": "ส่วนลดจากแต้ม" },
+      { "code": "lo", "text": "ສ່ວນຫຼຸດຈາກແຕ້ມ" },
+      { "code": "en", "text": "Points Discount" },
+      { "code": "cn", "text": "积分折扣" },
+      { "code": "jp", "text": "ポイント割引" },
+      { "code": "kr", "text": "포인트 할인" }
+    ]
+  },
+  {
+    "code": "save",
+    "langs": [
+      { "code": "th", "text": "ประหยัด" },
+      { "code": "lo", "text": "ປະຢັດ" },
+      { "code": "en", "text": "Save" },
+      { "code": "cn", "text": "节省" },
+      { "code": "jp", "text": "節約" },
+      { "code": "kr", "text": "절약" }
+    ]
+  },
+  {
+    "code": "member_price",
+    "langs": [
+      { "code": "th", "text": "ราคาสมาชิก" },
+      { "code": "lo", "text": "ລາຄາສະມາຊິກ" },
+      { "code": "en", "text": "Member Price" },
+      { "code": "cn", "text": "会员价" },
+      { "code": "jp", "text": "会員価格" },
+      { "code": "kr", "text": "회원가" }
+    ]
+  },
+  {
+    "code": "not_enough_points",
+    "langs": [
+      { "code": "th", "text": "แต้มไม่เพียงพอ" },
+      { "code": "lo", "text": "ແຕ້ມບໍ່ພຽງພໍ" },
+      { "code": "en", "text": "Not enough points" },
+      { "code": "cn", "text": "积分不足" },
+      { "code": "jp", "text": "ポイントが不足しています" },
+      { "code": "kr", "text": "포인트가 부족합니다" }
+    ]
+  },
+  {
+    "code": "member_info",
+    "langs": [
+      { "code": "th", "text": "ข้อมูลสมาชิก" },
+      { "code": "lo", "text": "ຂໍ້ມູນສະມາຊິກ" },
+      { "code": "en", "text": "Member Info" },
+      { "code": "cn", "text": "会员信息" },
+      { "code": "jp", "text": "会員情報" },
+      { "code": "kr", "text": "회원 정보" }
+    ]
+  },
+  {
+    "code": "waiting_for_scan",
+    "langs": [
+      { "code": "th", "text": "รอการสแกน QR..." },
+      { "code": "lo", "text": "ລໍຖ້າການສະແກນ QR..." },
+      { "code": "en", "text": "Waiting for QR scan..." },
+      { "code": "cn", "text": "等待扫描二维码..." },
+      { "code": "jp", "text": "QRスキャン待ち..." },
+      { "code": "kr", "text": "QR 스캔 대기 중..." }
+    ]
+  },
+  {
+    "code": "skip",
+    "langs": [
+      { "code": "th", "text": "ข้าม" },
+      { "code": "lo", "text": "ຂ້າມ" },
+      { "code": "en", "text": "Skip" },
+      { "code": "cn", "text": "跳过" },
+      { "code": "jp", "text": "スキップ" },
+      { "code": "kr", "text": "건너뛰기" }
+    ]
+  },
+  {
+    "code": "printer_connection_failed",
+    "langs": [
+      { "code": "th", "text": "เชื่อมต่อเครื่องพิมพ์ไม่สำเร็จ" },
+      { "code": "lo", "text": "ເຊື່ອມຕໍ່ເຄື່ອງພິມບໍ່ສຳເລັດ" },
+      { "code": "en", "text": "Printer connection failed" },
+      { "code": "cn", "text": "打印机连接失败" },
+      { "code": "jp", "text": "プリンター接続に失敗しました" },
+      { "code": "kr", "text": "프린터 연결 실패" }
+    ]
+  },
+  {
+    "code": "retry",
+    "langs": [
+      { "code": "th", "text": "ลองใหม่" },
+      { "code": "lo", "text": "ລອງໃໝ່" },
+      { "code": "en", "text": "Retry" },
+      { "code": "cn", "text": "重试" },
+      { "code": "jp", "text": "再試行" },
+      { "code": "kr", "text": "다시 시도" }
+    ]
+  },
+  {
+    "code": "member",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สมาชิก"
+      },
+      {
+        "code": "lo",
+        "text": "ສະມາຊິກ"
+      },
+      {
+        "code": "en",
+        "text": "Member"
+      },
+      {
+        "code": "cn",
+        "text": "会员"
+      },
+      {
+        "code": "jp",
+        "text": "会員"
+      },
+      {
+        "code": "kr",
+        "text": "회원"
+      }
+    ]
+  },
+  {
+    "code": "phone_number",
+    "langs": [
+      { "code": "th", "text": "เบอร์โทร" },
+      { "code": "lo", "text": "ເບີໂທ" },
+      { "code": "en", "text": "Phone" },
+      { "code": "cn", "text": "电话" },
+      { "code": "jp", "text": "電話番号" },
+      { "code": "kr", "text": "전화번호" }
+    ]
+  },
+  {
+    "code": "point_discount",
+    "langs": [
+      { "code": "th", "text": "ส่วนลดจากแต้ม" },
+      { "code": "lo", "text": "ສ່ວນຫຼຸດຈາກແຕ້ມ" },
+      { "code": "en", "text": "Point Discount" },
+      { "code": "cn", "text": "积分折扣" },
+      { "code": "jp", "text": "ポイント割引" },
+      { "code": "kr", "text": "포인트 할인" }
+    ]
+  },
+  {
+    "code": "pay_by_point",
+    "langs": [
+      { "code": "th", "text": "ชำระด้วยแต้ม" },
+      { "code": "lo", "text": "ຊຳລະດ້ວຍແຕ້ມ" },
+      { "code": "en", "text": "Pay by Points" },
+      { "code": "cn", "text": "积分支付" },
+      { "code": "jp", "text": "ポイント払い" },
+      { "code": "kr", "text": "포인트 결제" }
+    ]
+  },
+  {
+    "code": "used_points",
+    "langs": [
+      { "code": "th", "text": "แต้มที่ใช้" },
+      { "code": "lo", "text": "ແຕ້ມທີ່ໃຊ້" },
+      { "code": "en", "text": "Points Used" },
+      { "code": "cn", "text": "使用积分" },
+      { "code": "jp", "text": "使用ポイント" },
+      { "code": "kr", "text": "사용 포인트" }
+    ]
+  },
+  {
+    "code": "earned_points",
+    "langs": [
+      { "code": "th", "text": "แต้มที่ได้รับ" },
+      { "code": "lo", "text": "ແຕ້ມທີ່ໄດ້ຮັບ" },
+      { "code": "en", "text": "Points Earned" },
+      { "code": "cn", "text": "获得积分" },
+      { "code": "jp", "text": "獲得ポイント" },
+      { "code": "kr", "text": "적립 포인트" }
+    ]
+  },
+  {
+    "code": "remaining_points",
+    "langs": [
+      { "code": "th", "text": "แต้มคงเหลือ" },
+      { "code": "lo", "text": "ແຕ້ມຄົງເຫຼືອ" },
+      { "code": "en", "text": "Points Balance" },
+      { "code": "cn", "text": "积分余额" },
+      { "code": "jp", "text": "残りポイント" },
+      { "code": "kr", "text": "잔여 포인트" }
+    ]
+  },
+  {
+    "code": "previous_points",
+    "langs": [
+      { "code": "th", "text": "แต้มก่อนใช้" },
+      { "code": "lo", "text": "ແຕ້ມກ່ອນໃຊ້" },
+      { "code": "en", "text": "Previous Points" },
+      { "code": "cn", "text": "使用前积分" },
+      { "code": "jp", "text": "使用前ポイント" },
+      { "code": "kr", "text": "사용 전 포인트" }
+    ]
+  },
+
+  {
+    "code": "printer_config",
+    "langs": [
+      {
+        "code": "th",
+        "text": "การตั้งค่าเครื่องพิมพ์"
+      },
+      {
+        "code": "lo",
+        "text": "ການຕັ້ງຄ່າເຄື່ອງພິມ"
+      },
+      {
+        "code": "en",
+        "text": "Printer Config"
+      },
+      {
+        "code": "cn",
+        "text": "打印机设置"
+      },
+      {
+        "code": "jp",
+        "text": "プリンター設定"
+      },
+      {
+        "code": "kr",
+        "text": "프린터 설정"
+      }
+    ]
+  },
+  {
+    "code": "printer_connect_test",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ทดสอบการเชื่อมต่อเครื่องพิมพ์"
+      },
+      {
+        "code": "lo",
+        "text": "ການທົດສອບການເຊື່ອມຕໍ່ເຄື່ອງພິມ"
+      },
+      {
+        "code": "en",
+        "text": "Printer Connect Test"
+      },
+      {
+        "code": "cn",
+        "text": "打印机连接测试"
+      },
+      {
+        "code": "jp",
+        "text": "プリンター接続テスト"
+      },
+      {
+        "code": "kr",
+        "text": "프린터 연결 테스트"
+      }
+    ]
+  },
+  {
+    "code": "printer_connect_test_and_save",
+    "langs": [
+      { "code": "th", "text": "ทดสอบและบันทึก" },
+      { "code": "lo", "text": "ທົດສອບແລະບັນທຶກ" },
+      { "code": "en", "text": "Test and Save" },
+      { "code": "cn", "text": "测试并保存" },
+      { "code": "jp", "text": "テストして保存" },
+      { "code": "kr", "text": "테스트 및 저장" }
+    ]
+  },
+  {
+    "code": "printer_connect_test_success",
+    "langs": [
+      { "code": "th", "text": "พิมพ์ทดสอบสำเร็จหรือไม่?" },
+      { "code": "lo", "text": "ພິມທົດສອບສຳເລັດຫຼືບໍ່?" },
+      { "code": "en", "text": "Print test successful?" },
+      { "code": "cn", "text": "打印测试成功了吗？" },
+      { "code": "jp", "text": "印刷テストは成功しましたか？" },
+      { "code": "kr", "text": "인쇄 테스트가 성공했습니까?" }
+    ]
+  },
+  {
+    "code": "printer_settings",
+    "langs": [
+      { "code": "th", "text": "ตั้งค่าเครื่องพิมพ์" },
+      { "code": "lo", "text": "ຕັ້ງຄ່າເຄື່ອງພິມ" },
+      { "code": "en", "text": "Printer Settings" },
+      { "code": "cn", "text": "打印机设置" },
+      { "code": "jp", "text": "プリンター設定" },
+      { "code": "kr", "text": "프린터 설정" }
+    ]
+  },
+  {
+    "code": "printer_usb_device",
+    "langs": [
+      { "code": "th", "text": "อุปกรณ์ USB" },
+      { "code": "lo", "text": "ອຸປະກອນ USB" },
+      { "code": "en", "text": "USB Device" },
+      { "code": "cn", "text": "USB设备" },
+      { "code": "jp", "text": "USBデバイス" },
+      { "code": "kr", "text": "USB 장치" }
+    ]
+  },
+  {
+    "code": "printer_usb_vendor_id",
+    "langs": [
+      { "code": "th", "text": "Vendor ID" },
+      { "code": "lo", "text": "Vendor ID" },
+      { "code": "en", "text": "Vendor ID" },
+      { "code": "cn", "text": "供应商ID" },
+      { "code": "jp", "text": "ベンダーID" },
+      { "code": "kr", "text": "공급업체 ID" }
+    ]
+  },
+  {
+    "code": "printer_usb_product_id",
+    "langs": [
+      { "code": "th", "text": "Product ID" },
+      { "code": "lo", "text": "Product ID" },
+      { "code": "en", "text": "Product ID" },
+      { "code": "cn", "text": "产品ID" },
+      { "code": "jp", "text": "製品ID" },
+      { "code": "kr", "text": "제품 ID" }
+    ]
+  },
+  {
+    "code": "printer_ip_address",
+    "langs": [
+      { "code": "th", "text": "IP Address" },
+      { "code": "lo", "text": "ທີ່ຢູ່ IP" },
+      { "code": "en", "text": "IP Address" },
+      { "code": "cn", "text": "IP地址" },
+      { "code": "jp", "text": "IPアドレス" },
+      { "code": "kr", "text": "IP 주소" }
+    ]
+  },
+  {
+    "code": "printer_ip_port",
+    "langs": [
+      { "code": "th", "text": "Port" },
+      { "code": "lo", "text": "ພອດ" },
+      { "code": "en", "text": "Port" },
+      { "code": "cn", "text": "端口" },
+      { "code": "jp", "text": "ポート" },
+      { "code": "kr", "text": "포트" }
+    ]
+  },
+  {
+    "code": "printer_mac_address",
+    "langs": [
+      { "code": "th", "text": "MAC Address" },
+      { "code": "lo", "text": "ທີ່ຢູ່ MAC" },
+      { "code": "en", "text": "MAC Address" },
+      { "code": "cn", "text": "MAC地址" },
+      { "code": "jp", "text": "MACアドレス" },
+      { "code": "kr", "text": "MAC 주소" }
+    ]
+  },
+  {
+    "code": "printer_name",
+    "langs": [
+      { "code": "th", "text": "ชื่อเครื่องพิมพ์" },
+      { "code": "lo", "text": "ຊື່ເຄື່ອງພິມ" },
+      { "code": "en", "text": "Printer Name" },
+      { "code": "cn", "text": "打印机名称" },
+      { "code": "jp", "text": "プリンター名" },
+      { "code": "kr", "text": "프린터 이름" }
+    ]
+  },
+  {
+    "code": "printer_paper_size",
+    "langs": [
+      { "code": "th", "text": "ขนาดกระดาษ" },
+      { "code": "lo", "text": "ຂະໜາດເຈ້ຍ" },
+      { "code": "en", "text": "Paper Size" },
+      { "code": "cn", "text": "纸张大小" },
+      { "code": "jp", "text": "用紙サイズ" },
+      { "code": "kr", "text": "용지 크기" }
+    ]
+  },
+  {
+    "code": "printer_print_bill_auto",
+    "langs": [
+      { "code": "th", "text": "พิมพ์ใบเสร็จอัตโนมัติ" },
+      { "code": "lo", "text": "ພິມໃບບິນອັດຕະໂນມັດ" },
+      { "code": "en", "text": "Auto Print Receipt" },
+      { "code": "cn", "text": "自动打印收据" },
+      { "code": "jp", "text": "領収書の自動印刷" },
+      { "code": "kr", "text": "영수증 자동 인쇄" }
+    ]
+  },
+  {
+    "code": "searching_printers",
+    "langs": [
+      { "code": "th", "text": "กำลังค้นหาเครื่องพิมพ์" },
+      { "code": "lo", "text": "ກຳລັງຄົ້ນຫາເຄື່ອງພິມ" },
+      { "code": "en", "text": "Searching Printers" },
+      { "code": "cn", "text": "正在搜索打印机" },
+      { "code": "jp", "text": "プリンターを検索中" },
+      { "code": "kr", "text": "프린터 검색 중" }
+    ]
+  },
+  {
+    "code": "available_printers",
+    "langs": [
+      { "code": "th", "text": "เครื่องพิมพ์ที่พบ" },
+      { "code": "lo", "text": "ເຄື່ອງພິມທີ່ພົບ" },
+      { "code": "en", "text": "Available Printers" },
+      { "code": "cn", "text": "可用打印机" },
+      { "code": "jp", "text": "利用可能なプリンター" },
+      { "code": "kr", "text": "사용 가능한 프린터" }
+    ]
+  },
+  {
+    "code": "found",
+    "langs": [
+      { "code": "th", "text": "พบ" },
+      { "code": "lo", "text": "ພົບ" },
+      { "code": "en", "text": "found" },
+      { "code": "cn", "text": "找到" },
+      { "code": "jp", "text": "見つかりました" },
+      { "code": "kr", "text": "발견" }
+    ]
+  },
+  {
+    "code": "success",
+    "langs": [
+      { "code": "th", "text": "สำเร็จ" },
+      { "code": "lo", "text": "ສຳເລັດ" },
+      { "code": "en", "text": "Success" },
+      { "code": "cn", "text": "成功" },
+      { "code": "jp", "text": "成功" },
+      { "code": "kr", "text": "성공" }
+    ]
+  },
+  {
+    "code": "fail",
+    "langs": [
+      { "code": "th", "text": "ไม่สำเร็จ" },
+      { "code": "lo", "text": "ບໍ່ສຳເລັດ" },
+      { "code": "en", "text": "Fail" },
+      { "code": "cn", "text": "失败" },
+      { "code": "jp", "text": "失敗" },
+      { "code": "kr", "text": "실패" }
+    ]
+  },
+  {
+    "code": "refresh",
+    "langs": [
+      { "code": "th", "text": "รีเฟรช" },
+      { "code": "lo", "text": "ໂຫຼດໃໝ່" },
+      { "code": "en", "text": "Refresh" },
+      { "code": "cn", "text": "刷新" },
+      { "code": "jp", "text": "更新" },
+      { "code": "kr", "text": "새로고침" }
+    ]
+  },
+  {
+    "code": "cart_order",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สินค้าในตะกร้า"
+      },
+      {
+        "code": "lo",
+        "text": "ສິນຄ້າໃນຕະກຣ້າ"
+      },
+      {
+        "code": "en",
+        "text": "Cart Order"
+      },
+      {
+        "code": "cn",
+        "text": "购物车订单"
+      },
+      {
+        "code": "jp",
+        "text": "カート注文"
+      },
+      {
+        "code": "kr",
+        "text": "장바구니 주문"
+      }
+    ]
+  },
+  {
+    "code": "standard",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ลูกค้าทั่วไป"
+      },
+      {
+        "code": "lo",
+        "text": "ປະຊຸມ"
+      },
+      {
+        "code": "en",
+        "text": "Standard"
+      },
+      {
+        "code": "cn",
+        "text": "标准"
+      },
+      {
+        "code": "jp",
+        "text": "標準"
+      },
+      {
+        "code": "kr",
+        "text": "표준"
+      }
+    ]
+  },
+  {
+    "code": "table_number",
+    "langs": [
+      {
+        "code": "th",
+        "text": "โต๊ะ"
+      },
+      {
+        "code": "lo",
+        "text": "ໂຕ"
+      },
+      {
+        "code": "en",
+        "text": "Table"
+      },
+      {
+        "code": "cn",
+        "text": "桌号"
+      },
+      {
+        "code": "jp",
+        "text": "テーブル"
+      },
+      {
+        "code": "kr",
+        "text": "테이블"
+      }
+    ]
+  },
+  {
+    "code": "table_summery",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สรุปยอด"
+      },
+      {
+        "code": "lo",
+        "text": "ສະຫຼຸບລາຍການ"
+      },
+      {
+        "code": "en",
+        "text": "Summery"
+      },
+      {
+        "code": "cn",
+        "text": "总结"
+      },
+      {
+        "code": "jp",
+        "text": "概要"
+      },
+      {
+        "code": "kr",
+        "text": "요약"
+      }
+    ]
+  },
+  {
+    "code": "call_staff",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เรียกพนักงาน"
+      },
+      {
+        "code": "lo",
+        "text": "ເອົາພະນັກງານ"
+      },
+      {
+        "code": "en",
+        "text": "Call Staff"
+      },
+      {
+        "code": "cn",
+        "text": "叫员工"
+      },
+      {
+        "code": "jp",
+        "text": "スタッフを呼び出す"
+      },
+      {
+        "code": "kr",
+        "text": "직원 불러"
+      }
+    ]
+  },
+  {
+    "code": "call_staff_drink",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เติมเครื่องดื่ม"
+      },
+      {
+        "code": "lo",
+        "text": "ເພີ່ມເຄື່ອງດື່ມ"
+      },
+      {
+        "code": "en",
+        "text": "Add Drink"
+      },
+      {
+        "code": "cn",
+        "text": "添加饮料"
+      },
+      {
+        "code": "jp",
+        "text": "飲み物を追加"
+      },
+      {
+        "code": "kr",
+        "text": "음료 추가"
+      }
+    ]
+  },
+  {
+    "code": "call_staff_track_order",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ตามอาหาร"
+      },
+      {
+        "code": "lo",
+        "text": "ຕື່ມອາຫານ"
+      },
+      {
+        "code": "en",
+        "text": "Track Order"
+      },
+      {
+        "code": "cn",
+        "text": "跟踪订单"
+      },
+      {
+        "code": "jp",
+        "text": "注文を追跡する"
+      },
+      {
+        "code": "kr",
+        "text": "주문 추적"
+      }
+    ]
+  },
+  {
+    "code": "call_staff_other",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เรื่องทั่วไป"
+      },
+      {
+        "code": "lo",
+        "text": "ຫນ້າການທົດສອບ"
+      },
+      {
+        "code": "en",
+        "text": "Other"
+      },
+      {
+        "code": "cn",
+        "text": "其他"
+      },
+      {
+        "code": "jp",
+        "text": "その他"
+      },
+      {
+        "code": "kr",
+        "text": "기타"
+      }
+    ]
+  },
+  {
+    "code": "call_staff_pay",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เรียกคิดเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ເອົາເງິນ"
+      },
+      {
+        "code": "en",
+        "text": "Pay"
+      },
+      {
+        "code": "cn",
+        "text": "支付"
+      },
+      {
+        "code": "jp",
+        "text": "ペイ"
+      },
+      {
+        "code": "kr",
+        "text": "지불"
+      }
+    ]
+  },
+  {
+    "code": "order",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สั่งอาหาร"
+      },
+      {
+        "code": "lo",
+        "text": "ສັ່ງອາຫານ"
+      },
+      {
+        "code": "en",
+        "text": "Order"
+      },
+      {
+        "code": "cn",
+        "text": "订购"
+      },
+      {
+        "code": "jp",
+        "text": "注文"
+      },
+      {
+        "code": "kr",
+        "text": "주문"
+      }
+    ]
+  },
+  {
+    "code": "pin_not_found",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่พบรหัส Pin"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ພົບລະຫັດ Pin"
+      },
+      {
+        "code": "en",
+        "text": "Pin not found"
+      },
+      {
+        "code": "cn",
+        "text": "找不到密码"
+      },
+      {
+        "code": "jp",
+        "text": "PINが見つかりません"
+      },
+      {
+        "code": "kr",
+        "text": "핀을 찾을 수 없습니다"
+      }
+    ]
+  },
+  {
+    "code": "pin_already_used",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รหัส Pin ถูกใช้แล้ว"
+      },
+      {
+        "code": "lo",
+        "text": "ລະຫັດ Pin ໄດ້ຖືກນໍາໃຊ້ແລ້ວ"
+      },
+      {
+        "code": "en",
+        "text": "Pin already used"
+      },
+      {
+        "code": "cn",
+        "text": "密码已使用"
+      },
+      {
+        "code": "jp",
+        "text": "PINはすでに使用されています"
+      },
+      {
+        "code": "kr",
+        "text": "핀이 이미 사용되었습니다"
+      }
+    ]
+  },
+
+  {
+    "code": "member_pin",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กรอกรหัส Pin สมาชิก"
+      },
+      {
+        "code": "lo",
+        "text": "ປ້ອນລະຫັດ Pin ສະມາຊິກ"
+      },
+      {
+        "code": "en",
+        "text": "Enter Member Pin"
+      },
+      {
+        "code": "cn",
+        "text": "输入会员密码"
+      },
+      {
+        "code": "jp",
+        "text": "会員PINを入力"
+      },
+      {
+        "code": "kr",
+        "text": "회원 핀 입력"
+      }
+    ]
+  },
+  {
+    "code": "select_member_type",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลือกประเภทสมาชิก"
+      },
+      {
+        "code": "lo",
+        "text": "ເລືອກປະເພດສະມາຊິກ"
+      },
+      {
+        "code": "en",
+        "text": "Select Member Type"
+      },
+      {
+        "code": "cn",
+        "text": "选择会员类型"
+      },
+      {
+        "code": "jp",
+        "text": "会員タイプを選択"
+      },
+      {
+        "code": "kr",
+        "text": "회원 유형 선택"
+      }
+    ]
+  },
+  {
+    "code": "order_eat_here",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สั่งอาหารทานที่ร้าน"
+      },
+      {
+        "code": "lo",
+        "text": "ສັ່ງອາຫານກິນທີ່ຮ້ານ"
+      },
+      {
+        "code": "en",
+        "text": "Order to eat in"
+      },
+      {
+        "code": "cn",
+        "text": "在店里点餐"
+      },
+      {
+        "code": "jp",
+        "text": "店で食べるための注文"
+      },
+      {
+        "code": "kr",
+        "text": "매장에서 먹을 음식 주문"
+      }
+    ]
+  },
+
+  {
+    "code": "select_shop",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลือกร้าน"
+      },
+      {
+        "code": "lo",
+        "text": "ເລືອກຮ້ານ"
+      },
+      {
+        "code": "en",
+        "text": "Select Shop"
+      },
+      {
+        "code": "cn",
+        "text": "选择订餐方式"
+      },
+      {
+        "code": "jp",
+        "text": "注文方法を選択"
+      },
+      {
+        "code": "kr",
+        "text": "주문 방법 선택"
+      }
+    ]
+  },
+  {
+    "code": "select_pos",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลือกเครื่องสั่งอาหาร"
+      },
+      {
+        "code": "lo",
+        "text": "ເລືອກເຄື່ອງສັ່ງອາຫານ"
+      },
+      {
+        "code": "en",
+        "text": "Select Device"
+      },
+      {
+        "code": "cn",
+        "text": "选择订餐方式"
+      },
+      {
+        "code": "jp",
+        "text": "注文方法を選択"
+      },
+      {
+        "code": "kr",
+        "text": "주문 방법 선택"
+      }
+    ]
+  },
+
+  {
+    "code": "add_friend",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สแกนเพิ่มเพื่อน"
+      },
+      {
+        "code": "lo",
+        "text": "ສະແກນເພີ່ມໝູ່"
+      },
+      {
+        "code": "en",
+        "text": "Scan to Add Friend"
+      },
+      {
+        "code": "cn",
+        "text": "扫码添加好友"
+      },
+      {
+        "code": "jp",
+        "text": "スキャンして友達追加"
+      },
+      {
+        "code": "kr",
+        "text": "스캔하여 친구 추가"
+      }
+    ]
+  },
+  {
+    "code": "order_select_type",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลือกวิธีสั่งอาหาร"
+      },
+      {
+        "code": "lo",
+        "text": "ເລືອກວິທີສັ່ງອາຫານ"
+      },
+      {
+        "code": "en",
+        "text": "Select Ordering Method"
+      },
+      {
+        "code": "cn",
+        "text": "选择订餐方式"
+      },
+      {
+        "code": "jp",
+        "text": "注文方法を選択"
+      },
+      {
+        "code": "kr",
+        "text": "주문 방법 선택"
+      }
+    ]
+  },
+  {
+    "code": "order_take_away",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สั่งอาหารกลับบ้าน"
+      },
+      {
+        "code": "lo",
+        "text": "ສັ່ງອາຫານກັບເຮືອນ"
+      },
+      {
+        "code": "en",
+        "text": "Order Takeaway"
+      },
+      {
+        "code": "cn",
+        "text": "订外卖"
+      },
+      {
+        "code": "jp",
+        "text": "テイクアウトを注文する"
+      },
+      {
+        "code": "kr",
+        "text": "테이크아웃 주문"
+      }
+    ]
+  },
+  {
+    "code": "money_baht",
+    "langs": [
+      {
+        "code": "th",
+        "text": "บาท"
+      },
+      {
+        "code": "lo",
+        "text": "ບາດ"
+      },
+      {
+        "code": "en",
+        "text": "Bath"
+      },
+      {
+        "code": "cn",
+        "text": "浴"
+      },
+      {
+        "code": "jp",
+        "text": "バス"
+      },
+      {
+        "code": "kr",
+        "text": "욕조"
+      }
+    ]
+  },
+  {
+    "code": "order_now",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รายการที่กำลังสั่ง"
+      },
+      {
+        "code": "lo",
+        "text": "ລາຍການທີ່ກຳລັງສັ່ງ"
+      },
+      {
+        "code": "en",
+        "text": "Order Now"
+      },
+      {
+        "code": "cn",
+        "text": "立即订购"
+      },
+      {
+        "code": "jp",
+        "text": "今すぐ注文"
+      },
+      {
+        "code": "kr",
+        "text": "지금 주문"
+      }
+    ]
+  },
+  {
+    "code": "list",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รายการ"
+      },
+      {
+        "code": "lo",
+        "text": "ລາຍການ"
+      },
+      {
+        "code": "en",
+        "text": "List"
+      },
+      {
+        "code": "cn",
+        "text": "名单"
+      },
+      {
+        "code": "jp",
+        "text": "リスト"
+      },
+      {
+        "code": "kr",
+        "text": "명부"
+      }
+    ]
+  },
+  {
+    "code": "qty",
+    "langs": [
+      {
+        "code": "th",
+        "text": "จำนวน"
+      },
+      {
+        "code": "lo",
+        "text": "ຈຳນວນ"
+      },
+      {
+        "code": "en",
+        "text": "Qty"
+      },
+      {
+        "code": "cn",
+        "text": "数量"
+      },
+      {
+        "code": "jp",
+        "text": "数量"
+      },
+      {
+        "code": "kr",
+        "text": "수량"
+      }
+    ]
+  },
+  {
+    "code": "send_all_item",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ส่งรายการทั้งหมด"
+      },
+      {
+        "code": "lo",
+        "text": "ສົ່ງລາຍການທັງໝົດ"
+      },
+      {
+        "code": "en",
+        "text": "Send All Item"
+      },
+      {
+        "code": "cn",
+        "text": "发送所有项目"
+      },
+      {
+        "code": "jp",
+        "text": "すべてのアイテムを送信する"
+      },
+      {
+        "code": "kr",
+        "text": "모든 항목 보내기"
+      }
+    ]
+  },
+  {
+    "code": "want_to_send_all_item",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ต้องการส่งรายการทั้งหมดหรือไม่"
+      },
+      {
+        "code": "lo",
+        "text": "ຕ້ອງການສົ່ງລາຍການທັງໝົດຫຼືບໍ່"
+      },
+      {
+        "code": "en",
+        "text": "Want to send all item?"
+      },
+      {
+        "code": "cn",
+        "text": "想发送所有项目？"
+      },
+      {
+        "code": "jp",
+        "text": "すべてのアイテムを送信しますか？"
+      },
+      {
+        "code": "kr",
+        "text": "모든 항목을 보내시겠습니까?"
+      }
+    ]
+  },
+  {
+    "code": "want_to_delete_all_item",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ต้องการลบรายการทั้งหมดหรือไม่"
+      },
+      {
+        "code": "lo",
+        "text": "ຕ້ອງການລົບລາຍການທັງໝົດຫຼືບໍ່"
+      },
+      {
+        "code": "en",
+        "text": "Want to delete all item?"
+      },
+      {
+        "code": "cn",
+        "text": "想删除所有项目？"
+      },
+      {
+        "code": "jp",
+        "text": "すべてのアイテムを削除しますか？"
+      },
+      {
+        "code": "kr",
+        "text": "모든 항목을 삭제 하시겠습니까?"
+      }
+    ]
+  },
+  {
+    "code": "delete_all",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ลบรทั้งหมด"
+      },
+      {
+        "code": "lo",
+        "text": "ລົບທັງໝົດ"
+      },
+      {
+        "code": "en",
+        "text": "Delete All"
+      },
+      {
+        "code": "cn",
+        "text": "删除全部"
+      },
+      {
+        "code": "jp",
+        "text": "すべて削除"
+      },
+      {
+        "code": "kr",
+        "text": "모두 삭제"
+      }
+    ]
+  },
+  {
+    "code": "delete",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ลบ"
+      },
+      {
+        "code": "lo",
+        "text": "ລົບ"
+      },
+      {
+        "code": "en",
+        "text": "Delete"
+      },
+      {
+        "code": "cn",
+        "text": "删除"
+      },
+      {
+        "code": "jp",
+        "text": "削除"
+      },
+      {
+        "code": "kr",
+        "text": "지우다"
+      }
+    ]
+  },
+  {
+    "code": "cancel",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยกเลิก"
+      },
+      {
+        "code": "lo",
+        "text": "ຍົກເລີກ"
+      },
+      {
+        "code": "en",
+        "text": "Cancel"
+      },
+      {
+        "code": "cn",
+        "text": "取消"
+      },
+      {
+        "code": "jp",
+        "text": "キャンセル"
+      },
+      {
+        "code": "kr",
+        "text": "취소"
+      }
+    ]
+  },
+  {
+    "code": "add_money",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เพิ่มเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ເພີ່ມເງິນ"
+      },
+      {
+        "code": "en",
+        "text": "Add Money"
+      },
+      {
+        "code": "cn",
+        "text": "加钱"
+      },
+      {
+        "code": "jp",
+        "text": "お金を追加"
+      },
+      {
+        "code": "kr",
+        "text": "돈 추가"
+      }
+    ]
+  },
+  {
+    "code": "note",
+    "langs": [
+      {
+        "code": "th",
+        "text": "หมายเหตุ"
+      },
+      {
+        "code": "lo",
+        "text": "ໝາຍເຫດ"
+      },
+      {
+        "code": "en",
+        "text": "Note"
+      },
+      {
+        "code": "cn",
+        "text": "注意"
+      },
+      {
+        "code": "jp",
+        "text": "注意"
+      },
+      {
+        "code": "kr",
+        "text": "노트"
+      }
+    ]
+  },
+
+  {
+    "code": "items_per_row",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รายการต่อแถว"
+      },
+      {
+        "code": "lo",
+        "text": "ລາຍການຕໍ່ການ"
+      },
+      {
+        "code": "en",
+        "text": "Items per row"
+      },
+      {
+        "code": "cn",
+        "text": "每行项目"
+      },
+      {
+        "code": "jp",
+        "text": "行ごとのアイテム"
+      },
+      {
+        "code": "kr",
+        "text": "행당 항목"
+      }
+    ]
+  },
+  {
+    "code": "choose_one",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลือกอย่างใดอย่างหนึ่ง"
+      },
+      {
+        "code": "lo",
+        "text": "ເລືອກໃຫ້ເປັນຫຍັງຫຼືຫຍັງ"
+      },
+      {
+        "code": "en",
+        "text": "Choose one"
+      },
+      {
+        "code": "cn",
+        "text": "选择一个"
+      },
+      {
+        "code": "jp",
+        "text": "1つを選択"
+      },
+      {
+        "code": "kr",
+        "text": "하나를 선택하십시오"
+      }
+    ]
+  },
+  {
+    "code": "many_choices",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลือกได้หลายอย่าง"
+      },
+      {
+        "code": "lo",
+        "text": "ເລືອກໄດ້ຫຼາຍຫຼືຫຼາຍ"
+      },
+      {
+        "code": "en",
+        "text": "Many choices"
+      },
+      {
+        "code": "cn",
+        "text": "许多选择"
+      },
+      {
+        "code": "jp",
+        "text": "多くの選択肢"
+      },
+      {
+        "code": "kr",
+        "text": "많은 선택"
+      }
+    ]
+  },
+  {
+    "code": "choice",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ตัวเลือก"
+      },
+      {
+        "code": "lo",
+        "text": "ຕົວເລືອກ"
+      },
+      {
+        "code": "en",
+        "text": "Choice"
+      },
+      {
+        "code": "cn",
+        "text": "选择"
+      },
+      {
+        "code": "jp",
+        "text": "選択"
+      },
+      {
+        "code": "kr",
+        "text": "선택"
+      }
+    ]
+  },
+  {
+    "code": "maximum",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่เกิน"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ເກີນ"
+      },
+      {
+        "code": "en",
+        "text": "Maximum"
+      },
+      {
+        "code": "cn",
+        "text": "最大"
+      },
+      {
+        "code": "jp",
+        "text": "最大"
+      },
+      {
+        "code": "kr",
+        "text": "최대"
+      }
+    ]
+  },
+  {
+    "code": "confirm",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยืนยัน"
+      },
+      {
+        "code": "lo",
+        "text": "ຢືນຢັນ"
+      },
+      {
+        "code": "en",
+        "text": "Confirm"
+      },
+      {
+        "code": "cn",
+        "text": "确认"
+      },
+      {
+        "code": "jp",
+        "text": "確認"
+      },
+      {
+        "code": "kr",
+        "text": "확인"
+      }
+    ]
+  },
+  {
+    "code": "payment_proof",
+    "langs": [
+      { "code": "th", "text": "หลักฐานการโอนเงิน" },
+      { "code": "lo", "text": "ຫຼັກຖານການໂອນເງິນ" },
+      { "code": "en", "text": "Payment Proof" },
+      { "code": "cn", "text": "付款凭证" },
+      { "code": "jp", "text": "支払い証明" },
+      { "code": "kr", "text": "결제 증명" }
+    ]
+  },
+  {
+    "code": "please_capture_payment_proof",
+    "langs": [
+      { "code": "th", "text": "กรุณาถ่ายรูปหลักฐานการโอนเงิน" },
+      { "code": "lo", "text": "ກະລຸນາຖ່າຍຮູບຫຼັກຖານການໂອນເງິນ" },
+      { "code": "en", "text": "Please capture payment proof" },
+      { "code": "cn", "text": "请拍摄付款凭证" },
+      { "code": "jp", "text": "支払い証明を撮影してください" },
+      { "code": "kr", "text": "결제 증명을 촬영해 주세요" }
+    ]
+  },
+  {
+    "code": "preview_payment_proof",
+    "langs": [
+      { "code": "th", "text": "ตัวอย่างหลักฐานการโอน" },
+      { "code": "lo", "text": "ຕົວຢ່າງຫຼັກຖານການໂອນ" },
+      { "code": "en", "text": "Payment Proof Preview" },
+      { "code": "cn", "text": "付款凭证预览" },
+      { "code": "jp", "text": "支払い証明プレビュー" },
+      { "code": "kr", "text": "결제 증명 미리보기" }
+    ]
+  },
+  {
+    "code": "take_photo",
+    "langs": [
+      { "code": "th", "text": "ถ่ายรูป" },
+      { "code": "lo", "text": "ຖ່າຍຮູບ" },
+      { "code": "en", "text": "Take Photo" },
+      { "code": "cn", "text": "拍照" },
+      { "code": "jp", "text": "写真を撮る" },
+      { "code": "kr", "text": "사진 찍기" }
+    ]
+  },
+  {
+    "code": "retake",
+    "langs": [
+      { "code": "th", "text": "ถ่ายใหม่" },
+      { "code": "lo", "text": "ຖ່າຍໃໝ່" },
+      { "code": "en", "text": "Retake" },
+      { "code": "cn", "text": "重拍" },
+      { "code": "jp", "text": "撮り直す" },
+      { "code": "kr", "text": "다시 찍기" }
+    ]
+  },
+  {
+    "code": "opening_camera",
+    "langs": [
+      { "code": "th", "text": "กำลังเปิดกล้อง..." },
+      { "code": "lo", "text": "ກຳລັງເປີດກ້ອງ..." },
+      { "code": "en", "text": "Opening camera..." },
+      { "code": "cn", "text": "正在打开相机..." },
+      { "code": "jp", "text": "カメラを開いています..." },
+      { "code": "kr", "text": "카메라 열는 중..." }
+    ]
+  },
+  {
+    "code": "payment_proof_required",
+    "langs": [
+      { "code": "th", "text": "กรุณาถ่ายรูปหลักฐานการโอนเงิน" },
+      { "code": "lo", "text": "ກະລຸນາຖ່າຍຮູບຫຼັກຖານການໂອນເງິນ" },
+      { "code": "en", "text": "Payment proof is required" },
+      { "code": "cn", "text": "需要付款凭证" },
+      { "code": "jp", "text": "支払い証明が必要です" },
+      { "code": "kr", "text": "결제 증명이 필요합니다" }
+    ]
+  },
+  {
+    "code": "orderlist",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รายการที่สั่ง"
+      },
+      {
+        "code": "lo",
+        "text": "ລາຍການທີ່ສັ່ງ"
+      },
+      {
+        "code": "en",
+        "text": "Order list"
+      },
+      {
+        "code": "cn",
+        "text": "订单列表"
+      },
+      {
+        "code": "jp",
+        "text": "注文リスト"
+      },
+      {
+        "code": "kr",
+        "text": "주문 목록"
+      }
+    ]
+  },
+  {
+    "code": "price",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ราคา"
+      },
+      {
+        "code": "lo",
+        "text": "ລາຄາ"
+      },
+      {
+        "code": "en",
+        "text": "Price"
+      },
+      {
+        "code": "cn",
+        "text": "价钱"
+      },
+      {
+        "code": "jp",
+        "text": "価格"
+      },
+      {
+        "code": "kr",
+        "text": "가격"
+      }
+    ]
+  },
+  {
+    "code": "total",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รวม"
+      },
+      {
+        "code": "lo",
+        "text": "ລວມ"
+      },
+      {
+        "code": "en",
+        "text": "Total"
+      },
+      {
+        "code": "cn",
+        "text": "总"
+      },
+      {
+        "code": "jp",
+        "text": "合計"
+      },
+      {
+        "code": "kr",
+        "text": "합계"
+      }
+    ]
+  },
+  {
+    "code": "total_amount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รวมทั้งสิ้น"
+      },
+      {
+        "code": "lo",
+        "text": "ລວມທັງໝົດ"
+      },
+      {
+        "code": "en",
+        "text": "Total amount"
+      },
+      {
+        "code": "cn",
+        "text": "总金额"
+      },
+      {
+        "code": "jp",
+        "text": "合計金額"
+      },
+      {
+        "code": "kr",
+        "text": "총액"
+      }
+    ]
+  },
+ {
+    "code": "total_amount_pay",
+    "langs": [
+      {
+        "code": "th",
+        "text": "มูลค่าสุทธิ"
+      },
+      {
+        "code": "lo",
+        "text": "ມູນຄ່າສຸດທິ"
+      },
+      {
+        "code": "en",
+        "text": "Total amount"
+      },
+      {
+        "code": "cn",
+        "text": "总金额"
+      },
+      {
+        "code": "jp",
+        "text": "合計金額"
+      },
+      {
+        "code": "kr",
+        "text": "총액"
+      }
+    ]
+  },
+  
+  {
+    "code": "preparing",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กำลังเตรียม"
+      },
+      {
+        "code": "lo",
+        "text": "ການສະຫຼຸບ"
+      },
+      {
+        "code": "en",
+        "text": "Preparing"
+      },
+      {
+        "code": "cn",
+        "text": "准备"
+      },
+      {
+        "code": "jp",
+        "text": "準備"
+      },
+      {
+        "code": "kr",
+        "text": "준비 중"
+      }
+    ]
+  },
+  {
+    "code": "served",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เสิร์ฟแล้ว"
+      },
+      {
+        "code": "lo",
+        "text": "ເອົາມາໃສ່ແລ້ວ"
+      },
+      {
+        "code": "en",
+        "text": "Served"
+      },
+      {
+        "code": "cn",
+        "text": "服务"
+      },
+      {
+        "code": "jp",
+        "text": "サーブ"
+      },
+      {
+        "code": "kr",
+        "text": "서브"
+      }
+    ]
+  },
+  {
+    "code": "cooked",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ปรุงเสร็จแล้ว"
+      },
+      {
+        "code": "lo",
+        "text": "ການສະຫຼຸບສຳເລັດ"
+      },
+      {
+        "code": "en",
+        "text": "Cooked"
+      },
+      {
+        "code": "cn",
+        "text": "烹饪"
+      },
+      {
+        "code": "jp",
+        "text": "調理済み"
+      },
+      {
+        "code": "kr",
+        "text": "조리 된"
+      }
+    ]
+  },
+  {
+    "code": "order_success",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สั่งอาหารสำเร็จ"
+      },
+      {
+        "code": "lo",
+        "text": "ສັ່ງອາຫານສຳເລັດ"
+      },
+      {
+        "code": "en",
+        "text": "Order success"
+      },
+      {
+        "code": "cn",
+        "text": "订单成功"
+      },
+      {
+        "code": "jp",
+        "text": "注文成功"
+      },
+      {
+        "code": "kr",
+        "text": "주문 성공"
+      }
+    ]
+  },
+  {
+    "code": "order_in_house",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สั่งในร้าน"
+      },
+      {
+        "code": "lo",
+        "text": "ສັ່ງໃນຮ້ານ"
+      },
+      {
+        "code": "en",
+        "text": "Order in house"
+      },
+      {
+        "code": "cn",
+        "text": "订单在房子里"
+      },
+      {
+        "code": "jp",
+        "text": "家の中の注文"
+      },
+      {
+        "code": "kr",
+        "text": "집에서 주문"
+      }
+    ]
+  },
+  {
+    "code": "telephone_number",
+    "langs": [
+      {
+        "code": "th",
+        "text": "หมายเลขโทรศัพท์"
+      },
+      {
+        "code": "lo",
+        "text": "ເບີໂທລະສັບ"
+      },
+      {
+        "code": "en",
+        "text": "Telephone number"
+      },
+      {
+        "code": "cn",
+        "text": "电话号码"
+      },
+      {
+        "code": "jp",
+        "text": "電話番号"
+      },
+      {
+        "code": "kr",
+        "text": "전화 번호"
+      }
+    ]
+  },
+  {
+    "code": "money_amount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "จำนวนเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ຈໍານວນເງິນ"
+      },
+      {
+        "code": "en",
+        "text": "money amount"
+      },
+      {
+        "code": "cn",
+        "text": "金额"
+      },
+      {
+        "code": "jp",
+        "text": "金額"
+      },
+      {
+        "code": "kr",
+        "text": "금액"
+      }
+    ]
+  },
+  {
+    "code": "money_symbol",
+    "langs": [
+      {
+        "code": "th",
+        "text": "บาท"
+      },
+      {
+        "code": "lo",
+        "text": "ບາດ"
+      },
+      {
+        "code": "en",
+        "text": "Baht"
+      },
+      {
+        "code": "cn",
+        "text": "泰铢"
+      },
+      {
+        "code": "jp",
+        "text": "バーツ"
+      },
+      {
+        "code": "kr",
+        "text": "바트"
+      }
+    ]
+  },
+  {
+    "code": "time_remaining_to_complete_the_transaction",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เวลาที่เหลือในการทำรายการ"
+      },
+      {
+        "code": "lo",
+        "text": "ເວລາທີ່ເຫຼືອໃນການທำາງລາຍການ"
+      },
+      {
+        "code": "en",
+        "text": "Time remaining to complete the transaction"
+      },
+      {
+        "code": "cn",
+        "text": "完成交易的剩余时间"
+      },
+      {
+        "code": "jp",
+        "text": "トランザクションを完了するまでの残り時間"
+      },
+      {
+        "code": "kr",
+        "text": "거래를 완료하기까지 남은 시간"
+      }
+    ]
+  },
+  {
+    "code": "save_success",
+    "langs": [
+      {
+        "code": "th",
+        "text": "บันทึกแล้ว"
+      },
+      {
+        "code": "lo",
+        "text": "ໄດ້ບັນທຶກແລ້ວ"
+      },
+      {
+        "code": "en",
+        "text": "Saved successfully"
+      },
+      {
+        "code": "cn",
+        "text": "保存成功"
+      },
+      {
+        "code": "jp",
+        "text": "保存しました"
+      },
+      {
+        "code": "kr",
+        "text": "성공적으로 저장"
+      }
+    ]
+  },
+  {
+    "code": "bill_list",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รายการใบเสร็จ"
+      },
+      {
+        "code": "lo",
+        "text": "ບັນຊີໃບບິນ"
+      },
+      {
+        "code": "en",
+        "text": "Bill list"
+      },
+      {
+        "code": "cn",
+        "text": "账单列表"
+      },
+      {
+        "code": "jp",
+        "text": "請求書リスト"
+      },
+      {
+        "code": "kr",
+        "text": "청구서 목록"
+      }
+    ]
+  },
+  {
+    "code": "select_language",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลือกภาษา"
+      },
+      {
+        "code": "lo",
+        "text": "ເລືອກພາສາ"
+      },
+      {
+        "code": "en",
+        "text": "Select language"
+      },
+      {
+        "code": "cn",
+        "text": "选择语言"
+      },
+      {
+        "code": "jp",
+        "text": "言語を選択"
+      },
+      {
+        "code": "kr",
+        "text": "언어 선택"
+      }
+    ]
+  },
+  {
+    "code": "exit",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ออก"
+      },
+      {
+        "code": "lo",
+        "text": "ອອກ"
+      },
+      {
+        "code": "en",
+        "text": "Exit"
+      },
+      {
+        "code": "cn",
+        "text": "退出"
+      },
+      {
+        "code": "jp",
+        "text": "出口"
+      },
+      {
+        "code": "kr",
+        "text": "출구"
+      }
+    ]
+  },
+  {
+    "code": "unable_to_complete_transaction",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่สามารถทำรายการได้"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ສາມາດສົບຜົນໄດ້"
+      },
+      {
+        "code": "en",
+        "text": "Unable to complete transaction"
+      },
+      {
+        "code": "cn",
+        "text": "无法完成交易"
+      },
+      {
+        "code": "jp",
+        "text": "取引を完了できません"
+      },
+      {
+        "code": "kr",
+        "text": "거래를 완료할 수 없습니다"
+      }
+    ]
+  },
+  {
+    "code": "inventory_is_not_enough",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สินค้าคงเหลือไม่พอ"
+      },
+      {
+        "code": "lo",
+        "text": "ສິນຄ້າບໍ່ພໍ"
+      },
+      {
+        "code": "en",
+        "text": "Inventory is not enough"
+      },
+      {
+        "code": "cn",
+        "text": "库存不足"
+      },
+      {
+        "code": "jp",
+        "text": "在庫が足りません"
+      },
+      {
+        "code": "kr",
+        "text": "재고가 충분하지 않습니다"
+      }
+    ]
+  },
+  {
+    "code": "payment_success",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ชำระเงินสำเร็จ"
+      },
+      {
+        "code": "lo",
+        "text": "ຈ່າຍເງິນສຳເລັດ"
+      },
+      {
+        "code": "en",
+        "text": "Payment successful"
+      },
+      {
+        "code": "cn",
+        "text": "库存不足"
+      },
+      {
+        "code": "jp",
+        "text": "支払い成功"
+      },
+      {
+        "code": "kr",
+        "text": "결제 성공"
+      }
+    ]
+  },
+
+  {
+    "code": "generating_qr_code",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กำลังสร้าง QR Code"
+      },
+      {
+        "code": "lo",
+        "text": "ກຳລັງສ້າງ QR Code"
+      },
+      {
+        "code": "en",
+        "text": "Generating QR Code"
+      },
+      {
+        "code": "cn",
+        "text": "生成二维码"
+      },
+      {
+        "code": "jp",
+        "text": "QRコードを生成しています"
+      },
+      {
+        "code": "kr",
+        "text": "QR 코드를 생성하는 중입니다"
+      }
+    ]
+  },
+
+  {
+    "code": "printing",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กำลังพิมพ์"
+      },
+      {
+        "code": "lo",
+        "text": "ກຳລັງພິມ"
+      },
+      {
+        "code": "en",
+        "text": "Printing"
+      },
+      {
+        "code": "cn",
+        "text": "正在打印"
+      },
+      {
+        "code": "jp",
+        "text": "印刷中"
+      },
+      {
+        "code": "kr",
+        "text": "인쇄 중"
+      }
+    ]
+  },
+  {
+    "code": "try_again",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ลองอีกครั้ง"
+      },
+      {
+        "code": "lo",
+        "text": "ລອງອີກຄັ້ງ"
+      },
+      {
+        "code": "en",
+        "text": "Try again"
+      },
+      {
+        "code": "cn",
+        "text": "再试一次"
+      },
+      {
+        "code": "jp",
+        "text": "もう一度試してください"
+      },
+      {
+        "code": "kr",
+        "text": "다시 시도하십시오"
+      }
+    ]
+  },
+
+  {
+    "code": "successfully_received_payment_printing_receipt",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รับชำระเงินสำเร็จ กำลังพิมพ์ใบเสร็จ"
+      },
+      {
+        "code": "lo",
+        "text": "ຮັບເງິນສຳເລັດ ກຳລັງພິມໃບບິນ"
+      },
+      {
+        "code": "en",
+        "text": "Successfully received payment, printing receipt"
+      },
+      {
+        "code": "cn",
+        "text": "成功接收付款，正在打印收据"
+      },
+      {
+        "code": "jp",
+        "text": "支払いを正常に受け取り、領収書を印刷しています"
+      },
+      {
+        "code": "kr",
+        "text": "결제를 성공적으로 받았습니다. 영수증을 인쇄하고 있습니다"
+      }
+    ]
+  },
+  {
+    "code": "select_label_number",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลือกหมายเลขป้าย หรือ Scan QR Code ที่ป้าย"
+      },
+      {
+        "code": "lo",
+        "text": "ເລືອກເລກປ້າຍ"
+      },
+      {
+        "code": "en",
+        "text": "Select label number"
+      },
+      {
+        "code": "cn",
+        "text": "选择标签号"
+      },
+      {
+        "code": "jp",
+        "text": "ラベル番号を選択"
+      },
+      {
+        "code": "kr",
+        "text": "라벨 번호 선택"
+      }
+    ]
+  },
+  {
+    "code": "pay_by_cash",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ชำระด้วยเงินสด"
+      },
+      {
+        "code": "lo",
+        "text": "ຈ່າຍໂດຍເງິນສົດ"
+      },
+      {
+        "code": "en",
+        "text": "Pay by cash"
+      },
+      {
+        "code": "cn",
+        "text": "现金支付"
+      },
+      {
+        "code": "jp",
+        "text": "現金で支払う"
+      },
+      {
+        "code": "kr",
+        "text": "현금으로 지불"
+      }
+    ]
+  },
+  {
+    "code": "pay_by_qrcode",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ชำระด้วยQRPayment"
+      },
+      {
+        "code": "lo",
+        "text": "ຈ່າຍໂດຍເງິນສົດ"
+      },
+      {
+        "code": "en",
+        "text": "Pay by QRPayment"
+      },
+      {
+        "code": "cn",
+        "text": "现金支付"
+      },
+      {
+        "code": "jp",
+        "text": "現金で支払う"
+      },
+      {
+        "code": "kr",
+        "text": "현금으로 지불"
+      }
+    ]
+  },
+  {
+    "code": "money_change",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เงินทอน"
+      },
+      {
+        "code": "lo",
+        "text": "ເງິນທອນ"
+      },
+      {
+        "code": "en",
+        "text": "Money change"
+      },
+      {
+        "code": "cn",
+        "text": "找零"
+      },
+      {
+        "code": "jp",
+        "text": "お釣り"
+      },
+      {
+        "code": "kr",
+        "text": "거스름돈"
+      }
+    ]
+  },
+  {
+    "code": "please_scan_qrcode_to_pay",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กรุณา Scan Qrcode \nชำระเงินภายใน 2 นาที"
+      },
+      {
+        "code": "lo",
+        "text": "ກະລຸນາ Scan Qrcode ເພື່ອຈ່າຍເງິນພາຍໃນ 2 ນາທີ"
+      },
+      {
+        "code": "en",
+        "text": "Please scan Qrcode \nto pay within 2 minutes"
+      },
+      {
+        "code": "cn",
+        "text": "请在2分钟内扫描Qrcode进行支付"
+      },
+      {
+        "code": "jp",
+        "text": "2分以内にQrcodeをスキャンして支払ってください"
+      },
+      {
+        "code": "kr",
+        "text": "2분 내에 Qrcode를 스캔하여 지불하십시오"
+      }
+    ]
+  },
+  {
+    "code": "unable_to_complete_transaction",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่สามารถทำรายการได้"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ສາມາດສໍາເລັດການເຮັດລາຍການ"
+      },
+      {
+        "code": "en",
+        "text": "Unable to complete transaction"
+      },
+      {
+        "code": "cn",
+        "text": "无法完成交易"
+      },
+      {
+        "code": "jp",
+        "text": "取引を完了できません"
+      },
+      {
+        "code": "kr",
+        "text": "거래를 완료할 수 없습니다"
+      }
+    ]
+  },
+  {
+    "code": "take_label",
+    "langs": [
+      {
+        "code": "th",
+        "text": "หยิบป้ายไปที่โต๊ะ เราจะเสริฟอาหารไปที่โต๊ะนั้น ตามป้ายที่หยิบไป"
+      },
+      {
+        "code": "lo",
+        "text": "ຍິບປ້າຍໄປທີ່ໂຕະ ພວກເຮົາຈະສະຫນອງອາຫານໄປທີ່ໂຕະນັ້ນ ຕາມປ້າຍທີ່ຍິບໄປ"
+      },
+      {
+        "code": "en",
+        "text": "Take the label to the table, we will serve the food to that table according to the label taken"
+      },
+      {
+        "code": "cn",
+        "text": "取标签到桌子，我们会根据所取的标签将食物送到那张桌子"
+      },
+      {
+        "code": "jp",
+        "text": "ラベルをテーブルに持って行き、持って行ったラベルに従って食べ物をそのテーブルに提供します"
+      },
+      {
+        "code": "kr",
+        "text": "라벨을 테이블로 가져가면, 가져간 라벨에 따라 음식을 그 테이블에 제공할 것입니다"
+      }
+    ]
+  },
+  {
+    "code": "cancel_cash_payment",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยกเลิกชำระเงินสด"
+      },
+      {
+        "code": "lo",
+        "text": "ຍົກເລີກການຈ່າຍເງິນສົດ"
+      },
+      {
+        "code": "en",
+        "text": "Cancel cash payment"
+      },
+      {
+        "code": "cn",
+        "text": "取消现金支付"
+      },
+      {
+        "code": "jp",
+        "text": "現金支払いをキャンセル"
+      },
+      {
+        "code": "kr",
+        "text": "현금 결제 취소"
+      }
+    ]
+  },
+  {
+    "code": "instant_cash_payment",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ชำระเงินสดทันที"
+      },
+      {
+        "code": "lo",
+        "text": "ຈ່າຍເງິນສົດທັນທີ"
+      },
+      {
+        "code": "en",
+        "text": "Instant cash payment"
+      },
+      {
+        "code": "cn",
+        "text": "立即现金支付"
+      },
+      {
+        "code": "jp",
+        "text": "即時現金支払い"
+      },
+      {
+        "code": "kr",
+        "text": "즉시 현금 결제"
+      }
+    ]
+  },
+  {
+    "code": "partial_cash_payment",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ชำระเงินสดบางส่วน"
+      },
+      {
+        "code": "lo",
+        "text": "ຈ່າຍເງິນສົດບາງສ່ວນ"
+      },
+      {
+        "code": "en",
+        "text": "Partial cash payment"
+      },
+      {
+        "code": "cn",
+        "text": "部分现金支付"
+      },
+      {
+        "code": "jp",
+        "text": "一部現金支払い"
+      },
+      {
+        "code": "kr",
+        "text": "일부 현금 결제"
+      }
+    ]
+  },
+  {
+    "code": "product_name",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ชื่อสินค้า"
+      },
+      {
+        "code": "lo",
+        "text": "ຊື່ຜະລິດຕະພັນ"
+      },
+      {
+        "code": "en",
+        "text": "Product name"
+      },
+      {
+        "code": "cn",
+        "text": "产品名称"
+      },
+      {
+        "code": "jp",
+        "text": "商品名"
+      },
+      {
+        "code": "kr",
+        "text": "제품 이름"
+      }
+    ]
+  },
+  {
+    "code": "discount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ส่วนลด"
+      },
+      {
+        "code": "lo",
+        "text": "ສ່ວນຫຼຸດ"
+      },
+      {
+        "code": "en",
+        "text": "Discount"
+      },
+      {
+        "code": "cn",
+        "text": "折扣"
+      },
+      {
+        "code": "jp",
+        "text": "ディスカウント"
+      },
+      {
+        "code": "kr",
+        "text": "할인"
+      }
+    ]
+  },
+  {
+    "code": "round_money",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ปัดเศษ"
+      },
+      {
+        "code": "lo",
+        "text": "ປິດເສັ້ນ"
+      },
+      {
+        "code": "en",
+        "text": "Round off"
+      },
+      {
+        "code": "cn",
+        "text": "四舍五入"
+      },
+      {
+        "code": "jp",
+        "text": "四捨五入"
+      },
+      {
+        "code": "kr",
+        "text": "반올림"
+      }
+    ]
+  },
+  {
+    "code": "shipping_cost",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ค่าขนส่ง"
+      },
+      {
+        "code": "lo",
+        "text": "ຄ່າ​ຂົນ​ສົ່ງ"
+      },
+      {
+        "code": "en",
+        "text": "Shipping"
+      },
+      {
+        "code": "cn",
+        "text": "運輸費"
+      },
+      {
+        "code": "jp",
+        "text": "輸送費"
+      },
+      {
+        "code": "kr",
+        "text": "배송 비용"
+      }
+    ]
+  },
+  {
+    "code": "total_item_vat_amount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยอดรวมสินค้าภาษี"
+      },
+      {
+        "code": "lo",
+        "text": "ພາສີສິນຄ້າທັງໝົດ"
+      },
+      {
+        "code": "en",
+        "text": "Totalvat"
+      },
+      {
+        "code": "cn",
+        "text": "產品稅總額"
+      },
+      {
+        "code": "jp",
+        "text": "物品税総額"
+      },
+      {
+        "code": "kr",
+        "text": "총 상품세"
+      }
+    ]
+  },
+  {
+    "code": "out_of_stock",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สินค้าหมด"
+      },
+      {
+        "code": "lo",
+        "text": "ສິນຄ້າໝົດ"
+      },
+      {
+        "code": "en",
+        "text": "Out of stock"
+      },
+      {
+        "code": "cn",
+        "text": "缺货"
+      },
+      {
+        "code": "jp",
+        "text": "在庫切れ"
+      },
+      {
+        "code": "kr",
+        "text": "품절"
+      }
+    ]
+  },
+  {
+    "code": "not_for_sale",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยกเลิกขาย"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ຂາຍ"
+      },
+      {
+        "code": "en",
+        "text": "Not for sale"
+      },
+      {
+        "code": "cn",
+        "text": "不出售"
+      },
+      {
+        "code": "jp",
+        "text": "販売しない"
+      },
+      {
+        "code": "kr",
+        "text": "판매하지 않음"
+      }
+    ]
+  },
+  {
+    "code": "total_item_except_vat_amount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สินค้ายกเว้นภาษี"
+      },
+      {
+        "code": "lo",
+        "text": "ຈໍານວນສິນຄ້າທັງໝົດທີ່ຍົກເວັ້ນພາສີ"
+      },
+      {
+        "code": "en",
+        "text": "Totalexceptvat"
+      },
+      {
+        "code": "cn",
+        "text": "免稅產品總量"
+      },
+      {
+        "code": "jp",
+        "text": "免税品の合計金額"
+      },
+      {
+        "code": "kr",
+        "text": "세금 면제 제품의 총액"
+      }
+    ]
+  },
+  {
+    "code": "before_vat",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ก่อนคิดภาษี"
+      },
+      {
+        "code": "lo",
+        "text": "ກ່ອນພາສີ"
+      },
+      {
+        "code": "en",
+        "text": "Before vat"
+      },
+      {
+        "code": "cn",
+        "text": "稅前"
+      },
+      {
+        "code": "jp",
+        "text": "税引き前"
+      },
+      {
+        "code": "kr",
+        "text": "세금 전"
+      }
+    ]
+  },
+  {
+    "code": "after_vat",
+    "langs": [
+      {
+        "code": "th",
+        "text": "มูลค่ารวมภาษี"
+      },
+      {
+        "code": "lo",
+        "text": "ຫຼັງພາສີ"
+      },
+      {
+        "code": "en",
+        "text": "After vat"
+      },
+      {
+        "code": "cn",
+        "text": "税后"
+      },
+      {
+        "code": "jp",
+        "text": "税引き後"
+      },
+      {
+        "code": "kr",
+        "text": "세금 후"
+      }
+    ]
+  },
+
+  {
+    "code": "back",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กลับ"
+      },
+      {
+        "code": "lo",
+        "text": "ກັບຄືນ"
+      },
+      {
+        "code": "en",
+        "text": "Back"
+      },
+      {
+        "code": "cn",
+        "text": "返回"
+      },
+      {
+        "code": "jp",
+        "text": "戻る"
+      },
+      {
+        "code": "kr",
+        "text": "돌아가기"
+      }
+    ]
+  },
+  {
+    "code": "select_conditions_and_press_confirm",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลือกเงื่อนไขแล้วกดยืนยัน"
+      },
+      {
+        "code": "lo",
+        "text": "ເລືອກເງື່ອນໄຂແລະກົດຢືນຢັນ"
+      },
+      {
+        "code": "en",
+        "text": "Select conditions and press confirm"
+      },
+      {
+        "code": "cn",
+        "text": "选择条件并按确认"
+      },
+      {
+        "code": "jp",
+        "text": "条件を選択して確認を押してください"
+      },
+      {
+        "code": "kr",
+        "text": "조건을 선택하고 확인을 누르세요"
+      }
+    ]
+  },
+  {
+    "code": "change",
+    "langs": [
+      {
+        "code": "th",
+        "text": "แก้ไข"
+      },
+      {
+        "code": "lo",
+        "text": "ແກ້ໄຂ"
+      },
+      {
+        "code": "en",
+        "text": "Change"
+      },
+      {
+        "code": "cn",
+        "text": "更改"
+      },
+      {
+        "code": "jp",
+        "text": "変更"
+      },
+      {
+        "code": "kr",
+        "text": "변경"
+      }
+    ]
+  },
+  {
+    "code": "qty_balance",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยอดคงเหลือ"
+      },
+      {
+        "code": "lo",
+        "text": "ຈໍານວນຄົງເຫຼືອ"
+      },
+      {
+        "code": "en",
+        "text": "Quantity balance"
+      },
+      {
+        "code": "cn",
+        "text": "数量余额"
+      },
+      {
+        "code": "jp",
+        "text": "数量バランス"
+      },
+      {
+        "code": "kr",
+        "text": "수량 잔고"
+      }
+    ]
+  },
+  {
+    "code": "checking_product_availability",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ตรวจสอบความพร้อมของสินค้า"
+      },
+      {
+        "code": "lo",
+        "text": "ກວດເຊັກຄວາມເພີ່ມເຕີມສິນຄ້າ"
+      },
+      {
+        "code": "en",
+        "text": "Checking product availability"
+      },
+      {
+        "code": "cn",
+        "text": "检查产品可用性"
+      },
+      {
+        "code": "jp",
+        "text": "商品の可用性を確認中"
+      },
+      {
+        "code": "kr",
+        "text": "제품 가용성 확인 중"
+      }
+    ]
+  },
+
+  {
+    "code": "replenish_products",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เติม"
+      },
+      {
+        "code": "lo",
+        "text": "ເພີ່ມ"
+      },
+      {
+        "code": "en",
+        "text": "Add"
+      },
+      {
+        "code": "cn",
+        "text": "补充产品"
+      },
+      {
+        "code": "jp",
+        "text": "商品を補充する"
+      },
+      {
+        "code": "kr",
+        "text": "제품 보충"
+      }
+    ]
+  },
+  {
+    "code": "order_list",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รายการ"
+      },
+      {
+        "code": "lo",
+        "text": "ລາຍການ"
+      },
+      {
+        "code": "en",
+        "text": "Order list"
+      },
+      {
+        "code": "cn",
+        "text": "订单列表"
+      },
+      {
+        "code": "jp",
+        "text": "注文リスト"
+      },
+      {
+        "code": "kr",
+        "text": "주문 목록"
+      }
+    ]
+  },
+  {
+    "code": "register_order_station_machine",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ลงทะเบียนเครื่อง Order Kiosk"
+      },
+      {
+        "code": "lo",
+        "text": "ລົງທะเบียนເຄື່ອງ Order Kiosk"
+      },
+      {
+        "code": "en",
+        "text": "Register order kiosk machine"
+      },
+      {
+        "code": "cn",
+        "text": "注册订单站机器"
+      },
+      {
+        "code": "jp",
+        "text": "オーダーステーションマシンを登録する"
+      },
+      {
+        "code": "kr",
+        "text": "주문 스테이션 기계 등록"
+      }
+    ]
+  },
+  {
+    "code": "please_inform_code_below_to_admin_and_wait_for_response",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กรุณาแจ้ง รหัสด้านล่างไปยัง Admin แล้วรอการตอบกลับ"
+      },
+      {
+        "code": "lo",
+        "text": "ກະລຸນາແຈ້ງລະຫັດທາງລຸ່ມໄປທີ່ Admin ແລະລໍຖ້າການຕອບກັບ"
+      },
+      {
+        "code": "en",
+        "text": "Please inform the code below to the admin and wait for a response."
+      },
+      {
+        "code": "cn",
+        "text": "请将以下代码通知管理员并等待回复。"
+      },
+      {
+        "code": "jp",
+        "text": "以下のコードを管理者に通知し、返信を待ってください。"
+      },
+      {
+        "code": "kr",
+        "text": "아래 코드를 관리자에게 알리고 응답을 기다리십시오."
+      }
+    ]
+  },
+  {
+    "code": "when_approval_program_automatically_enter_login",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เมื่อได้รับอนุมติ โปรแกรมจะเข้าสู่ระบบ Login อัตโนมัติ"
+      },
+      {
+        "code": "lo",
+        "text": "ເມື່ອໄດ້ຮັບການອະນຸມັດ ໂປຣແກຣມຈະເຂົ້າສູ່ລະບົບ Login ອັດຕະໂນມັດ"
+      },
+      {
+        "code": "en",
+        "text": "Upon approval, the program will automatically enter the login."
+      },
+      {
+        "code": "cn",
+        "text": "获得批准后，程序将自动登录。"
+      },
+      {
+        "code": "jp",
+        "text": "承認されると、プログラムは自動的にログインします。"
+      },
+      {
+        "code": "kr",
+        "text": "승인이되면 프로그램이 자동으로 로그인합니다."
+      }
+    ]
+  },
+  {
+    "code": "in_case_wanting_change_device_another_data",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กรณีต้องการเปลี่ยนเครื่องไปใช้ข้อมูลอื่น"
+      },
+      {
+        "code": "lo",
+        "text": "ໃນຕົ້ນຫຼາຍຕ້ອງການປ່ຽນເຄື່ອງໄປໃຊ້ຂໍ້ມູນອື່ນ"
+      },
+      {
+        "code": "en",
+        "text": "In case you want to change to another device for different data."
+      },
+      {
+        "code": "cn",
+        "text": "如需更换其他设备以使用其他数据。"
+      },
+      {
+        "code": "jp",
+        "text": "別のデータを使用する別のデバイスに変更する場合。"
+      },
+      {
+        "code": "kr",
+        "text": "다른 데이터를 사용하려면 다른 장치로 변경하려는 경우."
+      }
+    ]
+  },
+  {
+    "code": "press_registration_button_and_notify_admin",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ให้กดปุ่ม ลงทะเบียนใหม่ แล้วแจ้ง Admin"
+      },
+      {
+        "code": "lo",
+        "text": "ກະລຸນາກົດປຸ່ມ ລົງທะเบียนໃໝ່ ແລະແຈ້ງ Admin"
+      },
+      {
+        "code": "en",
+        "text": "Press the registration button and notify the admin."
+      },
+      {
+        "code": "cn",
+        "text": "按下注册按钮并通知管理员。"
+      },
+      {
+        "code": "jp",
+        "text": "登録ボタンを押して管理者に通知してください。"
+      },
+      {
+        "code": "kr",
+        "text": "등록 버튼을 누르고 관리자에게 알리십시오."
+      }
+    ]
+  },
+  {
+    "code": "wait_approve_new_registration",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เพื่ออนุมัติการลงทะเบียนใหม่"
+      },
+      {
+        "code": "lo",
+        "text": "ສຳລັບການອະນຸມັດການລົງທะเบียนໃໝ່"
+      },
+      {
+        "code": "en",
+        "text": "To approve the new registration."
+      },
+      {
+        "code": "cn",
+        "text": "批准新的注册。"
+      },
+      {
+        "code": "jp",
+        "text": "新しい登録を承認するため。"
+      },
+      {
+        "code": "kr",
+        "text": "새로운 등록을 승인하기 위해."
+      }
+    ]
+  },
+  {
+    "code": "confirm_new_registration",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยืนยันการลงทะเบียนใหม่"
+      },
+      {
+        "code": "lo",
+        "text": "ຢືນຢັນການລົງທะเบียนໃໝ່"
+      },
+      {
+        "code": "en",
+        "text": "Confirm new registration"
+      },
+      {
+        "code": "cn",
+        "text": "确认新注册"
+      },
+      {
+        "code": "jp",
+        "text": "新規登録を確認する"
+      },
+      {
+        "code": "kr",
+        "text": "새 등록 확인"
+      }
+    ]
+  },
+  {
+    "code": "new_registration",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ลงทะเบียนใหม่"
+      },
+      {
+        "code": "lo",
+        "text": "ລົງທะเบียนໃໝ່"
+      },
+      {
+        "code": "en",
+        "text": "New registration"
+      },
+      {
+        "code": "cn",
+        "text": "新注册"
+      },
+      {
+        "code": "jp",
+        "text": "新規登録"
+      },
+      {
+        "code": "kr",
+        "text": "신규 등록"
+      }
+    ]
+  },
+  {
+    "code": "set_gps_location",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กำหนดตำแหน่ง GPS ใหม่"
+      },
+      {
+        "code": "lo",
+        "text": "ກຳນົດຕຳແຫນງ GPS ໃໝ່"
+      },
+      {
+        "code": "en",
+        "text": "Set new GPS location"
+      },
+      {
+        "code": "cn",
+        "text": "设置新的GPS位置"
+      },
+      {
+        "code": "jp",
+        "text": "新しいGPS位置を設定する"
+      },
+      {
+        "code": "kr",
+        "text": "새 GPS 위치 설정"
+      }
+    ]
+  },
+  {
+    "code": "choose_order_printer",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลือกเครื่องพิมพ์ใบสั่งอาหาร"
+      },
+      {
+        "code": "lo",
+        "text": "ເລືອກເຄື່ອງພິມບີນສັ່ງອາຫານ"
+      },
+      {
+        "code": "en",
+        "text": "Choose order printer"
+      },
+      {
+        "code": "cn",
+        "text": "选择订单打印机"
+      },
+      {
+        "code": "jp",
+        "text": "注文プリンターを選ぶ"
+      },
+      {
+        "code": "kr",
+        "text": "주문 프린터 선택"
+      }
+    ]
+  },
+  {
+    "code": "delete_printer",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ลบเครื่องพิมพ์"
+      },
+      {
+        "code": "lo",
+        "text": "ລຶບເຄື່ອງພິມ"
+      },
+      {
+        "code": "en",
+        "text": "Delete printer"
+      },
+      {
+        "code": "cn",
+        "text": "删除打印机"
+      },
+      {
+        "code": "jp",
+        "text": "プリンターを削除する"
+      },
+      {
+        "code": "kr",
+        "text": "프린터 삭제"
+      }
+    ]
+  },
+  {
+    "code": "choose_printer_owner",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลือกเครื่องพิมพ์สำหรับเจ้าของร้าน"
+      },
+      {
+        "code": "lo",
+        "text": "ເລືອກເຄື່ອງພິມສຳລັບເຈົ້າຂອງຮ້ານ"
+      },
+      {
+        "code": "en",
+        "text": "Choose printer for store owner"
+      },
+      {
+        "code": "cn",
+        "text": "为店主选择打印机"
+      },
+      {
+        "code": "jp",
+        "text": "店主のためのプリンターを選ぶ"
+      },
+      {
+        "code": "kr",
+        "text": "점주를 위한 프린터 선택"
+      }
+    ]
+  },
+  {
+    "code": "configure_order_station_equipment",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กำหนดค่าอุปกรณ์ Order Kiosk"
+      },
+      {
+        "code": "lo",
+        "text": "ກຳນົດຄ່າອຸປະກອນ Order Kiosk"
+      },
+      {
+        "code": "en",
+        "text": "Configure Order Kiosk equipment"
+      },
+      {
+        "code": "cn",
+        "text": "配置订单站设备"
+      },
+      {
+        "code": "jp",
+        "text": "オーダーステーションの設備を設定する"
+      },
+      {
+        "code": "kr",
+        "text": "주문 스테이션 장비 구성"
+      }
+    ]
+  },
+  {
+    "code": "configure_the_device",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กำหนดค่าอุปกรณ์"
+      },
+      {
+        "code": "lo",
+        "text": "ກຳນົດຄ່າອຸປະກອນ"
+      },
+      {
+        "code": "en",
+        "text": "Configure the device"
+      },
+      {
+        "code": "cn",
+        "text": "配置设备"
+      },
+      {
+        "code": "jp",
+        "text": "デバイスを設定する"
+      },
+      {
+        "code": "kr",
+        "text": "장치 구성"
+      }
+    ]
+  },
+  {
+    "code": "login",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เข้าสู่ระบบ"
+      },
+      {
+        "code": "lo",
+        "text": "ເຂົ້າສູ່ລະບົບ"
+      },
+      {
+        "code": "en",
+        "text": "Login"
+      },
+      {
+        "code": "cn",
+        "text": "登录"
+      },
+      {
+        "code": "jp",
+        "text": "ログイン"
+      },
+      {
+        "code": "kr",
+        "text": "로그인"
+      }
+    ]
+  },
+  {
+    "code": "pin_code_machine_settings",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รหัส Pin Code ตั้งค่าเครื่อง"
+      },
+      {
+        "code": "lo",
+        "text": "ລະຫັດ Pin Code ການຕັ້ງຄ່າເຄື່ອງ"
+      },
+      {
+        "code": "en",
+        "text": "Pin Code Machine Settings"
+      },
+      {
+        "code": "cn",
+        "text": "Pin码机器设置"
+      },
+      {
+        "code": "jp",
+        "text": "PINコード機設定"
+      },
+      {
+        "code": "kr",
+        "text": "핀 코드 기계 설정"
+      }
+    ]
+  },
+  {
+    "code": "request_pin_code",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กำลังขอรหัส...."
+      },
+      {
+        "code": "lo",
+        "text": "ກຳລັງຂໍລະຫັດ...."
+      },
+      {
+        "code": "en",
+        "text": "Requesting pin code...."
+      },
+      {
+        "code": "cn",
+        "text": "正在请求Pin码...."
+      },
+      {
+        "code": "jp",
+        "text": "PINコードをリクエストしています...."
+      },
+      {
+        "code": "kr",
+        "text": "핀 코드를 요청하는 중...."
+      }
+    ]
+  },
+  {
+    "code": "request_pin_code",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กำลังขอรหัส...."
+      },
+      {
+        "code": "lo",
+        "text": "ກຳລັງຂໍລະຫັດ...."
+      },
+      {
+        "code": "en",
+        "text": "Requesting pin code...."
+      },
+      {
+        "code": "cn",
+        "text": "正在请求Pin码...."
+      },
+      {
+        "code": "jp",
+        "text": "PINコードをリクエストしています...."
+      },
+      {
+        "code": "kr",
+        "text": "핀 코드를 요청하는 중...."
+      }
+    ]
+  },
+  {
+    "code": "please_enter_code_in_line_oa",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กรุณากรอกรหัสนี้ใน LINE OA"
+      },
+      {
+        "code": "lo",
+        "text": "ກະລຸນາໃສ່ລະຫັດນີ້ໃນ LINE OA"
+      },
+      {
+        "code": "en",
+        "text": "Please enter this code in LINE OA"
+      },
+      {
+        "code": "cn",
+        "text": "请在LINE OA中输入此代码"
+      },
+      {
+        "code": "jp",
+        "text": "このコードをLINE OAに入力してください"
+      },
+      {
+        "code": "kr",
+        "text": "이 코드를 LINE OA에 입력하십시오"
+      }
+    ]
+  },
+  {
+    "code": "waiting_for_verification",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กรุณารอการตรวจสอบ..."
+      },
+      {
+        "code": "lo",
+        "text": "ກະລຸນາລໍຖ້າການກວດສອບ..."
+      },
+      {
+        "code": "en",
+        "text": "Please wait for verification..."
+      },
+      {
+        "code": "cn",
+        "text": "请等待验证..."
+      },
+      {
+        "code": "jp",
+        "text": "確認をお待ちください..."
+      },
+      {
+        "code": "kr",
+        "text": "확인을 기다려주세요..."
+      }
+    ]
+  },
+  {
+    "code": "welcome_member",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยินดีต้อนรับ!"
+      },
+      {
+        "code": "lo",
+        "text": "ຍິນດີຕໍ່ການມີສະບາຍ"
+      },
+      {
+        "code": "en",
+        "text": "Welcome!"
+      },
+      {
+        "code": "cn",
+        "text": "欢迎!"
+      },
+      {
+        "code": "jp",
+        "text": "ようこそ!"
+      },
+      {
+        "code": "kr",
+        "text": "환영합니다"
+      }
+    ]
+  },
+  {
+    "code": "enter_pin_in_line",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กรุณากรอกรหัสนี้ใน LINE OA"
+      },
+      {
+        "code": "lo",
+        "text": "ກະລຸນາໃສ່ລະຫັດນີ້ໃນ LINE OA"
+      },
+      {
+        "code": "en",
+        "text": "Please enter this code in LINE OA"
+      },
+      {
+        "code": "cn",
+        "text": "请在LINE OA中输入此代码"
+      },
+      {
+        "code": "jp",
+        "text": "このコードをLINE OAに入力してください"
+      },
+      {
+        "code": "kr",
+        "text": "이 코드를 LINE OA에 입력하십시오"
+      }
+    ]
+  },
+  {
+    "code": "expires_in",
+    "langs": [
+      {
+        "code": "th",
+        "text": "หมดอายุใน"
+      },
+      {
+        "code": "lo",
+        "text": "ໝົດອາຍຸໃນ"
+      },
+      {
+        "code": "en",
+        "text": "Expires in"
+      },
+      {
+        "code": "cn",
+        "text": "在...过期"
+      },
+      {
+        "code": "jp",
+        "text": "期限切れ"
+      },
+      {
+        "code": "kr",
+        "text": "만료"
+      }
+    ]
+  },
+  {
+    "code": "waiting_for_confirmation",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รอการตรวจสอบ..."
+      },
+      {
+        "code": "lo",
+        "text": "ກະລຸນາລໍຖ້າການກວດສອບ..."
+      },
+      {
+        "code": "en",
+        "text": "Wait for verification..."
+      },
+      {
+        "code": "cn",
+        "text": "请等待验证..."
+      },
+      {
+        "code": "jp",
+        "text": "確認をお待ちください..."
+      },
+      {
+        "code": "kr",
+        "text": "확인을 기다려주세요..."
+      }
+    ]
+  },
+    {
+    "code": "request_new_pin",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ขอpinใหม่"
+      },
+      {
+        "code": "lo",
+        "text": "ຂໍ pin ໃໝ່"
+      },
+      {
+        "code": "en",
+        "text": "Request new pin"
+      },
+      {
+        "code": "cn",
+        "text": "请求新Pin码"
+      },
+      {
+        "code": "jp",
+        "text": "新しいPINをリクエストしています..."
+      },
+      {
+        "code": "kr",
+        "text": "새 핀 요청 중..."
+      }
+    ]
+  },
+   {
+    "code": "verification_successful",
+    "langs": [
+      {
+        "code": "th",
+        "text": "การตรวจสอบสำเร็จ"
+      },
+      {
+        "code": "lo",
+        "text": "ການກວດສອບສຳເລັດ"
+      },
+      {
+        "code": "en",
+        "text": "Verification successful"
+      },
+      {
+        "code": "cn",
+        "text": "验证成功"
+      },
+      {
+        "code": "jp",
+        "text": "確認が成功しました"
+      },
+      {
+        "code": "kr",
+        "text": "확인이 성공했습니다"
+      }
+    ]
+  },
+
+  {
+    "code": "pin_code_incorrect",
+    "langs": [
+      {
+        "code": "th",
+        "text": "Pin Code ไม่ถูกต้อง"
+      },
+      {
+        "code": "lo",
+        "text": "ລະຫັດ Pin ບໍ່ຖືກຕ້ອງ"
+      },
+      {
+        "code": "en",
+        "text": "Pin Code Incorrect"
+      },
+      {
+        "code": "cn",
+        "text": "Pin码错误"
+      },
+      {
+        "code": "jp",
+        "text": "PINコードが間違っています"
+      },
+      {
+        "code": "kr",
+        "text": "핀 코드가 잘못되었습니다"
+      }
+    ]
+  },
+  {
+    "code": "search",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ค้นหา"
+      },
+      {
+        "code": "lo",
+        "text": "ຄົ້ນຫາ"
+      },
+      {
+        "code": "en",
+        "text": "Search"
+      },
+      {
+        "code": "cn",
+        "text": "搜索"
+      },
+      {
+        "code": "jp",
+        "text": "検索"
+      },
+      {
+        "code": "kr",
+        "text": "검색"
+      }
+    ]
+  },
+  {
+    "code": "welcome",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยินดีต้อนรับ"
+      },
+      {
+        "code": "lo",
+        "text": "ຍິນດີຕໍ່ການມີສະບາຍ"
+      },
+      {
+        "code": "en",
+        "text": "Welcome"
+      },
+      {
+        "code": "cn",
+        "text": "欢迎"
+      },
+      {
+        "code": "jp",
+        "text": "ようこそ"
+      },
+      {
+        "code": "kr",
+        "text": "환영합니다"
+      }
+    ]
+  },
+  {
+    "code": "proceed_to_checkout",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ดำเนินการชำระเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ດໍາເນີນການເພື່ອຊຳລະເງິນ"
+      },
+      {
+        "code": "en",
+        "text": "Proceed to checkout"
+      },
+      {
+        "code": "cn",
+        "text": "处理结账"
+      },
+      {
+        "code": "jp",
+        "text": "チェックアウトへ進む"
+      },
+      {
+        "code": "kr",
+        "text": "결제 처리"
+      }
+    ]
+  },
+  {
+    "code": "thank_you_for_your_payment",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ขอบคุณสำหรับการชำระเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ຂໍຂອບໃຈສຳລັບການຈ່າຍເງິນ"
+      },
+      {
+        "code": "en",
+        "text": "Thank you for your payment"
+      },
+      {
+        "code": "cn",
+        "text": "感谢您的付款"
+      },
+      {
+        "code": "jp",
+        "text": "お支払いいただきありがとうございます"
+      },
+      {
+        "code": "kr",
+        "text": "결제해 주셔서 감사합니다"
+      }
+    ]
+  },
+
+  {
+    "code": "order_to_eat_at_the_restaurant",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สั่งกินที่ร้าน"
+      },
+      {
+        "code": "lo",
+        "text": "ສັ່ງກິນທີ່ຮ້ານ"
+      },
+      {
+        "code": "en",
+        "text": "Order to Eat at the Restaurant"
+      },
+      {
+        "code": "cn",
+        "text": "在餐厅点餐"
+      },
+      {
+        "code": "jp",
+        "text": "レストランで注文する"
+      },
+      {
+        "code": "kr",
+        "text": "레스토랑에서 주문하기"
+      }
+    ]
+  },
+  {
+    "code": "order_takeout",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สั่งกลับบ้าน"
+      },
+      {
+        "code": "lo",
+        "text": "ສັ່ງກັບບ້ານ"
+      },
+      {
+        "code": "en",
+        "text": "Order Takeout"
+      },
+      {
+        "code": "cn",
+        "text": "点外卖"
+      },
+      {
+        "code": "jp",
+        "text": "テイクアウトを注文する"
+      },
+      {
+        "code": "kr",
+        "text": "테이크아웃 주문"
+      }
+    ]
+  },
+
+  {
+    "code": "use_member_system",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ใช้ระบบสมาชิก"
+      },
+      {
+        "code": "lo",
+        "text": "ໃຊ້ລະບົບສະມາຊິກ"
+      },
+      {
+        "code": "en",
+        "text": "Use member system"
+      },
+      {
+        "code": "cn",
+        "text": "使用会员系统"
+      },
+      {
+        "code": "jp",
+        "text": "会員システムを使用する"
+      },
+      {
+        "code": "kr",
+        "text": "회원 시스템 사용"
+      }
+    ]
+  },
+  {
+    "code": "open_system_for_ordering_food_at_restaurant",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เปิดระบบสั่งกินที่ร้าน"
+      },
+      {
+        "code": "lo",
+        "text": "ເປີດລະບົບສັ່ງກິນທີ່ຮ້ານ"
+      },
+      {
+        "code": "en",
+        "text": "Open System for Ordering Food at Restaurant"
+      },
+      {
+        "code": "cn",
+        "text": "开放餐厅点餐系统"
+      },
+      {
+        "code": "jp",
+        "text": "レストランで食事を注文するシステムを開く"
+      },
+      {
+        "code": "kr",
+        "text": "레스토랑에서 음식 주문 시스템 열기"
+      }
+    ]
+  },
+  {
+    "code": "open_takeout_system",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เปิดระบบสั่งกลับบ้าน"
+      },
+      {
+        "code": "lo",
+        "text": "ເປີດລະບົບສັ່ງອາຫານກັບບ້ານ"
+      },
+      {
+        "code": "en",
+        "text": "Open takeout system"
+      },
+      {
+        "code": "cn",
+        "text": "开启外卖系统"
+      },
+      {
+        "code": "jp",
+        "text": "テイクアウトシステムを開く"
+      },
+      {
+        "code": "kr",
+        "text": "테이크아웃 시스템 열기"
+      }
+    ]
+  },
+  {
+    "code": "restart",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เริ่มใหม่"
+      },
+      {
+        "code": "lo",
+        "text": "ເລີ່ມໃໝ່"
+      },
+      {
+        "code": "en",
+        "text": "Restart"
+      },
+      {
+        "code": "cn",
+        "text": "重新开始"
+      },
+      {
+        "code": "jp",
+        "text": "リスタート"
+      },
+      {
+        "code": "kr",
+        "text": "재시작"
+      }
+    ]
+  },
+  {
+    "code": "total_money",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รวมเงินทั้งสิ้น"
+      },
+      {
+        "code": "lo",
+        "text": "ລວມເງິນທັງໝົດ"
+      },
+      {
+        "code": "en",
+        "text": "Total money"
+      },
+      {
+        "code": "cn",
+        "text": "总金额"
+      },
+      {
+        "code": "jp",
+        "text": "合計金額"
+      },
+      {
+        "code": "kr",
+        "text": "총 금액"
+      }
+    ]
+  },
+
+  {
+    "code": "add_note_here",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เพิ่มหมายเหตุที่นี่"
+      },
+      {
+        "code": "lo",
+        "text": "ເພີ່ມຄຳເຫັນທີ່ນີ້"
+      },
+      {
+        "code": "en",
+        "text": "Add note here"
+      },
+      {
+        "code": "cn",
+        "text": "在这里添加备注"
+      },
+      {
+        "code": "jp",
+        "text": "ここにメモを追加"
+      },
+      {
+        "code": "kr",
+        "text": "여기에 메모 추가"
+      }
+    ]
+  },
+  {
+    "code": "edit",
+    "langs": [
+      {
+        "code": "th",
+        "text": "แก้ไข"
+      },
+      {
+        "code": "lo",
+        "text": "ແກ້ໄຂ"
+      },
+      {
+        "code": "en",
+        "text": "Edit"
+      },
+      {
+        "code": "cn",
+        "text": "编辑"
+      },
+      {
+        "code": "jp",
+        "text": "編集"
+      },
+      {
+        "code": "kr",
+        "text": "편집"
+      }
+    ]
+  },
+  {
+    "code": "receive_money",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รับเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ເງິນທີ່ຮັບ"
+      },
+      {
+        "code": "en",
+        "text": "Receive money"
+      },
+      {
+        "code": "cn",
+        "text": "收款"
+      },
+      {
+        "code": "jp",
+        "text": "受け取り"
+      },
+      {
+        "code": "kr",
+        "text": "수령"
+      }
+    ]
+  },
+  {
+    "code": "remaining_amount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ค้างรับ"
+      },
+      {
+        "code": "lo",
+        "text": "ຈໍານວນເງິນທີ່ເຫຼືອ"
+      },
+      {
+        "code": "en",
+        "text": "Remaining amount"
+      },
+      {
+        "code": "cn",
+        "text": "剩余金额"
+      },
+      {
+        "code": "jp",
+        "text": "残りの金額"
+      },
+      {
+        "code": "kr",
+        "text": "남은 금액"
+      }
+    ]
+  },
+  {
+    "code": "order_summary",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สรุปรายการสั่งซื้อ"
+      },
+      {
+        "code": "lo",
+        "text": "ສະແດງລາຍການສັ່ງອາຫານ"
+      },
+      {
+        "code": "en",
+        "text": "Order summary"
+      },
+      {
+        "code": "cn",
+        "text": "订单摘要"
+      },
+      {
+        "code": "jp",
+        "text": "注文概要"
+      },
+      {
+        "code": "kr",
+        "text": "주문 요약"
+      }
+    ]
+  },
+  {
+    "code": "items_in_cart",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รายการในตะกร้า"
+      },
+      {
+        "code": "lo",
+        "text": "ລາຍການໃນກະຕິ"
+      },
+      {
+        "code": "en",
+        "text": "Items in cart"
+      },
+      {
+        "code": "cn",
+        "text": "购物车中的项目"
+      },
+      {
+        "code": "jp",
+        "text": "カート内のアイテム"
+      },
+      {
+        "code": "kr",
+        "text": "카트에있는 항목"
+      }
+    ]
+  },
+  {
+    "code": "items",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รายการ"
+      },
+      {
+        "code": "lo",
+        "text": "ລາຍການ"
+      },
+      {
+        "code": "en",
+        "text": "Items"
+      },
+      {
+        "code": "cn",
+        "text": "项目"
+      },
+      {
+        "code": "jp",
+        "text": "アイテム"
+      },
+      {
+        "code": "kr",
+        "text": "항목"
+      }
+    ]
+  },
+  {
+    "code": "delete_all_items",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ลบรายการทั้งหมด"
+      },
+      {
+        "code": "lo",
+        "text": "ລຶບລາຍການທັງໝົດ"
+      },
+      {
+        "code": "en",
+        "text": "Delete all items"
+      },
+      {
+        "code": "cn",
+        "text": "删除所有项目"
+      },
+      {
+        "code": "jp",
+        "text": "すべてのアイテムを削除"
+      },
+      {
+        "code": "kr",
+        "text": "모든 항목 삭제"
+      }
+    ]
+  },
+  {
+    "code": "payment_amount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยอดชำระเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ຈຳນວນເງິນທີ່ຈ່າຍ"
+      },
+      {
+        "code": "en",
+        "text": "Payment amount"
+      },
+      {
+        "code": "cn",
+        "text": "支付金额"
+      },
+      {
+        "code": "jp",
+        "text": "支払い額"
+      },
+      {
+        "code": "kr",
+        "text": "결제 금액"
+      }
+    ]
+  },
+  {
+    "code": "show_qrcode_to_order",
+    "langs": [
+      {
+        "code": "th",
+        "text": "แสดง Qrcode สั่งอาหาร"
+      },
+      {
+        "code": "lo",
+        "text": "ສະແດງ Qrcode ເພື່ອສັ່ງອາຫານ"
+      },
+      {
+        "code": "en",
+        "text": "Show Qrcode to order food"
+      },
+      {
+        "code": "cn",
+        "text": "显示 Qrcode 以点餐"
+      },
+      {
+        "code": "jp",
+        "text": "Qrcodeを表示して食事を注文する"
+      },
+      {
+        "code": "kr",
+        "text": "Qrcode 보여주어 음식 주문"
+      }
+    ]
+  },
+  {
+    "code": "improve_product_balance",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ปรับปรุงยอดคงเหลือสินค้า"
+      },
+      {
+        "code": "lo",
+        "text": "ປັບປຸງຈຳນວນສິນຄ້າທີ່ເຫຼືອ"
+      },
+      {
+        "code": "en",
+        "text": "Improve product balance"
+      },
+      {
+        "code": "cn",
+        "text": "改进产品余额"
+      },
+      {
+        "code": "jp",
+        "text": "商品のバランスを改善する"
+      },
+      {
+        "code": "kr",
+        "text": "제품 잔액 개선"
+      }
+    ]
+  },
+  {
+    "code": "change_product_status",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เปลี่ยนสถานะสินค้า"
+      },
+      {
+        "code": "lo",
+        "text": "ປ່ຽນສະຖານະສິນຄ້າ"
+      },
+      {
+        "code": "en",
+        "text": "Change product status"
+      },
+      {
+        "code": "cn",
+        "text": "更改产品状态"
+      },
+      {
+        "code": "jp",
+        "text": "製品のステータスを変更する"
+      },
+      {
+        "code": "kr",
+        "text": "제품 상태 변경"
+      }
+    ]
+  },
+  {
+    "code": "sell_temporarily_stop_selling",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ขาย/หยุดขายชั่วคราว"
+      },
+      {
+        "code": "lo",
+        "text": "ຂາຍ/ຢຸດຂາຍຊົ່ວຄາວ"
+      },
+      {
+        "code": "en",
+        "text": "Sell/Temporarily Stop Selling"
+      },
+      {
+        "code": "cn",
+        "text": "出售/暂停销售"
+      },
+      {
+        "code": "jp",
+        "text": "販売/一時販売停止"
+      },
+      {
+        "code": "kr",
+        "text": "판매/일시적 판매 중지"
+      }
+    ]
+  },
+  {
+    "code": "receipt_tax_invoice",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ใบเสร็จรับเงิน/ใบกำกับภาษีอย่างย่อ"
+      },
+      {
+        "code": "lo",
+        "text": "ໃບຮັບເງິນ/ໃບບິນພາສີເຊັ່ນ"
+      },
+      {
+        "code": "en",
+        "text": "Receipt/Tax Invoice"
+      },
+      {
+        "code": "cn",
+        "text": "收据/简易税务发票"
+      },
+      {
+        "code": "jp",
+        "text": "レシート/簡易税請求書"
+      },
+      {
+        "code": "kr",
+        "text": "영수증/간이 세금 청구서"
+      }
+    ]
+  },
+  {
+    "code": "price_includes_vat",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ราคารวมภาษีมูลค่าเพิ่มแล้ว"
+      },
+      {
+        "code": "lo",
+        "text": "ລາຄາລວມຄ່າພາສີມูลຄ່າເພີ່ມແລ້ວ"
+      },
+      {
+        "code": "en",
+        "text": "Price includes VAT"
+      },
+      {
+        "code": "cn",
+        "text": "价格已包括增值税"
+      },
+      {
+        "code": "jp",
+        "text": "価格はVATを含んでいます"
+      },
+      {
+        "code": "kr",
+        "text": "가격에 부가가치세 포함"
+      }
+    ]
+  },
+  {
+    "code": "price_non_vat",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ราคาไม่รวมภาษีมูลค่าเพิ่ม"
+      },
+      {
+        "code": "lo",
+        "text": "ລາຄາບໍ່ລວມພາສີມูลຄ່າເພີ່ມ"
+      },
+      {
+        "code": "en",
+        "text": "Price non-VAT"
+      },
+      {
+        "code": "cn",
+        "text": "价格不含增值税"
+      },
+      {
+        "code": "jp",
+        "text": "価格はVATを含んでいません"
+      },
+      {
+        "code": "kr",
+        "text": "가격 부가가치세 미포함"
+      }
+    ]
+  },
+  {
+    "code": "total_amount_of_food",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยอดรวมค่าอาหาร"
+      },
+      {
+        "code": "lo",
+        "text": "ຍອດລວມຂອງອາຫານ"
+      },
+      {
+        "code": "en",
+        "text": "Total amount of food"
+      },
+      {
+        "code": "cn",
+        "text": "食物总金额"
+      },
+      {
+        "code": "jp",
+        "text": "食品の合計額"
+      },
+      {
+        "code": "kr",
+        "text": "음식 총액"
+      }
+    ]
+  },
+  {
+    "code": "total_amount_of_beverage",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยอดรวมค่าเครื่องดื่ม"
+      },
+      {
+        "code": "lo",
+        "text": "ຍອດລວມຂອງເຄື່ອງດື່ມ"
+      },
+      {
+        "code": "en",
+        "text": "Total amount of beverage"
+      },
+      {
+        "code": "cn",
+        "text": "饮料总金额"
+      },
+      {
+        "code": "jp",
+        "text": "飲み物の合計額"
+      },
+      {
+        "code": "kr",
+        "text": "음료 총액"
+      }
+    ]
+  },
+  {
+    "code": "round_off_fractions",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ปัดเศษส่วนต่าง"
+      },
+      {
+        "code": "lo",
+        "text": "ປອງສິນຄໍາສີ່ງຕ່າງໆ"
+      },
+      {
+        "code": "en",
+        "text": "Round off fractions"
+      },
+      {
+        "code": "cn",
+        "text": "四舍五入分数"
+      },
+      {
+        "code": "jp",
+        "text": "端数を丸める"
+      },
+      {
+        "code": "kr",
+        "text": "분수 올림"
+      }
+    ]
+  },
+  {
+    "code": "summary_is_not_receipt",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ใบสรุป ไม่ใช่ใบเสร็จรับเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ແມ່ນໃບຮັບເງິນ"
+      },
+      {
+        "code": "en",
+        "text": "Summary is not a receipt"
+      },
+      {
+        "code": "cn",
+        "text": "摘要不是收据"
+      },
+      {
+        "code": "jp",
+        "text": "要約はレシートではありません"
+      },
+      {
+        "code": "kr",
+        "text": "요약은 영수증이 아닙니다"
+      }
+    ]
+  },
+  {
+    "code": "product_service_price",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ราคาสินค้า/บริการ"
+      },
+      {
+        "code": "lo",
+        "text": "ລາຄາສິນຄ້າ/ບໍລິການ"
+      },
+      {
+        "code": "en",
+        "text": "Product/Service price"
+      },
+      {
+        "code": "cn",
+        "text": "产品/服务价格"
+      },
+      {
+        "code": "jp",
+        "text": "商品/サービスの価格"
+      },
+      {
+        "code": "kr",
+        "text": "제품/서비스 가격"
+      }
+    ]
+  },
+  {
+    "code": "pay_by_cash",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ชำระด้วยเงินสด"
+      },
+      {
+        "code": "lo",
+        "text": "ຈ່າຍໂດຍເງິນສົດ"
+      },
+      {
+        "code": "en",
+        "text": "Pay by cash"
+      },
+      {
+        "code": "cn",
+        "text": "现金支付"
+      },
+      {
+        "code": "jp",
+        "text": "現金で支払う"
+      },
+      {
+        "code": "kr",
+        "text": "현금으로 지불"
+      }
+    ]
+  },
+  {
+    "code": "pay_with",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ชำระด้วย"
+      },
+      {
+        "code": "lo",
+        "text": "ຈ່າຍດ້ວຍ"
+      },
+      {
+        "code": "en",
+        "text": "Pay with"
+      },
+      {
+        "code": "cn",
+        "text": "用...支付"
+      },
+      {
+        "code": "jp",
+        "text": "...で支払う"
+      },
+      {
+        "code": "kr",
+        "text": "...로 지불"
+      }
+    ]
+  },
+  {
+    "code": "the_officer_ordered",
+    "langs": [
+      {
+        "code": "th",
+        "text": "พนักงานสั่ง"
+      },
+      {
+        "code": "lo",
+        "text": "ພະນັກງານສັ່ງ"
+      },
+      {
+        "code": "en",
+        "text": "the officer ordered"
+      },
+      {
+        "code": "cn",
+        "text": "官员下令"
+      },
+      {
+        "code": "jp",
+        "text": "役員が命じた"
+      },
+      {
+        "code": "kr",
+        "text": "직원이 주문"
+      }
+    ]
+  },
+  {
+    "code": "customers_order_it_themselves",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ลูกค้าสั่งเอง"
+      },
+      {
+        "code": "lo",
+        "text": "ລູກຄ້າສັ່ງເອງ"
+      },
+      {
+        "code": "en",
+        "text": "customers order it themselves"
+      },
+      {
+        "code": "cn",
+        "text": "顾客亲自订购"
+      },
+      {
+        "code": "jp",
+        "text": "顧客が自分で注文する"
+      },
+      {
+        "code": "kr",
+        "text": "고객이 직접 주문"
+      }
+    ]
+  },
+  {
+    "code": "tag_label",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ป้ายเสริฟท์"
+      },
+      {
+        "code": "lo",
+        "text": "ປ້າຍການບໍລິການ"
+      },
+      {
+        "code": "en",
+        "text": "Service tag"
+      },
+      {
+        "code": "cn",
+        "text": "服务标签"
+      },
+      {
+        "code": "jp",
+        "text": "サービスタグ"
+      },
+      {
+        "code": "kr",
+        "text": "서비스 태그"
+      }
+    ]
+  },
+  {
+    "code": "amount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยอดเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ຈຳນວນເງິນ"
+      },
+      {
+        "code": "en",
+        "text": "Amount"
+      },
+      {
+        "code": "cn",
+        "text": "金额"
+      },
+      {
+        "code": "jp",
+        "text": "金額"
+      },
+      {
+        "code": "kr",
+        "text": "금액"
+      }
+    ]
+  },
+  {
+    "code": "after_discount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เหลือ"
+      },
+      {
+        "code": "lo",
+        "text": "ທີ່ເຫຼືອ"
+      },
+      {
+        "code": "en",
+        "text": "remaining"
+      },
+      {
+        "code": "cn",
+        "text": "剩余"
+      },
+      {
+        "code": "jp",
+        "text": "残り"
+      },
+      {
+        "code": "kr",
+        "text": "남은"
+      }
+    ]
+  },
+  {
+    "code": "food",
+    "langs": [
+      {
+        "code": "th",
+        "text": "อาหาร"
+      },
+      {
+        "code": "lo",
+        "text": "ອາຫານ"
+      },
+      {
+        "code": "en",
+        "text": "Food"
+      },
+      {
+        "code": "cn",
+        "text": "食物"
+      },
+      {
+        "code": "jp",
+        "text": "食べ物"
+      },
+      {
+        "code": "kr",
+        "text": "음식"
+      }
+    ]
+  },
+  {
+    "code": "beverage",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เครื่องดื่ม"
+      },
+      {
+        "code": "lo",
+        "text": "ເຄື່ອງດື່ມ"
+      },
+      {
+        "code": "en",
+        "text": "beverage"
+      },
+      {
+        "code": "cn",
+        "text": "饮料"
+      },
+      {
+        "code": "jp",
+        "text": "飲み物"
+      },
+      {
+        "code": "kr",
+        "text": "음료"
+      }
+    ]
+  },
+  {
+    "code": "is_open",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เปิดขาย"
+      },
+      {
+        "code": "lo",
+        "text": "ເປີດຂາຍ"
+      },
+      {
+        "code": "en",
+        "text": "Open for Sale"
+      },
+      {
+        "code": "cn",
+        "text": "开售"
+      },
+      {
+        "code": "jp",
+        "text": "販売中"
+      },
+      {
+        "code": "kr",
+        "text": "판매 중"
+      }
+    ]
+  },
+   {
+    "code": "is_closed",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ปิดขาย"
+      },
+      {
+        "code": "lo",
+        "text": "ປິດຂາຍ"
+      },
+      {
+        "code": "en",
+        "text": "Closed for Sale"
+      },
+      {
+        "code": "cn",
+        "text": "停售"
+      },
+      {
+        "code": "jp",
+        "text": "販売中止"
+      },
+      {
+        "code": "kr",
+        "text": "판매 종료"
+      }
+    ]
+  },
+  {
+    "code": "qty_change",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เปลี่ยนจำนวน"
+      }
+    ]
+  },
+  {
+    "code": "qty_change",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เปลี่ยนจำนวน"
+      },
+      {
+        "code": "lo",
+        "text": "ປ່ຽນຈຳນວນ"
+      },
+      {
+        "code": "en",
+        "text": "Change Quantity"
+      },
+      {
+        "code": "cn",
+        "text": "更改数量"
+      },
+      {
+        "code": "jp",
+        "text": "数量を変更する"
+      },
+      {
+        "code": "kr",
+        "text": "수량 변경"
+      }
+    ]
+  },
+  {
+    "code": "qty_add",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เติมสินค้า"
+      },
+      {
+        "code": "lo",
+        "text": "ເພີ່ມສິນຄ້າ"
+      },
+      {
+        "code": "en",
+        "text": "Add Product"
+      },
+      {
+        "code": "cn",
+        "text": "添加产品"
+      },
+      {
+        "code": "jp",
+        "text": "商品を追加"
+      },
+      {
+        "code": "kr",
+        "text": "제품 추가"
+      }
+    ]
+  },
+  {
+    "code": "pause_sale",
+    "langs": [
+      {
+        "code": "th",
+        "text": "หยุดขายชั่วคราว"
+      },
+      {
+        "code": "lo",
+        "text": "ຢຸດຂາຍຊົ່ວຄາວ"
+      },
+      {
+        "code": "en",
+        "text": "Temporarily pause sales"
+      },
+      {
+        "code": "cn",
+        "text": "暂停销售"
+      },
+      {
+        "code": "jp",
+        "text": "一時的に販売を停止"
+      },
+      {
+        "code": "kr",
+        "text": "임시 판매 중지"
+      }
+    ]
+  },
+  {
+    "code": "all_gone",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สินค้าหมด"
+      },
+      {
+        "code": "lo",
+        "text": "ສິນຄ້າໝົດ"
+      },
+      {
+        "code": "en",
+        "text": "Out of stock"
+      },
+      {
+        "code": "cn",
+        "text": "缺货"
+      },
+      {
+        "code": "jp",
+        "text": "在庫切れ"
+      },
+      {
+        "code": "kr",
+        "text": "품절"
+      }
+    ]
+  },
+  {
+    "code": "from_price",
+    "langs": [
+      {
+        "code": "th",
+        "text": "จากราคา"
+      },
+      {
+        "code": "lo",
+        "text": "ຈາກລາຄາ"
+      },
+      {
+        "code": "en",
+        "text": "from price"
+      },
+      {
+        "code": "cn",
+        "text": "起始价格"
+      },
+      {
+        "code": "jp",
+        "text": "価格から"
+      },
+      {
+        "code": "kr",
+        "text": "가격으로부터"
+      }
+    ]
+  },
+  {
+    "code": "discount_formula_example",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สูตรส่วนลด เช่น 10% หรือ 100 บาท"
+      },
+      {
+        "code": "lo",
+        "text": "ສູດສ່ວນລົດ ເຊັ່ນ 10% ຫຼື 100 ບາດ"
+      },
+      {
+        "code": "en",
+        "text": "Discount formula example, e.g., 10% or 100 baht"
+      },
+      {
+        "code": "cn",
+        "text": "折扣公式示例，例如 10% 或 100 泰铢"
+      },
+      {
+        "code": "jp",
+        "text": "割引式の例、例えば 10% または 100 バーツ"
+      },
+      {
+        "code": "kr",
+        "text": "할인 공식 예시, 예: 10% 또는 100 바트"
+      }
+    ]
+  },
+  {
+    "code": "exit_screen",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ออกจากหน้าจอ"
+      },
+      {
+        "code": "lo",
+        "text": "ອອກຈາກຫນ້າຈໍ"
+      },
+      {
+        "code": "en",
+        "text": "Exit screen"
+      },
+      {
+        "code": "cn",
+        "text": "退出屏幕"
+      },
+      {
+        "code": "jp",
+        "text": "画面を退出する"
+      },
+      {
+        "code": "kr",
+        "text": "화면 종료"
+      }
+    ]
+  },
+  {
+    "code": "scan_for_order",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สแกนสั่งอาหาร"
+      },
+      {
+        "code": "lo",
+        "text": "ສະແກນສັ່ງອາຫານ"
+      },
+      {
+        "code": "en",
+        "text": "Scan to Order Food"
+      },
+      {
+        "code": "cn",
+        "text": "扫码点餐"
+      },
+      {
+        "code": "jp",
+        "text": "注文のためにスキャンする"
+      },
+      {
+        "code": "kr",
+        "text": "주문을 위해 스캔하기"
+      }
+    ]
+  },
+  {
+    "code": "your_mobile_phone",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ด้วยมือถือของคุณ"
+      },
+      {
+        "code": "lo",
+        "text": "ດ້ວຍໂທລະສັບມືຖືຂອງທ່ານ"
+      },
+      {
+        "code": "en",
+        "text": "With Your Mobile Phone"
+      },
+      {
+        "code": "cn",
+        "text": "用您的手机"
+      },
+      {
+        "code": "jp",
+        "text": "あなたの携帯電話で"
+      },
+      {
+        "code": "kr",
+        "text": "귀하의 휴대폰으로"
+      }
+    ]
+  },
+  {
+    "code": "order_served_by_waiter",
+    "langs": [
+      {
+        "code": "th",
+        "text": "รายการเสริฟ"
+      },
+      {
+        "code": "lo",
+        "text": "ລາຍການສັ່ງອາຫານຂອງຜູ້ບໍລິການ"
+      },
+      {
+        "code": "en",
+        "text": "Order served by waiter"
+      },
+      {
+        "code": "cn",
+        "text": "由服务员提供的订单"
+      },
+      {
+        "code": "jp",
+        "text": "ウェイターが提供する注文"
+      },
+      {
+        "code": "kr",
+        "text": "웨이터가 제공하는 주문"
+      }
+    ]
+  },
+  {
+    "code": "kds_screen",
+    "langs": [
+      {
+        "code": "th",
+        "text": "หน้าจอ KDS"
+      },
+      {
+        "code": "lo",
+        "text": ""
+      },
+      {
+        "code": "en",
+        "text": "KDS screen"
+      },
+      {
+        "code": "cn",
+        "text": "KDS 屏幕"
+      },
+      {
+        "code": "jp",
+        "text": "KDS 画面"
+      },
+      {
+        "code": "kr",
+        "text": "KDS 화면"
+      }
+    ]
+  },
+  {
+    "code": "price_after_discount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ราคาหลังหักส่วนลด"
+      },
+      {
+        "code": "en",
+        "text": "Price After Discount"
+      },
+      {
+        "code": "cn",
+        "text": "折扣后价格"
+      },
+      {
+        "code": "jp",
+        "text": "割引後の価格"
+      },
+      {
+        "code": "kr",
+        "text": "할인 후 가격"
+      }
+    ]
+  },
+  {
+    "code": "amount_after_discount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยอดรวมหลังหักส่วนลด"
+      },
+      {
+        "code": "en",
+        "text": "Total Amount After Discount"
+      },
+      {
+        "code": "cn",
+        "text": "折扣后的总额"
+      },
+      {
+        "code": "jp",
+        "text": "割引後の合計金額"
+      },
+      {
+        "code": "kr",
+        "text": "할인 후 총액"
+      }
+    ]
+  },
+  {
+    "code": "save_amount",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ประหยัด"
+      },
+      {
+        "code": "en",
+        "text": "Save Amount"
+      },
+      {
+        "code": "cn",
+        "text": "节省金额"
+      },
+      {
+        "code": "jp",
+        "text": "節約額"
+      },
+      {
+        "code": "kr",
+        "text": "절약 금액"
+      }
+    ]
+  },
+  {
+    "code": "speech_order_type",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลือกวิธีการสั่งอาหาร สั่งกินที่ร้าน หรือสั่งกลับบ้าน"
+      },
+      {
+        "code": "en",
+        "text": "Choose a method to order food: eat at the restaurant or take away"
+      },
+      {
+        "code": "cn",
+        "text": "选择订餐方式：在餐厅用餐或外带"
+      },
+      {
+        "code": "jp",
+        "text": "食事の注文方法を選択：店で食べるか、持ち帰り"
+      },
+      {
+        "code": "kr",
+        "text": "음식 주문 방법 선택: 식당에서 먹거나 가져가기"
+      }
+    ]
+  },
+  {
+    "code": "speech_order_type_eat_at_restaurant",
+    "langs": [
+      {
+        "code": "th",
+        "text": "คุณเลือกวิธีการสั่งอาหาร สั่งกินที่ร้าน"
+      },
+      {
+        "code": "en",
+        "text": "You choose the way to order food, eat at the restaurant"
+      },
+      {
+        "code": "cn",
+        "text": "您选择的点餐方式是在餐厅用餐"
+      },
+      {
+        "code": "jp",
+        "text": "レストランで食事をするための注文方法を選択します"
+      },
+      {
+        "code": "kr",
+        "text": "식당에서 식사하는 방법을 선택하셨습니다"
+      }
+    ]
+  },
+  {
+    "code": "speech_order_type_take_out",
+    "langs": [
+      {
+        "code": "th",
+        "text": "คุณเลือกวิธีการสั่งอาหาร สั่งกลับบ้าน"
+      },
+      {
+        "code": "en",
+        "text": "You choose the way to order food, take out"
+      },
+      {
+        "code": "cn",
+        "text": "您选择的点餐方式是带回家"
+      },
+      {
+        "code": "jp",
+        "text": "持ち帰りのための注文方法を選択します"
+      },
+      {
+        "code": "kr",
+        "text": "테이크아웃을 위한 주문 방법을 선택하셨습니다"
+      }
+    ]
+  },
+  {
+    "code": "more",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เพิ่ม"
+      },
+      {
+        "code": "en",
+        "text": "increase"
+      },
+      {
+        "code": "cn",
+        "text": "增加"
+      },
+      {
+        "code": "jp",
+        "text": "増やす"
+      },
+      {
+        "code": "kr",
+        "text": "늘리다"
+      }
+    ]
+  },
+  {
+    "code": "reduce",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ลด"
+      },
+      {
+        "code": "en",
+        "text": "decrease"
+      },
+      {
+        "code": "cn",
+        "text": "减少"
+      },
+      {
+        "code": "jp",
+        "text": "減らす"
+      },
+      {
+        "code": "kr",
+        "text": "줄이다"
+      }
+    ]
+  },
+  {
+    "code": "is",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เป็น"
+      },
+      {
+        "code": "en",
+        "text": "is"
+      },
+      {
+        "code": "cn",
+        "text": "是"
+      },
+      {
+        "code": "jp",
+        "text": "です"
+      },
+      {
+        "code": "kr",
+        "text": "이다"
+      }
+    ]
+  },
+  {
+    "code": "order_in_cart_detail",
+    "langs": [
+      {
+        "code": "th",
+        "text": "คุณสามารถแก้ไขรายการ หรือลบรายการได้ก่อนชำระเงิน"
+      },
+      {
+        "code": "en",
+        "text": "You can edit or delete items before payment"
+      },
+      {
+        "code": "cn",
+        "text": "您可以在付款前编辑或删除项目"
+      },
+      {
+        "code": "jp",
+        "text": "支払い前にアイテムを編集または削除できます"
+      },
+      {
+        "code": "kr",
+        "text": "결제 전에 항목을 편집하거나 삭제할 수 있습니다"
+      }
+    ]
+  },
+  {
+    "code": "order_in_cart_remove_success",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ลบรายการสำเร็จ"
+      },
+      {
+        "code": "en",
+        "text": "Item successfully removed from cart"
+      },
+      {
+        "code": "cn",
+        "text": "从购物车成功删除商品"
+      },
+      {
+        "code": "jp",
+        "text": "カートから商品を削除しました"
+      },
+      {
+        "code": "kr",
+        "text": "장바구니에서 상품이 성공적으로 제거됨"
+      }
+    ]
+  },
+  {
+    "code": "please_select_serve_number_service",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กรุณาหยิบป้าย หมายเลข แล้วนำมา Scan ที่เครื่อง หรือกดปุ่มเลือกจากหน้าจอ เมื่ออาหารพร้อมแล้ว พนักงานจะนำอาหารไปเสิร์ฟให้คุณลูกค้า ตามหมายเลขที่เลือก"
+      },
+      {
+        "code": "en",
+        "text": "Please pick up a number tag and scan it at the machine, or select from the screen. When your food is ready, our staff will serve it according to the chosen number"
+      },
+      {
+        "code": "cn",
+        "text": "请拿起号码牌，在机器上扫描或从屏幕上选择。食物准备好后，我们的员工将根据所选号码提供服务"
+      },
+      {
+        "code": "jp",
+        "text": "番号タグを取って機械でスキャンするか、画面から選択してください。食事が準備できたら、スタッフが選択した番号に従って提供します"
+      },
+      {
+        "code": "kr",
+        "text": "번호표를 집어서 기계에서 스캔하거나 화면에서 선택하세요. 음식이 준비되면 직원이 선택한 번호에 따라 서빙할 것입니다"
+      }
+    ]
+  },
+  {
+    "code": "select_serve_number",
+    "langs": [
+      {
+        "code": "th",
+        "text": "คุณลูกค้าเลือกป้ายหมายเลข"
+      },
+      {
+        "code": "en",
+        "text": "Customer selects a number tag"
+      },
+      {
+        "code": "cn",
+        "text": "顾客选择号码牌"
+      },
+      {
+        "code": "jp",
+        "text": "顧客が番号タグを選択"
+      },
+      {
+        "code": "kr",
+        "text": "고객이 번호표를 선택함"
+      }
+    ]
+  },
+  {
+    "code": "select_pay_type",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กรุณาเลือกวิธีการชำระเงิน"
+      },
+      {
+        "code": "en",
+        "text": "Please select a payment method"
+      },
+      {
+        "code": "cn",
+        "text": "请选择付款方式"
+      },
+      {
+        "code": "jp",
+        "text": "支払い方法を選択してください"
+      },
+      {
+        "code": "kr",
+        "text": "결제 방식을 선택하세요"
+      }
+    ]
+  },
+  {
+    "code": "selected_pay_type",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลือกชำระเงินด้วย"
+      },
+      {
+        "code": "en",
+        "text": "Selected payment method"
+      },
+      {
+        "code": "cn",
+        "text": "已选择的支付方式"
+      },
+      {
+        "code": "jp",
+        "text": "選択された支払い方法"
+      },
+      {
+        "code": "kr",
+        "text": "선택된 결제 방식"
+      }
+    ]
+  },
+  {
+    "code": "wait_for_scan_qrcode_pay",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กรุณา Scan Qrcode ชำระเงินภายใน 2 นาที"
+      },
+      {
+        "code": "en",
+        "text": "Please scan the QR code for payment within 2 minutes"
+      },
+      {
+        "code": "cn",
+        "text": "请在5分钟内扫描二维码进行支付"
+      },
+      {
+        "code": "jp",
+        "text": "5分以内にQRコードをスキャンして支払ってください"
+      },
+      {
+        "code": "kr",
+        "text": "5분 이내에 QR 코드를 스캔하여 결제하세요"
+      }
+    ]
+  },
+  {
+    "code": "speech_order_success",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เมื่อคุณลูกค้าได้รับใบเสร็จแล้ว ให้ถือป้าย ไปรอที่โต๊ะอาหารที่ว่างอยู่ เมื่อทางร้านประกอบอาหารเสร็จแล้ว จะนำไปเสริฟท์ตามป้าย ขอบคุณที่ใช้บริการ"
+      },
+      {
+        "code": "en",
+        "text": "Once you receive your receipt, please hold the tag and wait at an available dining table. When your food is prepared, we will serve it according to the tag. Thank you for using our service"
+      },
+      {
+        "code": "cn",
+        "text": "收到收据后，请持标签在空闲的餐桌等候。食物准备好后，我们将按照标签提供服务。感谢您使用我们的服务"
+      },
+      {
+        "code": "jp",
+        "text": "レシートを受け取ったら、タグを持って空いている食事テーブルでお待ちください。食事が準備できたら、タグに従って提供します。私たちのサービスをご利用いただきありがとうございます"
+      },
+      {
+        "code": "kr",
+        "text": "영수증을 받은 후, 태그를 들고 비어 있는 식사 테이블에서 기다리세요. 음식이 준비되면 태그에 따라 서빙할 것입니다. 저희 서비스를 이용해주셔서 감사합니다"
+      }
+    ]
+  },
+  {
+    "code": "and",
+    "langs": [
+      {
+        "code": "th",
+        "text": "และ"
+      },
+      {
+        "code": "en",
+        "text": "and"
+      },
+      {
+        "code": "cn",
+        "text": "和"
+      },
+      {
+        "code": "jp",
+        "text": "そして"
+      },
+      {
+        "code": "kr",
+        "text": "그리고"
+      }
+    ]
+  },
+  {
+    "code": "xxx",
+    "langs": [
+      {
+        "code": "th",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "xxx",
+    "langs": [
+      {
+        "code": "th",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "xxx",
+    "langs": [
+      {
+        "code": "th",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "xxx",
+    "langs": [
+      {
+        "code": "th",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "xxx",
+    "langs": [
+      {
+        "code": "th",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "xxx",
+    "langs": [
+      {
+        "code": "th",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "code": "pay_by_creditcard",
+    "langs": [
+      {
+        "code": "th",
+        "text": "Credit card(EDC)"
+      },
+      {
+        "code": "en",
+        "text": "Credit card(EDC)"
+      },
+      {
+        "code": "cn",
+        "text": "Credit card(EDC)"
+      },
+      {
+        "code": "jp",
+        "text": "Credit card(EDC)"
+      },
+      {
+        "code": "kr",
+        "text": "Credit card(EDC)"
+      }
+    ]
+  },
+  {
+    "code": "pay_by_qr_edc",
+    "langs": [
+      {
+        "code": "th",
+        "text": "QR Cradit(EDC)"
+      },
+      {
+        "code": "en",
+        "text": "QR Cradit(EDC)"
+      },
+      {
+        "code": "cn",
+        "text": "QR Cradit(EDC)"
+      },
+      {
+        "code": "jp",
+        "text": "QR Cradit(EDC)"
+      },
+      {
+        "code": "kr",
+        "text": "QR Cradit(EDC)"
+      }
+    ]
+  },
+  {
+    "code": "pay_by_qr_payment",
+    "langs": [
+      {
+        "code": "th",
+        "text": "QR Payment(EDC)"
+      },
+      {
+        "code": "en",
+        "text": "QR Payment(EDC)"
+      },
+      {
+        "code": "cn",
+        "text": "QR Payment(EDC)"
+      },
+      {
+        "code": "jp",
+        "text": "QR Payment(EDC)"
+      },
+      {
+        "code": "kr",
+        "text": "QR Payment(EDC)"
+      }
+    ]
+  },
+
+  {
+    "code": "sales_channel",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ช่องทางการขาย"
+      },
+      {
+        "code": "lo",
+        "text": "ຊ່ອງທາງການຂາຍ"
+      },
+      {
+        "code": "en",
+        "text": "Sales Channel"
+      },
+      {
+        "code": "cn",
+        "text": "销售渠道"
+      },
+      {
+        "code": "jp",
+        "text": "販売チャネル"
+      },
+      {
+        "code": "kr",
+        "text": "판매 채널"
+      },
+      {
+        "code": "my",
+        "text": "ရောင်းချမှုလမ်းကြောင်း"
+      },
+      {
+        "code": "vi",
+        "text": "Kênh Bán Hàng"
+      },
+      {
+        "code": "ms",
+        "text": "Saluran Jualan"
+      }
+    ]
+  },
+  {
+    "code": "management_tools",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เครื่องมือจัดการ"
+      },
+      {
+        "code": "lo",
+        "text": "ເຄື່ອງມືການຈັດການ"
+      },
+      {
+        "code": "en",
+        "text": "Management Tools"
+      },
+      {
+        "code": "cn",
+        "text": "管理工具"
+      },
+      {
+        "code": "jp",
+        "text": "管理ツール"
+      },
+      {
+        "code": "kr",
+        "text": "관리 도구"
+      },
+      {
+        "code": "my",
+        "text": "စီမံခန့်ခွဲမှုကိရိယာများ"
+      },
+      {
+        "code": "vi",
+        "text": "Công Cụ Quản Lý"
+      },
+      {
+        "code": "ms",
+        "text": "Alat Pengurusan"
+      }
+    ]
+  },
+  
+  {
+    "code": "print_status",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สถานะการพิมพ์"
+      },
+      {
+        "code": "lo",
+        "text": "ສະຖານະການພິມ"
+      },
+      {
+        "code": "en",
+        "text": "Print Status"
+      },
+      {
+        "code": "cn",
+        "text": "打印状态"
+      },
+      {
+        "code": "jp",
+        "text": "印刷状況"
+      },
+      {
+        "code": "kr",
+        "text": "인쇄 상태"
+      },
+      {
+        "code": "my",
+        "text": "ပုံနှိပ်ခြင်းအခြေအနေ"
+      },
+      {
+        "code": "vi",
+        "text": "Trạng Thái In Ấn"
+      },
+      {
+        "code": "ms",
+        "text": "Status Cetakan"
+      }
+    ]
+  },
+  {
+    "code": "product_management",
+    "langs": [
+      {
+        "code": "th",
+        "text": "จัดการสินค้า"
+      },
+      {
+        "code": "lo",
+        "text": "ການຈັດການສິນຄ້າ"
+      },
+      {
+        "code": "en",
+        "text": "Product Management"
+      },
+      {
+        "code": "cn",
+        "text": "产品管理"
+      },
+      {
+        "code": "jp",
+        "text": "商品管理"
+      },
+      {
+        "code": "kr",
+        "text": "상품 관리"
+      },
+      {
+        "code": "my",
+        "text": "ကုန်ပစ္စည်းစီမံခန့်ခွဲမှု"
+      },
+      {
+        "code": "vi",
+        "text": "Quản Lý Sản Phẩm"
+      },
+      {
+        "code": "ms",
+        "text": "Pengurusan Produk"
+      }
+    ]
+  },
+  {
+    "code": "adjust_stock",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ปรับสต็อค"
+      },
+      {
+        "code": "lo",
+        "text": "ປັບສະຕັອກ"
+      },
+      {
+        "code": "en",
+        "text": "Adjust Stock"
+      },
+      {
+        "code": "cn",
+        "text": "调整库存"
+      },
+      {
+        "code": "jp",
+        "text": "在庫調整"
+      },
+      {
+        "code": "kr",
+        "text": "재고 조정"
+      },
+      {
+        "code": "my",
+        "text": "စတော့ပြုပြင်ခြင်း"
+      },
+      {
+        "code": "vi",
+        "text": "Điều Chỉnh Kho"
+      },
+      {
+        "code": "ms",
+        "text": "Laraskan Stok"
+      }
+    ]
+  },
+  {
+    "code": "serve_food",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เสิร์ฟอาหาร"
+      },
+      {
+        "code": "lo",
+        "text": "ເສີບອາຫານ"
+      },
+      {
+        "code": "en",
+        "text": "Serve Food"
+      },
+      {
+        "code": "cn",
+        "text": "上菜"
+      },
+      {
+        "code": "jp",
+        "text": "料理提供"
+      },
+      {
+        "code": "kr",
+        "text": "음식 서빙"
+      },
+      {
+        "code": "my",
+        "text": "အစားအစာချပေးခြင်း"
+      },
+      {
+        "code": "vi",
+        "text": "Phục Vụ Món Ăn"
+      },
+      {
+        "code": "ms",
+        "text": "Hidang Makanan"
+      }
+    ]
+  },
+  {
+    "code": "kitchen_screen",
+    "langs": [
+      {
+        "code": "th",
+        "text": "หน้าจอครัว"
+      },
+      {
+        "code": "lo",
+        "text": "ໜ້າຈໍຫ້ອງຄົວ"
+      },
+      {
+        "code": "en",
+        "text": "Kitchen Screen"
+      },
+      {
+        "code": "cn",
+        "text": "厨房屏幕"
+      },
+      {
+        "code": "jp",
+        "text": "キッチン画面"
+      },
+      {
+        "code": "kr",
+        "text": "주방 화면"
+      },
+      {
+        "code": "my",
+        "text": "မီးဖိုချောင်မျက်နှာပြင်"
+      },
+      {
+        "code": "vi",
+        "text": "Màn Hình Bếp"
+      },
+      {
+        "code": "ms",
+        "text": "Skrin Dapur"
+      }
+    ]
+  },
+  {
+    "code": "copy_print_queue",
+    "langs": [
+      {
+        "code": "th",
+        "text": "คิวพิมพ์สำเนา"
+      },
+      {
+        "code": "lo",
+        "text": "ຄິວພິມສຳເນົາ"
+      },
+      {
+        "code": "en",
+        "text": "Copy Print Queue"
+      },
+      {
+        "code": "cn",
+        "text": "副本打印队列"
+      },
+      {
+        "code": "jp",
+        "text": "コピー印刷キュー"
+      },
+      {
+        "code": "kr",
+        "text": "사본 인쇄 대기열"
+      },
+      {
+        "code": "my",
+        "text": "မိတ္တူပုံနှိပ်တန်း"
+      },
+      {
+        "code": "vi",
+        "text": "Hàng Đợi In Bản Sao"
+      },
+      {
+        "code": "ms",
+        "text": "Barisan Cetak Salinan"
+      }
+    ]
+  },
+  {
+    "code": "payment",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ชำระเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ຊຳລະເງິນ"
+      },
+      {
+        "code": "en",
+        "text": "Payment"
+      },
+      {
+        "code": "cn",
+        "text": "付款"
+      },
+      {
+        "code": "jp",
+        "text": "支払い"
+      },
+      {
+        "code": "kr",
+        "text": "결제"
+      },
+      {
+        "code": "my",
+        "text": "ငွေပေးချေခြင်း"
+      },
+      {
+        "code": "vi",
+        "text": "Thanh Toán"
+      },
+      {
+        "code": "ms",
+        "text": "Bayaran"
+      }
+    ]
+  },
+  {
+    "code": "warning",
+    "langs": [
+      {
+        "code": "th",
+        "text": "คำเตือน"
+      },
+      {
+        "code": "lo",
+        "text": "ຄຳເຕືອນ"
+      },
+      {
+        "code": "en",
+        "text": "Warning"
+      },
+      {
+        "code": "cn",
+        "text": "警告"
+      },
+      {
+        "code": "jp",
+        "text": "警告"
+      },
+      {
+        "code": "kr",
+        "text": "경고"
+      },
+      {
+        "code": "my",
+        "text": "သတိပေးချက်"
+      },
+      {
+        "code": "vi",
+        "text": "Cảnh Báo"
+      },
+      {
+        "code": "ms",
+        "text": "Amaran"
+      }
+    ]
+  },
+  {
+    "code": "no_order",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่มีรายการสั่งซื้อ"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ມີລາຍການສັ່ງຊື້"
+      },
+      {
+        "code": "en",
+        "text": "No Order"
+      },
+      {
+        "code": "cn",
+        "text": "没有订单"
+      },
+      {
+        "code": "jp",
+        "text": "注文なし"
+      },
+      {
+        "code": "kr",
+        "text": "주문 없음"
+      },
+      {
+        "code": "my",
+        "text": "အမှာစာမရှိပါ"
+      },
+      {
+        "code": "vi",
+        "text": "Không Có Đơn Hàng"
+      },
+      {
+        "code": "ms",
+        "text": "Tiada Pesanan"
+      }
+    ]
+  },
+  {
+    "code": "ok",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ตกลง"
+      },
+      {
+        "code": "lo",
+        "text": "ຕົກລົງ"
+      },
+      {
+        "code": "en",
+        "text": "OK"
+      },
+      {
+        "code": "cn",
+        "text": "确定"
+      },
+      {
+        "code": "jp",
+        "text": "OK"
+      },
+      {
+        "code": "kr",
+        "text": "확인"
+      },
+      {
+        "code": "my",
+        "text": "OK"
+      },
+      {
+        "code": "vi",
+        "text": "OK"
+      },
+      {
+        "code": "ms",
+        "text": "OK"
+      }
+    ]
+  },
+  {
+    "code": "no_category_selected",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่ได้เลือกหมวดหมู่"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ໄດ້ເລືອກໝວດໝູ່"
+      },
+      {
+        "code": "en",
+        "text": "No category selected"
+      },
+      {
+        "code": "cn",
+        "text": "未选择类别"
+      },
+      {
+        "code": "jp",
+        "text": "カテゴリが選択されていません"
+      },
+      {
+        "code": "kr",
+        "text": "카테고리가 선택되지 않았습니다"
+      },
+      {
+        "code": "my",
+        "text": "အမျိုးအစားရွေးချယ်မထားပါ"
+      },
+      {
+        "code": "vi",
+        "text": "Chưa chọn danh mục"
+      },
+      {
+        "code": "ms",
+        "text": "Tiada kategori dipilih"
+      }
+    ]
+  },
+  {
+    "code": "no_products_in_category",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่มีสินค้าในหমวดหมู่นี้"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ມີສິນຄ້າໃນໝວດໝູ່ນີ້"
+      },
+      {
+        "code": "en",
+        "text": "No products in this category"
+      },
+      {
+        "code": "cn",
+        "text": "此类别中没有产品"
+      },
+      {
+        "code": "jp",
+        "text": "このカテゴリには商品がありません"
+      },
+      {
+        "code": "kr",
+        "text": "이 카테고리에 제품이 없습니다"
+      },
+      {
+        "code": "my",
+        "text": "ဤအမျိုးအစားတွင် ကုန်ပစ္စည်းမရှိပါ"
+      },
+      {
+        "code": "vi",
+        "text": "Không có sản phẩm trong danh mục này"
+      },
+      {
+        "code": "ms",
+        "text": "Tiada produk dalam kategori ini"
+      }
+    ]
+  },
+  {
+    "code": "no_results_for",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่พบผลลัพธ์สำหรับ"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ພົບຜົນໄດ້ຮັບສໍາລັບ"
+      },
+      {
+        "code": "en",
+        "text": "No results for"
+      },
+      {
+        "code": "cn",
+        "text": "没有结果"
+      },
+      {
+        "code": "jp",
+        "text": "結果がありません"
+      },
+      {
+        "code": "kr",
+        "text": "결과가 없습니다"
+      },
+      {
+        "code": "my",
+        "text": "ရလဒ်မရှိပါ"
+      },
+      {
+        "code": "vi",
+        "text": "Không có kết quả cho"
+      },
+      {
+        "code": "ms",
+        "text": "Tiada keputusan untuk"
+      }
+    ]
+  },
+  {
+    "code": "no_categories_available",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่มีหมวดหมู่ที่ใช้งานได้"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ມີໝວດໝູ່ທີ່ສາມາດໃຊ້ໄດ້"
+      },
+      {
+        "code": "en",
+        "text": "No categories available"
+      },
+      {
+        "code": "cn",
+        "text": "没有可用的类别"
+      },
+      {
+        "code": "jp",
+        "text": "利用可能なカテゴリがありません"
+      },
+      {
+        "code": "kr",
+        "text": "사용 가능한 카테고리가 없습니다"
+      },
+      {
+        "code": "my",
+        "text": "အသုံးပြုနိုင်သော အမျိုးအစားများမရှိပါ"
+      },
+      {
+        "code": "vi",
+        "text": "Không có danh mục nào khả dụng"
+      },
+      {
+        "code": "ms",
+        "text": "Tiada kategori tersedia"
+      }
+    ]
+  },
+  {
+    "code": "please_select_option",
+    "langs": [
+      {
+        "code": "th",
+        "text": "กรุณาเลือกตัวเลือก"
+      },
+      {
+        "code": "lo",
+        "text": "ກະລຸນາເລືອກຕົວເລືອກ"
+      },
+      {
+        "code": "en",
+        "text": "Please select option"
+      },
+      {
+        "code": "cn",
+        "text": "请选择选项"
+      },
+      {
+        "code": "jp",
+        "text": "オプションを選択してください"
+      },
+      {
+        "code": "kr",
+        "text": "옵션을 선택해주세요"
+      },
+      {
+        "code": "my",
+        "text": "ရွေးချယ်စရာရွေးပါ"
+      },
+      {
+        "code": "vi",
+        "text": "Vui lòng chọn tùy chọn"
+      },
+      {
+        "code": "ms",
+        "text": "Sila pilih pilihan"
+      }
+    ]
+  },
+  {
+    "code": "confirm_to_order",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยืนยันเพื่อสั่งซื้อ"
+      },
+      {
+        "code": "lo",
+        "text": "ຢືນຢັນເພື່ອສັ່ງຊື້"
+      },
+      {
+        "code": "en",
+        "text": "Confirm to order"
+      },
+      {
+        "code": "cn",
+        "text": "确认订购"
+      },
+      {
+        "code": "jp",
+        "text": "注文を確認"
+      },
+      {
+        "code": "kr",
+        "text": "주문 확인"
+      },
+      {
+        "code": "my",
+        "text": "မှာယူရန်အတည်ပြု"
+      },
+      {
+        "code": "vi",
+        "text": "Xác nhận đặt hàng"
+      },
+      {
+        "code": "ms",
+        "text": "Sahkan untuk memesan"
+      }
+    ]
+  },
+  {
+    "code": "select_payment_method",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลือกวิธีการชำระเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ເລືອກວິທີການຊຳລະເງິນ"
+      },
+      {
+        "code": "en",
+        "text": "Select Payment Method"
+      },
+      {
+        "code": "cn",
+        "text": "选择付款方式"
+      },
+      {
+        "code": "jp",
+        "text": "支払い方法を選択"
+      },
+      {
+        "code": "kr",
+        "text": "결제 방법 선택"
+      },
+      {
+        "code": "my",
+        "text": "ငွေပေးချေမှုနည်းလမ်းရွေးချယ်ပါ"
+      },
+      {
+        "code": "vi",
+        "text": "Chọn Phương Thức Thanh Toán"
+      },
+      {
+        "code": "ms",
+        "text": "Pilih Kaedah Pembayaran"
+      }
+    ]
+  },
+  {
+    "code": "tag_number",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลขป้าย"
+      },
+      {
+        "code": "lo",
+        "text": "ເລກປ້າຍ"
+      },
+      {
+        "code": "en",
+        "text": "Tag Number"
+      },
+      {
+        "code": "cn",
+        "text": "标签号码"
+      },
+      {
+        "code": "jp",
+        "text": "タグ番号"
+      },
+      {
+        "code": "kr",
+        "text": "태그 번호"
+      },
+      {
+        "code": "my",
+        "text": "တံဆိပ်နံပါတ်"
+      },
+      {
+        "code": "vi",
+        "text": "Số Thẻ"
+      },
+      {
+        "code": "ms",
+        "text": "Nombor Tag"
+      }
+    ]
+  },
+  {
+    "code": "paid_with_cash",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ชำระด้วยเงินสด"
+      },
+      {
+        "code": "lo",
+        "text": "ຊຳລະດ້ວຍເງິນສົດ"
+      },
+      {
+        "code": "en",
+        "text": "Paid with cash"
+      },
+      {
+        "code": "cn",
+        "text": "现金支付"
+      },
+      {
+        "code": "jp",
+        "text": "現金で支払い"
+      },
+      {
+        "code": "kr",
+        "text": "현금으로 결제"
+      },
+      {
+        "code": "my",
+        "text": "သားဖြင့်ပေးချေ"
+      },
+      {
+        "code": "vi",
+        "text": "Thanh toán bằng tiền mặt"
+      },
+      {
+        "code": "ms",
+        "text": "Bayar dengan tunai"
+      }
+    ]
+  },
+  {
+    "code": "remaining_balance",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ยอดคงเหลือชำระอีก"
+      },
+      {
+        "code": "lo",
+        "text": "ຍອດຄົງເຫຼືອຊຳລະອີກ"
+      },
+      {
+        "code": "en",
+        "text": "Remaining balance to pay"
+      },
+      {
+        "code": "cn",
+        "text": "剩余待付金额"
+      },
+      {
+        "code": "jp",
+        "text": "残りの支払い額"
+      },
+      {
+        "code": "kr",
+        "text": "남은 결제 금액"
+      },
+      {
+        "code": "my",
+        "text": "ကျန်ရှိသောပေးချေရမည့်ပမာဏ"
+      },
+      {
+        "code": "vi",
+        "text": "Số tiền còn lại cần thanh toán"
+      },
+      {
+        "code": "ms",
+        "text": "Baki yang perlu dibayar"
+      }
+    ]
+  },
+  {
+    "code": "payment_summary",
+    "langs": [
+      {
+        "code": "th",
+        "text": "สรุปการชำระเงิน"
+      },
+      {
+        "code": "lo",
+        "text": "ສະຫຼຸບການຊຳລະເງິນ"
+      },
+      {
+        "code": "en",
+        "text": "Payment Summary"
+      },
+      {
+        "code": "cn",
+        "text": "付款摘要"
+      },
+      {
+        "code": "jp",
+        "text": "支払い概要"
+      },
+      {
+        "code": "kr",
+        "text": "결제 요약"
+      },
+      {
+        "code": "my",
+        "text": "ငွေပေးချေမှုအနှစ်ချုပ်"
+      },
+      {
+        "code": "vi",
+        "text": "Tóm Tắt Thanh Toán"
+      },
+      {
+        "code": "ms",
+        "text": "Ringkasan Pembayaran"
+      }
+    ]
+  },
+  {
+    "code": "payment_failed",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ชำระเงินไม่สำเร็จ"
+      },
+      {
+        "code": "lo",
+        "text": "ຊຳລະເງິນບໍ່ສຳເລັດ"
+      },
+      {
+        "code": "en",
+        "text": "Payment Failed"
+      },
+      {
+        "code": "cn",
+        "text": "付款失败"
+      },
+      {
+        "code": "jp",
+        "text": "支払い失敗"
+      },
+      {
+        "code": "kr",
+        "text": "결제 실패"
+      },
+      {
+        "code": "my",
+        "text": "ငွေပေးချေမှုမအောင်မြင်"
+      },
+      {
+        "code": "vi",
+        "text": "Thanh Toán Thất Bại"
+      },
+      {
+        "code": "ms",
+        "text": "Pembayaran Gagal"
+      }
+    ]
+  },
+  {
+    "code": "cannot_connect_edc",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ไม่สามารถเชื่อมต่อเครื่อง EDC ได้"
+      },
+      {
+        "code": "lo",
+        "text": "ບໍ່ສາມາດເຊື່ອມຕໍ່ເຄື່ອງ EDC ໄດ້"
+      },
+      {
+        "code": "en",
+        "text": "Cannot connect to EDC device"
+      },
+      {
+        "code": "cn",
+        "text": "无法连接EDC设备"
+      },
+      {
+        "code": "jp",
+        "text": "EDCデバイスに接続できません"
+      },
+      {
+        "code": "kr",
+        "text": "EDC 기기에 연결할 수 없습니다"
+      },
+      {
+        "code": "my",
+        "text": "EDC စက်ပစ္စည်းနှင့် ချိတ်ဆက်၍မရပါ"
+      },
+      {
+        "code": "vi",
+        "text": "Không thể kết nối với thiết bị EDC"
+      },
+      {
+        "code": "ms",
+        "text": "Tidak dapat menyambung ke peranti EDC"
+      }
+    ]
+  },
+  {
+    "code": "select_number_or_scan",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เลือกหมายเลขหรือสแกนบาร์โค้ด"
+      },
+      {
+        "code": "lo",
+        "text": "ເລືອກເລກ ຫຼື ສະແກນບາໂຄດ"
+      },
+      {
+        "code": "en",
+        "text": "Select a number or scan barcode"
+      },
+      {
+        "code": "cn",
+        "text": "选择号码或扫描条形码"
+      },
+      {
+        "code": "jp",
+        "text": "番号を選択するかバーコードをスキャン"
+      },
+      {
+        "code": "kr",
+        "text": "번호를 선택하거나 바코드를 스캔하세요"
+      },
+      {
+        "code": "my",
+        "text": "နံပါတ်ရွေးချယ်ပါ သို့မဟုတ် ဘားကုဒ်စကင်န်ပါ"
+      },
+      {
+        "code": "vi",
+        "text": "Chọn số hoặc quét mã vạch"
+      },
+      {
+        "code": "ms",
+        "text": "Pilih nombor atau imbas kod bar"
+      }
+    ]
+  },
+
+  {
+    "code": "tap_screen_to_start",
+    "langs": [
+      {
+        "code": "th",
+        "text": "TAB SCREEN TO START"
+      },
+      {
+        "code": "lo",
+        "text": "ແຕະໜ້າຈໍເພື່ອເລີ່ມໃຊ້ງານ"
+      },
+      {
+        "code": "en",
+        "text": "TAB SCREEN TO START"
+      },
+      {
+        "code": "cn",
+        "text": "扫描二维码或触摸屏幕开始"
+      },
+      {
+        "code": "jp",
+        "text": "QRコードをスキャンするか画面をタップして開始"
+      },
+      {
+        "code": "kr",
+        "text": "QR 코드를 스캔하거나 화면을 터치하여 시작하세요"
+      },
+      {
+        "code": "my",
+        "text": "QR ကုဒ်စကင်န်ပါ သို့မဟုတ် စခရင်ကိုထိ၍ စတင်ပါ"
+      },
+      {
+        "code": "vi",
+        "text": "Quét mã QR hoặc chạm vào màn hình để bắt đầu"
+      },
+      {
+        "code": "ms",
+        "text": "Imbas kod QR atau sentuh skrin untuk mula"
+      }
+    ]
+  },
+  {
+    "code": "error",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ข้อผิดพลาด"
+      },
+      {
+        "code": "lo",
+        "text": "ຜິດພາດ"
+      },
+      {
+        "code": "en",
+        "text": "Error"
+      },
+      {
+        "code": "cn",
+        "text": "错误"
+      },
+      {
+        "code": "jp",
+        "text": "エラー"
+      },
+      {
+        "code": "kr",
+        "text": "오류"
+      },
+      {
+        "code": "my",
+        "text": "အမှားအယွင်း"
+      },
+      {
+        "code": "vi",
+        "text": "Lỗi"
+      },
+      {
+        "code": "ms",
+        "text": "Ralat"
+      }
+    ]
+  },
+  {
+    "code": "error_occurred",
+    "langs": [
+      {
+        "code": "th",
+        "text": "เกิดข้อผิดพลาด กรุณาลองใหม่อีกครั้ง"
+      },
+      {
+        "code": "lo",
+        "text": "ເກີດຄວາມຜິດພາດ ກະລຸນາລອງໃໝ່ອີກຄັ້ງ"
+      },
+      {
+        "code": "en",
+        "text": "An error occurred please try again"
+      },
+      {
+        "code": "cn",
+        "text": "发生错误 请再试一次"
+      },
+      {
+        "code": "jp",
+        "text": "エラーが発生しました もう一度お試しください"
+      },
+      {
+        "code": "kr",
+        "text": "오류가 발생했습니다 다시 시도해주세요"
+      },
+      {
+        "code": "my",
+        "text": "အမှားအယွင်း ဖြစ်ပေါ်ခဲ့သည် ကျေးဇူးပြု၍ ထပ်မံကြိုးစားပါ"
+      },
+      {
+        "code": "vi",
+        "text": "Đã xảy ra lỗi, vui lòng thử lại"
+      },
+      {
+        "code": "ms",
+        "text": "Ralat telah berlaku"
+      }
+    ]
+  },
+  {
+    "code": "operation_failed",
+    "langs": [
+      {
+        "code": "th",
+        "text": "การดำเนินการล้มเหลว กรุณาลองใหม่"
+      },
+      {
+        "code": "lo",
+        "text": "ການດໍາເນີນງານລົ້ມເຫລວ ກະລຸນາລອງໃໝ່"
+      },
+      {
+        "code": "en",
+        "text": "Operation failed. Please try again."
+      },
+      {
+        "code": "cn",
+        "text": "操作失败，请重试"
+      },
+      {
+        "code": "jp",
+        "text": "操作に失敗しました。もう一度お試しください。"
+      },
+      {
+        "code": "kr",
+        "text": "작업 실패. 다시 시도해주세요."
+      },
+      {
+        "code": "my",
+        "text": "လုပ်ဆောင်မှု မအောင်မြင်ပါ ထပ်မံကြိုးစားပါ"
+      },
+      {
+        "code": "vi",
+        "text": "Thao tác thất bại. Vui lòng thử lại."
+      },
+      {
+        "code": "ms",
+        "text": "Operasi gagal. Sila cuba lagi."
+      }
+    ]
+  },
+  {
+    "code": "ok",
+    "langs": [
+      {
+        "code": "th",
+        "text": "ตกลง"
+      },
+      {
+        "code": "lo",
+        "text": "ຕົກລົງ"
+      },
+      {
+        "code": "en",
+        "text": "OK"
+      },
+      {
+        "code": "cn",
+        "text": "确定"
+      },
+      {
+        "code": "jp",
+        "text": "OK"
+      },
+      {
+        "code": "kr",
+        "text": "확인"
+      },
+      {
+        "code": "my",
+        "text": "အိုကေ"
+      },
+      {
+        "code": "vi",
+        "text": "OK"
+      },
+      {
+        "code": "ms",
+        "text": "OK"
+      }
+    ]
+  },
+  {
+    "code": "network_timeout",
+    "langs": [
+      { "code": "th", "text": "การเชื่อมต่อหมดเวลา" },
+      { "code": "lo", "text": "ການເຊື່ອມຕໍ່ໝົດເວລາ" },
+      { "code": "en", "text": "Connection Timeout" },
+      { "code": "cn", "text": "连接超时" },
+      { "code": "jp", "text": "接続タイムアウト" },
+      { "code": "kr", "text": "연결 시간 초과" }
+    ]
+  },
+  {
+    "code": "network_error",
+    "langs": [
+      { "code": "th", "text": "ข้อผิดพลาดเครือข่าย" },
+      { "code": "lo", "text": "ຜິດພາດເຄືອຂ່າຍ" },
+      { "code": "en", "text": "Network Error" },
+      { "code": "cn", "text": "网络错误" },
+      { "code": "jp", "text": "ネットワークエラー" },
+      { "code": "kr", "text": "네트워크 오류" }
+    ]
+  },
+  {
+    "code": "checking_stock",
+    "langs": [
+      { "code": "th", "text": "กำลังตรวจสอบสต็อก..." },
+      { "code": "lo", "text": "ກໍາລັງກວດສອບສະຕັອກ..." },
+      { "code": "en", "text": "Checking stock..." },
+      { "code": "cn", "text": "正在检查库存..." },
+      { "code": "jp", "text": "在庫確認中..." },
+      { "code": "kr", "text": "재고 확인 중..." }
+    ]
+  },
+  {
+    "code": "generating_queue",
+    "langs": [
+      { "code": "th", "text": "กำลังสร้างคิวรายการ..." },
+      { "code": "lo", "text": "ກໍາລັງສ້າງຄິວລາຍການ..." },
+      { "code": "en", "text": "Generating queue..." },
+      { "code": "cn", "text": "正在生成队列..." },
+      { "code": "jp", "text": "キュー生成中..." },
+      { "code": "kr", "text": "대기열 생성 중..." }
+    ]
+  },
+  {
+    "code": "processing_payment",
+    "langs": [
+      { "code": "th", "text": "กำลังประมวลผลการชำระเงิน..." },
+      { "code": "lo", "text": "ກໍາລັງປະມວນຜົນການຊໍາລະເງິນ..." },
+      { "code": "en", "text": "Processing payment..." },
+      { "code": "cn", "text": "正在处理付款..." },
+      { "code": "jp", "text": "支払い処理中..." },
+      { "code": "kr", "text": "결제 처리 중..." }
+    ]
+  },
+  {
+    "code": "saving_order",
+    "langs": [
+      { "code": "th", "text": "กำลังบันทึกรายการ..." },
+      { "code": "lo", "text": "ກໍາລັງບັນທຶກລາຍການ..." },
+      { "code": "en", "text": "Saving order..." },
+      { "code": "cn", "text": "正在保存订单..." },
+      { "code": "jp", "text": "注文保存中..." },
+      { "code": "kr", "text": "주문 저장 중..." }
+    ]
+  },
+  {
+    "code": "operation_timeout",
+    "langs": [
+      { "code": "th", "text": "การดำเนินการใช้เวลานานเกินไป" },
+      { "code": "lo", "text": "ການດໍາເນີນງານໃຊ້ເວລານານເກີນໄປ" },
+      { "code": "en", "text": "Operation took too long" },
+      { "code": "cn", "text": "操作时间过长" },
+      { "code": "jp", "text": "操作に時間がかかりすぎています" },
+      { "code": "kr", "text": "작업 시간이 너무 오래 걸렸습니다" }
+    ]
+  },
+  {
+    "code": "retry_question",
+    "langs": [
+      { "code": "th", "text": "ต้องการลองอีกครั้งหรือไม่?" },
+      { "code": "lo", "text": "ຕ້ອງການລອງອີກຄັ້ງບໍ?" },
+      { "code": "en", "text": "Would you like to try again?" },
+      { "code": "cn", "text": "您想再试一次吗？" },
+      { "code": "jp", "text": "もう一度試しますか？" },
+      { "code": "kr", "text": "다시 시도하시겠습니까?" }
+    ]
+  },
+  {
+    "code": "continue_anyway",
+    "langs": [
+      { "code": "th", "text": "ดำเนินการต่อ" },
+      { "code": "lo", "text": "ດໍາເນີນການຕໍ່" },
+      { "code": "en", "text": "Continue Anyway" },
+      { "code": "cn", "text": "继续" },
+      { "code": "jp", "text": "続行する" },
+      { "code": "kr", "text": "계속하기" }
+    ]
+  },
+  {
+    "code": "offline_mode",
+    "langs": [
+      { "code": "th", "text": "โหมดออฟไลน์" },
+      { "code": "lo", "text": "ໂໝດອອບໄລນ໌" },
+      { "code": "en", "text": "Offline Mode" },
+      { "code": "cn", "text": "离线模式" },
+      { "code": "jp", "text": "オフラインモード" },
+      { "code": "kr", "text": "오프라인 모드" }
+    ]
+  },
+  {
+    "code": "will_sync_later",
+    "langs": [
+      { "code": "th", "text": "จะซิงค์เมื่อกลับมาออนไลน์" },
+      { "code": "lo", "text": "ຈະຊິ້ງເມື່ອກັບມາອອນລາຍ" },
+      { "code": "en", "text": "Will sync when back online" },
+      { "code": "cn", "text": "恢复在线时同步" },
+      { "code": "jp", "text": "オンラインに戻ったら同期します" },
+      { "code": "kr", "text": "온라인 복귀 시 동기화" }
+    ]
+  },
+  {
+    "code": "pending_sync",
+    "langs": [
+      { "code": "th", "text": "รอการซิงค์" },
+      { "code": "lo", "text": "ລໍຖ້າການຊິ້ງ" },
+      { "code": "en", "text": "Pending Sync" },
+      { "code": "cn", "text": "等待同步" },
+      { "code": "jp", "text": "同期待ち" },
+      { "code": "kr", "text": "동기화 대기 중" }
+    ]
+  }
+]

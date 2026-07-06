@@ -1,0 +1,26 @@
+node_modules
+dist
+.env.local
+.vite
+dev-server.log
+*.tsbuildinfo
+.npm-cache
+
+# secrets / env
+.env
+.env.*
+!.env.example
+!.env.*.example
+# keys / certs / keystores
+*.pem
+*.key
+*.pfx
+*.p12
+*.jks
+*.keystore
+# firebase local configs
+google-services.json
+GoogleService-Info.plist
+# deps / build junk
+node_modules/
+*.bak

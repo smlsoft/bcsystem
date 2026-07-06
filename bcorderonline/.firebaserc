@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "bcorderonline-906cd"
+  },
+  "targets": {
+    "bcorderonline-906cd": {
+      "hosting": {
+        "dev": [
+          "bcorderonline-dev"
+        ],
+        "prod": [
+          "bcorderonline-prod"
+        ]
+      }
+    }
+  }
+}

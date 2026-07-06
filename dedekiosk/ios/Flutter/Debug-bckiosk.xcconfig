@@ -1,0 +1,3 @@
+// Debug configuration for BC Kiosk flavor
+#include "Debug.xcconfig"
+#include "Bckiosk.xcconfig"

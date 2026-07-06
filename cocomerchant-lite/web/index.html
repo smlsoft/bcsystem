@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="cocomerchant_lite">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <meta name="google-signin-client_id" content="183871505957-7co3akl7smnhbpr4009vgmd7ht1iesfn.apps.googleusercontent.com" /> 
+  
+   <!-- Firebase App (the core Firebase SDK) -->
+   <script src="https://www.gstatic.com/firebasejs/9.18.0/firebase-app-compat.js"></script>
+   <!-- Firebase Authentication -->
+   <script src="https://www.gstatic.com/firebasejs/9.18.0/firebase-auth-compat.js"></script>
+   <!-- Google Sign-In SDK -->
+   <script src="https://apis.google.com/js/platform.js" async defer></script>
+ 
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>cocomerchant_lite</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <script>
+    // Initialize Firebase
+    const firebaseConfig = {
+      apiKey: "REPLACE_WITH_YOUR_FIREBASE_API_KEY",
+      authDomain: "dedepos.firebaseapp.com",
+      projectId: "dedepos",
+      storageBucket: "dedepos.appspot.com",
+      messagingSenderId: "183871505957",
+      appId: "1:183871505957:web:7f3536e0d9169c9a07a1cc",
+      measurementId: "G-0N18G23LLV"
+    };
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  <script src="main.dart.js" type="application/javascript"></script>
+
+</body>
+</html>

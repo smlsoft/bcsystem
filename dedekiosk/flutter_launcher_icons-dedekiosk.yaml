@@ -1,0 +1,12 @@
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/dedelogo.png"
+  android_path: "android/app/src/main/res"
+  min_sdk_android: 21
+  # Adaptive Icon สำหรับ Android 8+ (API 26+)
+  # foreground ต้องมี padding เพื่อให้ logo อยู่ใน safe zone (~66% ตรงกลาง)
+  # เพื่อป้องกันการถูก crop จาก launcher masks (วงกลม, squircle ฯลฯ)
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/dedelogo_foreground.png"
+  ios_assets_path: "ios/Runner/Assets.xcassets"

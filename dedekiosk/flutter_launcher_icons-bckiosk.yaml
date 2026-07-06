@@ -1,0 +1,9 @@
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/bckiosk.png"
+  android_path: "android/app/src/bckiosk/res"
+  min_sdk_android: 21
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/bckiosk_foreground.png"
+  ios_assets_path: "ios/Runner/Assets-Bckiosk.xcassets"
